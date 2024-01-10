@@ -70,6 +70,7 @@ class PaperRetrievor:
         bytes_io = io.BytesIO(response.content)
         with open(os.path.join(self.save_dir, f"{pdf_name}.pdf"), mode='wb') as f:
             f.write(bytes_io.getvalue())
+            # print(f'{pdf_name}.PDF 下载成功！')
             
             
     def collect_paper_info(self):
@@ -112,12 +113,12 @@ class PaperRetrievor:
                     comments.append(comment)
                 
             self.skip += self.show
-            print(f'第 {i} / {entries  // self.show + 1} 页爬取完毕，耗时 {time.time() - start_time:.2f}s')
+            print(f'第 {i} / {entries  // self.show + 1} 页爬取完毕，耗时 {(time.time() - start_time)/60:.2f} min')
             
         df = pd.DataFrame({'title':titles, 'index':addresses, 'category': categories, 'authors':authors, 'abtract':abstracts, 'comment':comments})
         df.to_csv(os.path.join(self.save_dir, self.date+'.csv'), index=False)
         
-        print(f'论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文')
+        print(f'论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')
     
     def fetch_one_paper(self, title, address):
         web_page = 'https://arxiv.org/abs/{}'.format(address)
