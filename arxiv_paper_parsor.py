@@ -117,7 +117,7 @@ class PaperRetrievor:
             self.skip += self.show
             print(f'第 {i} / {num_entries  // self.show + 1} 页爬取完毕，耗时 {(time.time() - start_time)/60:.2f} min')
             
-        df = pd.DataFrame({'title':titles, 'index':addresses, 'category': categories, 'authors':authors, 'abtract':abstracts, 'comment':comments})
+        df = pd.DataFrame({'title':titles, 'index':addresses, 'category': categories, 'authors':authors, 'abstract':abstracts, 'comment':comments})
         df.to_csv(os.path.join(self.save_dir, self.date+'.csv'), index=False)
         
         print(f'{year} 年 {month} 月论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')

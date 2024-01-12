@@ -63,6 +63,7 @@ data
 .DS_Store
 models
 utils
+vector_store
 
 # Django stuff:
 *.log
