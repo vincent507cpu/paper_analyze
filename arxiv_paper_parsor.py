@@ -73,7 +73,7 @@ class PaperRetrievor:
             # print(f'{pdf_name}.PDF 下载成功！')
             
             
-    def collect_paper_info(self):
+    def collect_paper_info(self, download=False):
         start_time = time.time()
         titles, addresses, categories = [], [], []
         authors, abstracts, comments = [], [], []
@@ -104,7 +104,7 @@ class PaperRetrievor:
             
             for title, address, cat in tqdm(zip(titles_, addresses_, categories_)):
                 if cat in self.target_category:
-                    authors_, abstract, comment = self.fetch_one_paper(title, address)
+                    authors_, abstract, comment = self.fetch_one_paper(title, address, download)
                     titles.append(title)
                     addresses.append(address)
                     categories.append(cat)
@@ -120,7 +120,7 @@ class PaperRetrievor:
         
         print(f'论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')
     
-    def fetch_one_paper(self, title, address):
+    def fetch_one_paper(self, title, address, download):
         web_page = 'https://arxiv.org/abs/{}'.format(address)
         response = requests.get(web_page)
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -150,13 +150,12 @@ class PaperRetrievor:
         else:
             comment = ''
             
-        self.download_pdf(address + ' ' + title, f'https://arxiv.org/pdf/{address}.pdf')
+        if download:
+            self.download_pdf(address + ' ' + title, f'https://arxiv.org/pdf/{address}.pdf')
         return authors, abstract, comment
     
 if __name__=='__main__':
-    months = ['02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
-    for month in months:
-        print(f'开始爬取 {year} 年 {month} 月的论文...')
-        retrievor = PaperRetrievor(year, month, save_dir, skip, show, target_category)
-        retrievor.collect_paper_info()
-        time.sleep(100)
+    print(f'开始爬取 {year} 年 {month} 月的论文...')
+    retrievor = PaperRetrievor(year, month, save_dir, skip, show, target_category)
+    retrievor.collect_paper_info(False)
+    time.sleep(100)

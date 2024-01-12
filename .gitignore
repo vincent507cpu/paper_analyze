@@ -1,3 +1,5 @@
+.csv
+.out
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -54,6 +56,11 @@ cover/
 # Translations
 *.mo
 *.pot
+notebooks
+fetched_papers
+data
+.gitignore
+.DS_Store
 
 # Django stuff:
 *.log
@@ -77,6 +84,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.ipynb
 
 # IPython
 profile_default/
