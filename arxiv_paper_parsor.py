@@ -84,13 +84,13 @@ class PaperRetrievor:
         tree = html.fromstring(response.content)
         target_value_xpath = '//*[@id="dlpage"]/small[1]'
         result = tree.xpath(target_value_xpath)[0].text_content().strip()
-        entries = int(re.search('total of (\d+)', result).group(1))
-        print(f'这个月一共有 {entries} 篇论文，开始判断是否与目标类别相关...')
+        num_entries = int(re.search('total of (\d+)', result).group(1))
+        print(f'{year} 年 {month} 月一共有 {num_entries} 篇论文，开始判断是否与目标类别相关...')
         
-        for i in range(1, entries  // self.show + 2):
+        for i in range(1, num_entries  // self.show + 2):
             response = requests.get(self.query.format(self.date, self.skip, self.show))
             soup = BeautifulSoup(response.text, 'html.parser')
-            print(f'第 {i} / {entries  // self.show + 1} 个页面的论文信息获取成功，解析中...')
+            print(f'第 {i} / {num_entries  // self.show + 1} 个页面的论文信息获取成功，解析中...')
             
             titles_ = soup.find_all('div', class_="list-title mathjax")
             titles_ = [t.select_one('span.descriptor').next_sibling.strip() for t in titles_]
@@ -115,12 +115,12 @@ class PaperRetrievor:
                     comments.append(comment)
                 
             self.skip += self.show
-            print(f'第 {i} / {entries  // self.show + 1} 页爬取完毕，耗时 {(time.time() - start_time)/60:.2f} min')
+            print(f'第 {i} / {num_entries  // self.show + 1} 页爬取完毕，耗时 {(time.time() - start_time)/60:.2f} min')
             
         df = pd.DataFrame({'title':titles, 'index':addresses, 'category': categories, 'authors':authors, 'abtract':abstracts, 'comment':comments})
         df.to_csv(os.path.join(self.save_dir, self.date+'.csv'), index=False)
         
-        print(f'论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')
+        print(f'{year} 年 {month} 月论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')
     
     def fetch_one_paper(self, title, address, download_papers):
         web_page = 'https://arxiv.org/abs/{}'.format(address)

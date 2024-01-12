@@ -61,6 +61,8 @@ fetched_papers
 data
 .gitignore
 .DS_Store
+models
+utils
 
 # Django stuff:
 *.log
