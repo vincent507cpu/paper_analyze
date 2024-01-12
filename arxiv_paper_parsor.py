@@ -13,7 +13,7 @@ from lxml import html
 parser = argparse.ArgumentParser()
 parser.add_argument('-y', '--year', default='23', required=False, help='年份的后两位', type=str)
 parser.add_argument('-m', '--month', default='01', required=False, help='两位月份', type=str)
-parser.add_argument('-r', '--save_dir', default='fetched_papers', required=False)
+parser.add_argument('-r', '--save_dir', default='fetched_paper_info', required=False)
 parser.add_argument('-t', '--target_category', default=['cs.AI', 'cs.CL', 'cs.IR', 'cs.LG', 'cs.NE'], required=False, type=list)
 parser.add_argument('-s', '--show', default=2000, required=False, type=int)
 parser.add_argument('-k', '--skip', default=0, required=False, type=int)
@@ -73,7 +73,7 @@ class PaperRetrievor:
             # print(f'{pdf_name}.PDF 下载成功！')
             
             
-    def collect_paper_info(self, download=False):
+    def collect_paper_info(self, download_paper=False):
         start_time = time.time()
         titles, addresses, categories = [], [], []
         authors, abstracts, comments = [], [], []
@@ -104,7 +104,7 @@ class PaperRetrievor:
             
             for title, address, cat in tqdm(zip(titles_, addresses_, categories_)):
                 if cat in self.target_category:
-                    authors_, abstract, comment = self.fetch_one_paper(title, address, download)
+                    authors_, abstract, comment = self.fetch_one_paper(title, address, download_paper)
                     titles.append(title)
                     addresses.append(address)
                     categories.append(cat)
@@ -120,7 +120,7 @@ class PaperRetrievor:
         
         print(f'论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')
     
-    def fetch_one_paper(self, title, address, download):
+    def fetch_one_paper(self, title, address, download_paper):
         web_page = 'https://arxiv.org/abs/{}'.format(address)
         response = requests.get(web_page)
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -150,7 +150,7 @@ class PaperRetrievor:
         else:
             comment = ''
             
-        if download:
+        if download_paper:
             self.download_pdf(address + ' ' + title, f'https://arxiv.org/pdf/{address}.pdf')
         return authors, abstract, comment
     
