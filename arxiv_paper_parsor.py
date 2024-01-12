@@ -17,6 +17,7 @@ parser.add_argument('-r', '--save_dir', default='fetched_paper_info', required=F
 parser.add_argument('-t', '--target_category', default=['cs.AI', 'cs.CL', 'cs.IR', 'cs.LG', 'cs.NE'], required=False, type=list)
 parser.add_argument('-s', '--show', default=2000, required=False, type=int)
 parser.add_argument('-k', '--skip', default=0, required=False, type=int)
+parser.add_argument('-d', '--download_papers', default=False, required=False, type=bool)
 
 args = parser.parse_args()
 year = args.year
@@ -25,6 +26,7 @@ save_dir = args.save_dir
 show = args.show
 target_category = args.target_category
 skip = args.skip
+download_papers = args.download_papers
 
 assert len(year) == 2
 assert len(month) == 2
@@ -70,10 +72,10 @@ class PaperRetrievor:
         bytes_io = io.BytesIO(response.content)
         with open(os.path.join(self.save_dir, f"{pdf_name}.pdf"), mode='wb') as f:
             f.write(bytes_io.getvalue())
-            # print(f'{pdf_name}.PDF 下载成功！')
+            print(f'{pdf_name}.PDF 下载成功！')
             
             
-    def collect_paper_info(self, download_paper=False):
+    def collect_paper_info(self, download_papers=False):
         start_time = time.time()
         titles, addresses, categories = [], [], []
         authors, abstracts, comments = [], [], []
@@ -104,7 +106,7 @@ class PaperRetrievor:
             
             for title, address, cat in tqdm(zip(titles_, addresses_, categories_)):
                 if cat in self.target_category:
-                    authors_, abstract, comment = self.fetch_one_paper(title, address, download_paper)
+                    authors_, abstract, comment = self.fetch_one_paper(title, address, download_papers)
                     titles.append(title)
                     addresses.append(address)
                     categories.append(cat)
@@ -120,7 +122,7 @@ class PaperRetrievor:
         
         print(f'论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')
     
-    def fetch_one_paper(self, title, address, download_paper):
+    def fetch_one_paper(self, title, address, download_papers):
         web_page = 'https://arxiv.org/abs/{}'.format(address)
         response = requests.get(web_page)
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -150,12 +152,12 @@ class PaperRetrievor:
         else:
             comment = ''
             
-        if download_paper:
+        if download_papers:
             self.download_pdf(address + ' ' + title, f'https://arxiv.org/pdf/{address}.pdf')
         return authors, abstract, comment
     
 if __name__=='__main__':
     print(f'开始爬取 {year} 年 {month} 月的论文...')
     retrievor = PaperRetrievor(year, month, save_dir, skip, show, target_category)
-    retrievor.collect_paper_info(False)
+    retrievor.collect_paper_info(download_papers)
     time.sleep(100)
