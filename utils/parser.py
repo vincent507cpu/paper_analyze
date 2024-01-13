@@ -1,36 +1,38 @@
+import os
 import io
 import time
-import requests
-import os
 import re
-import argparse
 
+import requests
 import pandas as pd
-from bs4 import BeautifulSoup
+
 from tqdm import tqdm
+from bs4 import BeautifulSoup
 from lxml import html
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-y', '--year', default='23', required=False, help='年份的后两位', type=str)
-parser.add_argument('-m', '--month', default='01', required=False, help='两位月份', type=str)
-parser.add_argument('-r', '--save_dir', default='fetched_paper_info', required=False)
-parser.add_argument('-t', '--target_category', default=['cs.AI', 'cs.CL', 'cs.IR', 'cs.LG', 'cs.NE'], required=False, type=list)
-parser.add_argument('-s', '--show', default=2000, required=False, type=int)
-parser.add_argument('-k', '--skip', default=0, required=False, type=int)
-parser.add_argument('-d', '--download_papers', default=False, required=False, type=bool)
+def create_folder(path):
+    if not os.path.exists(path):
+        print(f'创建 {path} 文件夹')
+        os.mkdir(path)
+    
+    
+def download_pdf(save_dir, paper_title, pdf_url):
+    """下载 PDF
 
-args = parser.parse_args()
-year = args.year
-month = args.month
-save_dir = args.save_dir
-show = args.show
-target_category = args.target_category
-skip = args.skip
-download_papers = args.download_papers
-
-assert len(year) == 2
-assert len(month) == 2
-
+    Args:
+        save_path (_type_): _description_
+        paper_title (_type_): _description_
+        pdf_url (_type_): _description_
+    """
+    if not pdf_url:
+        return
+    response = requests.get(pdf_url)
+    bytes_io = io.BytesIO(response.content)
+    with open(os.path.join(save_dir, f"{paper_title}.pdf"), mode='wb') as f:
+        f.write(bytes_io.getvalue())
+        print(f'{paper_title}.PDF 下载成功！')
+        
+        
 class PaperRetrievor:
     """论文下载器。
     
@@ -43,38 +45,17 @@ class PaperRetrievor:
     """
     def __init__(self, year, month, save_dir, skip, show, target_category) -> None:
         self.query = 'https://arxiv.org/list/cs/{}?skip={}&show={}'
-        self.date = year + month
-        self.save_dir = os.path.join(save_dir, self.date)
+        self.month = month
+        self.year = year
+        self.save_dir = os.path.join(save_dir, self.year + self.month)
         self.skip = skip
         self.show = show
         self.target_category = target_category
-        
-        self.create_folder(save_dir)
-        self.create_folder(self.save_dir)
-        
-    def create_folder(self, path):
-        if not os.path.exists(path):
-            print(f'创建 {path} 文件夹')
-            os.mkdir(path)
-        
-        
-    def download_pdf(self, pdf_name, pdf_url):
-        """下载 PDF
 
-        Args:
-            save_path (_type_): _description_
-            pdf_name (_type_): _description_
-            pdf_url (_type_): _description_
-        """
-        if not pdf_url:
-            return
-        response = requests.get(pdf_url)
-        bytes_io = io.BytesIO(response.content)
-        with open(os.path.join(self.save_dir, f"{pdf_name}.pdf"), mode='wb') as f:
-            f.write(bytes_io.getvalue())
-            print(f'{pdf_name}.PDF 下载成功！')
-            
-            
+        create_folder(save_dir)
+        create_folder(self.save_dir)
+        
+        
     def collect_paper_info(self, download_papers=False):
         start_time = time.time()
         titles, addresses, categories = [], [], []
@@ -85,7 +66,7 @@ class PaperRetrievor:
         target_value_xpath = '//*[@id="dlpage"]/small[1]'
         result = tree.xpath(target_value_xpath)[0].text_content().strip()
         num_entries = int(re.search('total of (\d+)', result).group(1))
-        print(f'{year} 年 {month} 月一共有 {num_entries} 篇论文，开始判断是否与目标类别相关...')
+        print(f'{self.year} 年 {self.month} 月一共有 {num_entries} 篇论文，开始判断是否与目标类别相关...')
         
         for i in range(1, num_entries  // self.show + 2):
             response = requests.get(self.query.format(self.date, self.skip, self.show))
@@ -120,7 +101,8 @@ class PaperRetrievor:
         df = pd.DataFrame({'title':titles, 'index':addresses, 'category': categories, 'authors':authors, 'abstract':abstracts, 'comment':comments})
         df.to_csv(os.path.join(self.save_dir, self.date+'.csv'), index=False)
         
-        print(f'{year} 年 {month} 月论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')
+        print(f'{self.year} 年 {self.month} 月论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')
+    
     
     def fetch_one_paper(self, title, address, download_papers):
         web_page = 'https://arxiv.org/abs/{}'.format(address)
@@ -153,11 +135,5 @@ class PaperRetrievor:
             comment = ''
             
         if download_papers:
-            self.download_pdf(address + ' ' + title, f'https://arxiv.org/pdf/{address}.pdf')
+            download_pdf(address + ' ' + title, f'https://arxiv.org/pdf/{address}.pdf')
         return authors, abstract, comment
-    
-if __name__=='__main__':
-    print(f'开始爬取 {year} 年 {month} 月的论文...')
-    retrievor = PaperRetrievor(year, month, save_dir, skip, show, target_category)
-    retrievor.collect_paper_info(download_papers)
-    time.sleep(100)
