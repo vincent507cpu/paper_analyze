@@ -4,6 +4,7 @@
 1. 根据摘要发现相关论文，并自动下载；
 2. (TODO)理解有关论文，回答问题。
 
+因爬取/下载论文耗时较长，本 pipeline 分为三部分。
 # 1. 论文下载器
 ```python
 python arxiv_paper_parser.py -y yy -m mm -p path -s s -k k --download_papers -t *t
