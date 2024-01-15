@@ -56,12 +56,12 @@ cover/
 # Translations
 *.mo
 *.pot
-notebooks/*
-paper_info
+notebooks
 .gitignore
 .DS_Store
 models/*
 vector_store/*
+vector_store.py
 
 # Django stuff:
 *.log
