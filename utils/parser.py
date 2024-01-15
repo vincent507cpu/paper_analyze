@@ -131,7 +131,7 @@ class PaperRetrievor:
         elif isinstance(self.target_category, list):
             for cat, df in self.cache.items():
                 df = pd.DataFrame(df)
-                df.to_csv(os.path.join(self.save_dir, year + month + cat + ' ' + '.csv'), index=False)
+                df.to_csv(os.path.join(self.save_dir, year + month + ' ' + cat + '.csv'), index=False)
         
         print(f'{year} 年 {month} 月论文爬取 & 下载完成，共获取 {df.shape[0]} 篇论文 ，共耗时 {(time.time() - start_time)/60:.2f} min')
     
