@@ -60,8 +60,9 @@ notebooks
 .gitignore
 .DS_Store
 models/*
-vector_store/*
-vector_store.py
+abstract_vector_store/*
+storages.py
+building_index_storage.py
 
 # Django stuff:
 *.log
