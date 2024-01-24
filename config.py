@@ -1,5 +1,5 @@
 class Config:
-    hf_token = "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"
+    hf_token = "..."
     target_year = '23'
     target_month = '05'
     skip = 0
