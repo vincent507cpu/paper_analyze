@@ -1,0 +1,7 @@
+{
+    "query": "What do dendritic spines contain?",
+    "gold_answer": "They are rich in actin and have been shown to be highly dynamic.",
+    "predict": "Dendritic spines contain sites of excitatory connections within the brain and are post-synaptic components of synapses.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on the composition and dynamic nature of dendritic spines, specifically mentioning actin. Answer B describes the functional role of dendritic spines in the brain, emphasizing their involvement in excitatory connections and their position as post-synaptic components. While both answers pertain to dendritic spines, they address different aspects: one is about composition and dynamics, and the other is about function and connectivity. Therefore, they are not semantically equivalent."
+}

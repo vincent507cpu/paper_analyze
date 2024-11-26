@@ -1,0 +1,7 @@
+{
+    "query": "Ngrams of which length are aligned using PARENT?",
+    "gold_answer": "UnanswerableAnswer with content missing: (Parent subsections) combine precisions for n-gram orders 1-4",
+    "predict": "2 and 3",
+    "consistency": "0",
+    "reasoning": "Answer A provides a vague response indicating that the n-gram orders 1-4 are involved but does not specify which lengths are aligned using PARENT. Answer B directly states '2 and 3' as the lengths. Since Answer A does not clearly answer the query and lacks specificity, while Answer B provides a concrete answer, the two answers are not semantically equivalent."
+}

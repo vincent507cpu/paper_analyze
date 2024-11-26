@@ -1,0 +1,7 @@
+{
+    "query": "How many different types of entities exist in the dataset?",
+    "gold_answer": "OurNepali contains 3 different types of entities, ILPRL contains 4 different types of entitiesthree",
+    "predict": "27",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific information about the number of different types of entities in two datasets, stating that 'OurNepali' has 3 types and 'ILPRL' has 4 types, totaling 7 types. Answer B simply states '27' without any context or breakdown. Since the two answers provide different numerical values and Answer B does not align with the information given in Answer A, they are not semantically equivalent."
+}

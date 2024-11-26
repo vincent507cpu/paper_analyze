@@ -1,0 +1,7 @@
+{
+    "query": "What data was presented to the subjects to elicit event-related responses?",
+    "gold_answer": "7 phonemic/syllabic ( /iy/, /piy/, /tiy/, /diy/, /uw/, /m/, /n/ ) as well as 4 words(pat, pot, knew and gnaw)KARA ONE BIBREF17 , composed of multimodal data for stimulus-based, imagined and articulated speech state corresponding to 7 phonemic/syllabic ( /iy/, /piy/, /tiy/, /diy/, /uw/, /m/, /n/ ) as well as 4 words(pat, pot, knew and gnaw)",
+    "predict": "Subjects were presented with results and discussion.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific details about the data presented to the subjects, including phonemic/syllabic sounds and specific words, which directly addresses the query about what data was used to elicit responses. In contrast, Answer B states that subjects were presented with 'results and discussion,' which does not specify any data related to the phonemic/syllabic sounds or words mentioned in Answer A. Therefore, the two answers are not semantically equivalent as they provide different types of information regarding the data presented to the subjects."
+}

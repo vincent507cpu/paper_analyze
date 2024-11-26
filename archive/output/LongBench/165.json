@@ -1,0 +1,7 @@
+{
+    "query": "Do they use pretrained embeddings?",
+    "gold_answer": "YesYes",
+    "predict": "Yes, they use pretrained embeddings.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'YesYes,' which appears to be a typographical error or a concatenation of 'Yes' without proper spacing or punctuation. Answer B provides a clear affirmation, 'Yes, they use pretrained embeddings,' which is grammatically correct and provides additional context. While both answers affirm the use of pretrained embeddings, Answer A lacks clarity and proper structure, making them not semantically equivalent."
+}

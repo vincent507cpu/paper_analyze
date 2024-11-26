@@ -1,0 +1,7 @@
+{
+    "query": "What is a semicharacter architecture?",
+    "gold_answer": "A semi-character based RNN (ScRNN) treats the first and last characters individually, and is agnostic to the ordering of the internal charactersprocesses a sentence of words with misspelled characters, predicting the correct words at each step",
+    "predict": "A semicharacter architecture is an architectural variant where the system can be modularized but relies on human-made rules to allow its independence from specific languages. It allows for easier application of the same architecture to different languages by changing modules or models in existing tools.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a specific type of semicharacter architecture focused on a semi-character based RNN that processes sentences with misspelled characters. Answer B, on the other hand, provides a broader definition of semicharacter architecture as a modular system that relies on human-made rules for language independence. While both answers relate to semicharacter architecture, they focus on different aspects and applications, making them not semantically equivalent."
+}

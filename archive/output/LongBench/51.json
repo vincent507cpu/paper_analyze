@@ -1,0 +1,7 @@
+{
+    "query": "Who is the program chair of this conference?",
+    "gold_answer": "Peter Denning.",
+    "predict": "Michelle Maitland",
+    "consistency": "0",
+    "reasoning": "Answer A identifies Peter Denning as the program chair, while Answer B identifies Michelle Maitland. Since both answers refer to different individuals in the context of the same role (program chair), they are not semantically equivalent. The names represent distinct persons, making the answers mutually exclusive."
+}

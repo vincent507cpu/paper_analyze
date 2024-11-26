@@ -1,0 +1,7 @@
+{
+    "query": "What were their distribution results?",
+    "gold_answer": "Distributions of Followers, Friends and URLs are significantly different between the set of tweets containing fake news and those non containing them, but for Favourites, Mentions, Media, Retweets and Hashtags they are not significantly different",
+    "predict": "The distribution results are not specified in the provided text.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific details about the distribution results of various metrics (Followers, Friends, URLs, etc.) in relation to tweets containing fake news versus those that do not. In contrast, Answer B states that the distribution results are not specified, which contradicts the information given in Answer A. Since Answer A offers concrete results while Answer B claims a lack of specification, the two answers are not semantically equivalent."
+}

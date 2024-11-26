@@ -1,0 +1,7 @@
+{
+    "query": "Which languages are similar to each other?",
+    "gold_answer": "Nguni languages (zul, xho, nbl, ssw), Sotho languages (nso, sot, tsn)The Nguni languages are similar to each other, The same is true of the Sotho languages",
+    "predict": "Russian, Polish (Slavic), Finnish, Estonian (Uralic), Cantonese, Mandarin Chinese (Sinitic), Spanish, French (Romance) are similar to each other.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific language groups (Nguni and Sotho) and states that the languages within these groups are similar to each other. Answer B, however, provides a diverse list of languages from different language families (Slavic, Uralic, Sinitic, Romance) without indicating any specific similarity among them. The two answers address different sets of languages and do not convey the same meaning regarding similarity. Therefore, they are not semantically equivalent."
+}

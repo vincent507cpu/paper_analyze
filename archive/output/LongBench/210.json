@@ -1,0 +1,7 @@
+{
+    "query": "Is datasets for sentiment analysis balanced?",
+    "gold_answer": "No",
+    "predict": "No, datasets for sentiment analysis are typically unbalanced.",
+    "consistency": "1",
+    "reasoning": "Answer A simply states 'No,' indicating that datasets for sentiment analysis are not balanced. Answer B elaborates on this by stating that they are typically unbalanced. While Answer B provides additional context, both answers convey the same fundamental idea that sentiment analysis datasets are not balanced. Therefore, they are semantically equivalent in meaning."
+}

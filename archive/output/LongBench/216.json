@@ -1,0 +1,7 @@
+{
+    "query": "What models are used in the experiment?",
+    "gold_answer": "linear SVM, bidirectional Long Short-Term-Memory (BiLSTM), Convolutional Neural Network (CNN)linear SVM, bidirectional Long Short-Term-Memory (BiLSTM), Convolutional Neural Network (CNN)linear SVM trained on word unigrams,  bidirectional Long Short-Term-Memory (BiLSTM),  Convolutional Neural Network (CNN) ",
+    "predict": "The models used in the experiment are not explicitly stated in the provided content.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models used in the experiment, including linear SVM, BiLSTM, and CNN, while Answer B states that the models are not explicitly mentioned. Since Answer A provides concrete information about the models and Answer B denies that such information is available, the two answers are not semantically equivalent."
+}

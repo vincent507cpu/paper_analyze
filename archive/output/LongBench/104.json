@@ -1,0 +1,7 @@
+{
+    "query": "How many underclassmen are on the NBA Draft Early-Entry List?",
+    "gold_answer": "62.",
+    "predict": "93",
+    "consistency": "0",
+    "reasoning": "Answer A states that there are '62' underclassmen on the NBA Draft Early-Entry List, while Answer B states '93.' These two numbers are distinct and represent different quantities. Since the question asks for a specific count, and the answers provide different values, they cannot be considered semantically equivalent."
+}

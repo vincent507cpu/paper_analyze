@@ -1,0 +1,7 @@
+{
+    "query": "Which air unit did Goodwin command during the initial landings of Marines on Saipan?",
+    "gold_answer": "VC-10 Squadron.",
+    "predict": "VC-10 Squadron",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

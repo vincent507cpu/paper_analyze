@@ -1,0 +1,7 @@
+{
+    "query": "What are the sources of the datasets?",
+    "gold_answer": "Friends TV sitcom, Facebook messenger chats",
+    "predict": "The datasets come from \"Datasets\" and \"Our Dataset.\"",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific sources of datasets, namely 'Friends TV sitcom' and 'Facebook messenger chats,' which are identifiable and concrete examples. Answer B, however, refers to generic terms 'Datasets' and 'Our Dataset,' which do not provide specific sources or examples. Since the two answers refer to different types of sources—specific examples versus generic terms—they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "what is the source of the data?",
+    "gold_answer": "Android application",
+    "predict": "The source of the data is The Resource.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Android application' as the source of the data, while Answer B specifies 'The Resource' as the source. These two answers refer to different entities; an Android application is a type of software, whereas 'The Resource' suggests a specific source or location. Since they do not refer to the same source of data, the answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "In what language are the tweets?",
+    "gold_answer": "EnglishEnglish English",
+    "predict": "English",
+    "consistency": "1",
+    "reasoning": "Answer A states 'EnglishEnglish English,' which appears to be a repetition or error in phrasing, while Answer B simply states 'English.' Despite the redundancy in Answer A, both answers ultimately convey the same language, which is English. Therefore, they can be considered semantically equivalent in the context of the query."
+}

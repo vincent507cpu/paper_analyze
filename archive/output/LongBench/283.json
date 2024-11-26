@@ -1,0 +1,7 @@
+{
+    "query": "What baselines do they compare with?",
+    "gold_answer": "They compare with the following models: by Pedersen (2017), by Pramanick and Das (2017), by Mikhalkova and Karyakin (2017),  by Vadehra (2017), Indurthi and Oota (2017), by Vechtomova (2017), by (Cai et al., 2018), and CRF.",
+    "predict": "They compare with \"baselines\".",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed list of specific models and methods that are used as baselines for comparison, while Answer B simply states 'baselines' without any specifics. The term 'baselines' in Answer B is too vague and does not convey the same information as Answer A, which explicitly names the models. Therefore, the two answers are not semantically equivalent."
+}

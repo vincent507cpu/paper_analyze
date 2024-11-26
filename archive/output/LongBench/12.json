@@ -1,0 +1,7 @@
+{
+    "query": "Who was Brooksley Elizabeth's first husband?",
+    "gold_answer": "Jacob C. Landau.",
+    "predict": "To determine who Brooksley Elizabeth's first husband was, I would need more specific information than what is provided in the given content. The text does not contain details about her personal life outside of her public roles as an attorney and government official. Without additional context from interviews or biographies, it's impossible to answer this question definitively based solely on the information provided.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific name, 'Jacob C. Landau,' as Brooksley Elizabeth's first husband. In contrast, Answer B states that more information is needed to determine who her first husband was, indicating uncertainty and lack of knowledge about the answer. Since Answer A gives a definitive answer while Answer B does not provide any answer at all, the two answers are not semantically equivalent."
+}

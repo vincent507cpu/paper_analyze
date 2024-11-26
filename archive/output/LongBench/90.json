@@ -1,0 +1,7 @@
+{
+    "query": "What happens to the high resolution of what we focus on at dawn or dusk?",
+    "gold_answer": "It becomes a bit less so that what's off to the left or right can be better noted.",
+    "predict": "At dawn or dusk, the high resolution in what we focus on decreases.",
+    "consistency": "1",
+    "reasoning": "Answer A explains that the high resolution becomes 'a bit less' to allow for better noting of peripheral details, while Answer B states that the high resolution 'decreases' at dawn or dusk. Both answers convey the idea that the resolution diminishes during these times, but Answer A adds a nuance about the reason for this decrease, which is to enhance peripheral awareness. Despite this difference in detail, the core concept of a decrease in resolution is present in both answers, making them semantically equivalent in the context of the query."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What dataset does this approach achieve state of the art results on?",
+    "gold_answer": "the English-German dataset",
+    "predict": "MNIST",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'the English-German dataset,' which refers to a specific dataset used in language translation tasks. Answer B refers to 'MNIST,' a well-known dataset used for image classification of handwritten digits. Since these two datasets serve different purposes and belong to different domains (language vs. image processing), they are not semantically equivalent in the context of the query, which asks for a specific dataset related to the approach mentioned."
+}

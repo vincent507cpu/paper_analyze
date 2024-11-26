@@ -1,0 +1,7 @@
+{
+    "query": "What hedge fund's collapse in 1998 highlighted the need for regulation of derivatives?",
+    "gold_answer": "Long Term Capital Management (LTCM).",
+    "predict": "Long Term Capital Management (LTCM)",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

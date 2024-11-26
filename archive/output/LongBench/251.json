@@ -1,0 +1,7 @@
+{
+    "query": "What is the corpus used for the task?",
+    "gold_answer": "DTA18, DTA19Diachronic Usage Relatedness (DURel) gold standard data set",
+    "predict": "The corpus used in this task consists of 739 English sentences from Wikipedia.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the corpus as 'DTA18, DTA19Diachronic Usage Relatedness (DURel) gold standard data set,' which refers to a specific dataset used for a particular task. Answer B describes the corpus as '739 English sentences from Wikipedia,' which indicates a different source and type of data. Since the two answers refer to different corpora and do not convey the same information, they are not semantically equivalent."
+}

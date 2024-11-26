@@ -1,0 +1,7 @@
+{
+    "query": "Where does the ancient Chinese dataset come from?",
+    "gold_answer": "ancient Chinese history records in several dynasties (about 1000BC-200BC) and articles written by celebrities of that eraAncient Chinese history records in several dynasties and articles written by celebrities during 1000BC-200BC collected from the internet ",
+    "predict": "From ancient Chinese history records in several dynasties and articles written by celebrities of that era.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a detailed explanation of the sources of the dataset, mentioning both ancient Chinese history records and articles written by celebrities, along with a time frame (1000BC-200BC) and the context of collection from the internet. Answer B also states that the dataset comes from ancient Chinese history records and articles written by celebrities, but it does not mention the time frame or the internet context. Despite the additional details in Answer A, both answers fundamentally convey the same source of information regarding the ancient Chinese dataset, making them semantically equivalent."
+}

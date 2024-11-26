@@ -1,0 +1,7 @@
+{
+    "query": "How many years has KSTP-FM 102.1 been on the air?",
+    "gold_answer": "Four years.",
+    "predict": "Four years.",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

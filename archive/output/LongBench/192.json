@@ -1,0 +1,7 @@
+{
+    "query": "What models are used for painting embedding and what for language style transfer?",
+    "gold_answer": "generating a poem from images we use an existing actor-critic architecture, various types of sequence to sequence models",
+    "predict": "For painting embedding: CNN-RNN based image-to-poem net.\nFor language style transfer: seq2seq model with parallel text corpus.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a general description of models used for generating poems from images and mentions an actor-critic architecture along with sequence-to-sequence models. Answer B specifies the models used for painting embedding as a CNN-RNN based image-to-poem network and for language style transfer as a seq2seq model with a parallel text corpus. While both answers address the query, Answer A is more vague and does not directly correlate with the specific models mentioned in Answer B. Therefore, they are not semantically equivalent as they provide different levels of specificity and detail regarding the models used."
+}

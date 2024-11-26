@@ -1,0 +1,7 @@
+{
+    "query": "What is the research opportunity that is mentioned?",
+    "gold_answer": "A study on the effects of Brazilian Jiu Jitsu and psychotherapy on people with autism.",
+    "predict": "Data harvesting, building standardised datasets and shared tasks for South Africa as well as the rest of Africa.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a specific research opportunity focused on the effects of Brazilian Jiu Jitsu and psychotherapy on individuals with autism. In contrast, Answer B discusses a different research initiative related to data harvesting and building datasets for South Africa and Africa. Since the two answers refer to entirely different research opportunities, they are not semantically equivalent."
+}

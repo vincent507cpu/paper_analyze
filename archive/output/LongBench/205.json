@@ -1,0 +1,7 @@
+{
+    "query": "what are the existing approaches?",
+    "gold_answer": "BOW-Tags, BOW-KL(Tags), BOW-All, GloVe",
+    "predict": "The content provided does not directly address specific existing approaches. Instead, it mentions that \"Approach\" confirms the limit of these existing approaches, while other methods suggest possible future work ideas and evaluate strengths and limitations of existing models. However, no specific approaches are mentioned in this context.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific existing approaches, such as BOW-Tags and GloVe, directly addressing the query about existing approaches. In contrast, Answer B discusses the general concept of approaches without naming any specific ones, indicating that it does not fulfill the query's requirement. Therefore, the two answers are not semantically equivalent as they provide different levels of specificity regarding existing approaches."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the sticking point in the political showdown over the budget?",
+    "gold_answer": "The sticking point in the political showdown over the budget is how much spending to cut.",
+    "predict": "The sticking point in the political showdown over the budget is disagreement on how much to cut spending.",
+    "consistency": "1",
+    "reasoning": "Answer A states that the sticking point is 'how much spending to cut,' while Answer B phrases it as 'disagreement on how much to cut spending.' Both answers convey the same underlying issue regarding the budget, focusing on the amount of spending cuts. The difference in wording does not change the meaning, making them semantically equivalent."
+}

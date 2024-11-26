@@ -1,0 +1,7 @@
+{
+    "query": "What are the symptoms of alpha thalassemia major?",
+    "gold_answer": "Severe anemia that begins even before birth.",
+    "predict": "The symptoms of alpha thalassemia major typically start after birth and may include severe anemia leading to fatigue, pale skin, slow growth, and heart problems. Without treatment, it can cause serious health issues such as enlarged liver and spleen, potentially leading to heart failure or death in childhood.",
+    "consistency": "0",
+    "reasoning": "Answer A states that severe anemia begins even before birth, while Answer B provides a more detailed description of symptoms that typically start after birth, including severe anemia and additional symptoms. The key difference lies in the timing of when symptoms begin; Answer A suggests they start before birth, whereas Answer B indicates they start after birth. This fundamental difference in timing means the two answers are not semantically equivalent."
+}

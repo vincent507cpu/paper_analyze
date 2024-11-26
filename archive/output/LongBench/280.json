@@ -1,0 +1,7 @@
+{
+    "query": "How was the training data translated?",
+    "gold_answer": "using the machine translation platform Apertium machine translation platform Apertium BIBREF5",
+    "predict": "The training data was translated.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific information about the method used for translation, mentioning the 'Apertium machine translation platform.' In contrast, Answer B is a general statement that simply states 'The training data was translated' without specifying how it was translated. Since Answer A gives detailed context while Answer B lacks that specificity, the two answers are not semantically equivalent."
+}

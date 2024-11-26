@@ -1,0 +1,7 @@
+{
+    "query": "How is the dataset annotated?",
+    "gold_answer": "no evidence of depression, depressed mood, disturbed sleep, fatigue or loss of energyThe annotations are based on evidence of depression and further annotated by the depressive symptom if there is evidence of depression",
+    "predict": "The dataset is annotated by undergraduate students hired to identify predefined types of entities in sentences from two domains: Dialog and E-commerce. The process includes providing tips on how to annotate and offering exemplifying sentences for guidance. After annotation, the data undergoes removal of illegal sentences reported by annotators before finalizing 16,948 annotated sentences with an average Kappa value of 0.6033 indicating moderate agreement among annotators.",
+    "consistency": "0",
+    "reasoning": "Answer A discusses the presence of specific symptoms related to depression in the dataset, while Answer B describes the process of annotation by undergraduate students, focusing on entity identification in sentences from specific domains. The two answers address different aspects of the dataset: Answer A focuses on the content of the annotations related to depression, whereas Answer B details the methodology and personnel involved in the annotation process. Therefore, they are not semantically equivalent as they provide different information regarding the dataset's annotation."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Which hyperparameters were varied in the experiments on the four tasks?",
+    "gold_answer": "number of clusters, seed value in clustering, selection of word vectors, window size and dimension of embeddingdifferent number of clusters, different embeddings",
+    "predict": "Learning rate, weight decay, batch size, and hidden size were varied in the experiments on the four tasks.",
+    "consistency": "0",
+    "reasoning": "Answer A lists hyperparameters related to clustering and word embeddings, such as the number of clusters and window size, which are specific to certain tasks. Answer B, on the other hand, mentions hyperparameters commonly associated with training models, like learning rate and batch size. Since the hyperparameters mentioned in both answers pertain to different aspects of machine learning experiments and do not overlap, they are not semantically equivalent."
+}

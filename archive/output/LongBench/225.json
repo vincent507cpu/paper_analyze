@@ -1,0 +1,7 @@
+{
+    "query": "what accents are present in the corpus?",
+    "gold_answer": "UnanswerableUnanswerable",
+    "predict": "The corpus contains accents from various languages including French (Fr), German (De), Dutch (Nl), Russian (Ru), Spanish (Es), Italian (It), Turkish (Tr), Persian (Fa), Swedish (Sv), Mongolian (Mn), and Chinese (Zh).",
+    "consistency": "0",
+    "reasoning": "Answer A states 'UnanswerableUnanswerable,' which indicates that the question cannot be answered. In contrast, Answer B provides a detailed list of various accents present in the corpus. Since one answer claims the question is unanswerable while the other provides specific information, they are not semantically equivalent."
+}

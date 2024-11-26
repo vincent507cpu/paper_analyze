@@ -1,0 +1,7 @@
+{
+    "query": "what are the sizes of both datasets?",
+    "gold_answer": "training set has 89,042 sentence pairs, and the test set has 100 pairs, training set contains 296,402, 2,000 for development and 359 for testingWikiSmall  89 142 sentence pair and  WikiLarge 298 761 sentence pairs. ",
+    "predict": "The size of the training dataset is unknown.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical details about the sizes of the training and test datasets, while Answer B states that the size of the training dataset is unknown. Since Answer A gives concrete figures and Answer B claims a lack of information, the two answers are not semantically equivalent."
+}

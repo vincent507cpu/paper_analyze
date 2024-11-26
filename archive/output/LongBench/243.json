@@ -1,0 +1,7 @@
+{
+    "query": "What are the baseline models?",
+    "gold_answer": "name-based Nearest-Neighbor model (NN), Encoder-Decoder baseline with ingredient attention (Enc-Dec)",
+    "predict": "The phrase \"Baseline models\" appears to be repeated several times. Without seeing the full context, it's difficult to provide more than this basic answer: The term suggests that multiple instances of the concept \"baseline model\" have been written about.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific examples of baseline models, naming two distinct types: the name-based Nearest-Neighbor model and the Encoder-Decoder baseline with ingredient attention. In contrast, Answer B discusses the term 'baseline models' in a general sense, indicating a lack of specific examples and suggesting ambiguity without context. Since Answer A gives concrete information while Answer B remains vague and does not address the query directly, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What are the restrictions on the use of Broadjam's servers?",
+    "gold_answer": "No excessive overloading and no use for illegal activity.",
+    "predict": "Use of Broadjam's servers is restricted to non-abusive activities and adherence to laws. Spam and hacking-related information are prohibited. Also, excessive server loading is forbidden, and the website may be temporarily or permanently removed if it threatens network stability.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a concise summary of the restrictions, mentioning no excessive overloading and no illegal activity. Answer B elaborates on these points, specifying non-abusive activities, adherence to laws, and additional details about spam, hacking, and potential consequences for network stability. While Answer B contains more information, both answers convey the same core restrictions regarding server use, making them semantically equivalent in the context of the query."
+}

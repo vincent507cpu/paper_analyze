@@ -1,0 +1,7 @@
+{
+    "query": "What type of evaluation is proposed for this task?",
+    "gold_answer": "Answer with content missing: (Evaluation Metrics section) Precision, Recall, F1-scores, Strict match, METEOR, ROUGE-2",
+    "predict": "Human Evaluation",
+    "consistency": "0",
+    "reasoning": "Answer A lists various quantitative evaluation metrics commonly used in tasks such as information retrieval and natural language processing, while Answer B refers to a qualitative assessment method involving human judgment. Since the two answers describe fundamentally different approaches to evaluation—one being metric-based and the other being human-centric—they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Which toolkits do they use?",
+    "gold_answer": "BIBREF17, BIBREF18, TensiStrength BIBREF13, TwitterNLP BIBREF6, BIBREF19, CogComp-NLP BIBREF20, Stanford NLP NER BIBREF21BIBREF23, BIBREF17, BIBREF18, BIBREF19, BIBREF24, BIBREF25, BIBREF26",
+    "predict": "The toolkits they use are not explicitly mentioned in the provided content.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific list of toolkits, while Answer B states that the toolkits are not mentioned at all. Since Answer A explicitly names several toolkits and Answer B denies the existence of such information, the two answers are clearly not semantically equivalent."
+}

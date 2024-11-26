@@ -1,0 +1,7 @@
+{
+    "query": "What are the two ground states observed for indeno[1,2-a]fluorene on NaCl surfaces?",
+    "gold_answer": "Open-shell π-diradical state and closed-shell state with a para-quinodimethane moiety.",
+    "predict": "The two ground states observed for indeno[1,2-a]fluorene on NaCl surfaces are: an open-shell π-diradical state and a closedshell state with a para-quinodimethane moiety.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a concise description of the two ground states, while Answer B restates the same information in a more detailed manner, explicitly mentioning the context of the query. Both answers convey the same essential information about the two ground states of indeno[1,2-a]fluorene on NaCl surfaces, making them semantically equivalent despite the difference in phrasing."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What was their highest recall score?",
+    "gold_answer": "0.70330.7033",
+    "predict": "The highest recall score was \"0.7033\".",
+    "consistency": "0",
+    "reasoning": "Answer A provides the highest recall score as a numerical value '0.70330.7033', which appears to be a typographical error or concatenation of two identical values. Answer B states the highest recall score explicitly as '0.7033' and includes the phrase 'The highest recall score was,' making it a complete sentence. While both answers refer to the same numerical value, Answer A is unclear and potentially incorrect due to formatting, while Answer B is clear and correct. Therefore, they are not semantically equivalent."
+}

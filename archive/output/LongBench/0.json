@@ -1,0 +1,7 @@
+{
+    "query": "Is the ISR necessary for transgene reactivation?",
+    "gold_answer": "No, it is not necessary.",
+    "predict": "No, the ISR (Intracellular Signal Transduction) is neither necessary nor sufficient for transgene reactivation.",
+    "consistency": "1",
+    "reasoning": "Answer A states that the ISR is not necessary for transgene reactivation, while Answer B elaborates that the ISR is neither necessary nor sufficient for transgene reactivation. Although both answers agree that the ISR is not necessary, Answer B provides additional information about sufficiency, which does not contradict Answer A but expands on it. Therefore, while they are not identical, they convey a similar core idea regarding the necessity of ISR, making them semantically equivalent in the context of the query."
+}

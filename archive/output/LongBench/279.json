@@ -1,0 +1,7 @@
+{
+    "query": "Which eight NER tasks did they evaluate on?",
+    "gold_answer": "BC5CDR-disease, NCBI-disease, BC5CDR-chem, BC4CHEMD, BC2GM, JNLPBA, LINNAEUS, Species-800BC5CDR-disease, NCBI-disease, BC5CDR-chem, BC4CHEMD, BC2GM, JNLPBA, LINNAEUS, Species-800",
+    "predict": "They evaluated on eight NER tasks: word analogy task and named entity recognition (NER).",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific NER tasks, while Answer B provides a general description of the evaluation focus, mentioning 'word analogy task' and 'named entity recognition (NER)' without specifying the eight tasks. Since Answer A provides concrete examples of the tasks evaluated, and Answer B does not match this specificity, the two answers are not semantically equivalent."
+}

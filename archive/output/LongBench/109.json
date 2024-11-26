@@ -1,0 +1,7 @@
+{
+    "query": "How does the specific-heat ratio affect the average motion of the bubble?",
+    "gold_answer": "The specific-heat ratio affects the average motion of the bubble. The bubbles with smaller specific-heat ratios have slower average motion.",
+    "predict": "The specific-heat ratio influences the average motion and vortex formation around the bubble. At low pressure (t < 0.03), it has little effect on average motion but significantly speeds up circulation. At high pressure (t > 0.03), it affects vorticity, with cases having smaller specific-heat ratios experiencing a larger range of amplitude change due to better compressibility.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a straightforward explanation that the specific-heat ratio affects the average motion of the bubble, specifically noting that smaller specific-heat ratios lead to slower motion. Answer B, while also discussing the influence of the specific-heat ratio on average motion, introduces additional factors such as pressure conditions and vortex formation, which are not mentioned in Answer A. The two answers address the same general topic but provide different levels of detail and context. Therefore, they are not semantically equivalent as they convey different implications about the relationship between specific-heat ratio and bubble motion."
+}

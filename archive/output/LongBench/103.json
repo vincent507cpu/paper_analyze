@@ -1,0 +1,7 @@
+{
+    "query": "What are some potential applications of ferromagnetic semiconductors?",
+    "gold_answer": "Spin injection into non magnetic semiconductors, or electrical manipulation of carrier induced magnetism in magnetic semiconductors.",
+    "predict": "Ferromagnetic semiconductors have the potential to revolutionize spintronics by enabling new functionalities such as electrical manipulation of magnetic states in non-magnetic semiconductors and spin injection into non-magnetic semiconductors. They could also be used to fabricate nanodevices like memory nanodots or spin injection channels, which could open up industrial applications of ferromagnetism in semiconductor technology.",
+    "consistency": "1",
+    "reasoning": "Answer A provides specific applications of ferromagnetic semiconductors, focusing on spin injection and electrical manipulation of magnetism. Answer B expands on these ideas, mentioning the same applications but also introducing additional potential uses in nanodevices and industrial applications. While Answer B is more detailed, both answers fundamentally address the same core applications of ferromagnetic semiconductors. Therefore, they are semantically equivalent in the context of the query, as they both discuss the applications related to ferromagnetic semiconductors."
+}

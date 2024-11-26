@@ -1,0 +1,7 @@
+{
+    "query": "What is te core component for KBQA?",
+    "gold_answer": "answer questions by obtaining information from KB tuples hierarchical matching between questions and relations with residual learning",
+    "predict": "The core component for KBQA is the improved relation detector (HR-BiLSTM).",
+    "consistency": "0",
+    "reasoning": "Answer A describes a process involving hierarchical matching and residual learning for answering questions using knowledge base (KB) tuples, but it does not explicitly identify a specific core component. Answer B, on the other hand, directly states that the core component for KBQA is the improved relation detector (HR-BiLSTM). Since Answer A provides a method or approach rather than a specific component, and Answer B identifies a specific component, the two answers are not semantically equivalent."
+}

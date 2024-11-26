@@ -1,0 +1,7 @@
+{
+    "query": "What NLP tasks do they consider?",
+    "gold_answer": "text classification for themes including sentiment, web-page, science, medical and healthcare",
+    "predict": "The given content mentions that they consider Natural Language Inference (NLI) as one of the tasks for their experiments. However, it also indicates that NLP tasks BIBREF9 to BIBREF15 do not handle issues related to them.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific NLP tasks related to text classification, focusing on themes such as sentiment and various domains like science and healthcare. Answer B, however, mentions Natural Language Inference (NLI) and refers to other unspecified NLP tasks that do not address certain issues. The two answers discuss different aspects of NLP tasks and do not overlap in content or meaning, indicating they are not semantically equivalent."
+}

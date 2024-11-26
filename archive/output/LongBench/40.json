@@ -1,0 +1,7 @@
+{
+    "query": "Which orders did Mufti-e-Azam-e-Hind receive Khilafat from?",
+    "gold_answer": "Mufti-e-Azam-e-Hind received Khilafat in the Qaderi, Chishti, Nakshbandi, Suharwardi, and Madaari Orders.",
+    "predict": "Mufti-e-Azam-e-Hind received Khilafat in the Qaderi Silsila and also in the Chishti, Nakshbandi, Suharwardi, and Madaari Orders.",
+    "consistency": "1",
+    "reasoning": "Answer A lists the orders as 'Qaderi, Chishti, Nakshbandi, Suharwardi, and Madaari,' while Answer B specifies 'Qaderi Silsila' and then lists the same other orders. The term 'Silsila' in Answer B refers to the same concept as 'Order' in Answer A, indicating that both answers convey the same information about the orders from which Mufti-e-Azam-e-Hind received Khilafat. Therefore, the two answers are semantically equivalent despite the slight difference in wording."
+}

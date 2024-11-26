@@ -1,0 +1,7 @@
+{
+    "query": "What are strong baselines model is compared to?",
+    "gold_answer": "Baseline models are:\n- Chen et al., 2015a\n- Chen et al., 2015b\n- Liu et al., 2016\n- Cai and Zhao, 2016\n- Cai et al., 2017\n- Zhou et al., 2017\n- Ma et al., 2018\n- Wang et al., 2019",
+    "predict": "Strong baselines.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed list of specific baseline models that strong baselines are compared to, while Answer B simply states 'Strong baselines' without any additional context or information. The two answers do not convey the same information; Answer A is specific and informative, whereas Answer B is vague and does not address the query adequately. Therefore, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is their definition of tweets going viral?",
+    "gold_answer": "Viral tweets are the ones that are retweeted more than 1000 timesthose that contain a high number of retweets",
+    "predict": "A tweet went viral if it was retweeted more than 1000 times.",
+    "consistency": "1",
+    "reasoning": "Answer A defines viral tweets as those that are retweeted more than 1000 times and mentions a high number of retweets. Answer B states that a tweet went viral if it was retweeted more than 1000 times. Both answers convey the same core idea that a tweet's virality is determined by the number of retweets exceeding 1000, making them semantically equivalent."
+}

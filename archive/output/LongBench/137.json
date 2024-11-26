@@ -1,0 +1,7 @@
+{
+    "query": "What metrics are used for evaluation?",
+    "gold_answer": "translation probabilities, Labeled Attachment Scores (LAS)accuracy, Labeled Attachment Scores (LAS)",
+    "predict": "The metrics used for evaluation are obtained by humans scoring generated texts on an evaluation set.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific metrics used for evaluation, such as translation probabilities and Labeled Attachment Scores (LAS), which are quantitative measures. Answer B, however, describes a qualitative approach where humans score generated texts, which is a different method of evaluation. Since the two answers refer to fundamentally different types of evaluation metrics, they are not semantically equivalent."
+}

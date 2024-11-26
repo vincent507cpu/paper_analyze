@@ -1,0 +1,7 @@
+{
+    "query": "Were other baselines tested to compare with the neural baseline?",
+    "gold_answer": "SVM, No-Answer Baseline (NA) , Word Count Baseline, Human PerformanceNo-Answer Baseline (NA), Word Count Baseline, Human Performance",
+    "predict": "Yes, other baselines were tested.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific baselines that were tested, indicating a variety of methods used for comparison. Answer B, however, simply states 'Yes, other baselines were tested,' which does not provide any details about what those baselines are. While both answers imply that other baselines were tested, Answer A provides concrete examples, whereas Answer B is vague. Therefore, they are not semantically equivalent as they convey different levels of information regarding the testing of baselines."
+}

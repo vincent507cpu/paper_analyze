@@ -1,0 +1,7 @@
+{
+    "query": "How do they obtain the new context represetation?",
+    "gold_answer": "They use two independent convolutional and max-pooling layers on (1) a combination of the left context, the left entity and the middle context; and (2) a combination of the middle context, the right entity and the right context. They concatenated the two results after pooling to get the new context representation.",
+    "predict": "The new context representation is obtained by using test data to generate context.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed explanation of the process for obtaining the new context representation, specifically mentioning the use of convolutional and max-pooling layers on specific combinations of context and entities. In contrast, Answer B gives a vague statement that the new context representation is obtained using test data, without detailing the method or the components involved. Since Answer A describes a specific method while Answer B lacks detail and clarity, the two answers are not semantically equivalent."
+}

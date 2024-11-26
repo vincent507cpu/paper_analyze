@@ -1,0 +1,7 @@
+{
+    "query": "When did Simon English become the leader of the National Party?",
+    "gold_answer": "October 2001.",
+    "predict": "The question is asking when Simon English became the leader of the National Party after succeeding Simon Bridges on February 27, 2018. Based on the content provided, it states that \"On 27 February, he was succeeded as party leader by Simon Bridges\". Therefore, Simon English took over leadership from Simon Bridges on February 27, 2018.",
+    "consistency": "0",
+    "reasoning": "Answer A states that Simon English became the leader of the National Party in October 2001, while Answer B provides a detailed explanation that he succeeded Simon Bridges on February 27, 2018. The two answers refer to different events and times regarding Simon English's leadership, making them semantically non-equivalent. Therefore, the answers cannot be considered the same."
+}

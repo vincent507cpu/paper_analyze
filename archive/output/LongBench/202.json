@@ -1,0 +1,7 @@
+{
+    "query": "What type of classifiers are used?",
+    "gold_answer": "probabilistic modelLogistic Regression, Multilayer Perceptron",
+    "predict": "Ensemble classifiers",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific types of classifiers, namely 'Logistic Regression' and 'Multilayer Perceptron,' which are both examples of probabilistic models. Answer B, on the other hand, refers to 'Ensemble classifiers,' which is a broader category that includes various methods that combine multiple classifiers. Since Answer A specifies particular classifiers while Answer B refers to a general category, they are not semantically equivalent."
+}

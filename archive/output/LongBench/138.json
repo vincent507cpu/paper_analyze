@@ -1,0 +1,7 @@
+{
+    "query": "What is the attention module pretrained on?",
+    "gold_answer": "the model is pre-trained on CTC-based ASR task and MT task in the pre-training stage.",
+    "predict": "The attention module is pretrained on visual components.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that the attention module is pretrained on CTC-based ASR (Automatic Speech Recognition) and MT (Machine Translation) tasks, which are specific tasks related to language processing. In contrast, Answer B states that the attention module is pretrained on visual components, which refers to a completely different domain (visual data). Since the two answers refer to different types of pretraining tasks and domains, they are not semantically equivalent."
+}

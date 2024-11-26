@@ -1,0 +1,7 @@
+{
+    "query": "What are the benefits of using binary variables in the SLAS formulation?",
+    "gold_answer": "Reduced computational complexity.",
+    "predict": "Benefits of using binary variables in the SLAS formulation:\n- Reduces computational complexity by avoiding mixed-integer optimization problems.\n- Improves practicality and efficiency.",
+    "consistency": "1",
+    "reasoning": "Answer A states that using binary variables leads to 'reduced computational complexity,' which is a specific benefit. Answer B elaborates on this by stating that it reduces complexity by avoiding mixed-integer optimization problems and also mentions improvements in practicality and efficiency. While Answer B provides more detail, both answers convey the same core benefit of reduced computational complexity. Therefore, they are semantically equivalent in the context of the query."
+}

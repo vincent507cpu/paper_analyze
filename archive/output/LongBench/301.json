@@ -1,0 +1,7 @@
+{
+    "query": "How large is the corpus?",
+    "gold_answer": "8,275 sentences and 167,739 words in totalThe corpus comprises 8,275 sentences and 167,739 words in total.",
+    "predict": "The corpus consists of document clusters for 30 different topics. Each cluster contains around 40 documents with an average token count of 2413 tokens per document, resulting in an average cluster size of 97,880 tokens.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific quantitative details about the corpus, stating it contains 8,275 sentences and 167,739 words. Answer B, however, describes the corpus in terms of document clusters and topics, focusing on the structure and average token count rather than the total number of sentences and words. Since the two answers address different aspects of the corpus and do not provide equivalent information regarding its size, they are not semantically equivalent."
+}

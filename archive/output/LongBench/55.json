@@ -1,0 +1,7 @@
+{
+    "query": "What happens to Ngotho after he attacks Jacobo at a workers' strike?",
+    "gold_answer": "After attacking Jacobo at a workers' strike, Ngotho loses his job and Njoroge's family is forced to move.",
+    "predict": "Ngotho is fired from his job.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a broader context by stating that Ngotho loses his job and that Njoroge's family is forced to move, indicating the consequences of the attack. Answer B, while also stating that Ngotho is fired from his job, does not mention the additional consequence of Njoroge's family having to move. However, both answers convey the essential outcome of Ngotho losing his job due to the attack, making them semantically equivalent in terms of the job loss aspect."
+}

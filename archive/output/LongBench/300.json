@@ -1,0 +1,7 @@
+{
+    "query": "What were the scores of their system?",
+    "gold_answer": "column Ens Test in Table TABREF19",
+    "predict": "scores",
+    "consistency": "0",
+    "reasoning": "Answer A refers to a specific column in a table, indicating a location where scores can be found, while Answer B simply states 'scores,' which is a general term. Answer A does not directly provide the scores but rather points to where they can be found, making the two answers not semantically equivalent. Answer A is more about the context of the data, whereas Answer B is about the data itself."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the future direction mentioned in the conclusion?",
+    "gold_answer": "Verifying other meta-information such as patient's gender, age, race, etc.",
+    "predict": "The future direction mentioned in the conclusion is \"Future Work\".",
+    "consistency": "0",
+    "reasoning": "Answer A discusses a specific action related to verifying meta-information about patients, while Answer B refers to a general term 'Future Work' without providing specific details. The two answers address different aspects of future directions; thus, they are not semantically equivalent."
+}

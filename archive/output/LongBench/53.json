@@ -1,0 +1,7 @@
+{
+    "query": "When was the paper published?",
+    "gold_answer": "The paper was published on 7 March 2023.",
+    "predict": "The paper has not been published as yet.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific date of publication, indicating that the paper was published on 7 March 2023. In contrast, Answer B states that the paper has not been published yet, which directly contradicts the information in Answer A. Since the two answers present opposing information regarding the publication status of the paper, they are not semantically equivalent."
+}

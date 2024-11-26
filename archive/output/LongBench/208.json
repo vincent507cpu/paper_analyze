@@ -1,0 +1,7 @@
+{
+    "query": "What sentiment classification dataset is used?",
+    "gold_answer": "the IMDb movie review dataset BIBREF17IMDb movie review",
+    "predict": "The Stanford Sentiment Treebank (SST) is used as the sentiment classification dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A mentions the IMDb movie review dataset as a sentiment classification dataset, while Answer B refers to the Stanford Sentiment Treebank (SST) as the dataset used. Since both answers identify different datasets for sentiment classification, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What are some reasons for the lack of data sharing in archaeobotany?",
+    "gold_answer": "Technological limitations, resistance to exposing data to scrutiny, and desire to hold onto data for personal use.",
+    "predict": "Some reasons for the lack of data sharing in archaeobotany include:\n- Lack of primary datasets\n- Technological limitations\n- Resistance from certain researchers",
+    "consistency": "0",
+    "reasoning": "Answer A lists three reasons for the lack of data sharing: technological limitations, resistance to scrutiny, and a desire to retain data for personal use. Answer B also mentions technological limitations and introduces a lack of primary datasets and resistance from certain researchers. While both answers share the point about technological limitations and resistance, Answer B provides additional context with the mention of primary datasets, which is not covered in Answer A. Therefore, the two answers are not semantically equivalent as they differ in the specific reasons provided."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What types of social media did they consider?",
+    "gold_answer": "Facebook status update messagesFacebook status update messages",
+    "predict": "Social media platforms and messaging systems.",
+    "consistency": "0",
+    "reasoning": "Answer A specifically mentions 'Facebook status update messages,' which refers to a particular type of content shared on Facebook, a specific social media platform. Answer B, on the other hand, refers to 'social media platforms and messaging systems,' which encompasses a broader range of social media types, including various platforms and forms of communication. Since Answer A is limited to a specific type of social media content while Answer B covers a wider scope, the two answers are not semantically equivalent."
+}

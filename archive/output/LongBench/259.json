@@ -1,0 +1,7 @@
+{
+    "query": "What are method improvements of F1 for paraphrase identification?",
+    "gold_answer": "Using DSC loss improves the F1 score by +0.58 for MRPC and +0.73 for QQP+0.58",
+    "predict": "Method improvements of F1 for paraphrase identification involve replacing the training objective with Dice Similarity Coefficient (DSC) loss. This approach leads to an improvement in F1 score by +0.58 for MRPC and +0.73 for QQP.",
+    "consistency": "1",
+    "reasoning": "Both answers discuss the improvements in the F1 score for paraphrase identification through the use of DSC loss. Answer A provides a more concise statement about the improvements in F1 scores for specific datasets (MRPC and QQP), while Answer B elaborates on the method by explaining the replacement of the training objective with DSC loss. Despite the difference in detail, both answers convey the same essential information regarding the method improvements and the resulting F1 score enhancements, making them semantically equivalent."
+}

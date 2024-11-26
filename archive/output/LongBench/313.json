@@ -1,0 +1,7 @@
+{
+    "query": "On which benchmarks they achieve the state of the art?",
+    "gold_answer": "SimpleQuestions, WebQSPWebQSP, SimpleQuestions",
+    "predict": "Amazon Benchmark.",
+    "consistency": "0",
+    "reasoning": "Answer A lists multiple benchmarks, including 'SimpleQuestions' and 'WebQSP,' indicating a range of benchmarks where state-of-the-art performance is achieved. Answer B, however, specifies only 'Amazon Benchmark' as a single benchmark. Since the two answers refer to different sets of benchmarks and do not overlap, they are not semantically equivalent."
+}

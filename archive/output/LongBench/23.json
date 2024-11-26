@@ -1,0 +1,7 @@
+{
+    "query": "What types of sensors are now capable of estimating physical activity levels and physiological outcomes of older adults?",
+    "gold_answer": "Wearable sensors.",
+    "predict": "Wearable sensors and ambient sensors are now capable of estimating physical activity levels and physiological outcomes of older adults.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'wearable sensors' as capable of estimating physical activity levels and physiological outcomes of older adults. Answer B expands on this by including 'ambient sensors' in addition to wearable sensors. While both answers mention wearable sensors, Answer B introduces an additional type of sensor, which means the two answers are not semantically equivalent. Answer A is a subset of the information provided in Answer B, but they do not convey the same complete meaning."
+}

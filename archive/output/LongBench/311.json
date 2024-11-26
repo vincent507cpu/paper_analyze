@@ -1,0 +1,7 @@
+{
+    "query": "What datasets do they evaluate on?",
+    "gold_answer": " Wall Street Journal (WSJ) portion of the Penn TreebankUnanswerable",
+    "predict": "Datasets evaluated on.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a particular dataset, the 'Wall Street Journal (WSJ) portion of the Penn Treebank,' which is a concrete example of a dataset. Answer B, however, is vague and simply states 'Datasets evaluated on' without providing any specific information. Since Answer A provides a specific dataset while Answer B does not, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "How many sentences does the dataset contain?",
+    "gold_answer": "36066946",
+    "predict": "749",
+    "consistency": "0",
+    "reasoning": "Answer A states that the dataset contains 36,066,946 sentences, while Answer B states that it contains 749 sentences. These two numbers are vastly different and represent distinct quantities. Since the question asks for a specific count of sentences, and the answers provide different numerical values, they cannot be considered semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What are the languages they use in their experiment?",
+    "gold_answer": "English\nFrench\nSpanish\nGerman\nGreek\nBulgarian\nRussian\nTurkish\nArabic\nVietnamese\nThai\nChinese\nHindi\nSwahili\nUrdu\nFinnishEnglish, Spanish, Finnish",
+    "predict": "The languages used in their experiment are fusional, agglutinative, isolating, and introflexive.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific languages that are used in the experiment, while Answer B categorizes languages based on their grammatical features (fusional, agglutinative, isolating, and introflexive). The two answers provide different types of information: Answer A gives concrete examples of languages, whereas Answer B describes linguistic classifications. Since they address different aspects of language and do not convey the same information, they are not semantically equivalent."
+}

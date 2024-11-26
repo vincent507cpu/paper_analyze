@@ -1,0 +1,7 @@
+{
+    "query": "Why does Craig want to find his own place?",
+    "gold_answer": "Because his roommate smokes.",
+    "predict": "Craig wants to find his own place because he feels uncomfortable living in the room rented by someone with ADHD who smokes. It affects his emotional well-being and financial stability.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific reason for Craig wanting to find his own place, which is that his roommate smokes. Answer B expands on this by mentioning additional factors, such as the roommate having ADHD and the impact on Craig's emotional well-being and financial stability. While both answers relate to Craig's discomfort with his living situation, Answer B introduces new elements that are not present in Answer A. Therefore, the two answers are not semantically equivalent as they convey different levels of detail and context regarding Craig's motivations."
+}

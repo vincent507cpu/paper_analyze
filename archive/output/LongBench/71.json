@@ -1,0 +1,7 @@
+{
+    "query": "How is the vacuum processing system configured in terms of the arrangement of the vacuum processing apparatus?",
+    "gold_answer": "Multiple vacuum processing apparatuses are arranged in parallel.",
+    "predict": "The vacuum processing system arranges the two vacuum processing chambers on opposite sides of the vacuum transfer chamber in an acute angle.",
+    "consistency": "0",
+    "reasoning": "Answer A states that multiple vacuum processing apparatuses are arranged in parallel, indicating a specific configuration where they operate alongside each other. Answer B describes a different configuration, where two vacuum processing chambers are positioned at an acute angle on opposite sides of a vacuum transfer chamber. The two answers describe distinct arrangements of the vacuum processing system, making them semantically non-equivalent."
+}

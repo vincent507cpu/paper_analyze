@@ -1,0 +1,7 @@
+{
+    "query": "What are the results from these proposed strategies?",
+    "gold_answer": "Reward of 11.8 for the A2C-chained model, 41.8 for the KG-A2C-chained model, 40 for A2C-Explore and 44 for KG-A2C-Explore.KG-A2C-chained and KG-A2C-Explore both pass the bottleneck of a score of 40",
+    "predict": "The results from these proposed strategies are unknown based on the given text.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical results for various models, indicating the performance of the proposed strategies. In contrast, Answer B states that the results are unknown, which directly contradicts the information provided in Answer A. Since one answer provides concrete results while the other claims a lack of information, they are not semantically equivalent."
+}

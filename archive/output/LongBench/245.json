@@ -1,0 +1,7 @@
+{
+    "query": "What language do they explore?",
+    "gold_answer": "English, French, German French, English, Spanish, Italian, Portuguese, Hebrew, Arabic",
+    "predict": "They explore agglutinative and isolating languages.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific languages, including English, French, and others, indicating a focus on particular languages. Answer B, however, categorizes languages based on their grammatical structure, mentioning agglutinative and isolating languages, which is a broader classification. Since Answer A provides specific examples while Answer B discusses types of languages without naming them, the two answers do not convey the same information and are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Were any of these tasks evaluated in any previous work?",
+    "gold_answer": "YesYes",
+    "predict": "Yes, several of these tasks were evaluated in previous work.",
+    "consistency": "0",
+    "reasoning": "Answer A simply states 'YesYes,' which is unclear and does not provide any context or detail about the tasks being evaluated. Answer B, on the other hand, confirms that several tasks were evaluated in previous work, providing specific information. The lack of detail in Answer A makes it semantically different from Answer B, which offers a more comprehensive response. Therefore, the two answers are not semantically equivalent."
+}

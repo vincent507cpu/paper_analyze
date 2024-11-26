@@ -1,0 +1,7 @@
+{
+    "query": "Do the authors hypothesize that humans' robustness to noise is due to their general knowledge?",
+    "gold_answer": "YesYes",
+    "predict": "Yes, the authors hypothesize that humans' robustness to noise is due to their general knowledge.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a simple affirmation 'YesYes,' which is not a complete sentence and lacks context. Answer B elaborates on the hypothesis, clearly stating that the authors believe humans' robustness to noise is due to their general knowledge. While both answers affirm the hypothesis, Answer A does not convey the same level of detail or clarity as Answer B. Therefore, they are not semantically equivalent."
+}

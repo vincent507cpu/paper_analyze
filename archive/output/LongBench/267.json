@@ -1,0 +1,7 @@
+{
+    "query": "What does an individual model consist of?",
+    "gold_answer": "Bayesian model of garg2012unsupervised as our base monolingual model",
+    "predict": "Individual models consist of multiple layers.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a particular type of model, namely a Bayesian model, and references a specific source (garg2012unsupervised) as the base for a monolingual model. In contrast, Answer B provides a general statement about individual models consisting of multiple layers, which does not directly relate to the specific type of model mentioned in Answer A. The two answers address different aspects of what an individual model may consist of, making them semantically non-equivalent."
+}

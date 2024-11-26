@@ -1,0 +1,7 @@
+{
+    "query": "what were the baselines?",
+    "gold_answer": "UnanswerableLF-MMI Attention\nSeq2Seq \nRNN-T \nChar E2E LF-MMI \nPhone E2E LF-MMI \nCTC + Gram-CTC",
+    "predict": "The word \"Baselines\" appears five times in the given text. The question asks about baselines, which indicates that multiple references are needed to provide specific answers based on the context provided. Since there's no additional context or details available in this excerpt to determine what is meant by \"baselines,\" a definitive answer cannot be given without further information.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a list of specific models or methods related to the term 'baselines,' suggesting a concrete understanding of the term in a particular context. In contrast, Answer B discusses the ambiguity of the term 'baselines' and states that it cannot provide a definitive answer without additional context. Since Answer A offers specific information while Answer B indicates a lack of clarity and context, the two answers are not semantically equivalent."
+}

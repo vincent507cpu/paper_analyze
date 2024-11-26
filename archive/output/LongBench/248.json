@@ -1,0 +1,7 @@
+{
+    "query": "What summarization algorithms did the authors experiment with?",
+    "gold_answer": "LSA, TextRank, LexRank and ILP-based summary.LSA, TextRank, LexRank",
+    "predict": "The authors experimented with phrase-based summarization algorithms.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific summarization algorithms: LSA, TextRank, LexRank, and ILP-based summary, indicating a clear focus on particular methods. Answer B, however, refers to 'phrase-based summarization algorithms' without specifying which algorithms were used. Since Answer A provides concrete examples while Answer B is more general and does not mention the specific algorithms from the query, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What are two datasets model is applied to?",
+    "gold_answer": " `Conversations Gone Awry' dataset, subreddit ChangeMyViewAn expanded version of the existing 'Conversations Gone Awry' dataset and the ChangeMyView dataset, a subreddit whose only annotation is whether the conversation required action by the Reddit moderators. ",
+    "predict": "Two datasets: Dataset 2 and Multiple Datasets",
+    "consistency": "0",
+    "reasoning": "Answer A specifies two datasets: 'Conversations Gone Awry' and 'ChangeMyView,' providing detailed context about each dataset. Answer B, however, refers to 'Dataset 2' and 'Multiple Datasets,' which are vague and do not provide specific names or context. Since Answer A gives concrete examples while Answer B is ambiguous and lacks specificity, the two answers are not semantically equivalent."
+}

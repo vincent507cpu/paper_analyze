@@ -1,0 +1,7 @@
+{
+    "query": "What are the 12 languages covered?",
+    "gold_answer": "Chinese Mandarin, Welsh, English, Estonian, Finnish, French, Hebrew, Polish, Russian, Spanish, Kiswahili, Yue ChineseChinese Mandarin, Welsh, English, Estonian, Finnish, French, Hebrew, Polish, Russian, Spanish, Kiswahili, Yue Chinese",
+    "predict": "The 12 languages covered are:\nFrench, Russian, Arabic, Chinese (Mandarin), Hindi, Vietnamese, Welsh, Kiswahili, Yue Chinese, Czech, Japanese, and Slovak.",
+    "consistency": "0",
+    "reasoning": "Answer A lists the languages as 'Chinese Mandarin, Welsh, English, Estonian, Finnish, French, Hebrew, Polish, Russian, Spanish, Kiswahili, Yue Chinese,' while Answer B provides a different set of languages: 'French, Russian, Arabic, Chinese (Mandarin), Hindi, Vietnamese, Welsh, Kiswahili, Yue Chinese, Czech, Japanese, and Slovak.' Comparing the two lists, they contain different languages, such as Arabic, Hindi, Vietnamese, Czech, Japanese, and Slovak in Answer B, which are not present in Answer A. Therefore, the two answers are not semantically equivalent as they refer to different sets of languages."
+}

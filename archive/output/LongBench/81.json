@@ -1,0 +1,7 @@
+{
+    "query": "Who is responsible for carrying out the functions assigned under the act?",
+    "gold_answer": "The Director of Town and Country Planning is responsible for carrying out the functions assigned under the act.",
+    "predict": "The State Government is responsible for carrying out functions assigned under the act.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that 'The Director of Town and Country Planning' is responsible for the functions, while Answer B states that 'The State Government' holds this responsibility. These two entities are distinct; one is an individual position within a governmental framework, and the other refers to the broader governing body. Therefore, the answers are not semantically equivalent as they refer to different responsible parties."
+}

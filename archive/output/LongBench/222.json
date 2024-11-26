@@ -1,0 +1,7 @@
+{
+    "query": "Which existing benchmarks did they compare to?",
+    "gold_answer": "Affective Text, Fairy Tales, ISEAR Affective Text dataset, Fairy Tales dataset, ISEAR dataset",
+    "predict": "They compared their results with existing benchmarks such as Amazon Benchmark.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific datasets that were compared, including 'Affective Text,' 'Fairy Tales,' and 'ISEAR datasets.' In contrast, Answer B mentions 'Amazon Benchmark' as a comparison point. Since Answer A provides a detailed list of benchmarks while Answer B introduces a different benchmark not mentioned in Answer A, the two answers do not refer to the same benchmarks and are therefore not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "How big is Augmented LibriSpeech dataset?",
+    "gold_answer": "UnanswerableUnanswerable",
+    "predict": "The size of the Augmented LibriSpeech dataset is almost ten times bigger compared to ILPRL dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the size of the Augmented LibriSpeech dataset cannot be determined. In contrast, Answer B provides a specific comparison, stating that the dataset is almost ten times bigger than the ILPRL dataset. Since one answer claims the question cannot be answered while the other provides a quantifiable size, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What datasets are used?",
+    "gold_answer": "Custom dataset with user questions; set of documents, twitter posts and news articles, all related to finance.a self-collected financial intents dataset in Portuguese",
+    "predict": "Our Dataset",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed description of the datasets used, including specific types of data such as user questions, documents, Twitter posts, and news articles related to finance, as well as a self-collected financial intents dataset in Portuguese. Answer B, on the other hand, simply states 'Our Dataset,' which lacks any specific information about the datasets being used. Since Answer B does not provide any details that correspond to the information in Answer A, the two answers are not semantically equivalent."
+}

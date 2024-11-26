@@ -1,0 +1,7 @@
+{
+    "query": "What award did Brooksley Born receive in 2009?",
+    "gold_answer": "In 2009, Brooksley Born received the John F. Kennedy Profiles in Courage Award.",
+    "predict": "Profiles in Courage Award",
+    "consistency": "1",
+    "reasoning": "Answer A specifies the full name of the award as 'John F. Kennedy Profiles in Courage Award,' while Answer B refers to it simply as 'Profiles in Courage Award.' Although Answer B omits the 'John F. Kennedy' part, it still refers to the same award. Therefore, both answers are semantically equivalent in the context of the query, as they denote the same recognition received by Brooksley Born in 2009."
+}

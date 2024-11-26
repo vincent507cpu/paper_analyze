@@ -1,0 +1,7 @@
+{
+    "query": "What other sentence embeddings methods are evaluated?",
+    "gold_answer": "GloVe, BERT, Universal Sentence Encoder, TF-IDF, InferSentAvg. GloVe embeddings, Avg. fast-text embeddings, Avg. BERT embeddings, BERT CLS-vector, InferSent - GloVe and Universal Sentence Encoder.",
+    "predict": "Evaluation - Semantic Textual Similarity ::: Supervised STS\n\nThe evaluation method used is the Supervised STS.",
+    "consistency": "0",
+    "reasoning": "Answer A lists various sentence embedding methods such as GloVe, BERT, and others, directly addressing the query about evaluated methods. Answer B, however, discusses an evaluation method (Supervised STS) rather than providing a list of sentence embedding methods. Since Answer B does not answer the query regarding the specific methods evaluated, the two answers are not semantically equivalent."
+}

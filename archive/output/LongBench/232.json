@@ -1,0 +1,7 @@
+{
+    "query": "Are the automatically constructed datasets subject to quality control?",
+    "gold_answer": "NoNo",
+    "predict": "No.",
+    "consistency": "1",
+    "reasoning": "Answer A states 'NoNo,' which appears to be a typographical error or a concatenation of 'No' repeated. Answer B states 'No.' Both answers convey the same fundamental response of negation regarding the quality control of automatically constructed datasets. However, the presentation in Answer A is unclear due to the lack of spacing, which may lead to confusion. Despite this, the semantic meaning remains the same, indicating that both answers are effectively equivalent in context."
+}

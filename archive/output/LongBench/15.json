@@ -1,0 +1,7 @@
+{
+    "query": "What is the water depth in the Greater Ekofisk Area?",
+    "gold_answer": "The water depth in the Greater Ekofisk Area is 70-75 meters.",
+    "predict": "The water depth in the Greater Ekofisk Area is 70-75 metres.",
+    "consistency": "1",
+    "reasoning": "Answer A uses 'meters' while Answer B uses 'metres,' which are two different spellings of the same unit of measurement. Both answers provide the same numerical range for the water depth (70-75) and refer to the same location (Greater Ekofisk Area). Therefore, they convey the same information and are semantically equivalent."
+}

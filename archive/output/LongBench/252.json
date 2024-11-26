@@ -1,0 +1,7 @@
+{
+    "query": "Which 7 Indian languages do they experiment with?",
+    "gold_answer": "Hindi, English, Kannada, Telugu, Assamese, Bengali and MalayalamKannada, Hindi, Telugu, Malayalam, Bengali,  English and Assamese (in table, missing in text)",
+    "predict": "7 Indian languages experimented with: Bengali, Gujarati, Marathi, Tamil, Malayalam, Hindi, and the Hindi-Indiaan language (Indian variant of Hindi).",
+    "consistency": "0",
+    "reasoning": "Answer A lists Hindi, English, Kannada, Telugu, Assamese, Bengali, and Malayalam, while Answer B includes Bengali, Gujarati, Marathi, Tamil, Malayalam, Hindi, and an Indian variant of Hindi. The two answers provide different sets of languages, with Answer A including English and Assamese, which are absent in Answer B, and Answer B including Gujarati, Marathi, and Tamil, which are not mentioned in Answer A. Since the lists of languages differ significantly, the answers are not semantically equivalent."
+}

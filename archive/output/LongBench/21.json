@@ -1,0 +1,7 @@
+{
+    "query": "How does the transition probability of the environment affect the learning rate in the static agent?",
+    "gold_answer": "As the transition probability increases, the learning rate initially rises and then declines.",
+    "predict": "The transition probability of the environment affects the learning rate by decreasing it as the probability increases.",
+    "consistency": "0",
+    "reasoning": "Answer A states that the learning rate initially rises with increasing transition probability before declining, suggesting a non-linear relationship. In contrast, Answer B claims that the learning rate decreases as the transition probability increases, indicating a linear relationship. Since the two answers describe opposite trends regarding the effect of transition probability on the learning rate, they are not semantically equivalent."
+}

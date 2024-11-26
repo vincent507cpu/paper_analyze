@@ -1,0 +1,7 @@
+{
+    "query": "what pretrained word embeddings were used?",
+    "gold_answer": "Pretrained word embeddings  were not usedGloVe, Edinburgh embeddings BIBREF14, Emoji embeddings BIBREF16",
+    "predict": "Google embeddings were used. Specifically, they refer to pre-trained word embeddings trained on Google News using the skip-gram architecture with dimensions of 300 for over 3 million words and phrases.",
+    "consistency": "0",
+    "reasoning": "Answer A states that pretrained word embeddings were not used and lists several types of embeddings, while Answer B asserts that Google embeddings were used. The two answers directly contradict each other regarding the use of pretrained word embeddings, making them semantically non-equivalent. Answer A implies a lack of usage, whereas Answer B confirms the usage of a specific type of embedding."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the model performance on target language reading comprehension?",
+    "gold_answer": "Table TABREF6, Table TABREF8when testing on English, the F1 score of the model training on Chinese (Zh) is 53.8,  F1 score is only 44.1 for the model training on Zh-En",
+    "predict": "The model performance on target language reading comprehension is evaluated using gold standards that are clear about evidence required to obtain answers but lack challenging distractors that test whether the model truly understands meaning.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific quantitative performance metrics (F1 scores) for the model when tested on English, indicating how well it performs based on training data. Answer B discusses the evaluation criteria for model performance, focusing on the clarity of gold standards and the absence of challenging distractors. While both answers relate to model performance, they address different aspects: Answer A is about specific performance metrics, while Answer B is about the evaluation methodology. Therefore, they are not semantically equivalent."
+}

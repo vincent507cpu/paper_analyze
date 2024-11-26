@@ -1,0 +1,7 @@
+{
+    "query": "How is electricity used in everyday life?",
+    "gold_answer": "Electricity is used for transport, heating, lighting, communications, and computation.",
+    "predict": "Electricity powers homes and businesses through generators, batteries, and other energy sources to provide lighting, heating, cooling, and many other everyday uses.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a list of specific uses of electricity, including transport, heating, lighting, communications, and computation. Answer B describes how electricity powers homes and businesses and mentions generators, batteries, and other sources, along with uses like lighting, heating, and cooling. While both answers discuss the use of electricity in everyday life, Answer A is more general and does not mention the sources of electricity, whereas Answer B provides a broader context by including the sources and a wider range of applications. Therefore, they are not semantically equivalent as they focus on different aspects of electricity usage."
+}

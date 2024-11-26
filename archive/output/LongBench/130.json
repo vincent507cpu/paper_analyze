@@ -1,0 +1,7 @@
+{
+    "query": "Which stock market sector achieved the best performance?",
+    "gold_answer": "Energy with accuracy of 0.538Energy",
+    "predict": "Consumer Sector",
+    "consistency": "0",
+    "reasoning": "Answer A identifies the 'Energy' sector as the one with the best performance, while Answer B states 'Consumer Sector.' Since these are two different sectors, they cannot be semantically equivalent. The question specifically asks for the sector that performed best, and the answers provided refer to distinct sectors, making them non-equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "How are the relationships between catch per set and fishing behavior variables different for different measures of catch per unit effort (CPUE)?",
+    "gold_answer": "The relationships between catch per set and fishing behavior variables differ when comparing unstandardized CPUE and standardized CPUE.",
+    "predict": "The relationships between catch per set (CPUE) and fishing behavior variables differ depending on the specific measure of CPUE used. For standardised CPUE using individuals per 100 hooks per set, it was found that bottom longlines had significantly higher standardised CPUE than surface longlines. Similarly, other measures showed similar patterns where relationships reversed when controlling for hook number in standardised CPUE calculations.",
+    "consistency": "1",
+    "reasoning": "Answer A states that the relationships differ when comparing unstandardized and standardized CPUE, which is a general statement about the difference in relationships based on the type of CPUE. Answer B provides a more detailed explanation, specifying that the relationships differ based on the specific measure of CPUE used and includes specific findings related to bottom and surface longlines. While both answers address the differences in relationships based on CPUE measures, Answer B elaborates on the context and provides examples, making it more informative but still aligned with the essence of Answer A. Therefore, they can be considered semantically equivalent in the context of the query."
+}

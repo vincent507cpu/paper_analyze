@@ -1,0 +1,7 @@
+{
+    "query": "What is the name of the generative interactive model used in the method?",
+    "gold_answer": "The generative interactive model used in the method is called the Coupled Generalized Dynamic Bayesian Network (C-GDBN).",
+    "predict": "The name of the generative interactive model used in the method is Flow-based Generative Models.",
+    "consistency": "0",
+    "reasoning": "Answer A identifies the generative interactive model as the Coupled Generalized Dynamic Bayesian Network (C-GDBN), while Answer B states it is Flow-based Generative Models. Since both answers provide different names for the model, they cannot be semantically equivalent. The terms refer to distinct models, indicating that the answers are not interchangeable in this context."
+}

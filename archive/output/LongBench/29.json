@@ -1,0 +1,7 @@
+{
+    "query": "How many brother does Njoroge have?",
+    "gold_answer": "Four.",
+    "predict": "4",
+    "consistency": "1",
+    "reasoning": "Answer A states 'Four,' which is the word form of the number, while Answer B states '4,' which is the numerical form. Both answers convey the same quantity, which is four brothers. Therefore, they are semantically equivalent despite the difference in representation (word vs. numeral)."
+}

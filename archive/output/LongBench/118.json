@@ -1,0 +1,7 @@
+{
+    "query": "Which Facebook pages did they look at?",
+    "gold_answer": "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, DisneyFoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney.",
+    "predict": "The Facebook pages that were looked at in this dataset collection are FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon.",
+    "consistency": "0",
+    "reasoning": "Answer A lists a series of Facebook pages, but it contains a repetition of the same list, which does not add any new information. Answer B provides a similar list but omits some pages that are present in Answer A, specifically 'Disney' and 'DisneyFoxNews.' Since Answer A includes all the pages mentioned in Answer B plus additional ones, they are not semantically equivalent because Answer B does not encompass all the information provided in Answer A."
+}

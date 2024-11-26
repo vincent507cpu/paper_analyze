@@ -1,0 +1,7 @@
+{
+    "query": "What are the network's baseline features?",
+    "gold_answer": " The features extracted from CNN.",
+    "predict": "Network's baseline features are not explicitly mentioned in the provided content. The text \"Baselines\" is repeated multiple times but does not define what they refer to specifically about the network's features.",
+    "consistency": "0",
+    "reasoning": "Answer A states that the features are 'extracted from CNN,' which implies a specific source for the network's baseline features. Answer B, however, indicates that the network's baseline features are not explicitly defined in the content provided, suggesting a lack of information rather than a description of the features themselves. Since Answer A provides a specific detail about the source of the features while Answer B states that the features are not defined, the two answers are not semantically equivalent."
+}

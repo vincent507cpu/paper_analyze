@@ -1,0 +1,7 @@
+{
+    "query": "What is the rationality coefficient used in the observation model?",
+    "gold_answer": "γh.",
+    "predict": "Rationality coefficient is represented by γ h in the given content.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a concise representation of the rationality coefficient as 'γh,' while Answer B elaborates that the rationality coefficient is represented by 'γ h' in the given content. Both answers convey the same information about the representation of the rationality coefficient, making them semantically equivalent despite the difference in wording and detail."
+}

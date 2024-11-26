@@ -1,0 +1,7 @@
+{
+    "query": "What are the clinical datasets used in the paper?",
+    "gold_answer": "MEDDOCAN, NUBes-PHIMEDDOCAN, NUBes ",
+    "predict": "Clinical datasets used in the paper include:\n- NUBes-PHI (1,949 pathology reports across 37 primary diagnoses)\n- SNLI and multiNLI for sentence pairs evaluation\n- Quora and Clinical-QE for question pairs evaluation\n- SemEval-cQA for specific questions evaluation",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific datasets (MEDDOCAN, NUBes-PHIMEDDOCAN, NUBes) that are presumably used in the paper. Answer B provides a more detailed list of datasets, including NUBes-PHI and others like SNLI, multiNLI, Quora, Clinical-QE, and SemEval-cQA, which are used for various evaluations. While both answers mention datasets, Answer B includes additional datasets and context that are not present in Answer A. Therefore, the two answers are not semantically equivalent as they refer to different sets of datasets and contexts."
+}

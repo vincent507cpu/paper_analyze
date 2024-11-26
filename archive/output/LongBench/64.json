@@ -1,0 +1,7 @@
+{
+    "query": "What was the conclusion of the study?",
+    "gold_answer": "The conclusion was that fruit consumption may provide a protective effect for mercury exposure in Amazonian riparians.",
+    "predict": "The conclusion of the study.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific conclusion regarding the study, stating that fruit consumption may protect against mercury exposure in Amazonian riparians. Answer B, however, is vague and does not provide any information about the conclusion itself, merely restating the question. Since Answer B lacks the specific information found in Answer A, they are not semantically equivalent."
+}

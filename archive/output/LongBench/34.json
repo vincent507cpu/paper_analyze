@@ -1,0 +1,7 @@
+{
+    "query": "What did Justice Kennedy argue about Quill in Direct Marketing Ass'n v. Brohl?",
+    "gold_answer": "Quill harmed states more than anticipated due to the Internet.",
+    "predict": "Justice Kennedy argued in Direct Marketing Ass’n v. Brohl that the physical presence rule of Quill should be reconsidered due to the significant increase in harm caused by remote sellers as a result of Internet changes in the economy. He wished for the legal system to revisit this issue and emphasized the need for legislative solutions instead of judicial overruling.",
+    "consistency": "0",
+    "reasoning": "Answer A states that Quill harmed states more than anticipated due to the Internet, which is a general assertion about the impact of Quill. Answer B provides a more detailed explanation of Justice Kennedy's argument, specifically mentioning the need to reconsider the physical presence rule and the significant increase in harm caused by remote sellers due to the Internet. While both answers address the harm caused by Quill in the context of the Internet, Answer B elaborates on the reasoning and context behind Justice Kennedy's argument, making it more comprehensive. Therefore, while they are related, they are not semantically equivalent as Answer B provides additional context and specifics that Answer A lacks."
+}

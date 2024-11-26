@@ -1,0 +1,7 @@
+{
+    "query": "How are smartphones and tablets different from a technical perspective?",
+    "gold_answer": "Smartphones are more compact and power constrained.",
+    "predict": "Smartphones and tablets differ in terms of hardware components and capabilities:\n- Smartphones typically use higher-end processors like high-end smartphone SoCs, while tablets often use lower-end SoCs optimized for power efficiency and battery life compared to full smartphones.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a general statement about smartphones being more compact and power constrained, which is a valid point but lacks detail. Answer B elaborates on the differences in hardware components and capabilities, specifically mentioning the types of processors used in smartphones versus tablets. While both answers address differences between smartphones and tablets, Answer A is too vague and does not cover the technical aspects mentioned in Answer B. Therefore, they are not semantically equivalent as Answer B provides a more comprehensive technical perspective."
+}

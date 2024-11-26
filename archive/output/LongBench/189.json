@@ -1,0 +1,7 @@
+{
+    "query": "How do they match words before reordering them?",
+    "gold_answer": "UnanswerableCFILT-preorder system",
+    "predict": "Words are matched based on their position before reordering is applied.",
+    "consistency": "0",
+    "reasoning": "Answer A refers to a specific system ('CFILT-preorder system') that implies a method of matching words before reordering, but it does not explain how the matching occurs. Answer B provides a clear explanation that words are matched based on their position before any reordering takes place. Since Answer A does not provide a direct explanation of the matching process and is more abstract, while Answer B is explicit about the method, the two answers are not semantically equivalent."
+}

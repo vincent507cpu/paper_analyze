@@ -1,0 +1,7 @@
+{
+    "query": "What are the titles of one of Kam W. Leong's publications in Journal of Controlled Release?",
+    "gold_answer": "Sustained viral gene delivery through core-shell fibers and Gene transfer to hemophilia A mice via oral delivery of FVIII-chitosan nanoparticles.",
+    "predict": "Nucleic acid scavengers inhibit thrombosis without increasing bleeding.",
+    "consistency": "0",
+    "reasoning": "Answer A lists two specific titles of publications by Kam W. Leong in the Journal of Controlled Release, while Answer B provides a different title that does not match any of the titles in Answer A. Since the titles are distinct and refer to different works, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the scaling form for the alternative order parameter O?",
+    "gold_answer": "O(t, L_{\\parallel}; S_\\Delta) = L_{\\parallel}^{-\\beta/[\\nu(1+\\Delta)]} \\tilde f_O(t/L_{\\parallel}^{z/(1+\\Delta)}; S_\\Delta).",
+    "predict": "The scaling form for the alternative order parameter \\( O \\) is given by:\n\\[\nO (t, L_{\\parallel} ; S_\\Delta) = L_{\\parallel}^{-\\beta/[\\nu(1+\\Delta)]} \\tilde f_O (t/L_{\\parallel}^{z/(1+\\Delta)} ; S_\\Delta).\n\\]",
+    "consistency": "1",
+    "reasoning": "Answer A presents the scaling form for the alternative order parameter O in a straightforward manner, while Answer B provides the same information but includes additional context by stating 'The scaling form for the alternative order parameter O is given by:' before presenting the equation. Both answers convey the same mathematical expression and meaning, making them semantically equivalent despite the difference in phrasing."
+}

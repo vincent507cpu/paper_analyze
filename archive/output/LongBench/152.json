@@ -1,0 +1,7 @@
+{
+    "query": "which lstm models did they compare with?",
+    "gold_answer": "Unidirectional LSTM networks with 2, 6, 7, 8, and  9 layers.",
+    "predict": "The LSTM and feed-forward models were compared with SVM.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a comparison of unidirectional LSTM networks with a specific number of layers, while Answer B mentions a comparison involving LSTM and feed-forward models with SVM. The two answers refer to different aspects of LSTM models and do not provide the same information regarding the comparisons made. Therefore, they are not semantically equivalent."
+}

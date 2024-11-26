@@ -1,0 +1,7 @@
+{
+    "query": "When was Weep Not, Child first published?",
+    "gold_answer": "Weep Not, Child was first published in 1964.",
+    "predict": "1964",
+    "consistency": "1",
+    "reasoning": "Answer A provides a complete sentence stating that 'Weep Not, Child was first published in 1964,' while Answer B simply states '1964.' Both answers convey the same information regarding the publication year of 'Weep Not, Child.' Therefore, they are semantically equivalent as they refer to the same fact."
+}

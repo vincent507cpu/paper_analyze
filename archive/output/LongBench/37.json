@@ -1,0 +1,7 @@
+{
+    "query": "When did Goodwin become a Naval aviator?",
+    "gold_answer": "Goodwin became a Naval aviator in January 1929.",
+    "predict": "1928",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that Goodwin became a Naval aviator in January 1929, providing a specific month and year. Answer B states only the year 1928, which is earlier than the date given in Answer A. Since the two answers refer to different years and Answer B does not provide the correct timeframe indicated in Answer A, they are not semantically equivalent."
+}

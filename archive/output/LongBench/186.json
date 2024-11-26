@@ -1,0 +1,7 @@
+{
+    "query": "what was the baseline?",
+    "gold_answer": "pivot-based translation relying on a helping language BIBREF10, nduction of phrase tables from monolingual data BIBREF14 , attentional RNN-based model (RNMT) BIBREF2, Transformer model BIBREF18, bi-directional model BIBREF11, multi-to-multi (M2M) model BIBREF8, back-translation BIBREF17M2M Transformer",
+    "predict": "The term \"baseline\" is used multiple times in this content. Therefore, the baseline was repeated several times.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed description of various models and methods related to translation, which may be considered as different approaches or baselines in a technical context. Answer B, however, states that the term 'baseline' is mentioned multiple times without providing any specific information about what the baseline actually is. Since Answer A gives specific examples and Answer B does not clarify or relate to the actual baseline, the two answers are not semantically equivalent."
+}

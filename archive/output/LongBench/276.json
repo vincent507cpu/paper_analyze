@@ -1,0 +1,7 @@
+{
+    "query": "Which dataset do they use?",
+    "gold_answer": "Unanswerable Paraphrase Database (PPDB) ,  book corpusUnanswerable",
+    "predict": "They use \"Datasets\" and \"Experimental Settings\".",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a particular dataset, the 'Unanswerable Paraphrase Database (PPDB)' and mentions 'book corpusUnanswerable,' which seems to be a typographical error or a concatenation of terms. Answer B, however, refers to 'Datasets' and 'Experimental Settings' in a more general sense without naming specific datasets. Since Answer A provides specific names of datasets while Answer B discusses categories of datasets without specificity, the two answers are not semantically equivalent."
+}

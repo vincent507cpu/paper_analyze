@@ -1,0 +1,7 @@
+{
+    "query": "What additional features and context are proposed?",
+    "gold_answer": "using tweets that one has replied or quoted to as contextual informationtext sequences of context tweets",
+    "predict": "Additional features: Not specified; Future work suggestions mentioned. Context: Not provided.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific information about using tweets that one has replied to or quoted as contextual information, indicating a clear proposal for additional features. In contrast, Answer B states that additional features are not specified and mentions future work suggestions without providing any concrete context. The lack of specificity in Answer B compared to the detailed proposal in Answer A indicates that the two answers are not semantically equivalent, as they address different aspects of the query."
+}

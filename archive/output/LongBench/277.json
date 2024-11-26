@@ -1,0 +1,7 @@
+{
+    "query": "What features are used?",
+    "gold_answer": "Unanswerable",
+    "predict": "The features used in this context are empirical evaluations across diverse tasks and baseline methods analyzing CPU and memory consumption.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered, while Answer B provides a detailed explanation of specific features used in a context. Since one answer claims that the question cannot be answered and the other provides a concrete answer, they are not semantically equivalent."
+}

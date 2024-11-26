@@ -1,0 +1,7 @@
+{
+    "query": "What is the GhostVLAD approach?",
+    "gold_answer": "extension of the NetVLAD, adds Ghost clusters along with the NetVLAD clustersAn extension of NetVLAD which replaces hard assignment-based clustering with soft assignment-based clustering with the additon o fusing Ghost clusters to deal with noisy content.",
+    "predict": "GhostVLAD is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a detailed explanation of the GhostVLAD approach, mentioning both the addition of Ghost clusters and the shift from hard to soft assignment-based clustering. Answer B summarizes the GhostVLAD approach by stating it is an extension of NetVLAD that adds ghost clusters specifically to address noisy or irrelevant content. While Answer A is more detailed, both answers convey the same core idea: that GhostVLAD is an extension of NetVLAD that incorporates Ghost clusters to handle noise. Therefore, they are semantically equivalent in the context of the query."
+}

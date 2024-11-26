@@ -1,0 +1,7 @@
+{
+    "query": "What metrics are used for evaluation?",
+    "gold_answer": "Byte-Pair Encoding perplexity  (BPE PPL),\nBLEU-1,\nBLEU-4,\nROUGE-L,\npercentage of distinct unigram (D-1),\npercentage of distinct bigrams(D-2),\nuser matching accuracy(UMA),\nMean Reciprocal Rank(MRR)\nPairwise preference over baseline(PP)BLEU-1/4 and ROUGE-L, likelihood of generated recipes using identical input specifications but conditioned on ten different user profiles, user matching accuracy (UMA), Mean Reciprocal Rank (MRR), neural scoring model from BIBREF33 to measure recipe-level coherence Distinct-1/2, UMA = User Matching Accuracy, MRR\n= Mean Reciprocal Rank, PP = Pairwise preference over baseline (evaluated for 310 recipe pairs per model)",
+    "predict": "Human evaluation scores.",
+    "consistency": "0",
+    "reasoning": "Answer A lists a comprehensive set of specific metrics used for evaluation, including various quantitative measures like BLEU and ROUGE scores, as well as user matching accuracy and mean reciprocal rank. In contrast, Answer B simply states 'Human evaluation scores,' which refers to a qualitative assessment rather than the specific metrics mentioned in Answer A. Since the two answers refer to different types of evaluation metrics—one being quantitative and detailed, and the other qualitative and vague—they are not semantically equivalent."
+}

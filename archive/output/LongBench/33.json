@@ -1,0 +1,7 @@
+{
+    "query": "How many people attend the 233rd ACS national meeting?",
+    "gold_answer": "There are 14,520 attendees, including 7,152 chemical scientists, 5,059 students, 1,283 exhibitors, 119 precollege teachers, 573 exposition visitors, and 453 guests.",
+    "predict": "14,520 attendees.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a detailed breakdown of the attendees at the 233rd ACS national meeting, specifying the total number of attendees as well as the categories they belong to. Answer B simply states the total number of attendees without any additional details. Despite the difference in detail, both answers convey the same total number of attendees (14,520), making them semantically equivalent in terms of the query's focus on the number of attendees."
+}

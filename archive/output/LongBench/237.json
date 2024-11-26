@@ -1,0 +1,7 @@
+{
+    "query": "How do they define robustness of a model?",
+    "gold_answer": "ability to accurately classify texts even when the amount of prior knowledge for different classes is unbalanced, and when the class distribution of the dataset is unbalancedLow sensitivity to bias in prior knowledge",
+    "predict": "The model's robustness is measured by the INLINEFORM1 statistic, which indicates high confidence in predictions.",
+    "consistency": "0",
+    "reasoning": "Answer A describes robustness in terms of a model's ability to classify texts accurately despite unbalanced prior knowledge and class distribution, emphasizing its performance under challenging conditions. Answer B, however, defines robustness using a specific statistic (INLINEFORM1) that measures confidence in predictions. While both answers relate to the concept of robustness, they focus on different aspects: Answer A on classification performance and Answer B on statistical measurement. Therefore, they are not semantically equivalent."
+}

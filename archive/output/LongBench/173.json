@@ -1,0 +1,7 @@
+{
+    "query": "Were any of the pipeline components based on deep learning models?",
+    "gold_answer": "NoNo",
+    "predict": "Yes, some pipeline components were based on deep learning models.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'NoNo,' which indicates a negative response, suggesting that none of the pipeline components were based on deep learning models. In contrast, Answer B affirms that 'Yes, some pipeline components were based on deep learning models,' indicating that at least some components utilized deep learning. Since the two answers provide opposing information regarding the use of deep learning models in the pipeline components, they are not semantically equivalent."
+}

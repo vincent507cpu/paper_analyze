@@ -1,0 +1,7 @@
+{
+    "query": "How big is imbalance in analyzed corpora?",
+    "gold_answer": "Women represent 33.16% of the speakers",
+    "predict": "5 times as many tokens for O class compared to entity labels in CoNLL03 dataset; 8 times in OntoNotes5.0 dataset. For MRC tasks, it is more severe with a 27 times imbalance.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific percentage (33.16%) representing the proportion of women among speakers, which addresses the query about imbalance in terms of gender representation. Answer B, however, discusses the imbalance in terms of token counts across different classes in datasets, providing a quantitative comparison of tokens rather than a direct answer to the gender imbalance question. Since the two answers address different aspects of imbalance (gender representation vs. token distribution), they are not semantically equivalent."
+}

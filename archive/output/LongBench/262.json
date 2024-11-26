@@ -1,0 +1,7 @@
+{
+    "query": "Which baselines are used for evaluation?",
+    "gold_answer": "Pointer-Gen, Pointer-Gen+Pos, Pointer-Gen+Same-FT, Pointer-Gen+Pos-FT, Pointer-Gen+RL-ROUGE, Pointer-Gen+RL-SEN",
+    "predict": "The text provided does not contain the question \"Which baselines are used for evaluation?\" There appears to be an unusually long series of \"Baselines\" entries. The content is repetitive and lacks context about evaluating baselines in a given scenario.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific baselines used for evaluation, directly addressing the query. In contrast, Answer B does not provide any relevant information about the baselines and instead comments on the lack of context and repetition in the text. Since Answer B fails to answer the question and does not relate to the content of Answer A, the two answers are not semantically equivalent."
+}

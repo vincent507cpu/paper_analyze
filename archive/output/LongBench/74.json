@@ -1,0 +1,7 @@
+{
+    "query": "When will BC leave Boston?",
+    "gold_answer": "August 25.",
+    "predict": "August 31",
+    "consistency": "0",
+    "reasoning": "Answer A states that BC will leave Boston on 'August 25,' while Answer B states 'August 31.' Since these two dates are different, they cannot be considered semantically equivalent as they provide distinct information regarding the timing of BC's departure from Boston."
+}

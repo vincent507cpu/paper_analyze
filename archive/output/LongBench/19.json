@@ -1,0 +1,7 @@
+{
+    "query": "What are the three teams that used conflict optimization in the challenge?",
+    "gold_answer": "Lasa, Gitastrophe, and Shadoks.",
+    "predict": "The three teams that used conflict optimization in the challenge were Lasa, Gitastrophe, and Shadoks.",
+    "consistency": "1",
+    "reasoning": "Answer A lists the three teams directly, while Answer B provides the same information but in a complete sentence format. Both answers convey the same teams involved in conflict optimization, making them semantically equivalent despite the difference in structure."
+}

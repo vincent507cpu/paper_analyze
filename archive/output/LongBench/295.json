@@ -1,0 +1,7 @@
+{
+    "query": "What experiments are conducted?",
+    "gold_answer": "Irony Classifier, Sentiment Classifier for Irony, Sentiment Classifier for Non-irony, transformation from ironic sentences to non-ironic sentences",
+    "predict": "Conducting numerous experiments.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific details about the types of experiments being conducted, listing them explicitly. In contrast, Answer B is vague and general, stating that numerous experiments are being conducted without specifying what they are. Since Answer A gives concrete examples while Answer B lacks specificity, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "How big is the difference in performance between proposed model and baselines?",
+    "gold_answer": "Metric difference between Aloha and best baseline score:\nHits@1/20: +0.061 (0.3642 vs 0.3032)\nMRR: +0.0572(0.5114 vs 0.4542)\nF1: -0.0484 (0.3901 vs 0.4385)\nBLEU: +0.0474 (0.2867 vs 0.2393)",
+    "predict": "The content provided does not directly address how big the difference in performance between the proposed model and baselines is. However, typically when asked about performance differences, one would look at specific metrics such as accuracy, F1 score, or speed improvements shown for each baseline compared to the proposed model. Without more detailed information from that part of the content, a precise answer cannot be given.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific metric differences between the proposed model and the best baseline, quantifying the performance difference with numerical values. In contrast, Answer B does not provide any specific performance metrics or a direct comparison; instead, it discusses the general approach to evaluating performance differences without giving concrete data. Therefore, the two answers are not semantically equivalent as Answer A offers a clear, quantitative response while Answer B is vague and lacks direct relevance to the query."
+}

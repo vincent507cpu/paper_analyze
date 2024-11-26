@@ -1,0 +1,7 @@
+{
+    "query": "What datasets did they use for evaluation?",
+    "gold_answer": "CSAT dataset, 20 newsgroups, Fisher Phase 1 corpusCSAT dataset , 20 newsgroups, Fisher Phase 1 corpus",
+    "predict": "Wikipedia entity pages and revision history",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific datasets used for evaluation, including the CSAT dataset, 20 newsgroups, and the Fisher Phase 1 corpus. Answer B, however, mentions entirely different datasets: Wikipedia entity pages and revision history. Since the datasets referenced in both answers are distinct and do not overlap, they cannot be considered semantically equivalent."
+}

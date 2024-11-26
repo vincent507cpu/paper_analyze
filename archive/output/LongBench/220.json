@@ -1,0 +1,7 @@
+{
+    "query": "What is the combination of rewards for reinforcement learning?",
+    "gold_answer": "irony accuracy, sentiment preservation irony accuracy and sentiment preservation",
+    "predict": "RL receives negative reward; else positive reward.",
+    "consistency": "0",
+    "reasoning": "Answer A lists 'irony accuracy' and 'sentiment preservation' as components of rewards in reinforcement learning, suggesting a focus on specific metrics or criteria for evaluating performance. Answer B, on the other hand, describes a general principle of reinforcement learning where actions are rewarded positively or negatively based on their outcomes. The two answers address different aspects of rewards in reinforcement learning and do not convey the same meaning, making them semantically non-equivalent."
+}

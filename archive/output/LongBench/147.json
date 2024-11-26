@@ -1,0 +1,7 @@
+{
+    "query": "What tasks are used for evaluation?",
+    "gold_answer": "four machine translation tasks: German -> English, Japanese -> English, Romanian -> English, English -> German four machine translation tasks, IWSLT 2017 German $\\rightarrow $ English BIBREF27, KFTT Japanese $\\rightarrow $ English BIBREF28, WMT 2016 Romanian $\\rightarrow $ English BIBREF29, WMT 2014 English $\\rightarrow $ German BIBREF30",
+    "predict": "Tasks used for evaluation: \n1. Evaluation \n2. Evaluation \n3. Evaluation Setup \n4. Human Evaluations \n5. Human Evaluation",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific machine translation tasks with detailed language pairs, while Answer B provides a general list of evaluation-related tasks without specifying any particular machine translation context. The tasks in Answer B are vague and do not correspond to the specific machine translation tasks mentioned in Answer A. Therefore, the two answers are not semantically equivalent as they refer to different types of evaluation tasks."
+}

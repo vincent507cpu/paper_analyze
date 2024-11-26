@@ -1,0 +1,7 @@
+{
+    "query": "What other tasks do they test their method on?",
+    "gold_answer": "None",
+    "predict": "Tasks they tested their method on.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'None,' indicating that there are no other tasks tested. Answer B, however, suggests that there are tasks that were tested, as it refers to 'Tasks they tested their method on.' Since Answer A and Answer B convey opposite meanings regarding the existence of other tasks, they are not semantically equivalent."
+}

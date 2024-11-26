@@ -1,0 +1,7 @@
+{
+    "query": "Which models/frameworks do they compare to?",
+    "gold_answer": "MLPEusboost, MWMOTE",
+    "predict": "The models/frameworks compared to in the content include:\n- Existing handcrafted resource systems\n- Recent neural models",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models/frameworks (MLPEusboost, MWMOTE) that are being compared, while Answer B provides a broader context by mentioning 'existing handcrafted resource systems' and 'recent neural models.' The two answers refer to different sets of models/frameworks, and thus they do not convey the same information regarding the comparison. Therefore, they are not semantically equivalent."
+}

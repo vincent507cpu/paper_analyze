@@ -1,0 +1,7 @@
+{
+    "query": "What were their results on the new dataset?",
+    "gold_answer": "average recipe-level coherence scores of 1.78-1.82, human evaluators preferred personalized model outputs to baseline 63% of the time",
+    "predict": "Their results on the new datasets were presented.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific quantitative results regarding average recipe-level coherence scores and preferences of human evaluators, indicating a detailed analysis of the dataset. Answer B, however, only states that results were presented without any specifics. Since Answer A gives concrete data while Answer B lacks detail and does not convey the same information, they are not semantically equivalent."
+}

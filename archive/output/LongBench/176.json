@@ -1,0 +1,7 @@
+{
+    "query": "by how much did their model improve?",
+    "gold_answer": "For the WikiLarge dataset, the improvement over baseline NMT is 2.11 BLEU, 1.7 FKGL and 1.07 SARI.\nFor the WikiSmall dataset, the improvement over baseline NMT is  8.37 BLEU.6.37 BLEU",
+    "predict": "The model improved by 20%.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical improvements in various metrics (BLEU, FKGL, SARI) for two datasets, while Answer B gives a general percentage improvement of 20%. The two answers are not semantically equivalent because Answer A details specific improvements in different metrics, whereas Answer B summarizes the improvement as a single percentage without context on the metrics used. The lack of direct correlation between the specific metrics and the percentage makes them distinct."
+}

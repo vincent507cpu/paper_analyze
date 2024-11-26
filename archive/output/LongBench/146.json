@@ -1,0 +1,7 @@
+{
+    "query": "How much data is needed to train the task-specific encoder?",
+    "gold_answer": "57,505 sentences57,505 sentences",
+    "predict": "40 time-series with each consisting 150 observations",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a quantity of data in terms of '57,505 sentences,' which indicates a specific count of textual data required for training. Answer B, on the other hand, describes a different type of data requirement, stating '40 time-series with each consisting 150 observations,' which refers to a structured dataset involving time-series analysis. Since the two answers refer to different types of data and different quantities, they are not semantically equivalent."
+}

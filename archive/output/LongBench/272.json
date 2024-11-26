@@ -1,0 +1,7 @@
+{
+    "query": "Is the data de-identified?",
+    "gold_answer": "YesYes",
+    "predict": "No.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'YesYes,' which appears to be a typographical error or a repetition of 'Yes.' Answer B states 'No.' Since one answer affirms that the data is de-identified while the other denies it, they convey opposite meanings. Therefore, the two answers are not semantically equivalent."
+}

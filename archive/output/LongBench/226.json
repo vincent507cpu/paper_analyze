@@ -1,0 +1,7 @@
+{
+    "query": "What can word subspace represent?",
+    "gold_answer": "Word vectors, usually in the context of others within the same class",
+    "predict": "Word subspaces can represent variability within classes of text.",
+    "consistency": "0",
+    "reasoning": "Answer A describes 'word vectors' in relation to 'others within the same class,' indicating a focus on the representation of words in a vector space based on their class. Answer B discusses 'variability within classes of text,' which implies a broader concept of how word subspaces can capture differences among text classes. While both answers relate to the concept of word subspaces and their connection to classes, they emphasize different aspects: Answer A focuses on the vectors themselves, while Answer B highlights variability. Therefore, they are not semantically equivalent as they convey different meanings regarding the representation of word subspaces."
+}

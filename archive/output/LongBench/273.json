@@ -1,0 +1,7 @@
+{
+    "query": "What was the baseline used?",
+    "gold_answer": "error detection system by Rei2016error detection system by Rei2016",
+    "predict": "Baseline",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'error detection system by Rei2016' as the baseline, providing a detailed description of what the baseline is. Answer B simply states 'Baseline,' which is vague and does not provide any specific information about what the baseline entails. Since Answer A gives a specific example while Answer B is too general and lacks detail, the two answers are not semantically equivalent."
+}

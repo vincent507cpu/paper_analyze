@@ -1,0 +1,7 @@
+{
+    "query": "How were the human judgements assembled?",
+    "gold_answer": "50 human annotators ranked a random sample of 100 translations by Adequacy, Fluency and overall ranking on a 5-point scale.adequacy, precision and ranking values",
+    "predict": "The human judgements were assembled through multiple discussions and concluded opinions.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific method of assembling human judgments, detailing the use of 50 annotators who ranked translations based on defined criteria. In contrast, Answer B describes a more general process involving discussions and opinions without specifying the number of participants or the criteria used. Since the two answers describe fundamentally different processes for assembling human judgments, they are not semantically equivalent."
+}

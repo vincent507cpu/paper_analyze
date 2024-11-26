@@ -1,0 +1,7 @@
+{
+    "query": "Was PolyReponse evaluated against some baseline?",
+    "gold_answer": "NoNo",
+    "predict": "Yes, PolyResponse was evaluated against some baseline.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'NoNo,' which implies that PolyResponse was not evaluated against any baseline. In contrast, Answer B asserts that 'Yes, PolyResponse was evaluated against some baseline,' indicating that it was indeed evaluated. The two answers provide opposite information regarding the evaluation of PolyResponse, making them semantically non-equivalent."
+}

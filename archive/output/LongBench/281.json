@@ -1,0 +1,7 @@
+{
+    "query": "What model did they use for their system?",
+    "gold_answer": "AllWords model by counting the frequencies of all the remaining words and training a multinomial Naive Bayes classifier",
+    "predict": "ARM CPU",
+    "consistency": "0",
+    "reasoning": "Answer A describes a specific model used for a system, detailing the methodology involving word frequencies and a multinomial Naive Bayes classifier. Answer B, however, refers to a type of hardware (ARM CPU) rather than a model for a system in the context of data processing or machine learning. Since the two answers pertain to entirely different concepts—one being a statistical model and the other a hardware architecture—they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What language model architectures are used?",
+    "gold_answer": "uni-directional model to augment the decoderbi-directional language model to augment the sequence to sequence encoder ,  uni-directional model to augment the decoder",
+    "predict": "Neural sequence-to-sequence models with multi-source architectures and monolingual repair systems.",
+    "consistency": "0",
+    "reasoning": "Answer A describes specific types of language model architectures, focusing on uni-directional and bi-directional models in the context of decoders and encoders. Answer B, on the other hand, refers to neural sequence-to-sequence models with multi-source architectures and monolingual repair systems, which are broader and do not directly mention uni-directional or bi-directional models. The two answers discuss different aspects and types of language models, indicating that they are not semantically equivalent."
+}

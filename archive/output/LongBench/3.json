@@ -1,0 +1,7 @@
+{
+    "query": "Why is it important for the sides of the fuselage to be sloped (tumbled home)?",
+    "gold_answer": "The sides of the fuselage are sloped to create a conical section when the fuselage is formed.",
+    "predict": "The sides of the fuselage need to be sloped (tumbled home) to form a conical shape when cut by an oblique plane, creating a more aerodynamic and structurally sound design. Without this slope, the side panels would form a cylindrical section with flat longerons, leading to structural issues during assembly and potentially a less efficient aircraft structure.",
+    "consistency": "1",
+    "reasoning": "Answer A states that the sides of the fuselage are sloped to create a conical section, which is a simplified explanation. Answer B elaborates on this by explaining that the slope forms a conical shape when cut by an oblique plane, emphasizing the aerodynamic and structural benefits of this design. While both answers convey the importance of the slope in achieving a conical shape, Answer B provides additional context regarding aerodynamics and structural integrity. However, the core idea of forming a conical shape remains consistent between both answers, making them semantically equivalent in the context of the query."
+}

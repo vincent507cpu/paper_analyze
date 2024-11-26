@@ -1,0 +1,7 @@
+{
+    "query": "which chinese datasets were used?",
+    "gold_answer": "Answer with content missing: (Data section) Chinese with version 5.1 of the Chinese Penn Treebank (CTB)",
+    "predict": "The datasets used for the translation were collected from 1.7K bilingual ancient-modern Chinese articles and included historical records from several dynasties (about 1000BC-200BC) and articles by celebrities of those eras, ensuring general applicability.",
+    "consistency": "0",
+    "reasoning": "Answer A mentions the Chinese Penn Treebank (CTB) as a specific dataset used, while Answer B describes a collection of bilingual ancient-modern Chinese articles and historical records. The two answers refer to different datasets and do not overlap in content or context. Therefore, they are not semantically equivalent as they provide distinct information regarding the datasets used."
+}

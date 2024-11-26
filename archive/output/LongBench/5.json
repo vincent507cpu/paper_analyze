@@ -1,0 +1,7 @@
+{
+    "query": "What was Hugh H. Goodwin's rank in the United States Navy?",
+    "gold_answer": "Vice Admiral.",
+    "predict": "Vice Admiral",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

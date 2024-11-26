@@ -1,0 +1,7 @@
+{
+    "query": "What is the score achieved by the authors for Track-2?",
+    "gold_answer": "85.61%.",
+    "predict": "58.54%",
+    "consistency": "0",
+    "reasoning": "Answer A states a score of '85.61%' while Answer B states a score of '58.54%.' These two scores are numerically different and represent distinct outcomes. Since the question asks for a specific score achieved by the authors for Track-2, and the two answers provide different values, they cannot be considered semantically equivalent."
+}

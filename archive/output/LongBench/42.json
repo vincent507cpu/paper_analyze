@@ -1,0 +1,7 @@
+{
+    "query": "In which electorate was Simon English elected to the New Zealand Parliament?",
+    "gold_answer": "The Wallace electorate.",
+    "predict": "The electorate where Simon English was elected to the New Zealand Parliament is not specified in the given content. The provided text does not contain the exact information about his election details.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'The Wallace electorate' as the electorate where Simon English was elected, providing a clear and direct answer to the query. Answer B, however, states that the information is not specified in the given content, which contradicts the information provided in Answer A. Since Answer A provides a specific answer while Answer B denies the existence of that information, the two answers are not semantically equivalent."
+}

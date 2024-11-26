@@ -1,0 +1,7 @@
+{
+    "query": "What is Professor Tulis's forthcoming book?",
+    "gold_answer": "Legacies of Losing in American Politics and an expanded edition of The Rhetorical Presidency in the Princeton Classics series.",
+    "predict": "Professor Tulis's forthcoming book includes \"Legacies of Losing in American Politics\" with Nicole Mellow (University of Chicago Press, Fall 2017) and an expanded edition of \"The Rhetorical Presidency\" in the Princeton Classics series (Princeton, Fall 2017).",
+    "consistency": "1",
+    "reasoning": "Answer A provides the titles of Professor Tulis's forthcoming books, while Answer B elaborates on the same titles, including additional details such as co-authorship and publication dates. Despite the differences in detail, both answers refer to the same forthcoming works, making them semantically equivalent in the context of the query about Professor Tulis's forthcoming book."
+}

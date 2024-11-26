@@ -1,0 +1,7 @@
+{
+    "query": "What position did Simon English hold in the 2008 general election?",
+    "gold_answer": "He became deputy prime minister and minister of finance.",
+    "predict": "Deputy Prime Minister",
+    "consistency": "0",
+    "reasoning": "Answer A provides a more detailed response, stating that Simon English became both the deputy prime minister and minister of finance. Answer B simply states 'Deputy Prime Minister,' which is a part of the information in Answer A. However, since Answer B does not include the additional detail about the minister of finance, it does not fully capture the information in Answer A. Therefore, while both answers refer to the same position, they are not semantically equivalent due to the difference in detail provided."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What background do they have?",
+    "gold_answer": "Unanswerable",
+    "predict": "They have no specific background mentioned.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that there is no information available to determine the background. Answer B provides a specific statement that 'They have no specific background mentioned,' which implies a lack of information as well. However, Answer A suggests a broader inability to answer, while Answer B explicitly states the absence of information. Therefore, while both answers convey a lack of information, they do so in different ways, making them not semantically equivalent."
+}

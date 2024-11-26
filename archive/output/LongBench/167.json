@@ -1,0 +1,7 @@
+{
+    "query": "How do they obtain psychological dimensions of people?",
+    "gold_answer": "using the Meaning Extraction MethodUnanswerable",
+    "predict": "They obtain psychological dimensions of people through human evaluations using task-based settings with experts, which allows for more focused improvement in explanatory power rather than minor improvements in predictive performance.",
+    "consistency": "0",
+    "reasoning": "Answer A mentions the 'Meaning Extraction Method' as a way to obtain psychological dimensions, but it lacks detail and context. Answer B provides a comprehensive explanation involving 'human evaluations' and 'task-based settings with experts,' emphasizing a methodical approach to improving explanatory power. The two answers describe different methods and levels of detail, indicating they are not semantically equivalent."
+}

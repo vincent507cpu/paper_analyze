@@ -1,0 +1,7 @@
+{
+    "query": "which languages are explored?",
+    "gold_answer": "Bulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish and SwedishBulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish , Swedish",
+    "predict": "The languages explored include Chinese Mandarin, Spanish, Welsh, Kiswahili, as well as various low-resource languages.",
+    "consistency": "0",
+    "reasoning": "Answer A lists a specific set of languages, including European and some Asian languages, while Answer B mentions a different set of languages, including Chinese Mandarin, Welsh, Kiswahili, and refers to low-resource languages. Since the languages mentioned in both answers do not overlap and represent distinct groups, they are not semantically equivalent."
+}

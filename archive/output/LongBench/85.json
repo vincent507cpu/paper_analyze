@@ -1,0 +1,7 @@
+{
+    "query": "How can players skip dialogue on the quest map?",
+    "gold_answer": "Players can skip dialogue on the quest map by pressing the 'SKIP' button.",
+    "predict": "Players can skip dialogue on the quest map by pressing 'SKIP'.",
+    "consistency": "1",
+    "reasoning": "Answer A specifies that players can skip dialogue by pressing the 'SKIP' button, while Answer B states that players can skip dialogue by pressing 'SKIP'. Both answers convey the same action of skipping dialogue using the 'SKIP' control, and the term 'button' in Answer A does not change the meaning of the action described. Therefore, both answers are semantically equivalent."
+}

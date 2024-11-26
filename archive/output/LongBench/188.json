@@ -1,0 +1,7 @@
+{
+    "query": "What embedding techniques are explored in the paper?",
+    "gold_answer": "Skip–gram, CBOWintegrated vector-res, vector-faith, Skip–gram, CBOW",
+    "predict": "The paper explores negative examples addition for embedding techniques.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific embedding techniques such as 'Skip–gram' and 'CBOW,' which are well-known methods in natural language processing for generating word embeddings. In contrast, Answer B discusses a different aspect of embedding techniques, specifically the addition of negative examples, which is a methodological enhancement rather than a specific technique. Since Answer A focuses on the types of techniques while Answer B addresses a different concept related to those techniques, the answers are not semantically equivalent."
+}

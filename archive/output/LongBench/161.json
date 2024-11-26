@@ -1,0 +1,7 @@
+{
+    "query": "what datasets did they use?",
+    "gold_answer": "the Carnegie Mellon Pronouncing Dictionary BIBREF12, the multilingual pronunciation corpus collected by deri2016grapheme , ranscriptions extracted from Wiktionarymultilingual pronunciation corpus collected by deri2016grapheme",
+    "predict": "The content provided does not list specific datasets used.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed list of specific datasets used, including the Carnegie Mellon Pronouncing Dictionary and a multilingual pronunciation corpus. In contrast, Answer B states that the content does not list specific datasets. Since Answer A explicitly names datasets while Answer B denies the presence of such information, the two answers are not semantically equivalent."
+}

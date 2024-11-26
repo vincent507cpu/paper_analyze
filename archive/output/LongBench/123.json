@@ -1,0 +1,7 @@
+{
+    "query": "How does their ensemble method work?",
+    "gold_answer": "simply averaging the predictions from the constituent single models",
+    "predict": "The ensembles are created by averaging the predictions from individual single models selected using validation performance. The final ensemble achieves an accuracy of 0.643 on the test set when combining Text, Occu, Intro, and Inter L0 classifiers.",
+    "consistency": "1",
+    "reasoning": "Answer A describes the ensemble method as 'simply averaging the predictions from the constituent single models,' which is a general explanation of how ensemble methods work. Answer B provides a more detailed explanation, stating that the ensembles are created by averaging predictions from individual models selected based on validation performance and includes specific accuracy metrics. While both answers describe the averaging process, Answer B adds context about model selection and performance metrics, which makes it more specific but does not change the fundamental concept of averaging predictions. Therefore, they are semantically equivalent in the context of describing the ensemble method's basic operation."
+}

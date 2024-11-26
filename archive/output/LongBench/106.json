@@ -1,0 +1,7 @@
+{
+    "query": "What is the potential of SNNs in modeling the visual system?",
+    "gold_answer": "SNNs have the potential to better model and explain the functional hierarchy and mechanisms of the visual system.",
+    "predict": "The potential of SNNs in modeling the visual system is demonstrated by their ability to better model and explain the functional hierarchy and mechanisms of the visual system.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B convey the same core idea regarding the potential of Spiking Neural Networks (SNNs) in modeling the visual system. Answer A states that SNNs have the potential to better model and explain the visual system, while Answer B elaborates that this potential is demonstrated by their ability to do so. The phrasing is slightly different, but the semantic meaning remains the same, indicating that SNNs can effectively model the visual system's functional hierarchy and mechanisms. Therefore, the two answers are semantically equivalent."
+}

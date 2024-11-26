@@ -1,0 +1,7 @@
+{
+    "query": "How does a media application determine the context of an event?",
+    "gold_answer": "It uses a content-recognition module or algorithm.",
+    "predict": "A media application determines the context of an event by using content-recognition modules and analyzing associated data, such as the written and spoken words, actions, tone, and time periods before and after the event. This helps to provide supplemental information about the event's context quickly and easily.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a brief explanation that a media application uses a content-recognition module or algorithm to determine the context of an event. Answer B expands on this by detailing not only the use of content-recognition modules but also the analysis of various associated data types, which enhances the understanding of the event's context. While both answers address the use of content-recognition, Answer B offers a more comprehensive view of the process. However, they are not semantically equivalent because Answer A is too vague and does not encompass the full scope of Answer B's explanation."
+}

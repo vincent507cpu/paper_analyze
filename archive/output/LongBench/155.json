@@ -1,0 +1,7 @@
+{
+    "query": "Do they test their framework performance on commonly used language pairs, such as English-to-German?",
+    "gold_answer": "YesYes",
+    "predict": "Yes, they test their framework performance on commonly used language pairs like English-to-German by using Spanish as an original language.",
+    "consistency": "0",
+    "reasoning": "Answer A simply states 'YesYes,' which is an affirmation but lacks any detail or context. Answer B provides a detailed response, confirming that they test their framework performance on commonly used language pairs, specifically mentioning English-to-German and introducing Spanish as an original language. Since Answer A does not provide any information about the testing process or the language pairs involved, it cannot be considered semantically equivalent to Answer B, which offers a comprehensive explanation."
+}

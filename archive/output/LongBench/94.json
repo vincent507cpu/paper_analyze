@@ -1,0 +1,7 @@
+{
+    "query": "What does the paper aim to solve?",
+    "gold_answer": "The paper aims to solve nonlinear system vibration problems efficiently.",
+    "predict": "The paper aims to solve something.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that the paper aims to solve 'nonlinear system vibration problems efficiently,' providing a clear and specific problem area. Answer B, however, is vague and only states that the paper aims to solve 'something,' which does not convey any specific information about the problem being addressed. Since Answer A provides a concrete problem while Answer B is ambiguous, they are not semantically equivalent."
+}

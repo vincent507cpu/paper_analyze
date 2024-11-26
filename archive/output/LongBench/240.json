@@ -1,0 +1,7 @@
+{
+    "query": "On which tasks do they test their conflict method?",
+    "gold_answer": "Task 1: Quora Duplicate Question Pair Detection, Task 2: Ranking questionsQuora Duplicate Question Pair Detection, Ranking questions in Bing's People Also Ask",
+    "predict": "Their conflict method is tested on tasks that have contradicting relationships.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific tasks where the conflict method is tested, namely 'Quora Duplicate Question Pair Detection' and 'Ranking questions in Bing's People Also Ask.' In contrast, Answer B describes the nature of the tasks as having 'contradicting relationships' but does not specify any particular tasks. Since Answer A gives concrete examples while Answer B speaks in general terms about the type of tasks, they do not convey the same information and are therefore not semantically equivalent."
+}

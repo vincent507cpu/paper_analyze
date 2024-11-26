@@ -1,0 +1,7 @@
+{
+    "query": "When did Born resign as chairperson of the CFTC?",
+    "gold_answer": "June 1, 1999.",
+    "predict": "June 1, 1999",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

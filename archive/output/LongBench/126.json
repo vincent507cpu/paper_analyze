@@ -1,0 +1,7 @@
+{
+    "query": "What sentiment analysis dataset is used?",
+    "gold_answer": "IMDb dataset of movie reviewsIMDb",
+    "predict": "Three datasets annotated with emotions are commonly used for the development and evaluation of emotion detection systems: the Affective Text dataset, the Fairy Tales dataset, and the ISEAR dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the IMDb dataset, which is focused on movie reviews and is commonly used for sentiment analysis. Answer B, however, lists three different datasets that are specifically annotated for emotions, which is a different focus than general sentiment analysis. Since the datasets mentioned in Answer B do not overlap with the IMDb dataset and serve different purposes, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What are the three phases of the author's preaching process?",
+    "gold_answer": "The three phases are exegetical, theological, and homiletical.",
+    "predict": "The three phases of the author's preaching process are: exegetical, homiletical, and theological.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B list the same three phases of the author's preaching process: exegetical, theological, and homiletical. The order of the phases differs, but this does not change the fact that they are the same concepts being referred to. Therefore, the answers are semantically equivalent as they convey the same information about the phases of the preaching process."
+}

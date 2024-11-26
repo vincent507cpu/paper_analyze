@@ -1,0 +1,7 @@
+{
+    "query": "what NMT models did they compare with?",
+    "gold_answer": "RNN-based NMT model, Transformer-NMT",
+    "predict": "They compared NMT models with Transformer models (b INLINEFORM0), RNMT models (a INLINEFORM1), uni-directional PBSMT models (c1), M2M models (a3) and (b3).",
+    "consistency": "0",
+    "reasoning": "Answer A lists two specific types of NMT models: 'RNN-based NMT model' and 'Transformer-NMT.' Answer B, however, provides a broader and more detailed list of models, including 'Transformer models,' 'RNMT models,' 'uni-directional PBSMT models,' and 'M2M models.' While both answers mention 'Transformer' and 'RNN' models, Answer B includes additional models and variations that are not mentioned in Answer A. Therefore, the two answers do not convey the same information and are not semantically equivalent."
+}

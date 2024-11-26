@@ -1,0 +1,7 @@
+{
+    "query": "What baseline model is used?",
+    "gold_answer": "For Article-Entity placement, they consider two baselines: the first one using only salience-based features, and the second baseline checks if the entity appears in the title of the article. \n\nFor Article-Section Placement, they consider two baselines: the first picks the section with the highest lexical similarity to the article, and the second one picks the most frequent section.B1. The first baseline uses only the salience-based features by Dunietz and Gillick BIBREF11 ., B2. The second baseline assigns the value relevant to a pair INLINEFORM0 , if and only if INLINEFORM1 appears in the title of INLINEFORM2 .\n\n, S1: Pick the section from template INLINEFORM0 with the highest lexical similarity to INLINEFORM1 : S1 INLINEFORM2, S2: Place the news into the most frequent section in INLINEFORM0",
+    "predict": "The baseline model is used.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed explanation of the baseline models used for Article-Entity and Article-Section placement, specifying the features and methods involved. In contrast, Answer B is vague and simply states that a baseline model is used without any elaboration. Since Answer A gives specific information about the baseline models while Answer B does not provide any relevant details, the two answers are not semantically equivalent."
+}

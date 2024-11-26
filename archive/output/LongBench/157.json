@@ -1,0 +1,7 @@
+{
+    "query": "What evaluation metrics are looked at for classification tasks?",
+    "gold_answer": "Precision, Recall, F-measure, accuracyPrecision, Recall and F-measure",
+    "predict": "Precision, Recall, F1-score",
+    "consistency": "0",
+    "reasoning": "Answer A lists 'Precision, Recall, F-measure, accuracy' as evaluation metrics, while Answer B lists 'Precision, Recall, F1-score.' The F-measure is often synonymous with the F1-score, but Answer A also includes 'accuracy,' which is not mentioned in Answer B. Since Answer A includes an additional metric (accuracy) that is not present in Answer B, the two answers cannot be considered semantically equivalent."
+}

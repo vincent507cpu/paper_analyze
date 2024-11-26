@@ -1,0 +1,7 @@
+{
+    "query": "How is the quality of the data empirically evaluated? ",
+    "gold_answer": "Validated transcripts were sent to professional translators., various sanity checks to the translations,  sanity check the overlaps of train, development and test setscomputed sentence-level BLEU, We manually inspected examples where the source transcript was identical to the translation, measured the perplexity of the translations, computed the ratio of English characters in the translations, calculate similarity scores between transcripts and translations",
+    "predict": "Empirically evaluated through an empirical evaluation across diverse tasks.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed and specific methodology for evaluating the quality of data, including various checks and metrics such as BLEU scores and manual inspections. In contrast, Answer B offers a vague statement about empirical evaluation without detailing the methods or metrics used. Since Answer A outlines concrete steps while Answer B lacks specificity and clarity, the two answers are not semantically equivalent."
+}

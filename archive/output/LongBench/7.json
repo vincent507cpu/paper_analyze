@@ -1,0 +1,7 @@
+{
+    "query": "Can individual molecules of indeno[1,2-a]fluorene switch between open-shell and closed-shell states?",
+    "gold_answer": "Yes, individual molecules of indeno[1,2-a]fluorene can switch between open-shell and closed-shell states by changing their adsorption site on the surface.",
+    "predict": "Yes, individual molecules of indeno[1,2-a]fluorene can switch between open-shell and closed-shell states.",
+    "consistency": "1",
+    "reasoning": "Answer A provides additional context by mentioning that the switching between open-shell and closed-shell states occurs by changing the adsorption site on the surface. Answer B states that individual molecules can switch between these states but does not provide any additional information. Despite this difference in detail, both answers affirm the same fundamental capability of the molecules to switch states. Therefore, they are semantically equivalent in the context of the query."
+}

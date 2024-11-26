@@ -1,0 +1,7 @@
+{
+    "query": "Do they use large or small BERT?",
+    "gold_answer": "small BERTsmall BERT",
+    "predict": "They use BERT-Base.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'small BERT,' indicating the use of a smaller variant of the BERT model. Answer B states 'BERT-Base,' which is a specific version of BERT that is larger than the small variant but smaller than BERT-Large. Since 'small BERT' and 'BERT-Base' refer to different sizes of the BERT model, they are not semantically equivalent in this context."
+}

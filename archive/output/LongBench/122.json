@@ -1,0 +1,7 @@
+{
+    "query": "How does this approach compare to other WSD approaches employing word embeddings?",
+    "gold_answer": "GM$\\_$KL achieves better correlation than existing approaches for various metrics on SCWS dataset.",
+    "predict": "This approach compares favorably with other methods that use word embeddings by significantly outperforming the current state of the art in several English all-words WSD datasets.",
+    "consistency": "0",
+    "reasoning": "Answer A states that GM_KL achieves better correlation than existing approaches specifically on the SCWS dataset, focusing on correlation metrics. Answer B, on the other hand, claims that the approach compares favorably and significantly outperforms the current state of the art across several English all-words WSD datasets. While both answers indicate that the approach is superior to others, they refer to different aspects (correlation metrics vs. overall performance across datasets) and do not provide the same level of specificity. Therefore, they are not semantically equivalent."
+}

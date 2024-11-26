@@ -1,0 +1,7 @@
+{
+    "query": "Do they report results only on English data?",
+    "gold_answer": "UnanswerableUnanswerable",
+    "predict": "Yes, they report results on English data only.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered definitively. Answer B provides a clear response affirming that results are reported only on English data. Since one answer suggests that the question cannot be answered while the other provides a specific answer, they are not semantically equivalent."
+}

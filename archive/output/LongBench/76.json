@@ -1,0 +1,7 @@
+{
+    "query": "Where can users go for troubleshooting and support?",
+    "gold_answer": "Online documentation, QuecPython community, online support: QQ group 445121768.",
+    "predict": "Users can go to customer support websites for troubleshooting and support.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific resources for troubleshooting and support, including online documentation, a community, and a specific QQ group. Answer B, on the other hand, refers to 'customer support websites' in a more general sense without specifying any particular resources. While both answers address the topic of troubleshooting and support, they do so in different ways and with different levels of specificity. Therefore, they are not semantically equivalent."
+}

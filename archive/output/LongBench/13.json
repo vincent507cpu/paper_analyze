@@ -1,0 +1,7 @@
+{
+    "query": "What is the main methodology used in the research?",
+    "gold_answer": "An unsupervised method based on the information bottleneck and contrastive learning.",
+    "predict": "Theoretical derivation and numerical simulation are primarily used in the research on SBI.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a specific methodology involving unsupervised methods, information bottleneck, and contrastive learning. In contrast, Answer B mentions theoretical derivation and numerical simulation as the primary methods used in the research. Since the two answers refer to different methodologies and do not overlap in their descriptions, they are not semantically equivalent."
+}

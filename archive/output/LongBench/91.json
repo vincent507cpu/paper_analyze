@@ -1,0 +1,7 @@
+{
+    "query": "What is the group's request to the Connecticut DEEP Commissioner?",
+    "gold_answer": "Appointing a blue ribbon commission to conduct the research and develop the management plan and denying or defering approval on any applications for new docks in the Cove until the management plan can be developed and implemented.",
+    "predict": "The group (likely referring to FOWC) is requesting that Commissioner Rob Klee appoint a blue ribbon commission and deny/defer approval on new docks in the Cove.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a detailed description of the group's request, specifying the appointment of a blue ribbon commission and the denial or deferral of new dock applications until a management plan is developed. Answer B summarizes the same request, mentioning the appointment of a blue ribbon commission and the denial/deferment of new docks, but in a more concise manner. Both answers convey the same essential information regarding the group's request to the Connecticut DEEP Commissioner, making them semantically equivalent."
+}

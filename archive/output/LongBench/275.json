@@ -1,0 +1,7 @@
+{
+    "query": "Why masking words in the decoder is helpful?",
+    "gold_answer": "ecause this process is similar to the cloze task in BERT's pre-train process, therefore by using the ability of the contextual language model the decoder can generate more fluent and natural sequences.",
+    "predict": "Masking words in the decoder helps by improving performance compared to using only input embeddings.",
+    "consistency": "0",
+    "reasoning": "Answer A explains that masking words in the decoder is beneficial because it resembles the cloze task in BERT's pre-training, which enhances the decoder's ability to generate fluent sequences. Answer B states that masking improves performance compared to using only input embeddings. While both answers discuss the benefits of masking, they focus on different aspects: Answer A emphasizes the similarity to BERT's training process, while Answer B highlights performance improvement. Since they address different reasons for the benefits of masking, they are not semantically equivalent."
+}

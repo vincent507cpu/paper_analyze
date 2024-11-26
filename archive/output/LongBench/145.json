@@ -1,0 +1,7 @@
+{
+    "query": "What labels do they create on their dataset?",
+    "gold_answer": "(1) the time the patient has been experiencing the symptom, (2) activities that trigger the symptom (to occur or worsen), (3) the extent of seriousness, (4) the frequency occurrence of the symptom, and (5) the location of symptom, No Answerthe time the patient has been experiencing the symptom, activities that trigger the symptom, the extent of seriousness, the frequency occurrence of the symptom, the location of symptom, 9 symptoms",
+    "predict": "Table TABREF20",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed list of specific labels related to a dataset concerning patient symptoms, while Answer B simply refers to a table labeled 'TABREF20.' The two answers address different aspects of the dataset: Answer A describes the content and nature of the labels, whereas Answer B does not provide any information about the labels themselves. Therefore, they are not semantically equivalent as they convey different information regarding the dataset."
+}

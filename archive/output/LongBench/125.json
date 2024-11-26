@@ -1,0 +1,7 @@
+{
+    "query": "what language does this paper focus on?",
+    "gold_answer": "EnglishSimple English",
+    "predict": "This paper focuses on computational text analysis in languages with extremely low resource availability.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'EnglishSimple English' as the language the paper focuses on, while Answer B discusses computational text analysis in languages with extremely low resource availability without mentioning a specific language. The two answers address different aspects of language focus; Answer A identifies a specific language, whereas Answer B refers to a category of languages without naming one. Therefore, they are not semantically equivalent."
+}

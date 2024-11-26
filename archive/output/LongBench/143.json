@@ -1,0 +1,7 @@
+{
+    "query": "How many users do they look at?",
+    "gold_answer": "22,880 users20,000",
+    "predict": "8 users",
+    "consistency": "0",
+    "reasoning": "Answer A states '22,880 users20,000,' which appears to be a typographical error or a concatenation of two numbers, suggesting a total of 22,880 users. Answer B states '8 users.' The two answers provide significantly different quantities of users being looked at. Since 22,880 and 8 are not equivalent in value, the answers are not semantically equivalent."
+}

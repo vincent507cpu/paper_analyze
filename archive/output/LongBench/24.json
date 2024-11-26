@@ -1,0 +1,7 @@
+{
+    "query": "What did Mary tell the disciples?",
+    "gold_answer": "\"I have seen the Lord.\".",
+    "predict": "Mary told the disciples \"I have seen the Lord\"; and she also announced to them that he had said these things to her.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a direct quote of what Mary told the disciples, while Answer B expands on this by including additional context about her announcement and what the Lord said to her. Although both answers convey the core message that Mary saw the Lord, Answer B includes more information that is not present in Answer A. Therefore, they are not semantically equivalent as Answer B elaborates beyond the scope of Answer A."
+}

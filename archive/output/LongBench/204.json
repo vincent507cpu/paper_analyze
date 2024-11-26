@@ -1,0 +1,7 @@
+{
+    "query": "On what datasets are experiments performed?",
+    "gold_answer": "SQuADSQuAD",
+    "predict": "Datasets and Experimental Settings",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'SQuADSQuAD' as the dataset on which experiments are performed, indicating a specific dataset. Answer B, however, refers to 'Datasets and Experimental Settings,' which is a broader term that does not specify any particular dataset. Since Answer A provides a specific dataset while Answer B refers to a general category of datasets, they are not semantically equivalent."
+}

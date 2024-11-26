@@ -1,0 +1,7 @@
+{
+    "query": "How large is their data set?",
+    "gold_answer": "a sample of  29,794 wikipedia articles and 2,794 arXiv papers ",
+    "predict": "The size of the training dataset used in the results and discussion section is mentioned as \"Training Dataset Size\". However, specific dimensions (e.g., number of rows or files) are not provided here.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific numerical size of the data set, detailing the exact number of Wikipedia articles and arXiv papers included. Answer B, however, refers to the training dataset size in a more general manner without providing specific dimensions or numbers. Since Answer A gives concrete figures while Answer B lacks specific details, the two answers are not semantically equivalent regarding the size of the data set."
+}

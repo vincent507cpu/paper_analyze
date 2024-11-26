@@ -1,0 +1,7 @@
+{
+    "query": "对于PD3.0协议，FS312BH支持的最高诱骗电压是多少？",
+    "gold_answer": "48V.",
+    "predict": "FS8623B",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific voltage value of '48V' as the maximum spoofing voltage supported by the FS312BH under the PD3.0 protocol. Answer B, however, mentions 'FS8623B,' which appears to be a model number rather than a voltage value. Since one answer provides a numerical voltage while the other provides a model identifier, they are not semantically equivalent."
+}

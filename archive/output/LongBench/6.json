@@ -1,0 +1,7 @@
+{
+    "query": "What are the three synthetic types of vitamin K?",
+    "gold_answer": "Vitamins K3, K4, and K5.",
+    "predict": "The three synthetic types of vitamin K are vitamins K3 (menadione), K4, and K5.",
+    "consistency": "1",
+    "reasoning": "Answer A lists the synthetic types of vitamin K as K3, K4, and K5, while Answer B provides the same information but adds that K3 is also known as menadione. The additional detail in Answer B does not change the fundamental information about the types of vitamin K being discussed. Both answers convey the same essential content regarding the synthetic types of vitamin K, making them semantically equivalent."
+}

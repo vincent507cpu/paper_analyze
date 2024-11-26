@@ -1,0 +1,7 @@
+{
+    "query": "How does the conduction gap depend on the strain direction?",
+    "gold_answer": "Peaks occur at certain strain directions, while the gap is zero at others.",
+    "predict": "The conduction gap depends on both the applied direction and the strength of strain.",
+    "consistency": "0",
+    "reasoning": "Answer A describes the behavior of the conduction gap in relation to specific strain directions, indicating that there are peaks and points where the gap is zero. Answer B, on the other hand, states that the conduction gap depends on both the direction and the strength of strain, which introduces an additional factor (strength) not mentioned in Answer A. Since Answer A focuses solely on the directionality of strain and its effects, while Answer B includes both direction and strength, the two answers do not convey the same information and are therefore not semantically equivalent."
+}

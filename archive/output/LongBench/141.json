@@ -1,0 +1,7 @@
+{
+    "query": "Is WordNet useful for taxonomic reasoning for this task?",
+    "gold_answer": "UnanswerableYes",
+    "predict": "Yes, WordNet is useful for taxonomic reasoning for this task.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'UnanswerableYes,' which is ambiguous and does not clearly affirm or deny the usefulness of WordNet for taxonomic reasoning. Answer B explicitly states that 'Yes, WordNet is useful for taxonomic reasoning for this task,' providing a clear affirmation. Since Answer A does not provide a definitive answer and is unclear, while Answer B is straightforward, the two answers are not semantically equivalent."
+}

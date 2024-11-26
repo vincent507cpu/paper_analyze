@@ -2,8 +2,6 @@
 .env
 config.py
 
-archive
-notebooks
 store
-data
+
 

@@ -1,0 +1,7 @@
+{
+    "query": "Is there any evidence of heaven and hell?",
+    "gold_answer": "Unknown.",
+    "predict": "There are no explicit evidence of heaven and hell in the provided content.",
+    "consistency": "1",
+    "reasoning": "Answer A states 'Unknown,' indicating a lack of definitive evidence regarding heaven and hell. Answer B elaborates that 'there are no explicit evidence of heaven and hell in the provided content,' which also conveys a lack of evidence but provides more context. While both answers suggest uncertainty about the existence of evidence, Answer B is more specific in its phrasing. However, both ultimately communicate the same idea of absence of evidence, making them semantically equivalent in this context."
+}

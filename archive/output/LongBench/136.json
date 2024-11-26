@@ -1,0 +1,7 @@
+{
+    "query": "what was the baseline?",
+    "gold_answer": " MT system on the data released by BIBREF11Transformer base, two-pass CADec model",
+    "predict": "The term \"baseline\" is repeated five times in the given content.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific description of a baseline related to a machine translation system and a model, while Answer B refers to the term 'baseline' being mentioned multiple times in some content. The two answers address different aspects of the term 'baseline'—one is about a specific system and model, and the other is about the frequency of the term's occurrence. Therefore, they are not semantically equivalent."
+}

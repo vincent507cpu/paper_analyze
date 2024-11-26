@@ -1,0 +1,7 @@
+{
+    "query": "What is the purpose of an ICD?",
+    "gold_answer": "Implantable Cardioverter Defibrillator (ICD) is a surgically implanted electronic device to treat life-threatening heartbeat irregularities.",
+    "predict": "The purpose of an ICD is to describe the patient's histological diagnosis in pathology reports for cancer registries, as per the World Health Organization's International Classification of Diseases for Oncology.",
+    "consistency": "0",
+    "reasoning": "Answer A defines an ICD as an Implantable Cardioverter Defibrillator, which is a medical device used to treat heart rhythm disorders. Answer B, however, describes ICD in the context of the International Classification of Diseases for Oncology, which is related to cancer diagnosis and reporting. The two answers refer to entirely different concepts and uses of the acronym 'ICD,' making them semantically non-equivalent."
+}

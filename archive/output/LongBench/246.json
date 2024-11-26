@@ -1,0 +1,7 @@
+{
+    "query": "Which models did they experiment with?",
+    "gold_answer": "Stacked LSTMs, Cell-aware Stacked LSTMs, Sentence Encoders, Top-layer Classifiers",
+    "predict": "The content mentions \"Experiments\" three times, indicating that multiple models were experimented with. Specifically, the phrase \"Comparison of different models\" suggests experiments involving various models were conducted and compared to evaluate their performance or effectiveness. Therefore, it can be inferred that they experimented with several models for this experiment.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific list of models that were experimented with, while Answer B discusses the concept of experimenting with multiple models without naming any specific ones. Although both answers imply that multiple models were involved in the experiments, Answer A is concrete and direct, whereas Answer B is more general and interpretative. Therefore, they do not convey the same level of specificity and cannot be considered semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Which component is the least impactful?",
+    "gold_answer": "Based on table results provided changing directed to undirected edges had least impact - max abs difference of 0.33 points on all three datasets.",
+    "predict": "Rebuttal and Refutation",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific analysis regarding the impact of changing directed to undirected edges, quantifying it with a maximum absolute difference of 0.33 points across datasets. Answer B, however, does not address the query at all; it simply states 'Rebuttal and Refutation,' which is unrelated to the question about the least impactful component. Since Answer B does not provide any relevant information regarding the query, the two answers are not semantically equivalent."
+}

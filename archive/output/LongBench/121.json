@@ -1,0 +1,7 @@
+{
+    "query": "What are the datasets used for evaluation?",
+    "gold_answer": "CNN/DailyMail news highlights, New York Times Annotated Corpus, XSumthe CNN/DailyMail news highlights dataset BIBREF24, the New York Times Annotated Corpus (NYT; BIBREF25), XSum BIBREF22",
+    "predict": "Sentence pairs datasets: SNLI and multiNLI  \nQuestion pair datasets: Quora, Clinical-QE, and SemEval-cQA",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific datasets used for evaluation, including CNN/DailyMail, New York Times Annotated Corpus, and XSum, which are all related to news and text summarization. Answer B, on the other hand, mentions different types of datasets, specifically sentence pairs and question pair datasets like SNLI, multiNLI, Quora, Clinical-QE, and SemEval-cQA, which are focused on natural language inference and question answering. Since the datasets mentioned in both answers serve different purposes and contexts, they are not semantically equivalent."
+}

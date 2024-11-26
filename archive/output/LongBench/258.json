@@ -1,0 +1,7 @@
+{
+    "query": "What is the size of the dataset?",
+    "gold_answer": "Dataset contains 3606 total sentences and 79087 total entities.ILPRL contains 548 sentences, OurNepali contains 3606 sentences",
+    "predict": "The size of the dataset is not specified in the given content.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific details about the dataset, including the total number of sentences and entities, which directly addresses the query about the size of the dataset. In contrast, Answer B states that the size is not specified, which contradicts the information given in Answer A. Since Answer A provides a clear size while Answer B denies that such information is available, the two answers are not semantically equivalent."
+}

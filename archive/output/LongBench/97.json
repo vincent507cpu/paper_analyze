@@ -1,0 +1,7 @@
+{
+    "query": "What is the main focus of the research paper?",
+    "gold_answer": "Nuclear liquid-gas transition in lattice QCD.",
+    "predict": "The main focus of the research paper is not specified in the given content.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific topic, 'Nuclear liquid-gas transition in lattice QCD,' indicating the main focus of the research paper. In contrast, Answer B states that the main focus is not specified, which directly contradicts the information given in Answer A. Since one answer specifies a focus while the other denies the existence of a specified focus, they are not semantically equivalent."
+}

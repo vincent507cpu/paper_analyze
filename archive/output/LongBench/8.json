@@ -1,0 +1,7 @@
+{
+    "query": "What field does Danny work in in Tennessee?",
+    "gold_answer": "3-D printing and software development.",
+    "predict": "Dan Fegan works in Tennessee.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that Danny works in '3-D printing and software development,' which describes his professional field. Answer B, however, states that 'Dan Fegan works in Tennessee,' which does not provide any information about the field in which Dan Fegan works. Since Answer B does not address the query regarding the field of work, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the security parameter for the AES-256 block cipher?",
+    "gold_answer": "172.",
+    "predict": "The security parameter for the AES-256 block cipher is 172.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a numerical value '172' as the security parameter for the AES-256 block cipher, while Answer B states the same information but in a complete sentence. Both answers convey the same information regarding the security parameter, making them semantically equivalent despite the difference in presentation."
+}

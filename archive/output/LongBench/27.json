@@ -1,0 +1,7 @@
+{
+    "query": "What does the new Iraqi Body Count organization do?",
+    "gold_answer": "It provides cover for the war and allows supporters of the illegal war to point to it.",
+    "predict": "The new Iraqi Body Count organization provides cover for the war by offering statistical data that presents Iraq as being better off than it actually is, thereby allowing supporters of the illegal war to claim \"Things aren't so bad.\"",
+    "consistency": "1",
+    "reasoning": "Answer A states that the Iraqi Body Count organization provides cover for the war and allows supporters of the illegal war to point to it. Answer B elaborates on this by explaining that the organization offers statistical data that misrepresents the situation in Iraq, which also serves to provide cover for the war. Both answers convey the idea that the organization supports the war narrative, but Answer B provides additional context about the nature of the data used. Despite the differences in detail, both answers fundamentally express the same concept regarding the organization's role, making them semantically equivalent."
+}

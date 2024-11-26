@@ -1,0 +1,7 @@
+{
+    "query": "What dataset did they use?",
+    "gold_answer": " high-quality datasets  from SemEval-2016 “Sentiment Analysis in Twitter” task SemEval-2016 “Sentiment Analysis in Twitter”",
+    "predict": "The question \"What dataset did they use?\" is addressed in the following line of content: Datasets and Experimental Settings. This implies that there is a specific dataset being discussed related to experimental settings used for research or analysis.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'high-quality datasets from SemEval-2016 “Sentiment Analysis in Twitter” task,' which directly answers the query about the dataset used. Answer B, however, does not provide a specific dataset but instead refers to a section discussing datasets and experimental settings, which is vague and does not directly answer the question. Therefore, the two answers are not semantically equivalent as Answer A provides a concrete dataset while Answer B does not."
+}

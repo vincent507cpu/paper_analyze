@@ -1,0 +1,7 @@
+{
+    "query": "How is the ground truth for fake news established?",
+    "gold_answer": "Ground truth is not established in the paper",
+    "predict": "The ground truth for fake news is established by identifying sites that use names similar to legitimate organizations for fake news distribution. These sites are typically short-lived and have higher rates of sharing compared to legitimate articles from trusted sources, often exhibiting greater polarization in their content.",
+    "consistency": "0",
+    "reasoning": "Answer A states that ground truth is not established in the paper, indicating a lack of methodology or conclusion regarding the establishment of ground truth for fake news. In contrast, Answer B provides a detailed explanation of how ground truth is established by identifying specific characteristics of fake news distribution sites. Since Answer A denies the establishment of ground truth while Answer B describes a method for establishing it, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the main topic of the text?",
+    "gold_answer": "The main topic of the text is Iraq's politics and current situation.",
+    "predict": "The main topic of the text is the selection and discussion of textbooks in a seminar on American politics and culture.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on Iraq's politics and current situation, while Answer B discusses the selection and discussion of textbooks in a seminar on American politics and culture. The subjects of the two answers are entirely different, with one addressing a specific country's political context and the other focusing on educational materials related to American politics. Therefore, the answers are not semantically equivalent."
+}

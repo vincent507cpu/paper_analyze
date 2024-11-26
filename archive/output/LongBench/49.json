@@ -1,0 +1,7 @@
+{
+    "query": "What was the best performing model for the Spanish language in Track-1?",
+    "gold_answer": "The best performing model for the Spanish language in Track-1 was Spanish BERT.",
+    "predict": "RoBERTa",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'Spanish BERT' as the best performing model for the Spanish language in Track-1, while Answer B states 'RoBERTa.' These two answers refer to different models, and since they do not indicate the same entity or performance, they are not semantically equivalent."
+}

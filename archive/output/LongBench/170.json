@@ -1,0 +1,7 @@
+{
+    "query": "How large is the Twitter dataset?",
+    "gold_answer": "1,873 Twitter conversation threads, roughly 14k tweets1,873 Twitter conversation threads, roughly 14k tweets",
+    "predict": "The Twitter dataset contains approximately 2 million tweets for training, 10K for validation, and 50K for testing. There are also 2039 distinct hashtags in the final dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific count of Twitter conversation threads and tweets, while Answer B gives a broader overview of the dataset, including the total number of tweets for different purposes (training, validation, testing) and additional information about distinct hashtags. The two answers focus on different aspects of the dataset and do not convey the same information regarding size or structure, making them not semantically equivalent."
+}

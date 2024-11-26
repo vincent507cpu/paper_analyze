@@ -1,0 +1,7 @@
+{
+    "query": "How does the framework capture the reduced-order dynamics?",
+    "gold_answer": "By using a propagator in the latent space.",
+    "predict": "The framework captures the reduced-order dynamics by using only the observable values as training data and identifying interpretable latent dynamics.",
+    "consistency": "0",
+    "reasoning": "Answer A states that the framework captures reduced-order dynamics by using a propagator in the latent space, which suggests a specific method of representation. Answer B, however, describes a broader approach that involves using observable values as training data and identifying latent dynamics. While both answers relate to capturing reduced-order dynamics, Answer A is more specific about the method (propagator in latent space), whereas Answer B provides a more general description of the process. Therefore, they are not semantically equivalent as they convey different levels of detail and focus on different aspects of the framework's operation."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What cyberbulling topics did they address?",
+    "gold_answer": "personal attack, racism, and sexismracism, sexism, personal attack, not specifically about any single topic",
+    "predict": "They addressed controversial topics related to cyberbulling. Specifically, they discussed cybersecurity issues such as protecting against political attacks and ensuring security at vulnerable touchpoints in a digital hospital context. They also mentioned the importance of presidential candidates addressing cybersecurity during an election campaign.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific topics related to cyberbullying, such as personal attacks, racism, and sexism, but also includes a phrase indicating a lack of specificity about any single topic. Answer B, however, discusses broader cybersecurity issues and does not directly address the specific topics of cyberbullying mentioned in Answer A. Since Answer A focuses on specific forms of cyberbullying while Answer B discusses cybersecurity in a more general context, the two answers are not semantically equivalent."
+}

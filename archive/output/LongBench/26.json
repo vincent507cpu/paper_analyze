@@ -1,0 +1,7 @@
+{
+    "query": "What is the purpose of the baseline in the layout procedure?",
+    "gold_answer": "The baseline is used as a reference for the mid point of the firewall for the developed side panel.",
+    "predict": "The purpose of the baseline in the layout procedure is to establish a common starting point for measurements.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that the baseline serves as a reference for the mid point of the firewall for the developed side panel, which is a specific application of the baseline in a particular context. Answer B, on the other hand, describes the baseline as a common starting point for measurements, which is a more general definition. While both answers relate to the function of the baseline, they address different aspects of its purpose. Therefore, they are not semantically equivalent."
+}
