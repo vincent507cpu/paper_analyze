@@ -1,0 +1,7 @@
+{
+    "query": "Do they use pretrained embeddings?",
+    "gold_answer": "YesYes",
+    "predict": "Yes, they use pretrained embeddings. Specifically, BioBERT uses pre-trained word embeddings for the first step and relation names are randomly initialized for the second step.",
+    "consistency": "0",
+    "reasoning": "Answer A simply states 'YesYes,' which is unclear and does not provide any additional context or information about pretrained embeddings. Answer B, on the other hand, confirms the use of pretrained embeddings and elaborates on how BioBERT utilizes them in its process. Since Answer A lacks clarity and detail while Answer B provides specific information, the two answers are not semantically equivalent."
+}

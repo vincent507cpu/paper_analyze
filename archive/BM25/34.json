@@ -1,0 +1,7 @@
+{
+    "query": "What did Justice Kennedy argue about Quill in Direct Marketing Ass'n v. Brohl?",
+    "gold_answer": "Quill harmed states more than anticipated due to the Internet.",
+    "predict": "Justice Kennedy argued that the practice of sending death row inmates' families detailed letters was unconstitutional. The case involved direct marketing practices where companies used customer data to send newsletters and promotional materials without obtaining proper consent from individuals whose privacy had been violated by the websites they visited.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on Justice Kennedy's argument regarding the negative impact of Quill on states in the context of the Internet, specifically addressing the implications for state taxation. In contrast, Answer B discusses a completely different issue related to the constitutionality of sending letters to death row inmates' families and the privacy concerns surrounding direct marketing practices. The two answers address different aspects of legal arguments and do not relate to the same point made by Justice Kennedy regarding Quill, making them semantically non-equivalent."
+}

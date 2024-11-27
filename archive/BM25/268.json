@@ -1,0 +1,7 @@
+{
+    "query": "How is non-standard pronunciation identified?",
+    "gold_answer": "UnanswerableOriginal transcription was labeled with additional labels in [] brackets with nonstandard pronunciation.",
+    "predict": "Non-standard pronunciation is identified by prepending each grapheme sequence with an artificial token consisting of the language's ISO 639-3 code enclosed in angle brackets. This approach addresses the issue of different languages having distinct pronunciation patterns and ensures that low-resource languages can still benefit from high resource data for pronunciation modeling.",
+    "consistency": "0",
+    "reasoning": "Answer A states that non-standard pronunciation is identified through the use of additional labels in brackets, but it does not provide a clear method or process. Answer B, on the other hand, describes a specific method involving the use of an artificial token with the language's ISO code to identify non-standard pronunciation. Since Answer A does not provide a method and Answer B describes a concrete approach, the two answers are not semantically equivalent."
+}

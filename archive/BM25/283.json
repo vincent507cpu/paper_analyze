@@ -1,0 +1,7 @@
+{
+    "query": "What baselines do they compare with?",
+    "gold_answer": "They compare with the following models: by Pedersen (2017), by Pramanick and Das (2017), by Mikhalkova and Karyakin (2017),  by Vadehra (2017), Indurthi and Oota (2017), by Vechtomova (2017), by (Cai et al., 2018), and CRF.",
+    "predict": "The baselines compared against are:\n1. Majority class prediction\n2. Fixed-length window approach based on pragmatic features\n3. Bag-of-words baseline using TF-IDF weighted bag-of-words features\n4. Encoder-Decoder model with ingredient attention for personalized models",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models and authors as baselines for comparison, while Answer B describes different approaches and methodologies as baselines. The two answers refer to different sets of baselines; Answer A focuses on specific studies and their authors, whereas Answer B outlines general techniques and models. Since they do not refer to the same baselines or types of comparisons, they are not semantically equivalent."
+}

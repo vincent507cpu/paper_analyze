@@ -1,0 +1,7 @@
+{
+    "query": "what pretrained word embeddings were used?",
+    "gold_answer": "Pretrained word embeddings  were not usedGloVe, Edinburgh embeddings BIBREF14, Emoji embeddings BIBREF16",
+    "predict": "GloVe pretrained word embeddings were used.",
+    "consistency": "0",
+    "reasoning": "Answer A states that pretrained word embeddings were not used, while also listing specific embeddings like GloVe, Edinburgh embeddings, and Emoji embeddings. This creates confusion as it contradicts itself by mentioning GloVe, which is a well-known pretrained embedding. Answer B clearly states that GloVe pretrained word embeddings were used. Since Answer A implies that no pretrained embeddings were used, and Answer B confirms the use of GloVe, the two answers are not semantically equivalent."
+}

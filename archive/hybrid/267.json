@@ -1,0 +1,7 @@
+{
+    "query": "What does an individual model consist of?",
+    "gold_answer": "Bayesian model of garg2012unsupervised as our base monolingual model",
+    "predict": "An individual model consists of predictions averaged over 10 runs and then combined with other models' predictions. If removing an individual model increases the average score, it is considered as a positive change in performance.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a specific type of model, namely a Bayesian model from a particular source, while Answer B discusses the process of averaging predictions from multiple runs and evaluating the impact of removing an individual model on performance. The two answers focus on different aspects of modeling: one on the type of model and the other on the methodology of combining predictions. Therefore, they are not semantically equivalent as they address different components of what an individual model consists of."
+}

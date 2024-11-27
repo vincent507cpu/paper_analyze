@@ -1,0 +1,7 @@
+{
+    "query": "Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?",
+    "gold_answer": "YesNo",
+    "predict": "No.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'YesNo,' which is ambiguous and does not clearly indicate a definitive answer. Answer B states 'No,' which clearly indicates that they do not employ their indexing-based method. Since Answer A does not provide a clear affirmative or negative response and Answer B explicitly states 'No,' the two answers are not semantically equivalent."
+}

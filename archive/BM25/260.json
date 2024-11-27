@@ -1,0 +1,7 @@
+{
+    "query": "What datasets are used?",
+    "gold_answer": "Answer with content missing: (Whole Method and Results sections) The primary dataset we use is the ERP data collected and computed by Frank et al. (2015), and we also use behavioral data (eye-tracking data and self-paced reading times) from Frank et al. (2013) which were collected on the same set of 205 sentences.\nSelect:\n- ERP data collected and computed by Frank et al. (2015)\n- behavioral data (eye-tracking data and self-paced reading times) from Frank et al. (2013)the ERP data: BIBREF0",
+    "predict": "The datasets used in the content are:\n- CoNLL2003\n- OntoNotes5.0\n- MSRA (English)\n- OntoNotes4.0 (Chinese)",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific datasets related to ERP and behavioral data from Frank et al. (2015) and (2013), while Answer B provides a completely different set of datasets (CoNLL2003, OntoNotes5.0, MSRA, OntoNotes4.0) that are unrelated to the context of Answer A. Since the datasets mentioned in both answers do not overlap or refer to the same sources, they are not semantically equivalent."
+}

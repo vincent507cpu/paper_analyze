@@ -1,0 +1,7 @@
+{
+    "query": "What is the corpus used for the task?",
+    "gold_answer": "DTA18, DTA19Diachronic Usage Relatedness (DURel) gold standard data set",
+    "predict": "The corpus for the task is a freely available lemmatized, POS-tagged and spelling-normalized diachronic corpus of German texts from the 16th to the 20th century.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'DTA18, DTA19Diachronic Usage Relatedness (DURel) gold standard data set' as the corpus used for the task, which is a specific dataset. Answer B describes the corpus in more general terms, mentioning it as a 'freely available lemmatized, POS-tagged and spelling-normalized diachronic corpus of German texts from the 16th to the 20th century.' While both answers refer to a corpus related to diachronic studies, Answer A provides a specific name, whereas Answer B gives a broader description without naming the specific dataset. Therefore, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Is it possible to convert a cloze-style questions to a naturally-looking questions?",
+    "gold_answer": "UnanswerableUnanswerable",
+    "predict": "Yes, it is possible to convert cloze-style questions into naturally-looking ones.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered, while Answer B provides a clear affirmative response, stating that it is indeed possible to convert cloze-style questions into naturally-looking ones. Since the two answers convey completely opposite meanings regarding the possibility of conversion, they are not semantically equivalent."
+}

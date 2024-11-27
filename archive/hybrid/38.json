@@ -1,0 +1,7 @@
+{
+    "query": "对于PD3.0协议，FS312BH支持的最高诱骗电压是多少？",
+    "gold_answer": "48V.",
+    "predict": "TYPE C and TYPE A fast charging protocol chips are available.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific voltage value (48V) related to the maximum spoofing voltage supported by the FS312BH for the PD3.0 protocol. Answer B, however, discusses the availability of TYPE C and TYPE A fast charging protocol chips, which does not address the query about the maximum spoofing voltage. Since the two answers address different aspects and do not provide equivalent information regarding the query, they are not semantically equivalent."
+}

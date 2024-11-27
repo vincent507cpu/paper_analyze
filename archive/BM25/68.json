@@ -1,0 +1,7 @@
+{
+    "query": "What is the definition of mobile device management (MDM)?",
+    "gold_answer": "Centralized control of mobile devices and applications.",
+    "predict": "Mobile Device Management (MDM) refers to centralized control of an entire fleet of mobile devices, including smartphones and tablets, for applying and ensuring pre-defined configuration settings.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a brief definition of mobile device management (MDM) as 'centralized control of mobile devices and applications.' Answer B expands on this definition by specifying that MDM involves centralized control of a fleet of mobile devices, including smartphones and tablets, and emphasizes the application of pre-defined configuration settings. While Answer B offers more detail, both answers convey the core concept of centralized control over mobile devices, making them semantically equivalent in the context of defining MDM."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "When was the paper published?",
+    "gold_answer": "The paper was published on 7 March 2023.",
+    "predict": "2019",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the exact date of publication as '7 March 2023,' while Answer B states '2019,' which is a year. Since the two answers provide different information regarding the publication date, with Answer A indicating a specific day and month in 2023 and Answer B indicating a different year altogether, they are not semantically equivalent."
+}

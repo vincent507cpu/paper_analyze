@@ -1,0 +1,7 @@
+{
+    "query": "What is the main topic of the text?",
+    "gold_answer": "The main topic of the text is Iraq's politics and current situation.",
+    "predict": "The main topic of the text is the proposal and evaluation of the user-topic-comment neural network (UTCNN) for post stance classification on forum-style social media platforms.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on Iraq's politics and current situation, while Answer B discusses a specific neural network model (UTCNN) for post stance classification. The subjects of the two answers are entirely different, with Answer A addressing a geopolitical topic and Answer B addressing a technical topic related to machine learning. Therefore, the answers are not semantically equivalent as they pertain to distinct themes."
+}

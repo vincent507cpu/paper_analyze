@@ -1,0 +1,7 @@
+{
+    "query": "How is the dataset annotated?",
+    "gold_answer": "no evidence of depression, depressed mood, disturbed sleep, fatigue or loss of energyThe annotations are based on evidence of depression and further annotated by the depressive symptom if there is evidence of depression",
+    "predict": "The SnapCaptions dataset contains named entities annotated by experts in various forms such as nicknames, typos, etc.",
+    "consistency": "0",
+    "reasoning": "Answer A discusses the annotation of a dataset related to depression, mentioning specific symptoms and how they are annotated based on evidence. Answer B, on the other hand, refers to the SnapCaptions dataset and its annotation of named entities by experts, which is a completely different context and subject matter. Since the two answers address different datasets and types of annotations, they are not semantically equivalent."
+}

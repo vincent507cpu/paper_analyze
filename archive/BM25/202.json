@@ -1,0 +1,7 @@
+{
+    "query": "What type of classifiers are used?",
+    "gold_answer": "probabilistic modelLogistic Regression, Multilayer Perceptron",
+    "predict": "The type of classifiers used are intent classifiers and speech act classifiers for sentences in emails.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific types of classifiers, namely 'Logistic Regression' and 'Multilayer Perceptron,' which are statistical models used for classification tasks. Answer B, on the other hand, refers to 'intent classifiers' and 'speech act classifiers,' which are types of classifiers used in natural language processing but do not directly correspond to the models mentioned in Answer A. Since the answers refer to different categories of classifiers and do not overlap in meaning, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "When was the paper published?",
+    "gold_answer": "The paper was published on 7 March 2023.",
+    "predict": "1887",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a publication date of '7 March 2023,' while Answer B states '1887.' These two dates are significantly different, with Answer A indicating a recent publication and Answer B indicating a publication over a century earlier. Since the answers refer to different years and cannot be reconciled as equivalent, they are not semantically equivalent."
+}

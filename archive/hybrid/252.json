@@ -1,0 +1,7 @@
+{
+    "query": "Which 7 Indian languages do they experiment with?",
+    "gold_answer": "Hindi, English, Kannada, Telugu, Assamese, Bengali and MalayalamKannada, Hindi, Telugu, Malayalam, Bengali,  English and Assamese (in table, missing in text)",
+    "predict": "The languages experimented with in this context are seven Indian languages.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific languages, but it appears to have some repetition and formatting issues, making it unclear. However, it does mention multiple languages. Answer B, on the other hand, does not specify which languages are being experimented with, only stating that there are seven Indian languages. Since Answer B lacks the specific information provided in Answer A, they are not semantically equivalent."
+}

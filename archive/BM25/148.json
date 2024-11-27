@@ -1,0 +1,7 @@
+{
+    "query": "What is the improvement in performance for Estonian in the NER task?",
+    "gold_answer": "5 percent points.0.05 F1",
+    "predict": "The improvement in performance for Estonian in the NER task is 11.8 F1 points compared to the No-answer (NA) baseline.",
+    "consistency": "0",
+    "reasoning": "Answer A states an improvement of '5 percent points' and '0.05 F1,' which suggests a specific numerical improvement but lacks context. Answer B provides a detailed improvement of '11.8 F1 points' compared to a baseline, indicating a different magnitude of improvement. Since the two answers present different values and contexts for the performance improvement, they are not semantically equivalent."
+}

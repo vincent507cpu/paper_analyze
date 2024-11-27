@@ -1,0 +1,7 @@
+{
+    "query": "Which Facebook pages did they look at?",
+    "gold_answer": "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, DisneyFoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney.",
+    "predict": "They looked at different Facebook pages (and therefore domains and stances). The specific pages were chosen based on intuition and considering available datasets for evaluation.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific list of Facebook pages that were looked at, while Answer B describes a general process of selection without naming any specific pages. The two answers do not convey the same information; Answer A is concrete and specific, whereas Answer B is vague and focuses on the reasoning behind the selection rather than the actual pages. Therefore, they are not semantically equivalent."
+}

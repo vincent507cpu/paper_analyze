@@ -1,0 +1,7 @@
+{
+    "query": "What are method improvements of F1 for paraphrase identification?",
+    "gold_answer": "Using DSC loss improves the F1 score by +0.58 for MRPC and +0.73 for QQP+0.58",
+    "predict": "Improvements in F1 for paraphrase identification include using back-translation to create an improved English version of training data. This results in significant improvements for cross-lingual Natural Language Inference (NLI) tasks.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on a specific method (DSC loss) and quantifies its impact on the F1 score for two specific datasets (MRPC and QQP). In contrast, Answer B discusses a different method (back-translation) and its effects on cross-lingual NLI tasks, which is not directly related to the F1 improvements for paraphrase identification. Since the answers refer to different methods and contexts, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Were any of the pipeline components based on deep learning models?",
+    "gold_answer": "NoNo",
+    "predict": "No, none of the pipeline components based on deep learning models were mentioned in the given content.",
+    "consistency": "0",
+    "reasoning": "Answer A simply states 'NoNo,' which appears to be a typographical error or a repetition of 'No.' Answer B provides a more detailed response, clearly stating that none of the pipeline components based on deep learning models were mentioned. While both answers convey a negative response to the query, Answer A lacks clarity and completeness compared to Answer B. Therefore, they are not semantically equivalent."
+}

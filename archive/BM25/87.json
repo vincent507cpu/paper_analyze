@@ -1,0 +1,7 @@
+{
+    "query": "Besides the Boeing C-17, what other transport aircraft is the IAF considering for acquisition?",
+    "gold_answer": "The IAF is considering the acquisition of the Airbus A330 MRTT (Multi-Role Tanker Transport) besides the Boeing C-17.",
+    "predict": "The IAF is considering the Boeing C-17 for acquisition.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that the IAF is considering the Airbus A330 MRTT in addition to the Boeing C-17, which directly addresses the query about other transport aircraft. Answer B, however, only mentions the Boeing C-17 and does not provide information about any other aircraft being considered. Since Answer B fails to address the query regarding alternatives to the Boeing C-17, the two answers are not semantically equivalent."
+}

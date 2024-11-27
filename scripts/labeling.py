@@ -73,7 +73,7 @@ def gpt_text_inference(instruction, prompt, verbose=False):
         response = '{' + ''.join(response.split('{')[1:])
         response = ''.join(response.rsplit('}')[:-1]) + '}'
         if verbose:
-            logger(response)
+            logger.info(response)
         return eval(response)
     except requests.exceptions.ConnectionError as e:
         return {'Reasoning': e, 'Response': 'error'}
@@ -144,7 +144,7 @@ Output:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # parser.add_argument('-i', '--input_dir', dest='input_dir', required=True, help='Directory of the input files')
-    parser.add_argument('-o', '--output_dir', dest='output_dir', help='Directory of the output files', default='LongBench')
+    parser.add_argument('-o', '--output_dir', dest='output_dir', help='Directory of the output files', default='hybrid')
     parser.add_argument('-v', '--verbose', dest='verbose', action='store_true', default=False, help='Whether to show details of inference process')
     args = parser.parse_args()
     
@@ -152,7 +152,7 @@ if __name__ == '__main__':
     
     data_path = Path(__file__).parent.parent.absolute()
     os.makedirs(data_path.joinpath('output').joinpath(args.output_dir), exist_ok=True)
-    input_files = data_path.joinpath('data').joinpath('sample.json')
+    input_files = data_path.joinpath('output').joinpath('hybrid.json')
     with open(input_files, 'r') as f:
         data = json.load(f)
     
@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
         try:
             with open(data_path.joinpath('output').joinpath(args.output_dir).joinpath(f'{i}.json'), 'w') as f:
-                json.dump(output, f, indent=4, ensure_ascii=False)
+                json.dump(output, f, ensure_ascii=False)
                 logger.info(f'Writing {i}.json with consistency inference')
         except:
             if args.verbose:

@@ -1,0 +1,7 @@
+{
+    "query": "How do they match words before reordering them?",
+    "gold_answer": "UnanswerableCFILT-preorder system",
+    "predict": "They match words before reordering them by using an ancient Chinese dictionary to address unmatched characters and apply Inverse Document Frequency (IDF) to weigh matching words. Then they use CFILT-preorder system rules for English sentence reordering based on Indian language word order improvements tuned specifically for Hindi.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a brief mention of a 'CFILT-preorder system' but lacks detail on how words are matched before reordering. Answer B, on the other hand, elaborates on the process, explaining the use of an ancient Chinese dictionary for unmatched characters, the application of Inverse Document Frequency (IDF) for weighing matching words, and the specific rules for English sentence reordering based on improvements from Indian languages, particularly Hindi. Since Answer A does not provide sufficient information to explain the matching process, while Answer B gives a comprehensive explanation, the two answers are not semantically equivalent."
+}

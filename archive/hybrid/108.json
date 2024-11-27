@@ -1,0 +1,7 @@
+{
+    "query": "What is the score achieved by the authors for Track-2?",
+    "gold_answer": "85.61%.",
+    "predict": "0.32",
+    "consistency": "0",
+    "reasoning": "Answer A states a score of '85.61%', which is a high percentage indicating a strong performance. Answer B states a score of '0.32', which is a very low value and does not represent a percentage in the same context. Since the two answers represent vastly different scores and cannot be considered equivalent, they are not semantically equivalent."
+}

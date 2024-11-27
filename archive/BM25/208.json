@@ -1,0 +1,7 @@
+{
+    "query": "What sentiment classification dataset is used?",
+    "gold_answer": "the IMDb movie review dataset BIBREF17IMDb movie review",
+    "predict": "SentiText",
+    "consistency": "0",
+    "reasoning": "Answer A refers to the IMDb movie review dataset, which is a specific dataset used for sentiment analysis, while Answer B mentions SentiText, another distinct sentiment classification dataset. Since both answers refer to different datasets used for sentiment classification, they are not semantically equivalent."
+}

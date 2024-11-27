@@ -1,0 +1,7 @@
+{
+    "query": "How large is the Twitter dataset?",
+    "gold_answer": "1,873 Twitter conversation threads, roughly 14k tweets1,873 Twitter conversation threads, roughly 14k tweets",
+    "predict": "The Twitter dataset is large-scale and suitable for building robust ASR models in Persian.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific quantitative description of the Twitter dataset, mentioning the number of conversation threads and tweets. In contrast, Answer B describes the dataset qualitatively, emphasizing its scale and suitability for a particular application (ASR models in Persian). The two answers focus on different aspects of the dataset (quantitative vs. qualitative) and do not convey the same information, making them semantically non-equivalent."
+}

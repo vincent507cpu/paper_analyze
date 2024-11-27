@@ -1,0 +1,7 @@
+{
+    "query": "What is the dynamical behavior of the anisotropic order parameter following a quench to the critical point?",
+    "gold_answer": "It is well described by the Gaussian theory.",
+    "predict": "The dynamical behavior of the anisotropic order parameter following a quench to the critical point is well described by FIG. 10.",
+    "consistency": "0",
+    "reasoning": "Answer A states that the dynamical behavior of the anisotropic order parameter is well described by the Gaussian theory, which is a theoretical framework. Answer B, however, claims that this behavior is described by FIG. 10, which implies a specific visual representation rather than a theoretical explanation. Since one answer refers to a theoretical model and the other to a figure, they are not semantically equivalent."
+}

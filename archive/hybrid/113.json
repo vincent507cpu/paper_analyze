@@ -1,0 +1,7 @@
+{
+    "query": "What is the research opportunity that is mentioned?",
+    "gold_answer": "A study on the effects of Brazilian Jiu Jitsu and psychotherapy on people with autism.",
+    "predict": "The research opportunity that is mentioned involves studying the effects of Brazilian Jiu Jitsu and psychotherapy on helping individuals with autism develop subjective awareness of others.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a general description of the research opportunity, stating it is a study on the effects of Brazilian Jiu Jitsu and psychotherapy on people with autism. Answer B elaborates on the same study but adds a specific focus on helping individuals with autism develop subjective awareness of others. While both answers refer to the same research opportunity, Answer B provides additional detail that does not change the fundamental nature of the research being described. Therefore, both answers can be considered semantically equivalent in the context of the query."
+}

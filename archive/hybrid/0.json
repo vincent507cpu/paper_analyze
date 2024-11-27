@@ -1,0 +1,7 @@
+{
+    "query": "Is the ISR necessary for transgene reactivation?",
+    "gold_answer": "No, it is not necessary.",
+    "predict": "No, the ISR is not necessary for transgene reactivation.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B convey the same information: that the ISR is not necessary for transgene reactivation. Answer B provides a more complete sentence but does not change the meaning of the response. Therefore, both answers are semantically equivalent."
+}

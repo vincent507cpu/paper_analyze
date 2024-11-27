@@ -1,0 +1,7 @@
+{
+    "query": "What is the main focus of the research paper?",
+    "gold_answer": "Nuclear liquid-gas transition in lattice QCD.",
+    "predict": "The main focus of the research paper is on exploring how multitask learning can improve performance in sentiment classification and fine-grained sentiment classification tasks. Specifically, it examines whether jointly training models for ternary and fine-grained sentiment classification problems can enhance state-of-the-art results compared to individual training methods for each task.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on a specific topic related to nuclear liquid-gas transition in lattice QCD, while Answer B discusses multitask learning in sentiment classification. The two answers address entirely different subjects and research areas, indicating that they are not semantically equivalent. The main focus of the research paper in each answer is distinct and unrelated."
+}

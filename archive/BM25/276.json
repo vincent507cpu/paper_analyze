@@ -1,0 +1,7 @@
+{
+    "query": "Which dataset do they use?",
+    "gold_answer": "Unanswerable Paraphrase Database (PPDB) ,  book corpusUnanswerable",
+    "predict": "Based on the content provided, no specific dataset is mentioned. The data table shows different datasets from various sources, including one named \"ILPRL\" with multiple associated files. The dataset name and file structure are not specified in the given text.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a dataset, 'Unanswerable Paraphrase Database (PPDB)', while also mentioning 'book corpusUnanswerable,' which seems to be a typographical error or a concatenation of terms. Answer B, however, states that no specific dataset is mentioned and describes the content as showing various datasets without naming one. Since Answer A provides a specific dataset name and Answer B indicates that no dataset is specified, the two answers are not semantically equivalent."
+}

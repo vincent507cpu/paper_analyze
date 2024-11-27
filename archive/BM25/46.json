@@ -1,0 +1,7 @@
+{
+    "query": "What is the recommended space for using the VR headset?",
+    "gold_answer": "It is recommended to have at least a 2x2 meter space for using the VR headset.",
+    "predict": "The VR headset should be used in an area with at least 2 meters by 2 meters of space around the head and body to ensure safety.",
+    "consistency": "1",
+    "reasoning": "Answer A specifies a minimum space requirement of 'at least a 2x2 meter space' for using the VR headset. Answer B elaborates on this by stating that the area should be 'at least 2 meters by 2 meters of space around the head and body to ensure safety.' Both answers convey the same essential information regarding the minimum space requirement for safe use of the VR headset, making them semantically equivalent despite the difference in wording."
+}

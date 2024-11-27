@@ -1,0 +1,7 @@
+{
+    "query": "How large is the corpus?",
+    "gold_answer": "8,275 sentences and 167,739 words in totalThe corpus comprises 8,275 sentences and 167,739 words in total.",
+    "predict": "The corpus used in this work is large-scale with over 1.24 million bilingual sentence pairs for creating a translation parallel corpus.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical details about the corpus, stating it contains 8,275 sentences and 167,739 words. In contrast, Answer B describes the corpus as 'large-scale' and mentions 'over 1.24 million bilingual sentence pairs,' which refers to a different aspect of the corpus. The two answers focus on different metrics and do not convey the same information about the size of the corpus, making them semantically non-equivalent."
+}

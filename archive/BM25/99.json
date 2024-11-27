@@ -1,0 +1,7 @@
+{
+    "query": "Who was Ralph Rokebye's brother?",
+    "gold_answer": "Sir Richard.",
+    "predict": "William",
+    "consistency": "0",
+    "reasoning": "Answer A identifies Ralph Rokebye's brother as 'Sir Richard,' while Answer B states 'William.' Since both answers refer to different individuals, they cannot be considered semantically equivalent. The names represent distinct persons, making the answers incompatible with the query."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the water depth in the Greater Ekofisk Area?",
+    "gold_answer": "The water depth in the Greater Ekofisk Area is 70-75 meters.",
+    "predict": "70-75 meters",
+    "consistency": "1",
+    "reasoning": "Answer A provides a complete sentence stating the water depth in the Greater Ekofisk Area as '70-75 meters.' Answer B presents the same information but in a more concise form, simply stating '70-75 meters.' Both answers convey the same depth measurement and refer to the same location, making them semantically equivalent."
+}

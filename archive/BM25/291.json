@@ -1,0 +1,7 @@
+{
+    "query": "What traditional linguistics features did they use?",
+    "gold_answer": "Unanswerable",
+    "predict": "The traditional linguistics feature used was users' provided arguments.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered based on the information provided. In contrast, Answer B provides a specific feature of traditional linguistics, namely 'users' provided arguments.' Since one answer claims that the question cannot be answered while the other provides a concrete answer, they are not semantically equivalent."
+}

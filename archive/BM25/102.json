@@ -1,0 +1,7 @@
+{
+    "query": "What is the name of the generative interactive model used in the method?",
+    "gold_answer": "The generative interactive model used in the method is called the Coupled Generalized Dynamic Bayesian Network (C-GDBN).",
+    "predict": "C-GDBN (Cross-correlation-Generated Dynamic Bayesian Network)",
+    "consistency": "0",
+    "reasoning": "Answer A refers to the model as 'Coupled Generalized Dynamic Bayesian Network (C-GDBN),' while Answer B uses the abbreviation 'C-GDBN' and describes it as 'Cross-correlation-Generated Dynamic Bayesian Network.' The two answers provide different full names for the same abbreviation, indicating that they are not semantically equivalent. The terms 'Coupled' and 'Cross-correlation' suggest different characteristics or methodologies, which are significant distinctions in this context."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "On what datasets are experiments performed?",
+    "gold_answer": "SQuADSQuAD",
+    "predict": "The datasets used for the experiments are large, diverse, manually annotated, and publicly available datasets specifically designed to detect cyberbullying in social media contexts across different types of social networks. These include:\n\n- Formspring (teen oriented Q&A forum)\n- Twitter (large microblogging platform)\n- Wikipedia talk pages (collaborative knowledge repository)",
+    "consistency": "0",
+    "reasoning": "Answer A mentions 'SQuADSQuAD,' which refers to a specific dataset used in natural language processing tasks, particularly for question answering. Answer B, on the other hand, provides a detailed description of various datasets used for experiments related to detecting cyberbullying in social media, including Formspring, Twitter, and Wikipedia talk pages. The two answers refer to different datasets and contexts, making them semantically non-equivalent. Answer A is specific to a single dataset, while Answer B encompasses multiple datasets with a different focus."
+}

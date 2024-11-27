@@ -1,0 +1,7 @@
+{
+    "query": "How many underclassmen are on the NBA Draft Early-Entry List?",
+    "gold_answer": "62.",
+    "predict": "62",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

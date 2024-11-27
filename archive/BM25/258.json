@@ -1,0 +1,7 @@
+{
+    "query": "What is the size of the dataset?",
+    "gold_answer": "Dataset contains 3606 total sentences and 79087 total entities.ILPRL contains 548 sentences, OurNepali contains 3606 sentences",
+    "predict": "The size of the dataset is measured by the number of words in each post.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific quantitative details about the dataset, including the total number of sentences and entities, which directly addresses the size of the dataset. Answer B, however, shifts the focus to measuring size by the number of words in each post, which is a different metric and does not directly answer the original query about the dataset's size. Therefore, the two answers are not semantically equivalent."
+}

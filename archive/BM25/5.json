@@ -1,0 +1,7 @@
+{
+    "query": "What was Hugh H. Goodwin's rank in the United States Navy?",
+    "gold_answer": "Vice Admiral.",
+    "predict": "Commander-in-Chief",
+    "consistency": "0",
+    "reasoning": "Answer A states that Hugh H. Goodwin held the rank of 'Vice Admiral,' which is a specific rank within the United States Navy. Answer B refers to 'Commander-in-Chief,' which is a title that denotes the highest authority over the military but is not a rank within the Navy itself. Since these terms refer to different concepts—one being a specific rank and the other a position of authority—the answers are not semantically equivalent."
+}

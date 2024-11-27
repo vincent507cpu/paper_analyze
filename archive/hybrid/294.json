@@ -1,0 +1,7 @@
+{
+    "query": "Which sports clubs are the targets?",
+    "gold_answer": "Galatasaray, FenerbahçeGalatasaray , Fenerbahçe ",
+    "predict": "Galatasaray and Fenerbahçe",
+    "consistency": "1",
+    "reasoning": "Answer A lists the sports clubs as 'Galatasaray, FenerbahçeGalatasaray , Fenerbahçe,' which appears to have a typographical error or formatting issue, but it still mentions both clubs. Answer B clearly states 'Galatasaray and Fenerbahçe.' Despite the formatting issue in Answer A, both answers refer to the same two sports clubs, making them semantically equivalent in the context of identifying the targets."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What NLP tasks do they consider?",
+    "gold_answer": "text classification for themes including sentiment, web-page, science, medical and healthcare",
+    "predict": "They consider NLI tasks.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies various NLP tasks related to text classification, including themes like sentiment and specific domains such as medical and healthcare. Answer B, however, mentions NLI (Natural Language Inference) tasks, which is a distinct category of NLP tasks focused on understanding the relationship between sentences. Since the two answers refer to different types of NLP tasks, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the water depth in the Greater Ekofisk Area?",
+    "gold_answer": "The water depth in the Greater Ekofisk Area is 70-75 meters.",
+    "predict": "The water depth in the Greater Ekofisk Area is 70-75 meters.",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

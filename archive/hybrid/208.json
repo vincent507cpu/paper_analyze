@@ -1,0 +1,7 @@
+{
+    "query": "What sentiment classification dataset is used?",
+    "gold_answer": "the IMDb movie review dataset BIBREF17IMDb movie review",
+    "predict": "Sentiment classification dataset: Fine-grained sentiment classification with five-point scale.",
+    "consistency": "0",
+    "reasoning": "Answer A refers specifically to the IMDb movie review dataset, which is a well-known dataset used for sentiment analysis. Answer B describes a different type of sentiment classification dataset that uses a fine-grained five-point scale, which is not the same as the IMDb dataset. Since the two answers refer to different datasets and classification methods, they are not semantically equivalent."
+}

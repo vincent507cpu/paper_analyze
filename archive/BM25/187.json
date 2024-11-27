@@ -1,0 +1,7 @@
+{
+    "query": "What was their highest recall score?",
+    "gold_answer": "0.70330.7033",
+    "predict": "RNN models with context tweets have the highest recall for “abusive” tweets.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific numerical value for the highest recall score, while Answer B describes a qualitative aspect of RNN models and their performance regarding 'abusive' tweets. The two answers address different aspects of the query: one is a precise score and the other is a general statement about model performance. Therefore, they are not semantically equivalent."
+}

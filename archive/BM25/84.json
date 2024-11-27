@@ -1,0 +1,7 @@
+{
+    "query": "What is the electron correlation parameter, $\\Gamma_e$?",
+    "gold_answer": "It is the ratio of the average unscreened electron-electron potential energy to kinetic energy.",
+    "predict": "$\\Gamma_e$ is an electron correlation parameter.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific definition of the electron correlation parameter, $\\Gamma_e$, describing it as the ratio of average unscreened electron-electron potential energy to kinetic energy. Answer B, however, only states that $\\Gamma_e$ is an electron correlation parameter without providing any details about its definition or properties. Since Answer A gives a detailed explanation while Answer B is vague and does not elaborate on what $\\Gamma_e$ entails, the two answers are not semantically equivalent."
+}

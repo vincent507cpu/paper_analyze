@@ -1,0 +1,7 @@
+{
+    "query": "对于PD3.0协议，FS312BH支持的最高诱骗电压是多少？",
+    "gold_answer": "48V.",
+    "predict": "速卖通在欧洲的运营中遇到的主要问题包括：发货延迟、运费过低以及产品信息不符。为了解决这些问题，速卖通需改进物流管理、提高价格以确保公平竞争，并完善产品发布和展示信息。",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific voltage value (48V) related to the PD3.0 protocol and the FS312BH device. Answer B, however, discusses operational issues faced by AliExpress in Europe, which is completely unrelated to the query about voltage support. Since the two answers address entirely different topics and do not share any semantic connection, they are not equivalent."
+}

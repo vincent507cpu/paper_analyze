@@ -1,0 +1,7 @@
+{
+    "query": "What is the future direction mentioned in the conclusion?",
+    "gold_answer": "Verifying other meta-information such as patient's gender, age, race, etc.",
+    "predict": "The future direction mentioned in the conclusion is for \"deep generative models which exhibit conditional Markov properties\" to be developed.",
+    "consistency": "0",
+    "reasoning": "Answer A discusses verifying meta-information related to patients, which does not directly address the future direction mentioned in the conclusion. Answer B specifically states that the future direction involves developing deep generative models with conditional Markov properties. Since the two answers refer to entirely different topics and do not convey the same meaning regarding the future direction, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "When did the 2017 general election be held?",
+    "gold_answer": "23 September.",
+    "predict": "The 2017 general election was held on 23 September.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a specific date, '23 September,' which directly answers the query about when the 2017 general election was held. Answer B elaborates on this by stating, 'The 2017 general election was held on 23 September,' which includes the same date but adds context. Both answers convey the same information regarding the date of the election, making them semantically equivalent."
+}

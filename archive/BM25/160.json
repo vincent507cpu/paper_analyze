@@ -1,0 +1,7 @@
+{
+    "query": "What neural network modules are included in NeuronBlocks?",
+    "gold_answer": "Embedding Layer, Neural Network Layers, Loss Function, MetricsEmbedding Layer, Neural Network Layers, Loss Function, Metrics",
+    "predict": "The neural network modules included in NeuronBlocks are: encoder, sub-graph convolution network (sub-GCN), and decoder.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific components of neural network modules, including 'Embedding Layer,' 'Neural Network Layers,' 'Loss Function,' and 'Metrics.' In contrast, Answer B provides a different set of modules, specifically 'encoder,' 'sub-graph convolution network (sub-GCN),' and 'decoder.' Since the two answers refer to different sets of modules and do not overlap in content, they are not semantically equivalent."
+}

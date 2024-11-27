@@ -1,0 +1,7 @@
+{
+    "query": "which languages are explored?",
+    "gold_answer": "Bulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish and SwedishBulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish , Swedish",
+    "predict": "The content explores statistical methods like Gaussian Mixture Models and Frame Selection Decoding or Support Vector Machines (SVM), as well as deep learning approaches related to pun detection across different languages. Specifically, it mentions exploring ways to incorporate richer semantic and linguistic information for detecting puns in various languages, including Chinese.",
+    "consistency": "0",
+    "reasoning": "Answer A lists a series of languages, while Answer B discusses statistical methods and deep learning approaches related to pun detection across different languages, specifically mentioning Chinese. The two answers address entirely different aspects: Answer A focuses on the languages themselves, whereas Answer B elaborates on methods and approaches in language processing. Therefore, they are not semantically equivalent as they do not convey the same information or context regarding the query."
+}

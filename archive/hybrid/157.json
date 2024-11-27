@@ -1,0 +1,7 @@
+{
+    "query": "What evaluation metrics are looked at for classification tasks?",
+    "gold_answer": "Precision, Recall, F-measure, accuracyPrecision, Recall and F-measure",
+    "predict": "BLEU score, contrastive evaluation of translation for discourse phenomena, and human evaluation.",
+    "consistency": "0",
+    "reasoning": "Answer A lists evaluation metrics commonly used for classification tasks, including Precision, Recall, F-measure, and accuracy. These metrics are standard in assessing the performance of classification models. In contrast, Answer B mentions BLEU score and human evaluation, which are primarily used in the context of natural language processing and translation tasks, not classification. Since the two answers refer to different sets of evaluation metrics relevant to different tasks, they are not semantically equivalent."
+}

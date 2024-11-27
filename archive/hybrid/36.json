@@ -1,0 +1,7 @@
+{
+    "query": "What is the problem encountered when building the fuselage sides?",
+    "gold_answer": "The longerons bow up from the building surface, forming a \"banana\" shape.",
+    "predict": "The bowing problem encountered when building the fuselage sides.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a specific description of the problem, stating that the longerons bow up from the building surface, creating a 'banana' shape. Answer B, on the other hand, refers to the same issue but in a more general manner by simply stating 'the bowing problem.' While both answers address the same problem, Answer A gives a detailed explanation of what the problem looks like, whereas Answer B summarizes it. Despite the difference in detail, both answers convey the same underlying issue, making them semantically equivalent."
+}

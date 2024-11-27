@@ -1,0 +1,7 @@
+{
+    "query": "How many brother does Njoroge have?",
+    "gold_answer": "Four.",
+    "predict": "Based on the content provided about Njoroge and his family's background, he has two brothers: Kamau (who works as an apprentice) and Boro (the eldest son who had experiences during World War II).",
+    "consistency": "0",
+    "reasoning": "Answer A states that Njoroge has 'Four' brothers, while Answer B specifies that he has 'two brothers' named Kamau and Boro. The two answers provide different numerical values regarding the number of brothers, which are significant and distinct. Therefore, the answers are not semantically equivalent."
+}

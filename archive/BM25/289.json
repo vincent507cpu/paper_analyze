@@ -1,0 +1,7 @@
+{
+    "query": "what dataset is used in this paper?",
+    "gold_answer": " the same datasets as BIBREF7same datasets as BIBREF7",
+    "predict": "The paper compares error detection frameworks trained on the same publicly available FCE dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A refers to 'the same datasets as BIBREF7,' which does not specify what those datasets are. Answer B explicitly mentions the 'publicly available FCE dataset' used for training error detection frameworks. Since Answer A lacks specificity and does not confirm that it refers to the FCE dataset mentioned in Answer B, the two answers are not semantically equivalent."
+}

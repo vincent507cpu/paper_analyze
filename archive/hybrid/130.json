@@ -1,0 +1,7 @@
+{
+    "query": "Which stock market sector achieved the best performance?",
+    "gold_answer": "Energy with accuracy of 0.538Energy",
+    "predict": "Electrical lighting sector",
+    "consistency": "0",
+    "reasoning": "Answer A identifies the 'Energy' sector as the best-performing stock market sector, while Answer B specifies the 'Electrical lighting sector.' The Electrical lighting sector is a subset of the broader Energy sector, but it does not encompass the entire sector's performance. Therefore, while both answers relate to the energy field, they do not indicate the same level of specificity or performance, making them not semantically equivalent."
+}

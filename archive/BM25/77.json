@@ -1,0 +1,7 @@
+{
+    "query": "What are the symptoms of alpha thalassemia major?",
+    "gold_answer": "Severe anemia that begins even before birth.",
+    "predict": "Symptoms of alpha thalassemia major include:\n- Anemia\n- Fatigue\n- Jaundice\n- Swelling in the legs\n- Poor growth and development",
+    "consistency": "1",
+    "reasoning": "Answer A provides a specific symptom of alpha thalassemia major, focusing on severe anemia that starts before birth. Answer B lists multiple symptoms, including anemia, fatigue, jaundice, swelling in the legs, and poor growth and development. While both answers mention anemia, Answer B offers a broader range of symptoms, making it more comprehensive. However, they both refer to the same condition and its effects, indicating that they are discussing the same topic. Therefore, they can be considered semantically equivalent in the context of describing symptoms, even though the level of detail differs."
+}

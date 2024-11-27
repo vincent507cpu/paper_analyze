@@ -1,0 +1,7 @@
+{
+    "query": "What are the three subsets into which the parameter space V is divided?",
+    "gold_answer": "The three subsets are V+, V0, and V-, determined by the Kullback-Leibler information distance.",
+    "predict": "The three subsets of parameter space V are: \\( V^+ \\), \\( V_0 \\), and \\( V^- \\).",
+    "consistency": "1",
+    "reasoning": "Answer A lists the three subsets as V+, V0, and V-, and provides additional context by mentioning that they are determined by the Kullback-Leibler information distance. Answer B also lists the same three subsets but uses different notation (\\( V^+ \\), \\( V_0 \\), and \\( V^- \\)). Despite the difference in notation and the additional context in Answer A, both answers convey the same information regarding the subsets of the parameter space V. Therefore, they are semantically equivalent in the context of the query."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "how many humans evaluated the results?",
+    "gold_answer": "UnanswerableUnanswerable",
+    "predict": "2 humans evaluated the results.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'UnanswerableUnanswerable,' indicating that the number of humans who evaluated the results cannot be determined. In contrast, Answer B provides a specific number, '2 humans,' which directly answers the query. Since one answer is definitive and the other suggests that no answer can be provided, they are not semantically equivalent."
+}

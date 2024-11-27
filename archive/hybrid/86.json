@@ -1,0 +1,7 @@
+{
+    "query": "How many years has KSTP-FM 102.1 been on the air?",
+    "gold_answer": "Four years.",
+    "predict": "4 years",
+    "consistency": "1",
+    "reasoning": "Answer A states 'Four years,' which is a written form of the number, while Answer B states '4 years,' which is the numerical representation. Both answers convey the same quantity of time that KSTP-FM 102.1 has been on the air, making them semantically equivalent despite the difference in format."
+}

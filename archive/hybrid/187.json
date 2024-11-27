@@ -1,0 +1,7 @@
+{
+    "query": "What was their highest recall score?",
+    "gold_answer": "0.70330.7033",
+    "predict": "The highest recall score was achieved by the RNN models with context tweets for \"abusive\" tweets.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a numerical value (0.70330.7033) as the highest recall score, while Answer B describes a specific model (RNN models with context tweets) that achieved the highest recall score for a particular category ('abusive' tweets). The first answer is a quantitative score, whereas the second answer is qualitative and contextual. Since they convey different types of information and do not refer to the same concept, they are not semantically equivalent."
+}

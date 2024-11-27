@@ -1,0 +1,7 @@
+{
+    "query": "What are the symptoms of vitamin K deficiency?",
+    "gold_answer": "Symptoms of vitamin K deficiency include anemia, bruising, nosebleeds, bleeding of the gums, and heavy menstrual bleeding in women.",
+    "predict": "Symptoms of vitamin K deficiency include bleeding in infants and mild to severe bleeding in adults due to anemia.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific symptoms associated with vitamin K deficiency, such as anemia, bruising, nosebleeds, and heavy menstrual bleeding. Answer B mentions bleeding in infants and adults, also linking it to anemia. While both answers refer to bleeding and anemia as symptoms, Answer A provides a broader range of specific symptoms, whereas Answer B focuses on bleeding in different populations. The emphasis on different symptoms and populations indicates that the answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What are the baselines?",
+    "gold_answer": "SVM with unigram, bigram, and trigram features, SVM with average word embedding, SVM with average transformed word embeddings, CNN, ecurrent Convolutional Neural Networks, SVM and deep learning models with comment informationSVM with unigram, bigram, trigram features, with average word embedding, with average transformed word embeddings, CNN and RCNN, SVM, CNN, RCNN with comment information",
+    "predict": "The baselines in question are compared against various online models on different datasets. The generators of most baselines except LeakGAN match the authors' implementation closely, while LeakGAN's generator uses a hierarchical LSTM unit as per the original paper. Discriminators for GAN baselines are based on their respective original papers, with other hyperparameters set according to initial codes without modification.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models and features used as baselines, focusing on the types of algorithms and their configurations. In contrast, Answer B discusses the comparison of baselines against online models and provides details about the implementation and hyperparameters of specific models like LeakGAN. The two answers address different aspects of baselines: Answer A focuses on the models themselves, while Answer B discusses their evaluation and implementation. Therefore, they are not semantically equivalent."
+}

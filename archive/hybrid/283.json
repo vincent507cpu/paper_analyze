@@ -1,0 +1,7 @@
+{
+    "query": "What baselines do they compare with?",
+    "gold_answer": "They compare with the following models: by Pedersen (2017), by Pramanick and Das (2017), by Mikhalkova and Karyakin (2017),  by Vadehra (2017), Indurthi and Oota (2017), by Vechtomova (2017), by (Cai et al., 2018), and CRF.",
+    "predict": "The baselines compared with in this work are:\n- Name-based Nearest-Neighbor model (NN)\n- Simple Encoder-Decoder baseline with ingredient attention (Enc-Dec)",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models and authors as baselines for comparison, while Answer B describes two different types of models (Name-based Nearest-Neighbor and Simple Encoder-Decoder) without mentioning the same authors or models as in Answer A. The two answers refer to different sets of baselines, indicating that they are not semantically equivalent as they provide distinct information regarding the models being compared."
+}

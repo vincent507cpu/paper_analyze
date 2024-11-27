@@ -1,0 +1,7 @@
+{
+    "query": "How big is imbalance in analyzed corpora?",
+    "gold_answer": "Women represent 33.16% of the speakers",
+    "predict": "The analyzed corpora exhibit significant imbalance, with one class dominating over others significantly.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific statistic about the representation of women among speakers, indicating a numerical value. Answer B discusses the general concept of imbalance in the analyzed corpora without providing specific figures. While both answers address the topic of imbalance, they do so in fundamentally different ways: Answer A quantifies the representation, while Answer B describes the situation qualitatively. Therefore, they are not semantically equivalent."
+}

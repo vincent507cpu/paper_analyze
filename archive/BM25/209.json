@@ -1,0 +1,7 @@
+{
+    "query": "Were any of these tasks evaluated in any previous work?",
+    "gold_answer": "YesYes",
+    "predict": "No.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'YesYes,' which indicates a positive affirmation that the tasks were evaluated in previous work, albeit in a somewhat redundant manner. Answer B, on the other hand, states 'No,' which directly contradicts Answer A. Since one answer affirms the evaluation and the other denies it, they are not semantically equivalent."
+}

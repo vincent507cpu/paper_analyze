@@ -1,0 +1,7 @@
+{
+    "query": "What did Mary tell the disciples?",
+    "gold_answer": "\"I have seen the Lord.\".",
+    "predict": "Mary told the disciples that she had seen Jesus and he had said these things to her.",
+    "consistency": "0",
+    "reasoning": "Answer A states a direct quote from Mary, 'I have seen the Lord,' which conveys a specific message. Answer B expands on this by providing additional context, mentioning that she saw Jesus and that he had communicated certain things to her. While both answers convey the core idea of Mary having seen the Lord, Answer B includes more detail about the interaction and the subject (Jesus), which is not present in Answer A. Therefore, while they are related, they are not semantically equivalent due to the difference in specificity and context."
+}

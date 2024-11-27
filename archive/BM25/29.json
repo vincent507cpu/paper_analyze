@@ -1,0 +1,7 @@
+{
+    "query": "How many brother does Njoroge have?",
+    "gold_answer": "Four.",
+    "predict": "2",
+    "consistency": "0",
+    "reasoning": "Answer A states that Njoroge has 'Four' brothers, while Answer B states '2.' The numbers provided in both answers are distinct and indicate different quantities of brothers. Since the answers refer to different amounts, they cannot be considered semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What are the three synthetic types of vitamin K?",
+    "gold_answer": "Vitamins K3, K4, and K5.",
+    "predict": "Three synthetic types of vitamin K: vitamins K3, K4, and K5.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B list the same three synthetic types of vitamin K: K3, K4, and K5. The difference lies in the phrasing; Answer B provides a more complete sentence structure but conveys the same information as Answer A. Therefore, both answers are semantically equivalent as they refer to the same entities."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "what was the baseline?",
+    "gold_answer": "pivot-based translation relying on a helping language BIBREF10, nduction of phrase tables from monolingual data BIBREF14 , attentional RNN-based model (RNMT) BIBREF2, Transformer model BIBREF18, bi-directional model BIBREF11, multi-to-multi (M2M) model BIBREF8, back-translation BIBREF17M2M Transformer",
+    "predict": "Baseline was laid perpendicular to the layout of the new developed side panel and referenced at the mid point of the firewall for the designed dimension.",
+    "consistency": "0",
+    "reasoning": "Answer A discusses various models and techniques related to translation and machine learning, while Answer B describes a physical baseline in relation to a layout and design. The two answers address entirely different contexts—one is technical and related to computational models, and the other is about a physical construction reference. Therefore, they are not semantically equivalent."
+}

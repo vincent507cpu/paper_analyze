@@ -1,0 +1,7 @@
+{
+    "query": "What do dendritic spines contain?",
+    "gold_answer": "They are rich in actin and have been shown to be highly dynamic.",
+    "predict": "Dendritic spines contain actin and complex networks of proteins linking extracellular signals with the actin cytoskeleton.",
+    "consistency": "0",
+    "reasoning": "Answer A states that dendritic spines are rich in actin and highlights their dynamic nature, while Answer B specifies that they contain actin and also mentions complex networks of proteins that connect extracellular signals with the actin cytoskeleton. Although both answers mention actin, Answer B provides additional information about the protein networks, which is not addressed in Answer A. Therefore, while both answers discuss actin, they do not convey the same level of detail or the same implications about the structure and function of dendritic spines, making them not semantically equivalent."
+}

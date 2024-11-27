@@ -1,0 +1,7 @@
+{
+    "query": "By how much does their model outperform the state of the art results?",
+    "gold_answer": "the attention model, MDREA, also outperforms the best existing research results (WAP 0.690 to 0.688)",
+    "predict": "1.88%",
+    "consistency": "0",
+    "reasoning": "Answer A provides a comparative performance metric between the attention model, MDREA, and the best existing research results, indicating a specific performance difference (WAP 0.690 to 0.688). However, it does not quantify the performance difference in percentage terms. Answer B states a specific percentage (1.88%) that indicates how much the model outperforms the state of the art results. Since Answer A does not provide a direct numerical value or percentage, the two answers are not semantically equivalent."
+}

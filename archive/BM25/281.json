@@ -1,0 +1,7 @@
+{
+    "query": "What model did they use for their system?",
+    "gold_answer": "AllWords model by counting the frequencies of all the remaining words and training a multinomial Naive Bayes classifier",
+    "predict": "They used a monolingual DocRepair model for their system.",
+    "consistency": "0",
+    "reasoning": "Answer A describes the use of the AllWords model, which involves counting word frequencies and training a multinomial Naive Bayes classifier. In contrast, Answer B states that a monolingual DocRepair model was used. Since these are two different models with distinct methodologies and purposes, the answers are not semantically equivalent."
+}

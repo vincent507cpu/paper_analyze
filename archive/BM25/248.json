@@ -1,0 +1,7 @@
+{
+    "query": "What summarization algorithms did the authors experiment with?",
+    "gold_answer": "LSA, TextRank, LexRank and ILP-based summary.LSA, TextRank, LexRank",
+    "predict": "The authors experimented with various summarization algorithms provided by the Sumy package and compared their performance using ROUGE BIBREF22 unigram score.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific summarization algorithms (LSA, TextRank, LexRank, and ILP-based summary) that the authors experimented with, while Answer B discusses the use of various summarization algorithms from the Sumy package without specifying which ones. Additionally, Answer B mentions a performance comparison metric (ROUGE BIBREF22 unigram score) that is not addressed in Answer A. Since Answer A provides concrete examples of algorithms and Answer B is more general and does not specify the same algorithms, the two answers are not semantically equivalent."
+}

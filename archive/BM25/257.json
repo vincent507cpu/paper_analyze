@@ -1,0 +1,7 @@
+{
+    "query": "Were other baselines tested to compare with the neural baseline?",
+    "gold_answer": "SVM, No-Answer Baseline (NA) , Word Count Baseline, Human PerformanceNo-Answer Baseline (NA), Word Count Baseline, Human Performance",
+    "predict": "Yes, other baselines were tested to compare with the neural baseline.",
+    "consistency": "1",
+    "reasoning": "Answer A lists specific baselines that were tested, indicating that multiple comparisons were made with the neural baseline. Answer B, however, simply states 'Yes' and confirms that other baselines were tested without specifying which ones. While both answers affirm that other baselines were tested, Answer A provides detailed information about the specific baselines, whereas Answer B is more general. Despite this difference in detail, both answers convey the same fundamental information that other baselines were indeed tested, making them semantically equivalent in the context of the query."
+}

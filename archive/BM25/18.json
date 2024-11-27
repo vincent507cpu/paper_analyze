@@ -1,0 +1,7 @@
+{
+    "query": "How many experiments were demonstrated to test the capabilities of the controller?",
+    "gold_answer": "5.",
+    "predict": "5 experiments were demonstrated to test the capabilities of the controller.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a numerical response, '5,' indicating the number of experiments. Answer B elaborates on this by stating '5 experiments were demonstrated to test the capabilities of the controller,' which conveys the same information but in a more detailed manner. Both answers ultimately communicate the same quantity of experiments, making them semantically equivalent in this context."
+}

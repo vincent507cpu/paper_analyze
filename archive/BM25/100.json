@@ -1,0 +1,7 @@
+{
+    "query": "How are thalassemias classified?",
+    "gold_answer": "According to the globin that is affected (alpha or beta).",
+    "predict": "Thalassemias are classified based on which globin component is affected: alpha (alpha thalassemia) or beta (beta thalassemia).",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B explain the classification of thalassemias based on the affected globin type, specifically mentioning alpha and beta globins. Answer B provides additional detail by explicitly naming the types of thalassemias (alpha thalassemia and beta thalassemia), but the core information regarding the classification method remains the same in both answers. Therefore, they convey the same semantic meaning."
+}

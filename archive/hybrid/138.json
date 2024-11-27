@@ -1,0 +1,7 @@
+{
+    "query": "What is the attention module pretrained on?",
+    "gold_answer": "the model is pre-trained on CTC-based ASR task and MT task in the pre-training stage.",
+    "predict": "The attention module is pretrained on multiple available modalities such as words, characters, images, etc., to produce a single vector representation with aggregated knowledge among these modalities.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that the model is pre-trained on CTC-based ASR (Automatic Speech Recognition) and MT (Machine Translation) tasks, which are specific tasks related to language processing. Answer B, on the other hand, describes the attention module being pretrained on various modalities, including words, characters, and images, focusing on a broader range of inputs. The two answers refer to different aspects of pre-training: Answer A is task-specific, while Answer B is modality-specific. Therefore, they are not semantically equivalent as they address different contexts of pre-training."
+}

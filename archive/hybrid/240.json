@@ -1,0 +1,7 @@
+{
+    "query": "On which tasks do they test their conflict method?",
+    "gold_answer": "Task 1: Quora Duplicate Question Pair Detection, Task 2: Ranking questionsQuora Duplicate Question Pair Detection, Ranking questions in Bing's People Also Ask",
+    "predict": "Tasks 1 and Task 2",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific details about the tasks, naming them explicitly as 'Quora Duplicate Question Pair Detection' and 'Ranking questions in Bing's People Also Ask.' Answer B, however, only refers to them in a general manner as 'Tasks 1 and Task 2' without specifying what those tasks are. While both answers indicate that there are two tasks being tested, Answer B lacks the specific information provided in Answer A, making them not semantically equivalent."
+}

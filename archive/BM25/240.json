@@ -1,0 +1,7 @@
+{
+    "query": "On which tasks do they test their conflict method?",
+    "gold_answer": "Task 1: Quora Duplicate Question Pair Detection, Task 2: Ranking questionsQuora Duplicate Question Pair Detection, Ranking questions in Bing's People Also Ask",
+    "predict": "Training loss curve for models with attention and conflict methods",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific tasks related to testing the conflict method, namely 'Quora Duplicate Question Pair Detection' and 'Ranking questions in Bing's People Also Ask.' In contrast, Answer B discusses a training loss curve for models, which does not directly address the tasks on which the conflict method is tested. Since Answer A provides concrete tasks while Answer B refers to a different aspect of model evaluation, the answers are not semantically equivalent."
+}

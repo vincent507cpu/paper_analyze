@@ -1,0 +1,7 @@
+{
+    "query": "How can you level up in the early levels?",
+    "gold_answer": "Keep deploying and harvesting your bases to earn experience points and level up quickly.",
+    "predict": "To level up in early levels, you should focus on attacking nearby zones and continue doing so as you progress. Keep deploying your base and earning experience points (XP) to gain access to more advanced options.",
+    "consistency": "0",
+    "reasoning": "Answer A emphasizes deploying and harvesting bases to earn experience points for leveling up quickly. Answer B suggests attacking nearby zones while also mentioning deploying bases and earning experience points. Although both answers mention deploying bases and earning experience points, Answer B introduces the concept of attacking zones, which is not mentioned in Answer A. This additional focus on attacking makes the two answers not semantically equivalent, as they provide different strategies for leveling up."
+}

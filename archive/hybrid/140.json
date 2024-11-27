@@ -1,0 +1,7 @@
+{
+    "query": "What architecture does the encoder have?",
+    "gold_answer": "LSTMLSTM",
+    "predict": "Encoder has a Bert-based architecture with a randomly-initialized Transformer decoder.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'LSTMLSTM,' which indicates a specific type of architecture based on Long Short-Term Memory networks. Answer B describes an architecture based on BERT and a Transformer decoder. These two architectures are fundamentally different in their design and functionality. Therefore, the answers are not semantically equivalent as they refer to distinct types of encoder architectures."
+}

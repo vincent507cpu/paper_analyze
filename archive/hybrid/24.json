@@ -1,0 +1,7 @@
+{
+    "query": "What did Mary tell the disciples?",
+    "gold_answer": "\"I have seen the Lord.\".",
+    "predict": "Mary told the disciples that Jesus was ascending to heaven and that she had seen Him there, confirming their belief in His divinity.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a direct quote of what Mary told the disciples, specifically stating 'I have seen the Lord.' Answer B elaborates on this by including additional context about Jesus ascending to heaven and confirming His divinity. While both answers relate to Mary's message to the disciples, Answer B expands on the information provided in Answer A. However, the core message of having seen the Lord is present in both answers, making them semantically related but not strictly equivalent due to the additional details in Answer B."
+}

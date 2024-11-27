@@ -1,0 +1,7 @@
+{
+    "query": "How do they obtain the new context represetation?",
+    "gold_answer": "They use two independent convolutional and max-pooling layers on (1) a combination of the left context, the left entity and the middle context; and (2) a combination of the middle context, the right entity and the right context. They concatenated the two results after pooling to get the new context representation.",
+    "predict": "The new context representation is obtained by extracting glosses of all possible senses (here \\( N = 4 \\)) of the target word from WordNet and adding [CLS] and [SEP] marks to make it suitable for input with BERT.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a method of obtaining a new context representation using convolutional and max-pooling layers applied to specific combinations of context and entities. In contrast, Answer B explains a different approach that involves extracting glosses from WordNet and preparing them for BERT input. The two answers describe fundamentally different processes for obtaining a context representation, indicating that they are not semantically equivalent."
+}

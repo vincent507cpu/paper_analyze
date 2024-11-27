@@ -1,0 +1,7 @@
+{
+    "query": "Who compiled the 88-page letter to the HHS regarding vaccine safety?",
+    "gold_answer": "Del Bigtree and his team at ICAN.",
+    "predict": "Del Bigtree and his team at ICAN compiled the 88-page letter.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B attribute the compilation of the 88-page letter to Del Bigtree and his team at ICAN. While Answer B provides a more detailed structure by explicitly stating that they 'compiled the 88-page letter,' the essential information conveyed in both answers is the same: that Del Bigtree and his team at ICAN are responsible for the compilation. Therefore, they are semantically equivalent."
+}

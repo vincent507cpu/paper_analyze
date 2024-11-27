@@ -1,0 +1,7 @@
+{
+    "query": "What datasets are used?",
+    "gold_answer": "Custom dataset with user questions; set of documents, twitter posts and news articles, all related to finance.a self-collected financial intents dataset in Portuguese",
+    "predict": "English datasets: CoNLL2003 and OntoNotes5.0  \nChinese datasets: MSRA and OntoNotes4.0",
+    "consistency": "0",
+    "reasoning": "Answer A describes a custom dataset that includes user questions and various documents related to finance, specifically mentioning a self-collected financial intents dataset in Portuguese. In contrast, Answer B lists specific datasets in English and Chinese, which are not related to finance and do not mention any user-generated content. Since the datasets mentioned in both answers serve different purposes and contexts, they are not semantically equivalent."
+}

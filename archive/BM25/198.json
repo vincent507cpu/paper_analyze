@@ -1,0 +1,7 @@
+{
+    "query": "How much higher quality is the resulting annotated data?",
+    "gold_answer": "improvement when the difficult subset with expert annotations is mixed with the remaining crowd annotation is 3.5 F1 score, much larger than when a random set of expert annotations are added",
+    "predict": "2% higher quality",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific quantitative measure of improvement in terms of F1 score (3.5), indicating a significant enhancement in quality when expert annotations are mixed with crowd annotations. Answer B, on the other hand, states a general percentage increase (2%) without specifying the context or the metrics used for comparison. The two answers convey different levels of detail and metrics, making them not semantically equivalent as they do not express the same degree of improvement in quality."
+}

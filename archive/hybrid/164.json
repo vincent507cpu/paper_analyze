@@ -1,0 +1,7 @@
+{
+    "query": "What other tasks do they test their method on?",
+    "gold_answer": "None",
+    "predict": "They test their method on different tasks. Specifically, they use it in:\n\n1. An emotion labeling task (Affective development) with 250 annotated headlines.\n2. A system evaluation using another set of 1000 headlines (Affective test).\n3. A semantic analogy test set and overall results for the original GloVe embeddings.\n4. Zero-shot testing where the actual test set is used in a different language (XLM-R).",
+    "consistency": "0",
+    "reasoning": "Answer A states 'None,' indicating that no other tasks are tested with the method. In contrast, Answer B provides a detailed list of various tasks on which the method is tested, explicitly stating that it is applied to multiple tasks. Since Answer A and Answer B convey completely opposite meanings regarding the testing of the method, they are not semantically equivalent."
+}

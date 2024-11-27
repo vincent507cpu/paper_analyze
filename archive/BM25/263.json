@@ -1,0 +1,7 @@
+{
+    "query": "What learning models are used on the dataset?",
+    "gold_answer": "Naïve Bayes (NB), Logistic Regression (LR), Support Vector Machine (SVM), Random Forests (RF), Gradient Boosted Trees (GBT),  Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN)Naïve Bayes (NB), Logistic Regression (LR), Support Vector Machine (SVM), Random Forests (RF), Gradient Boosted Trees (GBT), CNN, RNN",
+    "predict": "The LAMBADA dataset uses transfer learning to evaluate cyberbullying detection performance on other datasets. The paper focuses on the efficacy of different learning models in detecting abusive language and compares their accuracy using the most frequently studied machine learning classifiers as well as recent neural network models, reliable baseline results are presented with the first comparative study on this dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific learning models used on the dataset, providing a direct response to the query. Answer B, however, discusses the use of transfer learning and the evaluation of cyberbullying detection performance, mentioning the efficacy of different learning models but not specifying which models are used. Since Answer B does not directly answer the question about which learning models are employed, the two answers are not semantically equivalent."
+}

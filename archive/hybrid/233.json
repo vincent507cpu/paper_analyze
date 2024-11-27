@@ -1,0 +1,7 @@
+{
+    "query": "Are the images from a specific domain?",
+    "gold_answer": "YesYes",
+    "predict": "Yes, the images from a specific domain.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'YesYes,' which appears to be a typographical error or a concatenation of 'Yes' without proper spacing or punctuation. Answer B provides a complete sentence, affirming that the images are indeed from a specific domain. While both answers affirm the same idea, Answer A lacks clarity and proper structure, making them not semantically equivalent in a formal context."
+}

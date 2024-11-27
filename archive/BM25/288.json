@@ -1,0 +1,7 @@
+{
+    "query": "How many layers does the UTCNN model have?",
+    "gold_answer": "eight layers",
+    "predict": "7 layers",
+    "consistency": "0",
+    "reasoning": "Answer A states that the UTCNN model has 'eight layers,' while Answer B states it has '7 layers.' The two answers provide different numerical values for the number of layers, which are distinct and cannot be considered equivalent. Since the question specifically asks for the number of layers, the answers are not semantically equivalent."
+}

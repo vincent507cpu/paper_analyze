@@ -1,0 +1,7 @@
+{
+    "query": "Can someone sell or modify the Agency Spotter Content?",
+    "gold_answer": "No.",
+    "predict": "No, one cannot sell or modify the Agency Spotter Content without permission.",
+    "consistency": "1",
+    "reasoning": "Answer A simply states 'No,' indicating that selling or modifying the Agency Spotter Content is not allowed. Answer B elaborates on this by stating that one cannot sell or modify the content without permission, which reinforces the same idea presented in Answer A. Both answers convey the same fundamental message that selling or modifying the content is prohibited, making them semantically equivalent despite the difference in detail."
+}

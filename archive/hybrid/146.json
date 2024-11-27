@@ -1,0 +1,7 @@
+{
+    "query": "How much data is needed to train the task-specific encoder?",
+    "gold_answer": "57,505 sentences57,505 sentences",
+    "predict": "4096",
+    "consistency": "0",
+    "reasoning": "Answer A specifies '57,505 sentences' as the amount of data needed to train the task-specific encoder, while Answer B states '4096.' These two answers represent different quantities of data. Since '57,505 sentences' and '4096' are not equivalent in terms of data volume, they cannot be considered semantically equivalent for the query regarding the amount of data needed."
+}

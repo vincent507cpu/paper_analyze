@@ -1,0 +1,7 @@
+{
+    "query": "By how much did they improve?",
+    "gold_answer": "They decrease MAE in 0.34",
+    "predict": "20%",
+    "consistency": "0",
+    "reasoning": "Answer A states that they decreased the Mean Absolute Error (MAE) by 0.34, which is a specific numerical value indicating the amount of improvement. Answer B states that the improvement is 20%, which is a percentage representation of improvement. Since one answer provides a specific numerical decrease while the other provides a percentage, they are not directly comparable and do not convey the same information about the extent of improvement. Therefore, the answers are not semantically equivalent."
+}

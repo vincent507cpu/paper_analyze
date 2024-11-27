@@ -1,0 +1,7 @@
+{
+    "query": "what are the sizes of both datasets?",
+    "gold_answer": "training set has 89,042 sentence pairs, and the test set has 100 pairs, training set contains 296,402, 2,000 for development and 359 for testingWikiSmall  89 142 sentence pair and  WikiLarge 298 761 sentence pairs. ",
+    "predict": "The sizes of both datasets are not explicitly stated in the given content. To find this information, you would need to refer to Table TABREF3, which is mentioned in the text as summarizing the used corpora and their sizes.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical values for the sizes of the training and test datasets, although it is somewhat convoluted and includes additional information that may not be directly relevant. Answer B, on the other hand, states that the sizes of both datasets are not explicitly stated and suggests referring to a table for the information. Since Answer A gives specific sizes while Answer B indicates that the sizes are not provided, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Were other baselines tested to compare with the neural baseline?",
+    "gold_answer": "SVM, No-Answer Baseline (NA) , Word Count Baseline, Human PerformanceNo-Answer Baseline (NA), Word Count Baseline, Human Performance",
+    "predict": "Yes, other baselines were tested to compare with the neural baseline. The non-contextual fastText embeddings were used as the comparison baseline for hashtag segmentation tasks.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific baselines that were tested, implying that multiple baselines were indeed compared with the neural baseline. However, it does not explicitly confirm whether these were the only baselines tested or if they were tested in comparison to the neural baseline. Answer B explicitly states that other baselines were tested and provides an example of one such baseline (non-contextual fastText embeddings). While both answers suggest that comparisons were made, Answer A is more ambiguous and does not confirm the testing of other baselines as clearly as Answer B. Therefore, they are not semantically equivalent."
+}

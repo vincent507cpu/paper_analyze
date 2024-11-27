@@ -1,0 +1,7 @@
+{
+    "query": "which lstm models did they compare with?",
+    "gold_answer": "Unidirectional LSTM networks with 2, 6, 7, 8, and  9 layers.",
+    "predict": "They compared their LSTM-based models with other LSTM models.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the comparison of unidirectional LSTM networks with a detailed list of layers, indicating a specific focus on certain models. Answer B, however, is vague and only states that they compared their LSTM-based models with other LSTM models without providing any specifics. Since Answer A provides concrete details about the models compared, while Answer B lacks specificity and does not mention the same models, the two answers are not semantically equivalent."
+}

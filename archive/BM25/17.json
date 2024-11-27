@@ -1,0 +1,7 @@
+{
+    "query": "What size chains were used in the benchmarking?",
+    "gold_answer": "L = 8 and L = 14.",
+    "predict": "The size chains used in the benchmarking were INLINEFORM6 and INLINEFORM7.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies two sizes for the chains used in benchmarking, namely 'L = 8' and 'L = 14.' Answer B, however, refers to the chains as 'INLINEFORM6' and 'INLINEFORM7,' which do not provide any numerical size information. Since the two answers describe different aspects of the chains (numerical sizes versus specific identifiers), they are not semantically equivalent."
+}

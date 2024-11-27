@@ -1,0 +1,7 @@
+{
+    "query": "Why does Craig want to find his own place?",
+    "gold_answer": "Because his roommate smokes.",
+    "predict": "Craig wants to find his own place because he enjoys renting from someone who smokes. It's good for him since the lady is responsible and has been doing well financially. Craig is becoming more aware of costs and taking responsibility in this regard. He also finds it difficult to accurately translate proper nouns, personal pronouns, ancient specific appellations, and special words into modern Chinese due to their low accurate rates.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a straightforward reason for Craig wanting to find his own place, which is that his roommate smokes. In contrast, Answer B presents a convoluted explanation that suggests Craig enjoys the situation with his smoking roommate and discusses unrelated topics such as financial responsibility and translation difficulties. The two answers do not align in meaning; Answer A indicates a negative reason for wanting to move out, while Answer B implies a positive view of the current living situation. Therefore, they are not semantically equivalent."
+}

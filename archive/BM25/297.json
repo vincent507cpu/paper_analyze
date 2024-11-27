@@ -1,0 +1,7 @@
+{
+    "query": "What types of social media did they consider?",
+    "gold_answer": "Facebook status update messagesFacebook status update messages",
+    "predict": "The researchers considered social media texts specifically related to modern channels such as forums, message boards, etc., including legacy social media platforms like Twitter, Instagram, Facebook groups, and similar places where users share their thoughts. They also included large microblogging platforms for comprehensive analysis.",
+    "consistency": "0",
+    "reasoning": "Answer A mentions 'Facebook status update messages,' which refers specifically to a type of content shared on Facebook. In contrast, Answer B provides a broader overview of various social media platforms and types of content, including forums, message boards, Twitter, Instagram, and Facebook groups. Since Answer A is limited to a specific type of social media content while Answer B encompasses a wider range of social media types and platforms, the two answers are not semantically equivalent."
+}

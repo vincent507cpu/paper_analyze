@@ -1,0 +1,7 @@
+{
+    "query": "What are the clinical datasets used in the paper?",
+    "gold_answer": "MEDDOCAN, NUBes-PHIMEDDOCAN, NUBes ",
+    "predict": "The clinical datasets used in the paper are:\n\n- MEDDOCAN: Medical Document Anonymization shared task dataset BIBREF3\n- NUBes BIBREF4",
+    "consistency": "1",
+    "reasoning": "Answer A lists the clinical datasets used in the paper succinctly, while Answer B provides a detailed description of the datasets, including their names and additional context. Although both answers refer to the same datasets, Answer B offers more information about them. However, the core information about the datasets being used remains consistent between both answers, making them semantically equivalent in terms of identifying the datasets."
+}

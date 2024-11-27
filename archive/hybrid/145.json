@@ -1,0 +1,7 @@
+{
+    "query": "What labels do they create on their dataset?",
+    "gold_answer": "(1) the time the patient has been experiencing the symptom, (2) activities that trigger the symptom (to occur or worsen), (3) the extent of seriousness, (4) the frequency occurrence of the symptom, and (5) the location of symptom, No Answerthe time the patient has been experiencing the symptom, activities that trigger the symptom, the extent of seriousness, the frequency occurrence of the symptom, the location of symptom, 9 symptoms",
+    "predict": "They create sentiment labels and emotion lexica on their dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific labels related to symptoms experienced by a patient, detailing various aspects such as time, triggers, seriousness, frequency, and location. In contrast, Answer B refers to 'sentiment labels and emotion lexica,' which are entirely different concepts focused on emotional analysis rather than the specific symptoms of a patient. Since the two answers address different types of labels and contexts, they are not semantically equivalent."
+}

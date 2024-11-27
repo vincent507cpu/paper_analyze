@@ -1,0 +1,7 @@
+{
+    "query": "What type of classifiers are used?",
+    "gold_answer": "probabilistic modelLogistic Regression, Multilayer Perceptron",
+    "predict": "The classifiers used are intent classifiers for resetting dialogue state and activating separate restaurant booking flow. Additional feature values suggest potential gain from combining base classifiers into an ensemble of models.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific types of classifiers, namely 'Logistic Regression' and 'Multilayer Perceptron,' which are both examples of probabilistic models. Answer B, however, discusses the use of intent classifiers in a specific application context (resetting dialogue state and restaurant booking) and mentions the potential for combining classifiers into an ensemble. While both answers relate to classifiers, Answer A provides specific examples, whereas Answer B describes a broader application and strategy. Therefore, they are not semantically equivalent as they address different aspects of classifiers."
+}

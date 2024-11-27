@@ -1,0 +1,7 @@
+{
+    "query": "Is it possible to convert a cloze-style questions to a naturally-looking questions?",
+    "gold_answer": "UnanswerableUnanswerable",
+    "predict": "Yes, it is possible to convert a cloze-style question into a naturally-looking question. The content suggests that by training on automatically constructed cloze questions, the performance of QA models can significantly improve, especially when fewer labeled examples are available.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered, while Answer B provides a detailed explanation affirming that it is indeed possible to convert cloze-style questions into naturally-looking questions. Since Answer A denies the possibility and Answer B confirms it, the two answers are not semantically equivalent."
+}

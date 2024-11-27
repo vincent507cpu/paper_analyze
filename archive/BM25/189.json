@@ -1,0 +1,7 @@
+{
+    "query": "How do they match words before reordering them?",
+    "gold_answer": "UnanswerableCFILT-preorder system",
+    "predict": "Words are matched based on their contexts and frequencies in the sentence data. If word scores match the actual usage, they can be applied without additional validation for new domains; otherwise, domain-specific dictionaries need to be used instead.",
+    "consistency": "0",
+    "reasoning": "Answer A refers to a specific system, 'UnanswerableCFILT-preorder system,' which does not provide any details about how words are matched. In contrast, Answer B explains a process involving context and frequency of words in sentence data, along with conditions for applying word scores. Since Answer A does not address the matching process and is vague, while Answer B provides a detailed explanation, the two answers are not semantically equivalent."
+}

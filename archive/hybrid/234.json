@@ -1,0 +1,7 @@
+{
+    "query": "What was their performance on emotion detection?",
+    "gold_answer": "Answer with content missing: (Table 3) Best author's model B-M average micro f-score is 0.409, 0.459, 0.411 on Affective, Fairy Tales and ISEAR datasets respectively. ",
+    "predict": "The performance on emotion detection was significantly improved by using pre-trained sentiment, emotion, and personality models, outperforming state-of-the-art results across different datasets.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific quantitative results regarding the performance of a particular model on emotion detection across three datasets, while Answer B discusses a general improvement in performance due to the use of pre-trained models without providing specific metrics. The two answers focus on different aspects of performance: one is quantitative and specific, and the other is qualitative and general. Therefore, they are not semantically equivalent."
+}

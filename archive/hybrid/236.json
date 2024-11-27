@@ -1,0 +1,7 @@
+{
+    "query": "Is Arabic one of the 11 languages in CoVost?",
+    "gold_answer": "NoNo",
+    "predict": "No.",
+    "consistency": "1",
+    "reasoning": "Answer A states 'NoNo,' which appears to be a typographical error or a concatenation of 'No' repeated. Answer B states 'No.' Despite the difference in presentation, both answers convey the same meaning of negation regarding Arabic being one of the 11 languages in CoVost. Therefore, they are semantically equivalent in this context."
+}

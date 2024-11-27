@@ -1,0 +1,7 @@
+{
+    "query": "What is the corpus used for the task?",
+    "gold_answer": "DTA18, DTA19Diachronic Usage Relatedness (DURel) gold standard data set",
+    "predict": "The corpus used for the task is 3,300M words containing subparts of the DTA corpus BIBREF11.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the names of specific datasets (DTA18, DTA19Diachronic Usage Relatedness) used for the task, while Answer B describes the corpus in terms of its size (3,300M words) and mentions that it contains subparts of the DTA corpus. Although both answers refer to the corpus used for the task, they provide different types of information: Answer A focuses on the specific datasets, while Answer B emphasizes the size and composition of the corpus. Therefore, they are not semantically equivalent as they convey different aspects of the corpus."
+}

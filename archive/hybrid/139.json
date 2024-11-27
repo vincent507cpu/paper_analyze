@@ -1,0 +1,7 @@
+{
+    "query": "What kind of stylistic features are obtained?",
+    "gold_answer": "Unanswerable",
+    "predict": "Stylistic features obtained include graph structure and cognitive features in an NLP processing system.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered. In contrast, Answer B provides specific details about stylistic features, including graph structure and cognitive features in an NLP processing system. Since one answer claims that the question cannot be answered while the other provides a detailed response, they are not semantically equivalent."
+}

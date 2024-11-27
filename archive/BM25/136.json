@@ -1,0 +1,7 @@
+{
+    "query": "what was the baseline?",
+    "gold_answer": " MT system on the data released by BIBREF11Transformer base, two-pass CADec model",
+    "predict": "Baseline features extracted from CNN.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a specific MT (Machine Translation) system and its configuration, mentioning a two-pass CADec model based on BIBREF11Transformer. Answer B, on the other hand, refers to baseline features extracted from a CNN (Convolutional Neural Network). The two answers pertain to different methodologies and systems in the context of machine learning or translation, indicating that they are not discussing the same baseline concept. Therefore, they are not semantically equivalent."
+}

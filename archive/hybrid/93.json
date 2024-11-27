@@ -1,0 +1,7 @@
+{
+    "query": "What award did Brooksley Born receive in 2009?",
+    "gold_answer": "In 2009, Brooksley Born received the John F. Kennedy Profiles in Courage Award.",
+    "predict": "Brooksley Born received the ACS Chemical Technology Student Recognition Award in 2007.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that Brooksley Born received the John F. Kennedy Profiles in Courage Award in 2009, directly addressing the query about the award she received in that year. Answer B, however, states that she received a different award, the ACS Chemical Technology Student Recognition Award, in 2007, which does not answer the question about 2009. Since the two answers refer to different awards and years, they are not semantically equivalent."
+}

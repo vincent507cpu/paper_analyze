@@ -1,0 +1,7 @@
+{
+    "query": "What types of sensors are now capable of estimating physical activity levels and physiological outcomes of older adults?",
+    "gold_answer": "Wearable sensors.",
+    "predict": "Wearable sensors capable of estimating physical activity levels and physiological outcomes of older adults include accelerometers, gyroscope, electrodermal activity (EDA), photoplethysmography (PPG). Additionally, ambient sensors capture movement patterns and behaviors.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a general category of sensors, 'wearable sensors,' without specific details. Answer B elaborates on the types of wearable sensors and includes specific examples, as well as mentioning ambient sensors. While both answers refer to wearable sensors, Answer B provides a more comprehensive and detailed response. However, they both address the same general topic of sensors for estimating physical activity and physiological outcomes, making them semantically related but not equivalent in detail. Therefore, they are not semantically equivalent in the context of the query."
+}

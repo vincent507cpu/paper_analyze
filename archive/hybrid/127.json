@@ -1,0 +1,7 @@
+{
+    "query": "What accuracy does the proposed system achieve?",
+    "gold_answer": "F1 scores of 85.99 on the DL-PS data,  75.15 on the EC-MT data and 71.53 on the EC-UQ data F1 of 85.99 on the DL-PS dataset (dialog domain); 75.15 on EC-MT and 71.53 on EC-UQ (e-commerce domain)",
+    "predict": "58.54% for Track-1 and 85.61% for Track-2",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific F1 scores for three different datasets (DL-PS, EC-MT, and EC-UQ), indicating the performance of the proposed system across various domains. Answer B, however, presents accuracy percentages for two different tracks (Track-1 and Track-2) without any mention of the datasets or the same metrics as Answer A. Since the two answers refer to different metrics and datasets, they are not semantically equivalent."
+}

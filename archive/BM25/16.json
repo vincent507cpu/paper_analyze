@@ -1,0 +1,7 @@
+{
+    "query": "What were the vaccines trialed against?",
+    "gold_answer": "Other toxic products.",
+    "predict": "The vaccines trialed against were pediatric ones.",
+    "consistency": "0",
+    "reasoning": "Answer A states that the vaccines were trialed against 'other toxic products,' which implies a focus on toxicity as a target for the trials. Answer B, however, specifies that the vaccines were 'pediatric ones,' indicating a specific category of vaccines aimed at children. The two answers address different aspects: one focuses on the nature of the substances the vaccines were trialed against, while the other specifies the type of vaccines. Therefore, they are not semantically equivalent."
+}

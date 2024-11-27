@@ -1,0 +1,7 @@
+{
+    "query": "Which models did they experiment with?",
+    "gold_answer": "Stacked LSTMs, Cell-aware Stacked LSTMs, Sentence Encoders, Top-layer Classifiers",
+    "predict": "The models experimented with were NMT (neural machine translation) and SMT (statistical machine translation).",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models such as Stacked LSTMs and Sentence Encoders, which are types of neural network architectures used in various machine learning tasks. In contrast, Answer B refers to NMT and SMT, which are broader categories of translation methodologies rather than specific models. Since the answers refer to different sets of models and methodologies, they are not semantically equivalent."
+}

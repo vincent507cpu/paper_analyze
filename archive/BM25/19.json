@@ -1,0 +1,7 @@
+{
+    "query": "What are the three teams that used conflict optimization in the challenge?",
+    "gold_answer": "Lasa, Gitastrophe, and Shadoks.",
+    "predict": "The three teams that used conflict optimization in the 2022 CG:SHOP challenge are Lasa, Gitastrophe, and Shadoks.",
+    "consistency": "1",
+    "reasoning": "Answer A lists the three teams directly, while Answer B provides the same list but includes additional context by specifying the challenge name and year. Despite the difference in wording and additional information in Answer B, both answers convey the same essential information regarding the teams involved in conflict optimization. Therefore, they are semantically equivalent in terms of the teams mentioned."
+}

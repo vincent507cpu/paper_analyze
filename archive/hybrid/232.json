@@ -1,0 +1,7 @@
+{
+    "query": "Are the automatically constructed datasets subject to quality control?",
+    "gold_answer": "NoNo",
+    "predict": "Yes, the automatically constructed datasets are subject to quality control. Specifically, they ensure a focus on syntax rather than selectional-preferences based cues by replacing multi-hop sentences with random words with the same part-of-speech and inflection. This approach aims to maintain a controlled experimentation environment while still covering various syntactic phenomena.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'NoNo,' which implies that the automatically constructed datasets are not subject to quality control. In contrast, Answer B explicitly states that these datasets are indeed subject to quality control and provides details on how this is achieved. The two answers convey opposite meanings regarding the quality control of the datasets, making them semantically non-equivalent."
+}

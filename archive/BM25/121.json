@@ -1,0 +1,7 @@
+{
+    "query": "What are the datasets used for evaluation?",
+    "gold_answer": "CNN/DailyMail news highlights, New York Times Annotated Corpus, XSumthe CNN/DailyMail news highlights dataset BIBREF24, the New York Times Annotated Corpus (NYT; BIBREF25), XSum BIBREF22",
+    "predict": "The datasets used for evaluation are standardly used datasets for evaluating emotion classification.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific datasets such as CNN/DailyMail, New York Times Annotated Corpus, and XSum, which are concrete examples of datasets used for evaluation. In contrast, Answer B refers to 'standardly used datasets for evaluating emotion classification' without naming any specific datasets. The lack of specificity in Answer B and its focus on emotion classification rather than the datasets mentioned in Answer A indicates that the two answers are not semantically equivalent."
+}

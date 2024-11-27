@@ -1,0 +1,7 @@
+{
+    "query": "What metrics are used to establish that this makes chatbots more knowledgeable and better at learning and conversation? ",
+    "gold_answer": "Coverage, Avg. MCC and avg. +ve F1 scorestrategy formulation ability, we introduce a measure called Coverage( INLINEFORM0 ), To evaluate the predictive performance, we use Avg. MCC and avg. +ve F1 score",
+    "predict": "Metrics used to establish that CognIA makes chatbots more knowledgeable and better at learning and conversation include:\n1. Improved ability for the chatbot to know when it is appropriate to answer versus when it's not.\n2. Enhanced social awareness capabilities, allowing the chatbot to assist with financial matters in a group setting.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific metrics such as Coverage, Avg. MCC, and avg. +ve F1 score, which are quantitative measures used to evaluate chatbot performance. In contrast, Answer B describes qualitative improvements in chatbot behavior, such as knowing when to answer and social awareness capabilities. These two answers focus on different aspects of chatbot evaluation—one on metrics and the other on behavioral improvements—indicating that they are not semantically equivalent."
+}

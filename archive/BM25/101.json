@@ -1,0 +1,7 @@
+{
+    "query": "What is the advantage of decorrelating the data before running the PLS algorithm?",
+    "gold_answer": "Decorrelating the data before running the PLS algorithm improves the performance of the algorithm.",
+    "predict": "The advantage of decorrelating the data before running the PLS algorithm is improved performance.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B convey the same idea that decorrelating the data leads to improved performance of the PLS algorithm. Answer A states it as a general benefit, while Answer B explicitly identifies it as the advantage. The core message regarding the improvement in performance remains unchanged, making the two answers semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Which dataset do they use?",
+    "gold_answer": "Unanswerable Paraphrase Database (PPDB) ,  book corpusUnanswerable",
+    "predict": "ILPRL dataset",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the 'Unanswerable Paraphrase Database (PPDB)' and 'book corpusUnanswerable' as the datasets used, while Answer B mentions the 'ILPRL dataset.' Since both answers refer to different datasets, they are not semantically equivalent as they do not provide the same information regarding which dataset is used."
+}

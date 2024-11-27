@@ -1,0 +1,7 @@
+{
+    "query": "What is the electron correlation parameter, $\\Gamma_e$?",
+    "gold_answer": "It is the ratio of the average unscreened electron-electron potential energy to kinetic energy.",
+    "predict": "The electron correlation parameter, $\\Gamma_e$, is defined in Equation (\\ref{eqn:gamma_e}) as:\n\\[\n\\Gamma_e = \\frac{e^2}{4\\pi \\epsilon_0 a_{ws}} \\frac{1}{k_B T_e}\n\\]\nwhere $a_{ws}$ is the Wigner-Seitz radius related to electron density.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a qualitative description of the electron correlation parameter, $\\Gamma_e$, stating it as a ratio of potential energy to kinetic energy. Answer B, however, gives a specific mathematical definition of $\\Gamma_e$ along with its components and context. While both answers relate to the concept of electron correlation, they do not convey the same information; Answer A is a general description, while Answer B is a precise definition with a formula. Therefore, they are not semantically equivalent."
+}

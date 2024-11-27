@@ -1,0 +1,7 @@
+{
+    "query": "How big is Augmented LibriSpeech dataset?",
+    "gold_answer": "UnanswerableUnanswerable",
+    "predict": "The Augmented LibriSpeech dataset contains 0.46M training pairs.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'UnanswerableUnanswerable,' indicating that the size of the Augmented LibriSpeech dataset cannot be determined. In contrast, Answer B provides a specific measurement of the dataset, stating it contains 0.46M training pairs. Since one answer claims the question cannot be answered while the other provides a definitive answer, they are not semantically equivalent."
+}

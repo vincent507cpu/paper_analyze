@@ -1,0 +1,7 @@
+{
+    "query": "Which baselines are used for evaluation?",
+    "gold_answer": "Pointer-Gen, Pointer-Gen+Pos, Pointer-Gen+Same-FT, Pointer-Gen+Pos-FT, Pointer-Gen+RL-ROUGE, Pointer-Gen+RL-SEN",
+    "predict": "The evaluation setup includes using lowercase BLEU as the metric for comparison with strong baselines. For NMT translation tasks, it compares performance against baselines like Waseem and Hovy, Davidson et al., and Waseem et al.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific baselines used for evaluation in a particular context, likely related to a model or algorithm. In contrast, Answer B discusses evaluation metrics (lowercase BLEU) and mentions different baselines that are not included in Answer A. The two answers refer to different sets of baselines and metrics, indicating they are not semantically equivalent."
+}

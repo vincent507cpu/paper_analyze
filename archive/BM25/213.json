@@ -1,0 +1,7 @@
+{
+    "query": "what are the sizes of both datasets?",
+    "gold_answer": "training set has 89,042 sentence pairs, and the test set has 100 pairs, training set contains 296,402, 2,000 for development and 359 for testingWikiSmall  89 142 sentence pair and  WikiLarge 298 761 sentence pairs. ",
+    "predict": "The size of the dataset containing samples with shorter gaps is smaller than that containing samples with longer gaps, as evidenced by ∼ 5 γ being optimal for one set and ∼ 23 for the other.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical sizes for the training, test, and development datasets, detailing the exact counts of sentence pairs in each dataset. In contrast, Answer B discusses the relative sizes of two datasets based on the gap lengths but does not provide any specific numerical values or sizes for the datasets mentioned in the query. Since Answer A directly answers the query about the sizes of both datasets with concrete figures, while Answer B does not address the sizes at all, the two answers are not semantically equivalent."
+}

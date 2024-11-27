@@ -1,0 +1,7 @@
+{
+    "query": "What dataset does this approach achieve state of the art results on?",
+    "gold_answer": "the English-German dataset",
+    "predict": "Penn Treebank BIBREF13",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the 'English-German dataset' as the dataset on which the approach achieves state-of-the-art results. Answer B refers to 'Penn Treebank BIBREF13,' which is a different dataset. Since both answers identify distinct datasets, they cannot be considered semantically equivalent in the context of the query, which asks for a specific dataset."
+}

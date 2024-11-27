@@ -1,0 +1,7 @@
+{
+    "query": "What cyberbulling topics did they address?",
+    "gold_answer": "personal attack, racism, and sexismracism, sexism, personal attack, not specifically about any single topic",
+    "predict": "They addressed cyberbullying contributions and FLC (Future Conversation Learning) topics.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific topics related to cyberbullying, such as personal attack, racism, and sexism, indicating a focus on the nature of the bullying itself. In contrast, Answer B refers to broader concepts like 'cyberbullying contributions' and 'FLC topics,' which do not directly address the specific topics of cyberbullying mentioned in Answer A. Since the two answers discuss different aspects of cyberbullying, they are not semantically equivalent."
+}

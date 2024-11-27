@@ -1,0 +1,7 @@
+{
+    "query": "Which existing benchmarks did they compare to?",
+    "gold_answer": "Affective Text, Fairy Tales, ISEAR Affective Text dataset, Fairy Tales dataset, ISEAR dataset",
+    "predict": "The existing benchmarks were compared.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific names of existing benchmarks, including 'Affective Text,' 'Fairy Tales,' and 'ISEAR datasets,' which directly answers the query about which benchmarks were compared. In contrast, Answer B is vague and does not specify any benchmarks, merely stating that 'the existing benchmarks were compared.' Since Answer A gives detailed information while Answer B lacks specificity, the two answers are not semantically equivalent."
+}

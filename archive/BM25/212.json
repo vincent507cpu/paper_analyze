@@ -1,0 +1,7 @@
+{
+    "query": "How does proposed qualitative annotation schema looks like?",
+    "gold_answer": "The resulting taxonomy of the framework is shown in Figure FIGREF10FIGREF10",
+    "predict": "The proposed qualitative annotation schema looks like this:\n\n* **Categorization**: gold standards according to linguistic complexity, required reasoning, and background knowledge\n  * **Dimensions**: High-level categories of a qualitative annotation schema\n  * **Metric**: lexical cues in order to approximate a lower bound for the complexity of the reading (micro) average F1 score of the annotations is 0.82",
+    "consistency": "0",
+    "reasoning": "Answer A provides a reference to a figure that presumably illustrates the taxonomy of the qualitative annotation schema, but it does not describe the schema itself. Answer B, on the other hand, explicitly outlines the structure and components of the proposed qualitative annotation schema, detailing its categorization, dimensions, and metrics. Since Answer A does not provide a description of how the schema looks and only refers to a visual representation, while Answer B gives a comprehensive explanation, the two answers are not semantically equivalent."
+}

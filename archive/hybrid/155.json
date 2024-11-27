@@ -1,0 +1,7 @@
+{
+    "query": "Do they test their framework performance on commonly used language pairs, such as English-to-German?",
+    "gold_answer": "YesYes",
+    "predict": "Yes, they test their framework performance on commonly used language pairs like English-to-German.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a simple affirmative response 'YesYes,' which lacks detail and context. Answer B, however, confirms the testing of framework performance on commonly used language pairs, specifically mentioning English-to-German. While both answers affirm the testing, Answer A does not provide the necessary context or specificity found in Answer B. Therefore, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is te core component for KBQA?",
+    "gold_answer": "answer questions by obtaining information from KB tuples hierarchical matching between questions and relations with residual learning",
+    "predict": "The core component for KBQA is the parse label used to categorize different entities and their relationships.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a process involving hierarchical matching and residual learning to obtain information from knowledge base (KB) tuples, which focuses on the methodology of answering questions. Answer B, on the other hand, identifies the 'parse label' as the core component, emphasizing categorization of entities and relationships. These two answers address different aspects of KBQA; one focuses on the method of answering while the other identifies a specific component. Therefore, they are not semantically equivalent."
+}

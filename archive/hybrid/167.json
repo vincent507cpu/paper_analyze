@@ -1,0 +1,7 @@
+{
+    "query": "How do they obtain psychological dimensions of people?",
+    "gold_answer": "using the Meaning Extraction MethodUnanswerable",
+    "predict": "They obtain psychological dimensions of people by using the Positive Emotion and Negative Emotion categories from the Linguistic Inquiry and Word Count (LIWC) dictionary to quantify the emotional orientation of texts. This involves identifying words that correlate with different psychological states based on their association with human emotions, such as those described in the context about \"happy,\" \"pretty,\" and \"good.\"",
+    "consistency": "0",
+    "reasoning": "Answer A mentions the 'Meaning Extraction Method' as a way to obtain psychological dimensions, but it does not provide any details about the process or categories used. Answer B, on the other hand, provides a specific method involving the LIWC dictionary and explains how it quantifies emotional orientation through positive and negative emotion categories. Since Answer A lacks detail and specificity compared to Answer B, they are not semantically equivalent as they describe different approaches to the same query."
+}

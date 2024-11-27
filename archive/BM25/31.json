@@ -1,0 +1,7 @@
+{
+    "query": "When was Weep Not, Child first published?",
+    "gold_answer": "Weep Not, Child was first published in 1964.",
+    "predict": "The content provided does not contain an explicit answer to when Weep Not, Child was first published. The text discusses themes related to emotions and forgiveness in biblical narrative, cultural practices of mourning and weeping, religious figures responding to situations with expressions of vulnerability, and the use of deep learning for language processing tasks involving languages with limited data. There is no specific information given about when a particular children's book called \"Weep Not, Child\" was first published.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific year, 1964, as the publication date for 'Weep Not, Child.' In contrast, Answer B explicitly states that it does not provide an answer to the query and discusses unrelated themes instead. Since Answer A gives a clear and direct response to the question while Answer B does not address the query at all, the two answers are not semantically equivalent."
+}

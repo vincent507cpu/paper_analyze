@@ -1,0 +1,7 @@
+{
+    "query": "What are the languages they use in their experiment?",
+    "gold_answer": "English\nFrench\nSpanish\nGerman\nGreek\nBulgarian\nRussian\nTurkish\nArabic\nVietnamese\nThai\nChinese\nHindi\nSwahili\nUrdu\nFinnishEnglish, Spanish, Finnish",
+    "predict": "The languages they use in their experiment are unspecified.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a comprehensive list of specific languages used in the experiment, while Answer B states that the languages are unspecified. Since Answer A explicitly names multiple languages and Answer B indicates a lack of specification, the two answers convey fundamentally different information. Therefore, they are not semantically equivalent."
+}

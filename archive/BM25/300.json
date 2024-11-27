@@ -1,0 +1,7 @@
+{
+    "query": "What were the scores of their system?",
+    "gold_answer": "column Ens Test in Table TABREF19",
+    "predict": "0.827",
+    "consistency": "0",
+    "reasoning": "Answer A refers to a specific column in a table, indicating a location where scores can be found, while Answer B provides a numerical score. These two answers do not convey the same information; Answer A does not provide a score itself but rather a reference to where it can be found, whereas Answer B gives a specific score. Therefore, they are not semantically equivalent."
+}

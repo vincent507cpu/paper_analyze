@@ -1,0 +1,7 @@
+{
+    "query": "When did Goodwin become a Naval aviator?",
+    "gold_answer": "Goodwin became a Naval aviator in January 1929.",
+    "predict": "Goodwin became a Naval aviator in December 1928.",
+    "consistency": "0",
+    "reasoning": "Answer A states that Goodwin became a Naval aviator in January 1929, while Answer B claims it was in December 1928. The two answers provide different months and years for the same event, indicating that they refer to distinct points in time. Since the dates are not the same, the answers are not semantically equivalent."
+}

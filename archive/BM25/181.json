@@ -1,0 +1,7 @@
+{
+    "query": "What machine learning and deep learning methods are used for RQE?",
+    "gold_answer": "Logistic Regression, neural networks",
+    "predict": "Deep learning methods are used for RQE.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'Logistic Regression' and 'neural networks' as methods used for RQE, indicating both traditional machine learning and deep learning techniques. Answer B, however, only mentions 'deep learning methods' without specifying which methods are included. While neural networks are a type of deep learning method, the lack of specificity in Answer B means it does not fully encompass the information provided in Answer A. Therefore, the two answers are not semantically equivalent as Answer A provides more detailed information than Answer B."
+}

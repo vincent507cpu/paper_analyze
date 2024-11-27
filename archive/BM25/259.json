@@ -1,0 +1,7 @@
+{
+    "query": "What are method improvements of F1 for paraphrase identification?",
+    "gold_answer": "Using DSC loss improves the F1 score by +0.58 for MRPC and +0.73 for QQP+0.58",
+    "predict": "The method of stacking multiple LSTM layers for modeling sentences was improved for paraphrase identification.",
+    "consistency": "0",
+    "reasoning": "Answer A discusses a specific improvement in the F1 score due to the use of DSC loss for two specific datasets (MRPC and QQP), providing quantitative results. Answer B, on the other hand, mentions a different method (stacking multiple LSTM layers) as an improvement for paraphrase identification without providing any quantitative results or specific context. Since the two answers refer to different methods of improvement and do not convey the same information regarding F1 score enhancements, they are not semantically equivalent."
+}

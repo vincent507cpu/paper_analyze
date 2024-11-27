@@ -1,0 +1,7 @@
+{
+    "query": "by how much did their model improve?",
+    "gold_answer": "For the WikiLarge dataset, the improvement over baseline NMT is 2.11 BLEU, 1.7 FKGL and 1.07 SARI.\nFor the WikiSmall dataset, the improvement over baseline NMT is  8.37 BLEU.6.37 BLEU",
+    "predict": "The question is incomplete and refers to \"their\" model, but it asks how much their model improved. The content discusses improvements on baselines through semi-supervised training methods but does not provide specific details about the model's performance improvement. Therefore, without more context on the actual changes made by the research team compared to existing models, it is impossible to give an accurate answer based solely on this text.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical improvements in performance metrics (BLEU, FKGL, and SARI) for two datasets, indicating a clear quantifiable improvement of the model. In contrast, Answer B critiques the question's completeness and states that it lacks specific details about the model's performance improvement, thus failing to provide any numerical or qualitative assessment of improvement. Since Answer A gives concrete data while Answer B does not address the improvement directly, the two answers are not semantically equivalent."
+}

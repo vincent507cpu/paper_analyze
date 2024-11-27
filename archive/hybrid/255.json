@@ -1,0 +1,7 @@
+{
+    "query": "How much improvement is gained from Adversarial Reward Augmented Maximum Likelihood (ARAML)?",
+    "gold_answer": "ARAM has achieved improvement over all baseline methods using reverese perplexity and  slef-BLEU metric.  The maximum reverse perplexity improvement 936,16 is gained for EMNLP2017  WMT  dataset and  48,44 for COCO dataset.Compared to the baselines, ARAML does not do better in terms of perplexity on COCO and EMNLP 2017 WMT datasets, but it does by up to 0.27 Self-BLEU points on COCO and 0.35 Self-BLEU on EMNLP 2017 WMT. In terms of Grammaticality and Relevance, it scores better than the baselines on up to 75.5% and 73% of the cases respectively.",
+    "predict": "25% improvement",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed analysis of the improvements gained from ARAML, including specific metrics and comparisons to baseline methods. It mentions improvements in reverse perplexity and Self-BLEU scores, as well as percentages of cases where ARAML outperforms baselines. Answer B, on the other hand, simply states '25% improvement' without context or specific metrics. The two answers do not convey the same level of detail or the same quantitative information about the improvement, making them not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Which models did they experiment with?",
+    "gold_answer": "Stacked LSTMs, Cell-aware Stacked LSTMs, Sentence Encoders, Top-layer Classifiers",
+    "predict": "Logistic Regression trained on the clinical-RQE data and various NMT models.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models related to deep learning architectures, particularly in the context of sequence processing and classification. In contrast, Answer B mentions Logistic Regression and NMT (Neural Machine Translation) models, which are different types of models used for different purposes. Since the models mentioned in both answers belong to different categories and serve different functions, they are not semantically equivalent."
+}

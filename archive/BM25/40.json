@@ -1,0 +1,7 @@
+{
+    "query": "Which orders did Mufti-e-Azam-e-Hind receive Khilafat from?",
+    "gold_answer": "Mufti-e-Azam-e-Hind received Khilafat in the Qaderi, Chishti, Nakshbandi, Suharwardi, and Madaari Orders.",
+    "predict": "Mufti-e-Azam-e-Hind received Khilafat from Sayyiduna Noori Mia and his blessed father, A'la Hazrat, Ash Shah Imam. He also received Khilafat in the Qaderi, Chishti, Nakshbandi, Suharwardi, and Madaari Orders.",
+    "consistency": "1",
+    "reasoning": "Answer A lists the specific orders from which Mufti-e-Azam-e-Hind received Khilafat, while Answer B provides additional context by mentioning Sayyiduna Noori Mia and A'la Hazrat, along with the same list of orders. Although both answers include the same orders, Answer B contains extra information that does not change the essence of the orders mentioned. Therefore, the core information regarding the orders is semantically equivalent between the two answers, despite the additional context in Answer B."
+}

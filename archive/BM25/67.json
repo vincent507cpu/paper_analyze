@@ -1,0 +1,7 @@
+{
+    "query": "What is the security parameter for the AES-256 block cipher?",
+    "gold_answer": "172.",
+    "predict": "The security parameter for AES-256 is the key length used in the encryption process. For AES-256, this key length is 256 bits, which significantly enhances its security compared to less secure variants of AES (e.g., 128-bit).",
+    "consistency": "0",
+    "reasoning": "Answer A provides a numerical value '172,' which does not accurately represent the security parameter for AES-256. Answer B explains that the security parameter is the key length of 256 bits, which is the correct and relevant information regarding AES-256. Since Answer A does not convey the correct security parameter and lacks context, while Answer B provides a detailed and accurate explanation, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the sticking point in the political showdown over the budget?",
+    "gold_answer": "The sticking point in the political showdown over the budget is how much spending to cut.",
+    "predict": "The sticking point in the political showdown over the budget is how much spending to cut.",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

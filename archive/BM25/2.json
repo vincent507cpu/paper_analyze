@@ -1,0 +1,7 @@
+{
+    "query": "What is the purpose of an ICD?",
+    "gold_answer": "Implantable Cardioverter Defibrillator (ICD) is a surgically implanted electronic device to treat life-threatening heartbeat irregularities.",
+    "predict": "The ICD stands for Integrated Developmental Certificate.",
+    "consistency": "0",
+    "reasoning": "Answer A correctly defines ICD as an Implantable Cardioverter Defibrillator, which is relevant to medical treatment for heartbeat irregularities. Answer B, however, incorrectly states that ICD stands for Integrated Developmental Certificate, which is unrelated to the medical context of the query. Since the two answers refer to entirely different meanings and contexts, they are not semantically equivalent."
+}

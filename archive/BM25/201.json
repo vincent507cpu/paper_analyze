@@ -1,0 +1,7 @@
+{
+    "query": "What are strong baselines model is compared to?",
+    "gold_answer": "Baseline models are:\n- Chen et al., 2015a\n- Chen et al., 2015b\n- Liu et al., 2016\n- Cai and Zhao, 2016\n- Cai et al., 2017\n- Zhou et al., 2017\n- Ma et al., 2018\n- Wang et al., 2019",
+    "predict": "MLE, RL, GAN baselines",
+    "consistency": "0",
+    "reasoning": "Answer A provides a list of specific baseline models referenced in various studies, while Answer B mentions general categories of baseline models: Maximum Likelihood Estimation (MLE), Reinforcement Learning (RL), and Generative Adversarial Networks (GAN). The two answers do not convey the same information; Answer A lists specific models, whereas Answer B refers to broader methodologies. Therefore, they are not semantically equivalent."
+}

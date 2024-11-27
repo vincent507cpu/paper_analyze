@@ -1,0 +1,7 @@
+{
+    "query": "What is the invertibility condition?",
+    "gold_answer": "The neural projector must be invertible.we constrain our neural projector with two requirements: (1) INLINEFORM0 and (2) INLINEFORM1 exists",
+    "predict": "The invertibility condition is that the Jacobian determinant of the transformation matrix is always equal to one, ensuring volume preservation.",
+    "consistency": "0",
+    "reasoning": "Answer A describes the invertibility condition in terms of specific requirements for a neural projector, mentioning constraints but not providing a clear mathematical definition. Answer B, on the other hand, provides a precise mathematical condition related to the Jacobian determinant, which is a standard definition in mathematics for invertibility. Since Answer A does not convey the same mathematical concept as Answer B, they are not semantically equivalent."
+}

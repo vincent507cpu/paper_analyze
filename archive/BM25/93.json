@@ -1,0 +1,7 @@
+{
+    "query": "What award did Brooksley Born receive in 2009?",
+    "gold_answer": "In 2009, Brooksley Born received the John F. Kennedy Profiles in Courage Award.",
+    "predict": "No award was received in 2009 from Brooksley Born. The content states that she received the \"Affordable Green Chemistry Endowment Fund\" in 2007, but it does not specify whether it led to an award or not. She focused on distributing the ACS Chemical Technology Student Recognition Award instead.",
+    "consistency": "0",
+    "reasoning": "Answer A states that Brooksley Born received the John F. Kennedy Profiles in Courage Award in 2009, directly answering the query. In contrast, Answer B claims that no award was received in 2009 and provides information about other awards and activities in different years. Since Answer A confirms the receipt of an award in 2009 while Answer B denies it, the two answers are not semantically equivalent."
+}

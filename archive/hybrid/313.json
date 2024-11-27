@@ -1,0 +1,7 @@
+{
+    "query": "On which benchmarks they achieve the state of the art?",
+    "gold_answer": "SimpleQuestions, WebQSPWebQSP, SimpleQuestions",
+    "predict": "MSR, AS",
+    "consistency": "0",
+    "reasoning": "Answer A lists 'SimpleQuestions' and 'WebQSPWebQSP' as benchmarks where state-of-the-art performance is achieved, while Answer B mentions 'MSR' and 'AS.' Since the benchmarks mentioned in both answers are entirely different and do not overlap, they cannot be considered semantically equivalent. Each answer refers to distinct sets of benchmarks."
+}

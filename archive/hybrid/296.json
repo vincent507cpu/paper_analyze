@@ -1,0 +1,7 @@
+{
+    "query": "How does Gaussian-masked directional multi-head attention works?",
+    "gold_answer": "pays attentions to adjacent characters and casts a localness relationship between the characters as a fixed Gaussian weight assuming the weight relies on the distance between charactersGaussian-masked directional attention can be described as a function to map queries and key-value pairs to the representation of input, Gaussian-masked directional attention expects to pay attention to the adjacent characters of each positions and cast the localness relationship between characters as a fix Gaussian weight for attention, Gaussian weight only relys on the distance between characters",
+    "predict": "Gaussian-masked directional multi-head attention captures representation by utilizing multi-headed attention with Gaussian masks.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed explanation of how Gaussian-masked directional multi-head attention works, focusing on the localness relationship and the Gaussian weight based on the distance between characters. Answer B, however, offers a more concise description, stating that it captures representation using multi-headed attention with Gaussian masks. While both answers discuss the concept of Gaussian-masked directional attention, Answer A elaborates on the mechanics and relationships involved, whereas Answer B summarizes the process without the same level of detail. Therefore, they are not semantically equivalent as they convey different levels of information about the same concept."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What may happen if the VR headset lenses are exposed to sunlight or strong light?",
+    "gold_answer": "Exposure to sunlight or strong light may cause permanent yellow spot damage on the screen.",
+    "predict": "Exposure to direct sunlight may cause permanent yellow spot damage on the screen.",
+    "consistency": "1",
+    "reasoning": "Answer A mentions 'sunlight or strong light' as potential causes for damage, while Answer B specifies 'direct sunlight.' Both answers indicate that exposure to sunlight can lead to 'permanent yellow spot damage on the screen.' The term 'strong light' in Answer A can be interpreted to include 'direct sunlight,' making the two answers semantically equivalent in the context of the query."
+}

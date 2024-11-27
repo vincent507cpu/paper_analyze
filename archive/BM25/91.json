@@ -1,0 +1,7 @@
+{
+    "query": "What is the group's request to the Connecticut DEEP Commissioner?",
+    "gold_answer": "Appointing a blue ribbon commission to conduct the research and develop the management plan and denying or defering approval on any applications for new docks in the Cove until the management plan can be developed and implemented.",
+    "predict": "The group's request to the Connecticut DEEP Commissioner is to generate channels for public and private use based on the content received from the scoring engine.",
+    "consistency": "0",
+    "reasoning": "Answer A outlines a specific request for the appointment of a blue ribbon commission to conduct research and manage dock applications, while Answer B describes a request to generate channels for public and private use based on a scoring engine. The two answers address different actions and objectives, indicating that they are not semantically equivalent. Answer A focuses on management and research regarding docks, whereas Answer B pertains to channel generation, which is unrelated to the original query."
+}

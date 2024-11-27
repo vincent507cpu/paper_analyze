@@ -1,0 +1,7 @@
+{
+    "query": "What are the three phases of the author's preaching process?",
+    "gold_answer": "The three phases are exegetical, theological, and homiletical.",
+    "predict": "The three phases of the author's preaching process are:\n1. Developing theology\n2. Key idea identification and timeless truth communication\n3. Exhorting with authoritative words",
+    "consistency": "0",
+    "reasoning": "Answer A lists the three phases of the preaching process as 'exegetical, theological, and homiletical,' which are specific terms used in preaching and homiletics. Answer B, however, describes the phases in a more detailed manner, using different terminology: 'Developing theology,' 'Key idea identification and timeless truth communication,' and 'Exhorting with authoritative words.' While both answers refer to the process of preaching, the terms used in Answer B do not directly correspond to the terms in Answer A. Therefore, the two answers are not semantically equivalent as they describe different aspects or interpretations of the preaching process."
+}

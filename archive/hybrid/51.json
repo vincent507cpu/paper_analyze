@@ -1,0 +1,7 @@
+{
+    "query": "Who is the program chair of this conference?",
+    "gold_answer": "Peter Denning.",
+    "predict": "The program chair of this conference is Peter Denning.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a direct response by stating 'Peter Denning,' while Answer B elaborates by restating the role and context, 'The program chair of this conference is Peter Denning.' Despite the difference in structure, both answers convey the same information regarding the identity of the program chair. Therefore, they are semantically equivalent."
+}

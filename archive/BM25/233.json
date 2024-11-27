@@ -1,0 +1,7 @@
+{
+    "query": "Are the images from a specific domain?",
+    "gold_answer": "YesYes",
+    "predict": "Yes, images from a specific domain are captured by filters learned using different methods.",
+    "consistency": "0",
+    "reasoning": "Answer A simply confirms that the images are from a specific domain with a repetitive 'YesYes,' while Answer B provides a more detailed explanation about how these images are captured through filters and methods. Although both answers affirm that the images are from a specific domain, Answer B elaborates on the process, making the two answers semantically different in terms of detail and context. Therefore, they are not equivalent."
+}

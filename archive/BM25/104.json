@@ -1,0 +1,7 @@
+{
+    "query": "How many underclassmen are on the NBA Draft Early-Entry List?",
+    "gold_answer": "62.",
+    "predict": "62 underclassmen",
+    "consistency": "1",
+    "reasoning": "Answer A provides the number '62' as the count of underclassmen on the NBA Draft Early-Entry List. Answer B states '62 underclassmen,' which includes the same numerical value and specifies that these are underclassmen. Both answers convey the same information regarding the quantity of underclassmen, making them semantically equivalent."
+}

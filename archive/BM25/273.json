@@ -1,0 +1,7 @@
+{
+    "query": "What was the baseline used?",
+    "gold_answer": "error detection system by Rei2016error detection system by Rei2016",
+    "predict": "Baseline features were extracted from CNN network used as the baseline method in this study.",
+    "consistency": "0",
+    "reasoning": "Answer A refers to an 'error detection system by Rei2016,' which suggests a specific system or method used for error detection. Answer B, on the other hand, discusses 'baseline features extracted from CNN network,' indicating a different context related to feature extraction from a convolutional neural network. The two answers address different aspects of a baseline, with Answer A focusing on a specific system and Answer B on a method of feature extraction. Therefore, they are not semantically equivalent."
+}

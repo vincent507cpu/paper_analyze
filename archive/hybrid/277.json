@@ -1,0 +1,7 @@
+{
+    "query": "What features are used?",
+    "gold_answer": "Unanswerable",
+    "predict": "Baseline features and pre-trained features are used.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered, while Answer B provides specific information about the features used, namely 'baseline features and pre-trained features.' Since one answer claims that the question cannot be answered and the other provides a detailed response, they are not semantically equivalent."
+}

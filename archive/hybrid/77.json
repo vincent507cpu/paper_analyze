@@ -1,0 +1,7 @@
+{
+    "query": "What are the symptoms of alpha thalassemia major?",
+    "gold_answer": "Severe anemia that begins even before birth.",
+    "predict": "Symptoms of alpha thalassemia major include:\n- Anemia: Red blood cells are often small and abnormal, leading to fatigue and weakness.\n- Growth issues: Children may experience delayed growth and development compared to their peers.\n- Paleness: Skin and eyes can appear pale or yellowish due to anemia.\n- Rapid heart rate: The body tries to compensate for the lack of oxygen by speeding up its heartbeat.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a concise description of one major symptom of alpha thalassemia major, specifically severe anemia that starts before birth. Answer B, on the other hand, lists multiple symptoms associated with the condition, including anemia, growth issues, paleness, and rapid heart rate. While both answers mention anemia, Answer B elaborates on additional symptoms, making it more comprehensive. However, since both answers address the symptoms of the same condition, they can be considered semantically related but not equivalent in detail. Therefore, they do not convey the same level of information about the symptoms."
+}

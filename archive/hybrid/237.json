@@ -1,0 +1,7 @@
+{
+    "query": "How do they define robustness of a model?",
+    "gold_answer": "ability to accurately classify texts even when the amount of prior knowledge for different classes is unbalanced, and when the class distribution of the dataset is unbalancedLow sensitivity to bias in prior knowledge",
+    "predict": "Robustness is determined by the model's ability to perform well across multiple concepts without significant errors spreading. A lower sensitivity metric indicates greater robustness in word recognition models.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on the model's ability to classify texts accurately despite unbalanced prior knowledge and class distribution, emphasizing sensitivity to bias. Answer B, on the other hand, discusses robustness in terms of performance across multiple concepts and mentions a lower sensitivity metric as an indicator of robustness. While both answers relate to the concept of robustness, they approach it from different angles and do not convey the same meaning regarding what defines robustness. Therefore, they are not semantically equivalent."
+}

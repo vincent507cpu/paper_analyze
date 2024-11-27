@@ -1,0 +1,7 @@
+{
+    "query": "How does the conduction gap depend on the strain direction?",
+    "gold_answer": "Peaks occur at certain strain directions, while the gap is zero at others.",
+    "predict": "The conduction gap depends strongly on both the applied strain direction and the transport direction in graphene. For small strains, it can open with a few percentage points. Larger gaps are possible for higher strain percentages but require larger shifts of Dirac points along the $k_y$-axis. The full understanding and optimization of this phenomenon would benefit from further systematic investigations into strain-dependent effects on conduction properties.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a concise statement about the conduction gap's behavior at specific strain directions, indicating that it can peak or be zero depending on the direction. Answer B, however, elaborates on the relationship between the conduction gap and strain direction, discussing the effects of applied strain and transport direction in graphene, as well as the implications of strain on the conduction gap. While both answers address the dependence of the conduction gap on strain direction, Answer B offers a more detailed and nuanced explanation, which does not directly equate to the simpler statement in Answer A. Therefore, the two answers are not semantically equivalent as they convey different levels of detail and implications."
+}

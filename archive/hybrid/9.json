@@ -1,0 +1,7 @@
+{
+    "query": "What is the recommended daily intake of vitamin K for adult women and men?",
+    "gold_answer": "90 μg for women and 120 μg for men.",
+    "predict": "The recommended daily intake of vitamin K for adult women and men is 120 μg.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the recommended daily intake of vitamin K as 90 μg for women and 120 μg for men, providing distinct values for each gender. Answer B states that the recommended daily intake is 120 μg, but it does not mention the intake for women. Since Answer B omits the specific value for women and only provides the value for men, the two answers are not semantically equivalent as they convey different information regarding the intake for both genders."
+}

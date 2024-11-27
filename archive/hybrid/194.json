@@ -1,0 +1,7 @@
+{
+    "query": "Do the authors hypothesize that humans' robustness to noise is due to their general knowledge?",
+    "gold_answer": "YesYes",
+    "predict": "Yes, the authors hypothesize that humans' robustness to noise is due to their general knowledge.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a simple affirmation 'YesYes,' which indicates agreement with the hypothesis but lacks detail. Answer B elaborates on the hypothesis, explicitly stating that the authors believe humans' robustness to noise is due to their general knowledge. While both answers agree with the hypothesis, Answer B provides a complete explanation, making it more informative. However, the core agreement is present in both answers, suggesting they are semantically equivalent in terms of affirming the hypothesis."
+}

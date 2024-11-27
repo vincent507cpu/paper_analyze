@@ -1,0 +1,7 @@
+{
+    "query": "What kind of stylistic features are obtained?",
+    "gold_answer": "Unanswerable",
+    "predict": "Stylistic features obtained.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered, while Answer B provides a response that suggests there are stylistic features obtained. Since one answer implies that there is no answer to the question and the other suggests that there are indeed stylistic features, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What do dendritic spines contain?",
+    "gold_answer": "They are rich in actin and have been shown to be highly dynamic.",
+    "predict": "Dendritic spines contain proteins that link extracellular signals with the actin cytoskeleton allowing for control of dendritic spine morphology and number.",
+    "consistency": "0",
+    "reasoning": "Answer A states that dendritic spines are rich in actin and highlights their dynamic nature, focusing on the presence of actin. Answer B provides a more detailed explanation, mentioning proteins that connect extracellular signals to the actin cytoskeleton, which influences the morphology and number of dendritic spines. While both answers mention actin, Answer B elaborates on the functional aspects and additional components involved. Therefore, they are not semantically equivalent as they convey different levels of detail and focus on different aspects of dendritic spines."
+}

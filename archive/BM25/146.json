@@ -1,0 +1,7 @@
+{
+    "query": "How much data is needed to train the task-specific encoder?",
+    "gold_answer": "57,505 sentences57,505 sentences",
+    "predict": "20GB",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a quantity of data in terms of the number of sentences, while Answer B provides the data size in gigabytes. These two answers represent different metrics for measuring data: one is a count of sentences and the other is a size measurement. Since they do not convey the same information about the data required for training the encoder, they are not semantically equivalent."
+}

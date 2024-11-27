@@ -1,0 +1,7 @@
+{
+    "query": "How many different types of entities exist in the dataset?",
+    "gold_answer": "OurNepali contains 3 different types of entities, ILPRL contains 4 different types of entitiesthree",
+    "predict": "4",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that there are 3 different types of entities in OurNepali and 4 in ILPRL, while Answer B simply states '4.' Since Answer A provides information about two datasets and their respective counts, and Answer B only mentions one count (which corresponds to ILPRL), the two answers do not convey the same information regarding the total number of different types of entities in the dataset. Therefore, they are not semantically equivalent."
+}

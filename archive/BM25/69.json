@@ -1,0 +1,7 @@
+{
+    "query": "What models were used for dialect identification?",
+    "gold_answer": "BERT, RoBERTa, ELECTRA, GPT-2, and XLM-RoBERTa.",
+    "predict": "BERT and RoBERTa were used for dialect identification.",
+    "consistency": "0",
+    "reasoning": "Answer A lists multiple models including BERT, RoBERTa, ELECTRA, GPT-2, and XLM-RoBERTa, indicating a broader range of models used for dialect identification. Answer B, however, only mentions BERT and RoBERTa, omitting the other models. Since Answer B does not encompass all the models mentioned in Answer A, they are not semantically equivalent as Answer B provides incomplete information regarding the models used."
+}

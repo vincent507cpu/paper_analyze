@@ -1,0 +1,7 @@
+{
+    "query": "On top of BERT does the RNN layer work better or the transformer layer?",
+    "gold_answer": "Transformer over BERT (ToBERT)The transformer layer",
+    "predict": "The RNN layer performs better on top of BERT compared to the transformer layer.",
+    "consistency": "0",
+    "reasoning": "Answer A states that the transformer layer works better on top of BERT, while Answer B claims that the RNN layer performs better than the transformer layer when added to BERT. These two statements directly contradict each other regarding which layer performs better, indicating that they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the group's request to the Connecticut DEEP Commissioner?",
+    "gold_answer": "Appointing a blue ribbon commission to conduct the research and develop the management plan and denying or defering approval on any applications for new docks in the Cove until the management plan can be developed and implemented.",
+    "predict": "The group requested that the Connecticut DEEP Commissioner.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed description of the group's specific requests to the Connecticut DEEP Commissioner, including appointing a blue ribbon commission and actions regarding dock applications. Answer B, however, only states that the group made a request without specifying what that request entails. Since Answer B lacks the necessary details to convey the same meaning as Answer A, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Which eight NER tasks did they evaluate on?",
+    "gold_answer": "BC5CDR-disease, NCBI-disease, BC5CDR-chem, BC4CHEMD, BC2GM, JNLPBA, LINNAEUS, Species-800BC5CDR-disease, NCBI-disease, BC5CDR-chem, BC4CHEMD, BC2GM, JNLPBA, LINNAEUS, Species-800",
+    "predict": "The eight NER (Named Entity Recognition) tasks evaluated included document-level sentiment classification, language modeling, and character-based neural machine translation.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific NER tasks related to biomedical entities, while Answer B describes entirely different tasks that are not related to Named Entity Recognition. The tasks in Answer A are specific datasets used for evaluation, whereas Answer B mentions tasks that are more general and unrelated to the query about NER tasks. Therefore, the two answers are not semantically equivalent."
+}

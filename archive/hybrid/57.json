@@ -1,0 +1,7 @@
+{
+    "query": "Which air unit did Goodwin command during the initial landings of Marines on Saipan?",
+    "gold_answer": "VC-10 Squadron.",
+    "predict": "Goodwin commanded VC-10 Squadron during the initial landings of Marines on Saipan.",
+    "consistency": "1",
+    "reasoning": "Answer A provides the name of the air unit, 'VC-10 Squadron,' without additional context. Answer B includes the same information but adds that Goodwin commanded this squadron during the initial landings of Marines on Saipan. While both answers refer to the same air unit, Answer B provides more context about Goodwin's role. However, the core information about the air unit remains the same, making them semantically equivalent in terms of identifying the unit commanded by Goodwin."
+}

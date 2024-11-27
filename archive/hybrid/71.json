@@ -1,0 +1,7 @@
+{
+    "query": "How is the vacuum processing system configured in terms of the arrangement of the vacuum processing apparatus?",
+    "gold_answer": "Multiple vacuum processing apparatuses are arranged in parallel.",
+    "predict": "The vacuum processing system arranges all vacuum processing chambers in parallel for a unified configuration.",
+    "consistency": "1",
+    "reasoning": "Answer A states that multiple vacuum processing apparatuses are arranged in parallel, which indicates a configuration involving several units working simultaneously. Answer B elaborates that the vacuum processing system arranges all vacuum processing chambers in parallel for a unified configuration, which essentially conveys the same idea but with more detail. Both answers describe a parallel arrangement of vacuum processing units, making them semantically equivalent in this context."
+}

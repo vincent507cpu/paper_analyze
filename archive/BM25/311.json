@@ -1,0 +1,7 @@
+{
+    "query": "What datasets do they evaluate on?",
+    "gold_answer": " Wall Street Journal (WSJ) portion of the Penn TreebankUnanswerable",
+    "predict": "The datasets they evaluate on are the SimpleQuestions BIBREF2 and WebQSP BIBREF25.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a single dataset, the Wall Street Journal portion of the Penn Treebank, while Answer B lists multiple datasets: SimpleQuestions and WebQSP. Since the answers refer to different datasets and Answer A does not mention the datasets in Answer B, they are not semantically equivalent."
+}

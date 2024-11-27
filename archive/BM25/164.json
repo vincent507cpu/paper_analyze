@@ -1,0 +1,7 @@
+{
+    "query": "What other tasks do they test their method on?",
+    "gold_answer": "None",
+    "predict": "They test their method on different tasks, including semantic analogy and syntactic tests.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'None,' indicating that no other tasks are tested. In contrast, Answer B specifies that the method is tested on various tasks, including semantic analogy and syntactic tests. Since Answer A and Answer B provide completely opposite information regarding the tasks tested, they are not semantically equivalent."
+}

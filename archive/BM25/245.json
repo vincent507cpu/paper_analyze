@@ -1,0 +1,7 @@
+{
+    "query": "What language do they explore?",
+    "gold_answer": "English, French, German French, English, Spanish, Italian, Portuguese, Hebrew, Arabic",
+    "predict": "There is no specific language being explored in the given content. The content focuses on exploring multiple pooling strategies for language identification task and their potential impact on cross-lingual ability.",
+    "consistency": "0",
+    "reasoning": "Answer A lists a variety of languages, suggesting that multiple languages are being explored. In contrast, Answer B states that there is no specific language being explored and instead focuses on pooling strategies for language identification. The two answers present fundamentally different interpretations of the query, with Answer A indicating a focus on specific languages and Answer B denying that focus. Therefore, they are not semantically equivalent."
+}

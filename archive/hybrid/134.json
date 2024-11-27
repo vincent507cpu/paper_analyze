@@ -1,0 +1,7 @@
+{
+    "query": "By how much did they improve?",
+    "gold_answer": "They decrease MAE in 0.34",
+    "predict": "They improved in three areas: improving model performance in a challenging domain, enhancing system robustness, and enhancing personality learning for chatbots.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific quantitative measure of improvement, stating a decrease in MAE (Mean Absolute Error) by 0.34. Answer B, however, describes qualitative improvements in three distinct areas without providing a specific measure of improvement. Since Answer A focuses on a numerical value related to performance, while Answer B discusses broader aspects of improvement without quantifying them, the two answers do not convey the same information regarding the extent of improvement. Therefore, they are not semantically equivalent."
+}

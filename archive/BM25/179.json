@@ -1,0 +1,7 @@
+{
+    "query": "Which basic neural architecture perform best by itself?",
+    "gold_answer": "BERT",
+    "predict": "SeW ResNet",
+    "consistency": "0",
+    "reasoning": "Answer A identifies 'BERT' as a basic neural architecture that performs well by itself, while Answer B mentions 'SeW ResNet,' which is a different architecture. Since BERT and SeW ResNet are distinct models with different structures and applications, they cannot be considered semantically equivalent in the context of the query, which asks for the best-performing architecture. Therefore, the answers are not equivalent."
+}

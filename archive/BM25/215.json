@@ -1,0 +1,7 @@
+{
+    "query": "Which natural language(s) are studied in this paper?",
+    "gold_answer": "UnanswerableEnglish",
+    "predict": "cross-lingual transferring ability of multi-BERT on RC tasks.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'UnanswerableEnglish,' which seems to suggest that the question cannot be answered or that English is not a focus of the study. Answer B discusses 'cross-lingual transferring ability of multi-BERT on RC tasks,' which implies a focus on multiple languages and their interaction in the context of a specific task. Since Answer A does not provide a clear natural language studied and instead implies a lack of answerability, while Answer B discusses a specific aspect of language study, the two answers are not semantically equivalent."
+}

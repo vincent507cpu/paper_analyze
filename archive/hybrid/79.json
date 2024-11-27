@@ -1,0 +1,7 @@
+{
+    "query": "How are smartphones and tablets different from a technical perspective?",
+    "gold_answer": "Smartphones are more compact and power constrained.",
+    "predict": "Smartphones are more compact and power-constrained compared to tablets, with limited battery capacity and thermal dissipation limitations, while tablets have a broader range of designs due to their larger power budget for SoCs. Tablets typically don't feature cellular modems, whereas smartphones integrate them as necessary.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a brief statement about smartphones being more compact and power constrained, which is a valid point. Answer B elaborates on this by comparing smartphones to tablets, detailing additional technical differences such as battery capacity, thermal dissipation, design range, and the presence of cellular modems. While Answer B includes more information, it does not contradict or change the essence of Answer A. Both answers highlight the compactness and power constraints of smartphones, making them semantically equivalent in the context of the query, albeit with different levels of detail."
+}

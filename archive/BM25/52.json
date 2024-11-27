@@ -1,0 +1,7 @@
+{
+    "query": "How does the conduction gap depend on the strain direction?",
+    "gold_answer": "Peaks occur at certain strain directions, while the gap is zero at others.",
+    "predict": "The conduction gap depends strongly on both strain direction and transport direction. For a small strain of 6%, a large conduction gap of up to about 500 meV can be achieved. The effect is more pronounced when the Dirac points along the $k_y$-axis shift due to the applied strain, resulting in significant gaps for smaller strains.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a general statement about the conduction gap varying with strain direction, indicating that there are specific directions where the gap is zero and others where it peaks. Answer B, however, elaborates on the relationship between conduction gap and strain direction, including specific values and conditions under which the gap changes. While both answers discuss the dependence of the conduction gap on strain direction, Answer B provides more detailed information and context, making it semantically richer but not directly equivalent to the more general statement in Answer A. Therefore, they are not semantically equivalent."
+}

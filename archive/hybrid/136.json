@@ -1,0 +1,7 @@
+{
+    "query": "what was the baseline?",
+    "gold_answer": " MT system on the data released by BIBREF11Transformer base, two-pass CADec model",
+    "predict": "The baseline was the reference for the top longerons in the new layout.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a specific machine translation (MT) system and model configuration as the baseline, while Answer B refers to a baseline related to the reference for top longerons in a layout. The two answers pertain to different contexts and subjects, with Answer A focusing on a technical model and Answer B discussing a structural reference. Therefore, they are not semantically equivalent."
+}

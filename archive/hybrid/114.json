@@ -1,0 +1,7 @@
+{
+    "query": "How is the ground truth for fake news established?",
+    "gold_answer": "Ground truth is not established in the paper",
+    "predict": "The ground truth for fake news is established by manually annotating 1327 tweets as containing or not containing fake news. This process was carried out by a single person to ensure consistency across the dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A states that ground truth is not established in the paper, indicating a lack of any method or process for determining ground truth. In contrast, Answer B provides a specific method for establishing ground truth through manual annotation of tweets, detailing a clear process. Since the two answers present fundamentally different claims about the existence and method of establishing ground truth, they are not semantically equivalent."
+}

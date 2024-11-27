@@ -1,0 +1,7 @@
+{
+    "query": "How big is the difference in performance between proposed model and baselines?",
+    "gold_answer": "Metric difference between Aloha and best baseline score:\nHits@1/20: +0.061 (0.3642 vs 0.3032)\nMRR: +0.0572(0.5114 vs 0.4542)\nF1: -0.0484 (0.3901 vs 0.4385)\nBLEU: +0.0474 (0.2867 vs 0.2393)",
+    "predict": "The performance difference between the proposed model and baselines is shown to be significant in all ranges of relative distances. Specifically, it improves on Hybrid when distance ranges from \"0∼10\". The improvement becomes more substantial as the distance increases.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific metric differences in performance between the proposed model and the best baseline scores across various metrics (Hits@1/20, MRR, F1, BLEU). It quantifies the differences with exact values. Answer B, on the other hand, discusses the performance difference in a more general sense, indicating that the proposed model shows significant improvement over the baselines, particularly in certain distance ranges, but does not provide specific numerical comparisons. While both answers address the performance difference, they do so in fundamentally different ways—one is quantitative and the other is qualitative. Therefore, they are not semantically equivalent."
+}

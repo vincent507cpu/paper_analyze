@@ -1,0 +1,7 @@
+{
+    "query": "What is best performing model among author's submissions, what performance it had?",
+    "gold_answer": "For SLC task, the \"ltuorp\" team  has the best performing  model (0.6323/0.6028/0.6649 for F1/P/R  respectively) and for FLC task the \"newspeak\" team  has the best performing  model (0.2488/0.2863/0.2201 for F1/P/R respectively).",
+    "predict": "The UPA model performs better than the other models.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific details about the best performing models for two different tasks (SLC and FLC) along with their performance metrics (F1, Precision, Recall). In contrast, Answer B makes a general statement about the UPA model performing better than other models without specifying which tasks or providing any performance metrics. Since Answer A gives detailed and task-specific information while Answer B lacks this specificity and context, the two answers are not semantically equivalent."
+}

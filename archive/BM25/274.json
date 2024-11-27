@@ -1,0 +1,7 @@
+{
+    "query": "where did they obtain the annotated clinical notes from?",
+    "gold_answer": "clinical notes from the CE task in 2010 i2b2/VAclinical notes from the CE task in 2010 i2b2/VA ",
+    "predict": "The annotated clinical notes were obtained from the CE task in 2010 i2b2/VA.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a fragment that mentions 'clinical notes from the CE task in 2010 i2b2/VA,' but it lacks a complete sentence structure and clarity. Answer B, however, clearly states that 'The annotated clinical notes were obtained from the CE task in 2010 i2b2/VA,' providing a complete and coherent response to the query. Despite the difference in structure, both answers convey the same source of the clinical notes, making them semantically equivalent in terms of content."
+}

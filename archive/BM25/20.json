@@ -1,0 +1,7 @@
+{
+    "query": "What did the court in In re Ferguson conclude about the transformation prong of the Bilski test?",
+    "gold_answer": "It required the transformation to be limited to specific data and a visual depiction representing specific objects or substances.",
+    "predict": "The court concluded that claims did not meet the \"transformation\" prong of the Bilski test. It focused on the intangibility of the data and found no recitation of generic computer components sufficient to satisfy this aspect of the test.",
+    "consistency": "0",
+    "reasoning": "Answer A states that the court required the transformation to be limited to specific data and a visual depiction of specific objects or substances. In contrast, Answer B indicates that the court found the claims did not meet the transformation prong due to the intangibility of the data and the lack of generic computer components. While both answers discuss the transformation prong, they highlight different aspects and conclusions drawn by the court. Therefore, they are not semantically equivalent as they convey different interpretations of the court's conclusion."
+}

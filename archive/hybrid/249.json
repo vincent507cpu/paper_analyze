@@ -1,0 +1,7 @@
+{
+    "query": "What was the previous state of the art for this task?",
+    "gold_answer": "hLSTMhLSTM",
+    "predict": "The previous state of the art for this task was not specified in the given content.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific term 'hLSTMhLSTM' as the previous state of the art, while Answer B states that the previous state of the art was not specified. Since Answer A gives a concrete answer and Answer B indicates a lack of information, the two answers are not semantically equivalent."
+}

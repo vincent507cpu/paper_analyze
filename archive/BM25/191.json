@@ -1,0 +1,7 @@
+{
+    "query": "Who were the experts used for annotation?",
+    "gold_answer": "Individuals with legal trainingYes",
+    "predict": "The experts used for annotation were randomly sampled 100 instances in this study.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that the experts used for annotation are 'Individuals with legal training,' indicating their qualifications. Answer B, however, describes a process involving 'randomly sampled 100 instances in this study,' which does not provide information about the qualifications of the experts but rather about the methodology of selecting instances. Since the two answers address different aspects (qualifications vs. sampling method), they are not semantically equivalent."
+}

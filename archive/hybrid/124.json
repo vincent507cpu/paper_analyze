@@ -1,0 +1,7 @@
+{
+    "query": "What are the sources of the datasets?",
+    "gold_answer": "Friends TV sitcom, Facebook messenger chats",
+    "predict": "The datasets originate from WordNet, GNU Collaborative International encode locations, and various expert knowledge resources such as Flickr tags.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific sources of datasets, namely 'Friends TV sitcom' and 'Facebook messenger chats,' which are informal and entertainment-related. In contrast, Answer B provides a different set of sources, including 'WordNet,' 'GNU Collaborative International,' and 'Flickr tags,' which are more formal and academic in nature. Since the sources mentioned in both answers are entirely different and do not overlap in any way, they cannot be considered semantically equivalent."
+}

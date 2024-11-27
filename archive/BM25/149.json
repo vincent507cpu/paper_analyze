@@ -1,0 +1,7 @@
+{
+    "query": "What background do they have?",
+    "gold_answer": "Unanswerable",
+    "predict": "Their backgrounds as writers, theologians, and skilled individuals suggest that they emphasize different aspects when preaching based on their unique experiences. This implies that their approach might be tailored specifically for them, unlike someone with a different background and skill set who may find it hard to adapt.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered due to a lack of information. In contrast, Answer B provides a detailed explanation about the backgrounds of certain individuals, suggesting that their experiences influence their preaching. Since Answer A does not provide any information while Answer B elaborates on the backgrounds, the two answers are not semantically equivalent."
+}

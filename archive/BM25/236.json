@@ -1,0 +1,7 @@
+{
+    "query": "Is Arabic one of the 11 languages in CoVost?",
+    "gold_answer": "NoNo",
+    "predict": "Yes, Arabic is one of the 11 languages in CoVost.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'NoNo,' which implies a negative response, suggesting that Arabic is not one of the 11 languages in CoVost. Answer B, on the other hand, confirms that Arabic is indeed one of the languages. Since the two answers convey opposite meanings regarding the inclusion of Arabic in CoVost, they are not semantically equivalent."
+}

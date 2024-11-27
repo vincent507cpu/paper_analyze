@@ -1,0 +1,7 @@
+{
+    "query": "what was the baseline?",
+    "gold_answer": "pivot-based translation relying on a helping language BIBREF10, nduction of phrase tables from monolingual data BIBREF14 , attentional RNN-based model (RNMT) BIBREF2, Transformer model BIBREF18, bi-directional model BIBREF11, multi-to-multi (M2M) model BIBREF8, back-translation BIBREF17M2M Transformer",
+    "predict": "Baseline features were extracted from the CNN network used as a comparison method in the study.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a detailed list of various models and methods related to translation, while Answer B specifically mentions baseline features extracted from a CNN network used for comparison. The two answers address different aspects of what a 'baseline' could refer to in a study, with Answer A focusing on translation models and Answer B on features from a CNN. Since they do not convey the same information or context regarding the baseline, they are not semantically equivalent."
+}

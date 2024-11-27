@@ -1,0 +1,7 @@
+{
+    "query": "What field does Danny work in in Tennessee?",
+    "gold_answer": "3-D printing and software development.",
+    "predict": "Electric field",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that Danny works in '3-D printing and software development,' which indicates a focus on technology and manufacturing. Answer B states 'Electric field,' which refers to a branch of physics dealing with electric forces and fields. These two fields are fundamentally different in nature and application. Therefore, the answers are not semantically equivalent."
+}

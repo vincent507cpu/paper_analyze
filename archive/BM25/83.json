@@ -1,0 +1,7 @@
+{
+    "query": "How can you level up in the early levels?",
+    "gold_answer": "Keep deploying and harvesting your bases to earn experience points and level up quickly.",
+    "predict": "In the early levels, focus on gaining experience points (XP) by attacking nearby zones and helping your faction. Once you've leveled up, unlock stronger formations that can reach farther distances. Use this enhanced ability to attack different zones as needed. Start with assault bots at level 1, then progress to more advanced cover classes as you gain higher levels.",
+    "consistency": "1",
+    "reasoning": "Answer A suggests deploying and harvesting bases to earn experience points for leveling up quickly, while Answer B provides a more detailed strategy that includes attacking zones and helping a faction to gain experience points. Although both answers focus on gaining experience points to level up, Answer B elaborates on additional strategies and progression, which makes it more comprehensive. However, the core idea of leveling up through experience points remains consistent between both answers. Therefore, they can be considered semantically equivalent in the context of the query, as they both address the method of leveling up in early levels."
+}

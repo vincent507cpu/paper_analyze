@@ -1,0 +1,7 @@
+{
+    "query": "When will BC leave Boston?",
+    "gold_answer": "August 25.",
+    "predict": "The given text does not provide specific information about when BC leaves Boston.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific date, 'August 25,' indicating when BC will leave Boston. In contrast, Answer B states that the text does not provide specific information about the departure time. Since one answer gives a definitive date while the other indicates a lack of information, they are not semantically equivalent."
+}

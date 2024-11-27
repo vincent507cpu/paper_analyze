@@ -1,0 +1,7 @@
+{
+    "query": "Can the denoiser be applied to circuits with non-Clifford noise?",
+    "gold_answer": "Yes, the denoiser works for non-Clifford local noise channels.",
+    "predict": "Yes, the denoiser can be applied to circuits with non-Clifford noise.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B affirm that the denoiser can be applied to circuits with non-Clifford noise. Answer A specifies that it works for non-Clifford local noise channels, which is a subset of non-Clifford noise, while Answer B directly states that the denoiser can be applied to circuits with non-Clifford noise. Since both answers convey the same overall conclusion regarding the applicability of the denoiser, they are semantically equivalent."
+}

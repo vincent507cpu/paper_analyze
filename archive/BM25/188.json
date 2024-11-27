@@ -1,0 +1,7 @@
+{
+    "query": "What embedding techniques are explored in the paper?",
+    "gold_answer": "Skip–gram, CBOWintegrated vector-res, vector-faith, Skip–gram, CBOW",
+    "predict": "The paper explores multiple embedding techniques including global embeddings and sense embeddings for text mining purposes.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific embedding techniques such as 'Skip–gram' and 'CBOW,' which are well-known methods in natural language processing. However, it also includes terms like 'integrated vector-res' and 'vector-faith,' which are not standard terminology and may not be widely recognized. Answer B, on the other hand, mentions 'global embeddings' and 'sense embeddings,' which are broader categories of embedding techniques. While both answers discuss embedding techniques, Answer A provides specific methods, whereas Answer B describes categories without naming specific techniques. Therefore, the answers are not semantically equivalent as they focus on different aspects of embedding techniques."
+}

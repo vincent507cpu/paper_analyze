@@ -1,0 +1,7 @@
+{
+    "query": "How many people attend the 233rd ACS national meeting?",
+    "gold_answer": "There are 14,520 attendees, including 7,152 chemical scientists, 5,059 students, 1,283 exhibitors, 119 precollege teachers, 573 exposition visitors, and 453 guests.",
+    "predict": "14,520 attendees, including 7,152 chemical scientists, 5,059 students, 1,283 exhibitors, 119 precollege teachers, 573 exposition visitors, and 453 guests.",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

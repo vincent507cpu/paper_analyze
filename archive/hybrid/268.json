@@ -1,0 +1,7 @@
+{
+    "query": "How is non-standard pronunciation identified?",
+    "gold_answer": "UnanswerableOriginal transcription was labeled with additional labels in [] brackets with nonstandard pronunciation.",
+    "predict": "Non-standard pronunciation is identified through crowdworkers who analyze text and provide accurate pronunciations based on language-specific rules. For this task, a multilingual corpus consisting of spelling-to-pronunciation pairs extracted from Wiktionary is used instead of a monolingual English resource. The dataset is partitioned into training and test sets for further analysis.",
+    "consistency": "0",
+    "reasoning": "Answer A suggests that non-standard pronunciation is identified through original transcription labeled with additional brackets, implying a method of marking or annotating text. Answer B, on the other hand, describes a more systematic approach involving crowdworkers and a multilingual corpus to analyze and provide accurate pronunciations. The two answers describe different methods for identifying non-standard pronunciation, with Answer A focusing on transcription labeling and Answer B on a collaborative analysis process. Therefore, they are not semantically equivalent as they refer to different identification methods."
+}

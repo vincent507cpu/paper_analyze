@@ -1,0 +1,7 @@
+{
+    "query": "Who is responsible for carrying out the functions assigned under the act?",
+    "gold_answer": "The Director of Town and Country Planning is responsible for carrying out the functions assigned under the act.",
+    "predict": "The State Government is responsible for appointing an officer (Director of Town and Country Planning) as per Notification in Official Gazette. Other officers can be appointed by the State Government if deemed fit.",
+    "consistency": "0",
+    "reasoning": "Answer A directly states that the Director of Town and Country Planning is responsible for carrying out the functions assigned under the act. Answer B, however, indicates that the State Government is responsible for appointing the Director and mentions the possibility of appointing other officers. While both answers involve the Director of Town and Country Planning, Answer B introduces additional information about the State Government's role in appointing the Director and other officers, which makes the two answers not semantically equivalent. Answer A focuses solely on the responsibility of the Director, while Answer B emphasizes the State Government's role in the appointment process."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the model performance on target language reading comprehension?",
+    "gold_answer": "Table TABREF6, Table TABREF8when testing on English, the F1 score of the model training on Chinese (Zh) is 53.8,  F1 score is only 44.1 for the model training on Zh-En",
+    "predict": "The model performance on target language reading comprehension is not evaluated reliably by current data due to weaknesses in superficial text analysis aspects.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific quantitative performance metrics (F1 scores) for the model when tested on English, indicating a measurable performance level. In contrast, Answer B discusses the reliability of the evaluation of model performance, suggesting that current data does not provide a reliable assessment due to weaknesses in superficial text analysis. Since Answer A presents concrete performance data while Answer B addresses the reliability of the evaluation process without providing specific performance metrics, the two answers do not convey the same information and are not semantically equivalent."
+}

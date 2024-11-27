@@ -1,0 +1,7 @@
+{
+    "query": "What summarization algorithms did the authors experiment with?",
+    "gold_answer": "LSA, TextRank, LexRank and ILP-based summary.LSA, TextRank, LexRank",
+    "predict": "The authors experimented with ILP-based summarization algorithm alongside several other summarization algorithms provided by the Sumy package.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific summarization algorithms: LSA, TextRank, LexRank, and ILP-based summary, indicating a direct mention of the algorithms experimented with. Answer B, however, refers to 'ILP-based summarization algorithm' and mentions 'several other summarization algorithms provided by the Sumy package' without specifying which algorithms were included. While both answers mention ILP-based summarization, Answer B is more general and does not explicitly confirm the inclusion of LSA, TextRank, and LexRank. Therefore, the two answers are not semantically equivalent as Answer B lacks the specificity of Answer A."
+}

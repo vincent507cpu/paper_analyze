@@ -1,0 +1,7 @@
+{
+    "query": "What is Professor Tulis's forthcoming book?",
+    "gold_answer": "Legacies of Losing in American Politics and an expanded edition of The Rhetorical Presidency in the Princeton Classics series.",
+    "predict": "The content provided does not contain information about Professor Tulis's forthcoming book. The text discusses various other individuals and their backgrounds but does not mention anything related to Professor Tulis's upcoming publication. Therefore, the question cannot be answered based on the given information.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific titles of Professor Tulis's forthcoming book, while Answer B states that there is no information about the book in the provided text. Since Answer A directly answers the query with relevant information and Answer B denies the existence of such information, the two answers are not semantically equivalent."
+}

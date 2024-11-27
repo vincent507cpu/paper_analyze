@@ -1,0 +1,7 @@
+{
+    "query": "What is the rationality coefficient used in the observation model?",
+    "gold_answer": "γh.",
+    "predict": "The rationality coefficient used in the observation model is γ h.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a concise representation of the rationality coefficient as 'γh,' while Answer B elaborates by stating, 'The rationality coefficient used in the observation model is γ h.' Despite the difference in length and phrasing, both answers refer to the same coefficient, γh, making them semantically equivalent in the context of the query."
+}

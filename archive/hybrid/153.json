@@ -1,0 +1,7 @@
+{
+    "query": "How large is their data set?",
+    "gold_answer": "a sample of  29,794 wikipedia articles and 2,794 arXiv papers ",
+    "predict": "The provided training set consists of 450 utterances.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a data set size of 29,794 Wikipedia articles and 2,794 arXiv papers, totaling 32,588 items. Answer B, however, states that the training set consists of only 450 utterances. The two answers refer to different data sets with significantly different sizes and types of content. Therefore, they are not semantically equivalent as they provide conflicting information about the size of the data set."
+}

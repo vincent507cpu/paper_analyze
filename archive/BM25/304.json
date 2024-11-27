@@ -1,0 +1,7 @@
+{
+    "query": "What previous methods is their model compared to?",
+    "gold_answer": "bag-of-words model, CNN",
+    "predict": "previous methods",
+    "consistency": "0",
+    "reasoning": "Answer A specifies two distinct methods, 'bag-of-words model' and 'CNN,' that the model is compared to. Answer B, however, is more general and does not provide specific methods, simply referring to them as 'previous methods.' Since Answer A provides concrete examples while Answer B remains vague, they are not semantically equivalent."
+}

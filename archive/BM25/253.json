@@ -1,0 +1,7 @@
+{
+    "query": "What is the model performance on target language reading comprehension?",
+    "gold_answer": "Table TABREF6, Table TABREF8when testing on English, the F1 score of the model training on Chinese (Zh) is 53.8,  F1 score is only 44.1 for the model training on Zh-En",
+    "predict": "On target language reading comprehension, models' performance on superficial aspects of text such as lexical overlap and word order may cast doubt on their ability to reliably evaluate the reading comprehension performance of the models they are evaluating. Transfer learning has been explored in NMTs (Neural Machine Translation) for improving NMT performance on the source-target language pair (child task), using an assistant to target translation (parent task).",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific quantitative performance metrics (F1 scores) for models trained on different languages, directly addressing the query about model performance on target language reading comprehension. In contrast, Answer B discusses general considerations regarding model evaluation and transfer learning in neural machine translation without providing specific performance metrics or directly answering the query. Therefore, the two answers do not address the same aspect of model performance and are not semantically equivalent."
+}

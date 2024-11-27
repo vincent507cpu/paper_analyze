@@ -1,0 +1,7 @@
+{
+    "query": "How are the relationships between catch per set and fishing behavior variables different for different measures of catch per unit effort (CPUE)?",
+    "gold_answer": "The relationships between catch per set and fishing behavior variables differ when comparing unstandardized CPUE and standardized CPUE.",
+    "predict": "For different measures of CPUE (standardised versus unstandardised), relationships between catch per set and fishing behavior variables differ. Specifically:\n- For unstandardised CPUE: There is a positive relationship with number of hooks for threatened and regulated species, but a significant negative relationship with standardised CPUE.\n- For standardised CPUE: The negative relationship persists, suggesting diminishing returns above low levels of effort, indicating that maximum sustainable yield was being exceeded.",
+    "consistency": "1",
+    "reasoning": "Both answers address the differences in relationships between catch per set and fishing behavior variables in the context of different measures of CPUE. Answer A provides a general statement about the differences between unstandardized and standardized CPUE, while Answer B elaborates on these differences with specific details about the relationships for each type of CPUE. Although Answer B provides more information, both answers convey the same core idea that the relationships differ based on the type of CPUE being considered. Therefore, they are semantically equivalent in the context of the query."
+}

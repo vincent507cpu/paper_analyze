@@ -1,0 +1,7 @@
+{
+    "query": "Who is the program chair of this conference?",
+    "gold_answer": "Peter Denning.",
+    "predict": "Peter Denning",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

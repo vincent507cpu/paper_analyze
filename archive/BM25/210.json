@@ -1,0 +1,7 @@
+{
+    "query": "Is datasets for sentiment analysis balanced?",
+    "gold_answer": "No",
+    "predict": "Yes, datasets for sentiment analysis are often imbalanced, especially when dealing with rare events like sarcasm detection.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'No,' indicating that datasets for sentiment analysis are not balanced. Answer B, however, affirms that they are often imbalanced, providing an explanation that supports the idea of imbalance. Since Answer A and Answer B convey opposite meanings regarding the balance of datasets, they are not semantically equivalent."
+}

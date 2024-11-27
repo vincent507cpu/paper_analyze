@@ -1,0 +1,7 @@
+{
+    "query": "Which baselines are used for evaluation?",
+    "gold_answer": "Pointer-Gen, Pointer-Gen+Pos, Pointer-Gen+Same-FT, Pointer-Gen+Pos-FT, Pointer-Gen+RL-ROUGE, Pointer-Gen+RL-SEN",
+    "predict": "NMT (Neural Machine Translation) in two scenarios.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific baselines used for evaluation in a particular context, while Answer B refers to a general method (NMT) and mentions it in two scenarios without providing specific baselines. The two answers address different aspects of evaluation, with Answer A being specific and detailed, whereas Answer B is vague and does not mention any of the baselines listed in Answer A. Therefore, they are not semantically equivalent."
+}

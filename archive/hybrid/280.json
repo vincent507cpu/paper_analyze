@@ -1,0 +1,7 @@
+{
+    "query": "How was the training data translated?",
+    "gold_answer": "using the machine translation platform Apertium machine translation platform Apertium BIBREF5",
+    "predict": "The training data was translated into the target language to enhance performance on the test set.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the method of translation, mentioning the use of the Apertium machine translation platform. Answer B, however, discusses the purpose of the translation (to enhance performance on the test set) without detailing the method used. Since Answer A focuses on the 'how' of the translation process while Answer B addresses the 'why,' they do not convey the same information and are therefore not semantically equivalent."
+}

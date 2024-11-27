@@ -1,0 +1,7 @@
+{
+    "query": "What is their definition of tweets going viral?",
+    "gold_answer": "Viral tweets are the ones that are retweeted more than 1000 timesthose that contain a high number of retweets",
+    "predict": "The definition of \"tweets going viral\" is not explicitly stated in the given text.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific definition of viral tweets, indicating that they are characterized by a high number of retweets (more than 1000). In contrast, Answer B states that the definition is not explicitly provided in the text. Since Answer A offers a clear definition while Answer B denies the existence of such a definition, the two answers are not semantically equivalent."
+}

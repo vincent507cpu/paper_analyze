@@ -1,0 +1,7 @@
+{
+    "query": "what accents are present in the corpus?",
+    "gold_answer": "UnanswerableUnanswerable",
+    "predict": "The corpus contains speakers with potentially different accents.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'UnanswerableUnanswerable,' indicating that the question cannot be answered, while Answer B provides information about the presence of speakers with potentially different accents in the corpus. Since Answer A does not provide any information regarding accents and suggests that the question cannot be answered, whereas Answer B offers a relevant response, the two answers are not semantically equivalent."
+}

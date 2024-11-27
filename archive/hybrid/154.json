@@ -1,0 +1,7 @@
+{
+    "query": "How were the human judgements assembled?",
+    "gold_answer": "50 human annotators ranked a random sample of 100 translations by Adequacy, Fluency and overall ranking on a 5-point scale.adequacy, precision and ranking values",
+    "predict": "The human judgements were assembled through 100 randomly sampled instances.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific details about the assembly of human judgments, including the number of annotators (50), the criteria used for ranking (Adequacy, Fluency, and overall ranking), and the scale (5-point). In contrast, Answer B only mentions that the judgments were assembled through 100 randomly sampled instances without specifying the number of annotators or the criteria used. The lack of detail in Answer B means it does not convey the same information as Answer A, making them not semantically equivalent."
+}

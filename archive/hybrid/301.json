@@ -1,0 +1,7 @@
+{
+    "query": "How large is the corpus?",
+    "gold_answer": "8,275 sentences and 167,739 words in totalThe corpus comprises 8,275 sentences and 167,739 words in total.",
+    "predict": "20-million token corpora is considered too small to train ELMo models for the word analogy task.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific quantitative details about the size of the corpus, stating it contains 8,275 sentences and 167,739 words. In contrast, Answer B discusses a different aspect of corpus size, mentioning that a 20-million token corpus is too small for a specific task related to ELMo models. The two answers address different contexts and do not convey the same information about the corpus size, making them semantically non-equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "what is the source of the data?",
+    "gold_answer": "Android application",
+    "predict": "The source of the data for the BLEU performance measurements is two test sets: tst2013 and tst2014.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Android application' as the source of the data, which is a general reference to a type of software. In contrast, Answer B provides a specific and detailed explanation of the source of the data, mentioning two test sets (tst2013 and tst2014) used for BLEU performance measurements. Since Answer A is vague and does not provide the same level of detail or specificity as Answer B, they are not semantically equivalent."
+}

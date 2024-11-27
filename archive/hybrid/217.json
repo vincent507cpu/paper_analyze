@@ -1,0 +1,7 @@
+{
+    "query": "Do the answered questions measure for the usefulness of the answer?",
+    "gold_answer": "No",
+    "predict": "Yes, the answered questions measure for the usefulness of the answer.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'No,' indicating that the answered questions do not measure the usefulness of the answer. In contrast, Answer B asserts that the answered questions do measure for the usefulness of the answer. Since the two answers provide opposing views on the same question, they are not semantically equivalent."
+}

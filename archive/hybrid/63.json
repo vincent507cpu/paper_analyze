@@ -1,0 +1,7 @@
+{
+    "query": "What are the titles of one of Kam W. Leong's publications in Journal of Controlled Release?",
+    "gold_answer": "Sustained viral gene delivery through core-shell fibers and Gene transfer to hemophilia A mice via oral delivery of FVIII-chitosan nanoparticles.",
+    "predict": "The title of one of Kam W. Leong's publications in the Journal of Controlled Release is not explicitly mentioned in the given content.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific titles of publications by Kam W. Leong in the Journal of Controlled Release, directly addressing the query. In contrast, Answer B states that the title is not mentioned, which does not provide any relevant information regarding the query. Since Answer A gives concrete titles while Answer B denies the existence of such information, the two answers are not semantically equivalent."
+}

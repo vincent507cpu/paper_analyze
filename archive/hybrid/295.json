@@ -1,0 +1,7 @@
+{
+    "query": "What experiments are conducted?",
+    "gold_answer": "Irony Classifier, Sentiment Classifier for Irony, Sentiment Classifier for Non-irony, transformation from ironic sentences to non-ironic sentences",
+    "predict": "Two sets of experiments were conducted:\n- Entity-level sentiment analysis using BIBREF23, BIBREF17, and BIBREF18.\n- Named-entity recognition with BIBREF17, BIBREF19, BIBREF24, BIBREF25, and BIBREF26.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific experiments related to irony and sentiment classification, focusing on the transformation of ironic sentences. Answer B describes different experiments involving entity-level sentiment analysis and named-entity recognition, which do not relate to irony or sentiment classification in the same way. The focus and context of the experiments in both answers differ significantly, indicating that they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What were their results on the new dataset?",
+    "gold_answer": "average recipe-level coherence scores of 1.78-1.82, human evaluators preferred personalized model outputs to baseline 63% of the time",
+    "predict": "The results reported by Pakhomov2016corpus and chiu2016how on the new dataset were higher than their previous works, although they could not be directly compared due to using different subsets of the UMNSRS dataset for training and evaluation. The models performed best when trained on the same dataset as they were evaluated on, with BF achieving the highest results when trained on BA.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical results regarding recipe-level coherence scores and preferences of human evaluators, directly addressing the query about results on the new dataset. Answer B, however, discusses comparative performance and training conditions of different models without providing specific results related to the new dataset. The two answers focus on different aspects of the results, making them semantically non-equivalent."
+}

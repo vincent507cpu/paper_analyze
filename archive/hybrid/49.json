@@ -1,0 +1,7 @@
+{
+    "query": "What was the best performing model for the Spanish language in Track-1?",
+    "gold_answer": "The best performing model for the Spanish language in Track-1 was Spanish BERT.",
+    "predict": "RoBERTa and BERT were the best performing models for Spanish in Track-1.",
+    "consistency": "0",
+    "reasoning": "Answer A identifies 'Spanish BERT' as the singular best performing model for the Spanish language in Track-1. In contrast, Answer B states that both 'RoBERTa and BERT' were the best performing models, implying multiple models performed equally well. Since Answer A presents a single model while Answer B presents two models, they convey different information regarding the performance ranking, making them not semantically equivalent."
+}

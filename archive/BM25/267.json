@@ -1,0 +1,7 @@
+{
+    "query": "What does an individual model consist of?",
+    "gold_answer": "Bayesian model of garg2012unsupervised as our base monolingual model",
+    "predict": "An individual model consists of an LSTM and feed-forward model.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a Bayesian model as the base monolingual model, while Answer B describes an individual model as consisting of an LSTM and feed-forward model. These are two different types of models and approaches in machine learning. Since they refer to different architectures and methodologies, they are not semantically equivalent."
+}

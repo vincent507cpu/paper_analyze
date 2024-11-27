@@ -1,0 +1,7 @@
+{
+    "query": "When did Born resign as chairperson of the CFTC?",
+    "gold_answer": "June 1, 1999.",
+    "predict": "The content provided does not contain specific details about when Born resigned as chairperson of the CFTC. Therefore, based on the given text:\n\nThe question \"When did Born resign as chairperson of the CFTC?\" cannot be answered from the provided information. The text discusses English's birth and other personal background but does not mention any connection to his resignation or role with the Commodity Futures Trading Commission (CFTC).",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific date, 'June 1, 1999,' indicating when Born resigned as chairperson of the CFTC. In contrast, Answer B states that the provided content does not contain any specific details about the resignation, implying that the information is absent. Since Answer A gives a definitive answer while Answer B claims the information is not available, the two answers are not semantically equivalent."
+}

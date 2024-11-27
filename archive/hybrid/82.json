@@ -1,0 +1,7 @@
+{
+    "query": "How does the framework capture the reduced-order dynamics?",
+    "gold_answer": "By using a propagator in the latent space.",
+    "predict": "The framework captures reduced-order dynamics by using complex-valued latent variables in the latent space and treating them independently. This allows for interpretable latent dynamics while enabling training with fewer parameters.",
+    "consistency": "1",
+    "reasoning": "Answer A states that the framework captures reduced-order dynamics by using a propagator in the latent space, which is a general description. Answer B provides a more detailed explanation, mentioning the use of complex-valued latent variables and the benefits of interpretability and fewer parameters. While both answers address the use of latent space to capture dynamics, Answer B elaborates on the method and its advantages, making it more specific. However, the core idea of using latent space for capturing dynamics is present in both answers, suggesting a level of semantic equivalence despite the differences in detail."
+}

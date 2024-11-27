@@ -1,0 +1,7 @@
+{
+    "query": "What were their distribution results?",
+    "gold_answer": "Distributions of Followers, Friends and URLs are significantly different between the set of tweets containing fake news and those non containing them, but for Favourites, Mentions, Media, Retweets and Hashtags they are not significantly different",
+    "predict": "They provided experimental results on how their model performed under different temperature settings.",
+    "consistency": "0",
+    "reasoning": "Answer A discusses the distribution results of various social media metrics (Followers, Friends, URLs, etc.) in relation to tweets containing fake news versus those that do not. Answer B, however, refers to experimental results related to a model's performance under different temperature settings, which is unrelated to the distribution results of tweets. Since the topics and contexts of the two answers are entirely different, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "by how much did their model improve?",
+    "gold_answer": "For the WikiLarge dataset, the improvement over baseline NMT is 2.11 BLEU, 1.7 FKGL and 1.07 SARI.\nFor the WikiSmall dataset, the improvement over baseline NMT is  8.37 BLEU.6.37 BLEU",
+    "predict": "The content does not provide specific numerical data for improvement in their model's performance. Therefore, the question \"By how much did their model improve?\" cannot be answered based on the given text.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical improvements in model performance for two datasets (WikiLarge and WikiSmall), directly addressing the query about the extent of improvement. In contrast, Answer B states that the content does not provide specific numerical data, which contradicts the information given in Answer A. Since Answer A offers concrete data while Answer B claims the absence of such data, the two answers are not semantically equivalent."
+}

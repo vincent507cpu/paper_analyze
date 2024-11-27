@@ -1,0 +1,7 @@
+{
+    "query": "What is the size of the dataset?",
+    "gold_answer": "Dataset contains 3606 total sentences and 79087 total entities.ILPRL contains 548 sentences, OurNepali contains 3606 sentences",
+    "predict": "270 million tokens",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific details about the dataset, including the number of sentences and entities, while Answer B gives a total count of tokens. The two answers focus on different aspects of the dataset: Answer A emphasizes the count of sentences and entities, whereas Answer B highlights the token count. Since the size of the dataset can be interpreted in various ways (e.g., number of sentences, entities, or tokens), and the answers do not convey the same information, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Which component is the least impactful?",
+    "gold_answer": "Based on table results provided changing directed to undirected edges had least impact - max abs difference of 0.33 points on all three datasets.",
+    "predict": "The component that is least impactful in this context is \"learning models.\"",
+    "consistency": "0",
+    "reasoning": "Answer A discusses the impact of changing directed to undirected edges, indicating a specific measurement of impact (0.33 points) across datasets. Answer B, however, identifies 'learning models' as the least impactful component without providing any quantitative measure or context. Since Answer A focuses on a specific change and its measured impact, while Answer B categorically states a different component as least impactful, the two answers do not convey the same meaning or context, making them semantically non-equivalent."
+}

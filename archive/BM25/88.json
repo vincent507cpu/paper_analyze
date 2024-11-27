@@ -1,0 +1,7 @@
+{
+    "query": "What may happen if the VR headset lenses are exposed to sunlight or strong light?",
+    "gold_answer": "Exposure to sunlight or strong light may cause permanent yellow spot damage on the screen.",
+    "predict": "The discomfort may persist and should seek medical advice if exposure to direct sunlight or strong light sources is continued. This includes permanent yellow spot damage on the screen that's not covered by warranty due to direct sunlight exposure. The IPD adjustment feature may cause touching of the bridge of the nose with minimum IPD setting, but it's at user discretion whether to install the Glasses Spacer or Nose Pad.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses specifically on the potential damage to the VR headset screen due to exposure to sunlight or strong light, indicating a specific consequence (permanent yellow spot damage). Answer B, while mentioning similar damage, introduces additional information about discomfort, medical advice, warranty issues, and user discretion regarding headset adjustments. The core focus of Answer A is on the damage to the screen, while Answer B expands the context significantly, making the two answers not semantically equivalent as they address different aspects of the query."
+}

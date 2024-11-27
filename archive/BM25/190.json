@@ -1,0 +1,7 @@
+{
+    "query": "Does the paper explore extraction from electronic health records?",
+    "gold_answer": "Yes",
+    "predict": "Yes, the paper explores extraction from electronic health records (EHR).",
+    "consistency": "1",
+    "reasoning": "Answer A simply states 'Yes,' indicating that the paper does explore extraction from electronic health records. Answer B elaborates on this by confirming the same point and providing additional context by specifying 'electronic health records (EHR).' Despite the difference in detail, both answers affirm the same core idea that the paper explores extraction from EHRs, making them semantically equivalent."
+}

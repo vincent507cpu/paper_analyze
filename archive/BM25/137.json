@@ -1,0 +1,7 @@
+{
+    "query": "What metrics are used for evaluation?",
+    "gold_answer": "translation probabilities, Labeled Attachment Scores (LAS)accuracy, Labeled Attachment Scores (LAS)",
+    "predict": "The metrics used for evaluation are BLEU score, contrastive evaluation of translation of several discourse phenomena (BIBREF11), and human evaluation.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific metrics related to translation evaluation, such as translation probabilities and Labeled Attachment Scores (LAS), which focus on the accuracy of syntactic structures in translations. Answer B, on the other hand, mentions different metrics like BLEU score and human evaluation, which assess translation quality from different perspectives. Since the metrics mentioned in both answers are distinct and pertain to different evaluation criteria, they are not semantically equivalent."
+}

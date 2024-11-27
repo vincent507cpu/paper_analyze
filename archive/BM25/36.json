@@ -1,0 +1,7 @@
+{
+    "query": "What is the problem encountered when building the fuselage sides?",
+    "gold_answer": "The longerons bow up from the building surface, forming a \"banana\" shape.",
+    "predict": "The problem encountered when building the fuselage sides is that they bow up from the building surface.",
+    "consistency": "1",
+    "reasoning": "Answer A describes the specific issue with the longerons bowing up, using the metaphor of a 'banana' shape to illustrate the problem. Answer B explicitly states that the problem is the bowing up of the longerons from the building surface, directly addressing the same issue without the metaphor. Both answers convey the same core problem regarding the fuselage sides, making them semantically equivalent despite the difference in expression."
+}

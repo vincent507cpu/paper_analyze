@@ -1,0 +1,7 @@
+{
+    "query": "On what datasets are experiments performed?",
+    "gold_answer": "SQuADSQuAD",
+    "predict": "Track-1 and Track-2 datasets are used for experiments.",
+    "consistency": "0",
+    "reasoning": "Answer A mentions 'SQuADSQuAD,' which appears to be a typographical error or a repetition of 'SQuAD,' a well-known dataset for question answering. Answer B specifies 'Track-1 and Track-2 datasets,' which are different datasets altogether. Since the two answers refer to different datasets used for experiments, they are not semantically equivalent."
+}

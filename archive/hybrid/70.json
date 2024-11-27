@@ -1,0 +1,7 @@
+{
+    "query": "What are the restrictions on the use of Broadjam's servers?",
+    "gold_answer": "No excessive overloading and no use for illegal activity.",
+    "predict": "Hosting Subscriber is responsible for ensuring reasonable server load. Use of prohibited software is forbidden, and Broadjam has the right to temporarily or permanently remove Hosting Subscriber's Website from servers if threats to network stability are present. If Hosting Subscriber's password is lost, it must be immediately reported and replaced promptly by the hosting provider.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a general overview of restrictions, mentioning no excessive overloading and no illegal activity. Answer B, however, goes into specific details about responsibilities, including server load management, prohibited software, consequences for threats to network stability, and password management. While both answers address restrictions, Answer B offers a more comprehensive and detailed explanation, which includes aspects not covered in Answer A. Therefore, they are not semantically equivalent as they convey different levels of detail and specific content regarding the restrictions."
+}

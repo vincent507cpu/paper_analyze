@@ -1,0 +1,7 @@
+{
+    "query": "What tasks are used for evaluation?",
+    "gold_answer": "four machine translation tasks: German -> English, Japanese -> English, Romanian -> English, English -> German four machine translation tasks, IWSLT 2017 German $\\rightarrow $ English BIBREF27, KFTT Japanese $\\rightarrow $ English BIBREF28, WMT 2016 Romanian $\\rightarrow $ English BIBREF29, WMT 2014 English $\\rightarrow $ German BIBREF30",
+    "predict": "The three evaluation tasks used for evaluation are:\n1. Word analogy task\n2. Named entity recognition (NER) task",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific machine translation tasks involving language pairs, while Answer B describes entirely different evaluation tasks: word analogy and named entity recognition. Since the tasks mentioned in both answers are not the same and refer to different types of evaluations, they are not semantically equivalent."
+}

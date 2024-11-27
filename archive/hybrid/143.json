@@ -1,0 +1,7 @@
+{
+    "query": "How many users do they look at?",
+    "gold_answer": "22,880 users20,000",
+    "predict": "5,191 users were looked at for verification in their case.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a total number of users (22,880) but includes an unclear segment 'users20,000,' which seems to be a typographical error or formatting issue. Answer B specifies a different number (5,191) and adds context about these users being looked at for verification. Since the two answers refer to different quantities and contexts, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Do they report results only on English data?",
+    "gold_answer": "YesUnanswerable",
+    "predict": "No.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'YesUnanswerable,' which suggests that the question cannot be definitively answered, implying uncertainty about whether results are reported only on English data. Answer B, on the other hand, clearly states 'No,' indicating that results are reported on data other than English. Since one answer implies uncertainty and the other provides a definitive negation, they are not semantically equivalent."
+}

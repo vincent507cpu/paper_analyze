@@ -1,0 +1,7 @@
+{
+    "query": "which lstm models did they compare with?",
+    "gold_answer": "Unidirectional LSTM networks with 2, 6, 7, 8, and  9 layers.",
+    "predict": "The LSTM models they compared with were: Pointer-Gen, Pointer-Gen-RL+ROUGE, Pointer-Gen-RL-SEN, and Pointer-Gen-ARL-SEN.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a type of LSTM model (Unidirectional LSTM networks) and lists the number of layers (2, 6, 7, 8, and 9) used in those models. Answer B, on the other hand, lists specific LSTM models (Pointer-Gen and its variations) that were compared. Since Answer A focuses on the architecture of the LSTM models while Answer B identifies specific model names, they are discussing different aspects of LSTM models and are not semantically equivalent."
+}

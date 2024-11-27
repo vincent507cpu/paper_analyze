@@ -1,0 +1,7 @@
+{
+    "query": "What are two datasets model is applied to?",
+    "gold_answer": " `Conversations Gone Awry' dataset, subreddit ChangeMyViewAn expanded version of the existing 'Conversations Gone Awry' dataset and the ChangeMyView dataset, a subreddit whose only annotation is whether the conversation required action by the Reddit moderators. ",
+    "predict": "The two datasets used in this paper are IEMOCAP and WeiboDial.",
+    "consistency": "0",
+    "reasoning": "Answer A mentions the 'Conversations Gone Awry' dataset and the 'ChangeMyView' dataset, while Answer B refers to 'IEMOCAP' and 'WeiboDial.' The two answers provide different datasets that the model is applied to, indicating that they are not referring to the same datasets. Therefore, the answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What are the baselines?",
+    "gold_answer": "SVM with unigram, bigram, and trigram features, SVM with average word embedding, SVM with average transformed word embeddings, CNN, ecurrent Convolutional Neural Networks, SVM and deep learning models with comment informationSVM with unigram, bigram, trigram features, with average word embedding, with average transformed word embeddings, CNN and RCNN, SVM, CNN, RCNN with comment information",
+    "predict": "The baselines are compared with different choices of pre-trained models such as BERT, RoBERTa, GloVe.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models and features used as baselines, including SVM and CNN with various types of features. In contrast, Answer B discusses the comparison of baselines with different pre-trained models like BERT and RoBERTa. The two answers focus on different aspects of baselines: Answer A details the models and features, while Answer B emphasizes the comparison with pre-trained models. Since they address different elements of the concept of baselines, they are not semantically equivalent."
+}

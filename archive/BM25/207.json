@@ -1,0 +1,7 @@
+{
+    "query": "What datasets did they use for evaluation?",
+    "gold_answer": "CSAT dataset, 20 newsgroups, Fisher Phase 1 corpusCSAT dataset , 20 newsgroups, Fisher Phase 1 corpus",
+    "predict": "The datasets they used for evaluation were the three standard datasets typically used for evaluating emotion classification.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific datasets: 'CSAT dataset,' '20 newsgroups,' and 'Fisher Phase 1 corpus,' providing concrete examples of the datasets used for evaluation. Answer B, however, refers to 'three standard datasets' without naming them and describes them as typically used for emotion classification. Since Answer B does not specify the same datasets as Answer A and instead speaks generally about standard datasets, the two answers are not semantically equivalent."
+}

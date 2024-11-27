@@ -1,0 +1,7 @@
+{
+    "query": "which languages are explored?",
+    "gold_answer": "Bulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish and SwedishBulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish , Swedish",
+    "predict": "The proposed methodology explores statistical methods (like Gaussian Mixture Models and Frame Selection Decoding) for dialect classification in local languages, deep learning approaches in previous VarDial workshop shared tasks, and transfer learning for NMT on low-resource languages. It also considers the effects of word order divergence and the influence of language similarity on improvements from such techniques.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific languages that are explored, while Answer B discusses methodologies and techniques related to language classification and processing without naming any specific languages. The two answers address different aspects of language exploration: Answer A focuses on the languages themselves, whereas Answer B focuses on the methods used to explore languages. Therefore, they are not semantically equivalent."
+}

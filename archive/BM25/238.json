@@ -1,0 +1,7 @@
+{
+    "query": "What other sentence embeddings methods are evaluated?",
+    "gold_answer": "GloVe, BERT, Universal Sentence Encoder, TF-IDF, InferSentAvg. GloVe embeddings, Avg. fast-text embeddings, Avg. BERT embeddings, BERT CLS-vector, InferSent - GloVe and Universal Sentence Encoder.",
+    "predict": "The other sentence embeddings methods evaluated are IR and IR+RQE.",
+    "consistency": "0",
+    "reasoning": "Answer A lists various sentence embedding methods including GloVe, BERT, Universal Sentence Encoder, and others, indicating a range of techniques used for sentence embeddings. In contrast, Answer B mentions 'IR' and 'IR+RQE,' which do not appear to be standard sentence embedding methods and are not included in the list provided in Answer A. Since the two answers refer to entirely different sets of methods and do not overlap in content, they are not semantically equivalent."
+}

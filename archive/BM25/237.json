@@ -1,0 +1,7 @@
+{
+    "query": "How do they define robustness of a model?",
+    "gold_answer": "ability to accurately classify texts even when the amount of prior knowledge for different classes is unbalanced, and when the class distribution of the dataset is unbalancedLow sensitivity to bias in prior knowledge",
+    "predict": "Robustness is improved by sharing knowledge between generic and specific scenarios through semantic clusters. Additionally, larger datasets facilitate transfer learning, enhancing the overall model's adaptability across various conditions for increased robustness.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on the model's ability to classify texts accurately despite unbalanced prior knowledge and class distribution, emphasizing low sensitivity to bias. In contrast, Answer B discusses improving robustness through knowledge sharing and larger datasets, which enhances adaptability. While both answers relate to the concept of robustness, they address different aspects and mechanisms. Therefore, they are not semantically equivalent as they do not convey the same definition or understanding of robustness."
+}

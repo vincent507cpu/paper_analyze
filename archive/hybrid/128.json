@@ -1,0 +1,7 @@
+{
+    "query": "Did they experiment with this new dataset?",
+    "gold_answer": "No",
+    "predict": "Yes, they experimented with this new dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'No,' indicating that they did not experiment with the new dataset. In contrast, Answer B states 'Yes, they experimented with this new dataset,' which directly contradicts Answer A. Since the two answers provide opposing information regarding whether the experiment was conducted, they are not semantically equivalent."
+}

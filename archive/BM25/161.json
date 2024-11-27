@@ -1,0 +1,7 @@
+{
+    "query": "what datasets did they use?",
+    "gold_answer": "the Carnegie Mellon Pronouncing Dictionary BIBREF12, the multilingual pronunciation corpus collected by deri2016grapheme , ranscriptions extracted from Wiktionarymultilingual pronunciation corpus collected by deri2016grapheme",
+    "predict": "The datasets used in the experiments were:\n\n- English NER datasets including CoNLL2003 and OntoNotes5.0, where our method outperformed BERT-MRC by +0.29 and +0.96 respectively.\n- Chinese datasets such as MSRA and OntoNotes4.0, which showed significant improvements of F1 by +0.97 and +2.36 compared to previous methods.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific datasets related to pronunciation, while Answer B discusses datasets used for Named Entity Recognition (NER) in English and Chinese. The focus and context of the datasets in both answers are entirely different, indicating that they are not semantically equivalent. Answer A pertains to pronunciation resources, whereas Answer B addresses NER datasets and their performance metrics, which do not relate to the same subject matter."
+}

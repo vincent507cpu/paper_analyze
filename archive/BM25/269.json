@@ -1,0 +1,7 @@
+{
+    "query": "What is a semicharacter architecture?",
+    "gold_answer": "A semi-character based RNN (ScRNN) treats the first and last characters individually, and is agnostic to the ordering of the internal charactersprocesses a sentence of words with misspelled characters, predicting the correct words at each step",
+    "predict": "A semicharacter architecture is described by Figure FIGREF8 and shows how to specify a model architecture using blocks in NeuronBlocks.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a definition and explanation of a semi-character based RNN (ScRNN), focusing on its treatment of characters in a sequence. Answer B, however, describes a semicharacter architecture in the context of a specific figure and its representation in NeuronBlocks, which does not directly define or explain the concept. The two answers address different aspects of semicharacter architecture and do not convey the same meaning, making them semantically non-equivalent."
+}

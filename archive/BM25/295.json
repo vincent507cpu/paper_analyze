@@ -1,0 +1,7 @@
+{
+    "query": "What experiments are conducted?",
+    "gold_answer": "Irony Classifier, Sentiment Classifier for Irony, Sentiment Classifier for Non-irony, transformation from ironic sentences to non-ironic sentences",
+    "predict": "For each instance, a ground truth image is available for comparison. Most of our experiments have been conducted using the complex dataset in order to evaluate the generalization of our approach. For the analysis of how γ values should be set for each shape, we used the simple dataset as a reference. Results and ablations ::: Ablation studies",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific types of experiments related to classifiers for irony and sentiment analysis, while Answer B discusses the use of datasets and evaluation methods without mentioning any specific experiments. The content and focus of the answers are entirely different, as Answer A is about the types of experiments conducted, whereas Answer B describes the methodology and datasets used in experiments. Therefore, the two answers are not semantically equivalent."
+}

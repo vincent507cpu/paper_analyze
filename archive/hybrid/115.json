@@ -1,0 +1,7 @@
+{
+    "query": "What is the GhostVLAD approach?",
+    "gold_answer": "extension of the NetVLAD, adds Ghost clusters along with the NetVLAD clustersAn extension of NetVLAD which replaces hard assignment-based clustering with soft assignment-based clustering with the additon o fusing Ghost clusters to deal with noisy content.",
+    "predict": "The GhostVLAD approach aggregates frame-level features into a single utterance level feature through multilingual pooling.",
+    "consistency": "0",
+    "reasoning": "Answer A describes the GhostVLAD approach as an extension of NetVLAD that incorporates Ghost clusters and emphasizes a soft assignment-based clustering method. In contrast, Answer B focuses on the aggregation of frame-level features into a single utterance-level feature through multilingual pooling. The two answers highlight different aspects of the GhostVLAD approach, with Answer A discussing its clustering methodology and Answer B discussing its feature aggregation process. Since they address different components and do not convey the same meaning, the answers are not semantically equivalent."
+}

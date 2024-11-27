@@ -1,0 +1,7 @@
+{
+    "query": "Is the ISR necessary for transgene reactivation?",
+    "gold_answer": "No, it is not necessary.",
+    "predict": "No, ISR (Intracellular Signal Transduction) is not necessary for transgene reactivation.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B convey the same core message that the ISR is not necessary for transgene reactivation. Answer A provides a straightforward response, while Answer B elaborates by specifying what ISR stands for. Despite the difference in detail, both answers ultimately affirm the same conclusion regarding the necessity of ISR, making them semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What does the paper aim to solve?",
+    "gold_answer": "The paper aims to solve nonlinear system vibration problems efficiently.",
+    "predict": "The paper aims to use text and other features together in deep learning models for better performance.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on solving nonlinear system vibration problems, indicating a specific technical issue the paper addresses. In contrast, Answer B discusses the use of text and features in deep learning models, which pertains to a different area of research. Since the two answers address entirely different problems and objectives, they are not semantically equivalent."
+}

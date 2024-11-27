@@ -1,0 +1,7 @@
+{
+    "query": "what language does this paper focus on?",
+    "gold_answer": "EnglishSimple English",
+    "predict": "The paper focuses on Spanish.",
+    "consistency": "0",
+    "reasoning": "Answer A indicates that the paper focuses on 'English' and 'Simple English,' which are both forms of the English language. Answer B states that the paper focuses on 'Spanish.' Since English and Spanish are two distinct languages, the answers cannot be considered semantically equivalent as they refer to different subjects of focus in the paper."
+}

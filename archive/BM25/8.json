@@ -1,0 +1,7 @@
+{
+    "query": "What field does Danny work in in Tennessee?",
+    "gold_answer": "3-D printing and software development.",
+    "predict": "Physics",
+    "consistency": "0",
+    "reasoning": "Answer A specifies that Danny works in '3-D printing and software development,' which are fields related to technology and engineering. Answer B states that he works in 'Physics,' a broader scientific discipline. Since 3-D printing and software development can be considered applications within the realm of physics but are not synonymous with it, the two answers refer to different fields of work. Therefore, they are not semantically equivalent."
+}

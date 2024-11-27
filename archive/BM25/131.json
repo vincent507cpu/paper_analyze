@@ -1,0 +1,7 @@
+{
+    "query": "what NMT models did they compare with?",
+    "gold_answer": "RNN-based NMT model, Transformer-NMT",
+    "predict": "The models they compared with were the existing summarization baselines. Specifically:\n\n- Majority: Labels all test samples with the majority class from training data.\n- Statistics: Compares to all experimental models using non-parametric bootstrap resampling for significance determination.\n- 0.66 on DURel dataset: Determines word ranking based on usage relatedness across two time periods and used as a benchmark.\n- SVCCA (Singular Vector Canonical Correlation Analysis): Measures linear similarity of representations from different parallel translated datasets to compare the models' performances in the shared task.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific NMT models (RNN-based NMT model and Transformer-NMT) that were compared, directly addressing the query. Answer B, however, describes various summarization baselines and methods used for comparison, which do not directly answer the question about NMT models. Since Answer B does not mention the NMT models being compared, the two answers are not semantically equivalent."
+}

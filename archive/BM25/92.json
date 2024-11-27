@@ -1,0 +1,7 @@
+{
+    "query": "What type of distribution do the tail distributions of price returns follow?",
+    "gold_answer": "Power-law functions.",
+    "predict": "Power-law functions",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

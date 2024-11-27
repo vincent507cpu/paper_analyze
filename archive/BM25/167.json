@@ -1,0 +1,7 @@
+{
+    "query": "How do they obtain psychological dimensions of people?",
+    "gold_answer": "using the Meaning Extraction MethodUnanswerable",
+    "predict": "They obtain psychological dimensions by asking people to describe pictures without additional context, focusing only on information from the image.",
+    "consistency": "0",
+    "reasoning": "Answer A mentions the 'Meaning Extraction Method' as a way to obtain psychological dimensions, but it does not provide any details about the method itself. Answer B describes a specific technique of asking people to describe pictures, which is a clear and distinct method for obtaining psychological dimensions. Since Answer A does not specify a method that is equivalent to the detailed approach in Answer B, the two answers are not semantically equivalent."
+}

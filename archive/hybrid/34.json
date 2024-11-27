@@ -1,0 +1,7 @@
+{
+    "query": "What did Justice Kennedy argue about Quill in Direct Marketing Ass'n v. Brohl?",
+    "gold_answer": "Quill harmed states more than anticipated due to the Internet.",
+    "predict": "Justice Kennedy argued about Quill in Direct Marketing Ass'n v. Brohl that the website was not doing a civilian count before leaving. This is because the company received an email from Reuters stating how many deaths were reported by the news agency.",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on Justice Kennedy's argument regarding the negative impact of Quill on states, particularly in relation to the Internet. In contrast, Answer B discusses a specific incident involving a website and an email from Reuters, which does not relate to Justice Kennedy's argument about Quill. The two answers address entirely different aspects and contexts, making them semantically non-equivalent."
+}

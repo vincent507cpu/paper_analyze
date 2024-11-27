@@ -1,0 +1,7 @@
+{
+    "query": "Do the hashtag and SemEval datasets contain only English data?",
+    "gold_answer": "YesYes",
+    "predict": "No, both the hashtag and SemEval datasets contain English data.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'YesYes,' which implies a strong affirmation that both datasets contain only English data. Answer B, however, states 'No,' indicating that the datasets do not contain only English data, but rather that they include English data among other languages. Since the two answers provide contradictory information regarding the exclusivity of the language data in the datasets, they are not semantically equivalent."
+}

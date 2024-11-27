@@ -1,0 +1,7 @@
+{
+    "query": "what NMT models did they compare with?",
+    "gold_answer": "RNN-based NMT model, Transformer-NMT",
+    "predict": "They compared their models with existing strong summarization baselines.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies two types of NMT models: 'RNN-based NMT model' and 'Transformer-NMT.' In contrast, Answer B refers to 'existing strong summarization baselines,' which does not directly mention NMT models and instead discusses a different category of models related to summarization. Since the focus of the two answers is on different types of models and contexts, they are not semantically equivalent."
+}

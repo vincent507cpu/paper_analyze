@@ -1,0 +1,7 @@
+{
+    "query": "According to the text, what is Toby Schindelbeck's observation about the police?",
+    "gold_answer": "Toby Schindelbeck's observation is that the police say they aren't paid enough to enforce the laws in the streets.",
+    "predict": "Toby Schindelbeck observed that there was silence about the woman allegedly killed by her father for over a month.",
+    "consistency": "0",
+    "reasoning": "Answer A discusses Toby Schindelbeck's observation regarding the police's claim about insufficient pay to enforce laws, while Answer B refers to a different observation about a lack of discussion concerning a specific incident involving a woman allegedly killed by her father. Since the two answers address entirely different aspects of Toby Schindelbeck's observations, they are not semantically equivalent."
+}

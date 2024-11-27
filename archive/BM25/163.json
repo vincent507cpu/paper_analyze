@@ -1,0 +1,7 @@
+{
+    "query": "What are the languages they use in their experiment?",
+    "gold_answer": "English\nFrench\nSpanish\nGerman\nGreek\nBulgarian\nRussian\nTurkish\nArabic\nVietnamese\nThai\nChinese\nHindi\nSwahili\nUrdu\nFinnishEnglish, Spanish, Finnish",
+    "predict": "They use multiple languages in their experiment to avoid grouping them into single-member groups based on language family. The specific number of languages used is between two and three per random grouping.",
+    "consistency": "0",
+    "reasoning": "Answer A lists a comprehensive set of languages used in the experiment, while Answer B provides a general statement about using multiple languages without specifying which ones. Answer A gives specific languages, indicating a broader range, whereas Answer B focuses on the concept of grouping languages without detailing the actual languages involved. Therefore, the two answers do not convey the same information and are not semantically equivalent."
+}

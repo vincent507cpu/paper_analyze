@@ -1,0 +1,7 @@
+{
+    "query": "How can players skip dialogue on the quest map?",
+    "gold_answer": "Players can skip dialogue on the quest map by pressing the 'SKIP' button.",
+    "predict": "To skip dialogue on the quest map by using ISO-8 matching your Champion's Class, you can press 'SKIP' in the Upgrade screen.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a straightforward method for skipping dialogue by pressing the 'SKIP' button, applicable directly on the quest map. Answer B, however, introduces a specific condition involving 'ISO-8 matching your Champion's Class' and mentions the 'Upgrade screen,' which is not relevant to the quest map dialogue skipping. The two answers describe different contexts and methods for skipping dialogue, making them semantically non-equivalent."
+}

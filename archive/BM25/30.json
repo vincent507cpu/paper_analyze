@@ -1,0 +1,7 @@
+{
+    "query": "Who compiled the 88-page letter to the HHS regarding vaccine safety?",
+    "gold_answer": "Del Bigtree and his team at ICAN.",
+    "predict": "ICAN",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'Del Bigtree and his team at ICAN,' indicating the individual and the organization involved in compiling the letter. Answer B simply states 'ICAN,' which refers to the organization but omits the specific mention of Del Bigtree and his team. While both answers point to the organization ICAN, Answer A provides more detail about the individuals involved. Therefore, they are not semantically equivalent as Answer A includes additional context that Answer B lacks."
+}

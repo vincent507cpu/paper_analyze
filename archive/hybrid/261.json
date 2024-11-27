@@ -1,0 +1,7 @@
+{
+    "query": "What data was presented to the subjects to elicit event-related responses?",
+    "gold_answer": "7 phonemic/syllabic ( /iy/, /piy/, /tiy/, /diy/, /uw/, /m/, /n/ ) as well as 4 words(pat, pot, knew and gnaw)KARA ONE BIBREF17 , composed of multimodal data for stimulus-based, imagined and articulated speech state corresponding to 7 phonemic/syllabic ( /iy/, /piy/, /tiy/, /diy/, /uw/, /m/, /n/ ) as well as 4 words(pat, pot, knew and gnaw)",
+    "predict": "Born-digital data was presented to the subjects for labeling into two classes.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific details about the types of data presented to the subjects, including phonemic/syllabic sounds and specific words, indicating a focus on auditory stimuli. In contrast, Answer B describes the data as 'born-digital' and mentions labeling into two classes, which does not specify the nature of the data or its relation to event-related responses. The two answers address different aspects of the data presented, making them semantically non-equivalent."
+}

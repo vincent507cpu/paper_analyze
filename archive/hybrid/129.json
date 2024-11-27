@@ -1,0 +1,7 @@
+{
+    "query": "What datasets are used?",
+    "gold_answer": "Custom dataset with user questions; set of documents, twitter posts and news articles, all related to finance.a self-collected financial intents dataset in Portuguese",
+    "predict": "The datasets used in the experiment include NER (Named Entity Recognition) English datasets such as CoNLL2003 and OntoNotes5.0, and Chinese datasets like MSRA and OntoNotes4.0.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a custom dataset focused on user questions and financial content in Portuguese, while Answer B lists specific Named Entity Recognition datasets in English and Chinese. The two answers refer to entirely different datasets with different purposes and languages. Therefore, they are not semantically equivalent as they do not address the same context or content."
+}

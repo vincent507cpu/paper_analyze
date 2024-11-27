@@ -1,0 +1,7 @@
+{
+    "query": "What is the tagging scheme employed?",
+    "gold_answer": "A new tagging scheme that tags the words before and after the pun as well as the pun words.a new tagging scheme consisting of three tags, namely { INLINEFORM0 }",
+    "predict": "The tagging scheme employed is the INLINEFORM5 tagging scheme.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a new tagging scheme that includes specific tags for words surrounding a pun, while Answer B refers to a specific tagging scheme identified as 'INLINEFORM5.' The two answers do not provide the same information about the tagging scheme; Answer A details the components of the scheme, whereas Answer B names a specific type of scheme without elaborating on its components. Therefore, they are not semantically equivalent."
+}

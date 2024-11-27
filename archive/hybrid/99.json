@@ -1,0 +1,7 @@
+{
+    "query": "Who was Ralph Rokebye's brother?",
+    "gold_answer": "Sir Richard.",
+    "predict": "Kamau",
+    "consistency": "0",
+    "reasoning": "Answer A identifies Ralph Rokebye's brother as 'Sir Richard,' while Answer B states 'Kamau.' Since these are two distinct names and refer to different individuals, they cannot be semantically equivalent. The question specifically asks for the name of one brother, and the answers provided do not match, indicating that they are not equivalent."
+}

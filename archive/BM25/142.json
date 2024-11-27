@@ -1,0 +1,7 @@
+{
+    "query": "what were the baselines?",
+    "gold_answer": "UnanswerableLF-MMI Attention\nSeq2Seq \nRNN-T \nChar E2E LF-MMI \nPhone E2E LF-MMI \nCTC + Gram-CTC",
+    "predict": "The baselines were compared using a set of well-known methods on datasets for testing.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models and methods related to baselines in a technical context, while Answer B provides a general statement about comparing baselines using well-known methods. Answer A is focused on the specific baselines themselves, whereas Answer B discusses the process of comparison without detailing what those baselines are. Therefore, the two answers do not convey the same information and are not semantically equivalent."
+}

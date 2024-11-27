@@ -1,0 +1,7 @@
+{
+    "query": "What architecture does the decoder have?",
+    "gold_answer": "LSTMLSTM",
+    "predict": "Encoder-decoder architecture with Bert-based Decoder",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'LSTMLSTM,' which indicates a type of architecture based on Long Short-Term Memory networks. Answer B describes an 'Encoder-decoder architecture with Bert-based Decoder,' which refers to a different architecture that incorporates BERT in the decoding process. Since these two answers refer to fundamentally different architectures, they are not semantically equivalent."
+}

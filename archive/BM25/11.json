@@ -1,0 +1,7 @@
+{
+    "query": "What is the main advantage of a horizontal business model for mobile devices?",
+    "gold_answer": "Flexibility.",
+    "predict": "The main advantage of a horizontal business model for mobile devices is flexibility. This means vendors can offer a wide range of phones based on radically different SoCs without having to compete with customers or suppliers.",
+    "consistency": "1",
+    "reasoning": "Answer A states 'Flexibility' as the main advantage, which is a concise summary. Answer B elaborates on this by explaining that flexibility allows vendors to offer a variety of phones based on different SoCs without competition issues. While Answer B provides more detail, both answers convey the same core idea of flexibility being the main advantage. Therefore, they are semantically equivalent in the context of the query."
+}

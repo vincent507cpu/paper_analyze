@@ -1,0 +1,7 @@
+{
+    "query": "Do they use large or small BERT?",
+    "gold_answer": "small BERTsmall BERT",
+    "predict": "They use large BERT models.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies 'small BERT,' indicating the use of a smaller model, while Answer B states 'large BERT models,' indicating the use of a larger model. Since the two answers refer to different sizes of BERT models, they are not semantically equivalent."
+}

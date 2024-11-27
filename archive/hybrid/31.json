@@ -1,0 +1,7 @@
+{
+    "query": "When was Weep Not, Child first published?",
+    "gold_answer": "Weep Not, Child was first published in 1964.",
+    "predict": "The content provided does not contain information about when Weep Not, Child was first published. The text discusses topics related to parenting, psychology, and historical figures, but does not mention any books by that name or their publication dates.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific publication year for 'Weep Not, Child,' stating it was first published in 1964. In contrast, Answer B explicitly states that it does not contain any information regarding the publication date of the book, indicating a lack of relevant information. Since Answer A gives a clear answer while Answer B denies having any information about the query, the two answers are not semantically equivalent."
+}

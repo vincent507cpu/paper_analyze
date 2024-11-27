@@ -1,0 +1,7 @@
+{
+    "query": "In which electorate was Simon English elected to the New Zealand Parliament?",
+    "gold_answer": "The Wallace electorate.",
+    "predict": "Wallace electorate.",
+    "consistency": "1",
+    "reasoning": "Literally the same answer"
+}

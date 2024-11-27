@@ -1,0 +1,7 @@
+{
+    "query": "Who was Brooksley Elizabeth's first husband?",
+    "gold_answer": "Jacob C. Landau.",
+    "predict": "The content provided does not contain enough specific details about Brooksley Elizabeth's first husband. The given text is more focused on discussing Brooksley Elizabeth herself and her experiences related to stimming and mental health issues. It mentions that she believes her husband has Tourette's syndrome but lacks information about him being married previously.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific name, 'Jacob C. Landau,' as the first husband of Brooksley Elizabeth. In contrast, Answer B states that there is insufficient information about her first husband, indicating a lack of knowledge rather than providing an answer. Since Answer A gives a definitive answer while Answer B does not answer the question at all, the two answers are not semantically equivalent."
+}

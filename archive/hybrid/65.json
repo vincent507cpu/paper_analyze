@@ -1,0 +1,7 @@
+{
+    "query": "How does the scoring engine generate a stream of content for the channel?",
+    "gold_answer": "By comparing candidate content items to a model and scoring them.",
+    "predict": "The scoring engine generates a stream of content for the channel based on candidate content items that match the channel category and optionally another channel attribute.",
+    "consistency": "1",
+    "reasoning": "Answer A explains that the scoring engine generates content by comparing candidate items to a model and scoring them, which implies a process of evaluation. Answer B provides a more detailed explanation, stating that the generation is based on candidate content items that match the channel category and possibly another attribute. While both answers describe the scoring engine's function, Answer B includes additional context about matching criteria, which is not explicitly mentioned in Answer A. However, both answers fundamentally describe the process of generating content based on candidate items, making them semantically equivalent in the context of the query."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Can someone sell or modify the Agency Spotter Content?",
+    "gold_answer": "No.",
+    "predict": "No, someone cannot sell or modify the Agency Spotter Content.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a simple 'No' in response to the query, indicating that selling or modifying the Agency Spotter Content is not allowed. Answer B elaborates on this by restating the same idea, affirming that someone cannot sell or modify the content. Both answers convey the same prohibition, making them semantically equivalent despite the difference in length and detail."
+}

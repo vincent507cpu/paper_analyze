@@ -1,0 +1,7 @@
+{
+    "query": "What language do they explore?",
+    "gold_answer": "English, French, German French, English, Spanish, Italian, Portuguese, Hebrew, Arabic",
+    "predict": "Multiple pooling strategies including NetVLAD pooling, Average pooling, and Statistics pooling (as proposed in X-vectors) are explored.",
+    "consistency": "0",
+    "reasoning": "Answer A lists various languages, indicating the specific languages being explored. In contrast, Answer B discusses pooling strategies related to a technical context, which does not pertain to languages at all. The two answers address entirely different subjects, making them semantically non-equivalent."
+}

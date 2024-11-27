@@ -1,0 +1,7 @@
+{
+    "query": "Which component is the least impactful?",
+    "gold_answer": "Based on table results provided changing directed to undirected edges had least impact - max abs difference of 0.33 points on all three datasets.",
+    "predict": "The first definition is by choosing the velocity of the mixture to be a reference.",
+    "consistency": "0",
+    "reasoning": "Answer A discusses the impact of changing directed to undirected edges, providing a specific quantitative measure of impact (0.33 points) across datasets. Answer B, however, introduces a concept related to the velocity of a mixture, which does not address the question about the least impactful component. The two answers focus on entirely different aspects and do not relate to the same context, making them semantically non-equivalent."
+}

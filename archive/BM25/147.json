@@ -1,0 +1,7 @@
+{
+    "query": "What tasks are used for evaluation?",
+    "gold_answer": "four machine translation tasks: German -> English, Japanese -> English, Romanian -> English, English -> German four machine translation tasks, IWSLT 2017 German $\\rightarrow $ English BIBREF27, KFTT Japanese $\\rightarrow $ English BIBREF28, WMT 2016 Romanian $\\rightarrow $ English BIBREF29, WMT 2014 English $\\rightarrow $ German BIBREF30",
+    "predict": "Tasks used for evaluation: Natural Language Inference (NLI), entity classification into 10 types, semantic role labeling (SA), and named entity recognition (NER).",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific machine translation tasks involving translations between various languages, while Answer B describes different evaluation tasks related to natural language processing, such as Natural Language Inference and entity classification. The tasks mentioned in both answers are fundamentally different in nature and purpose, indicating that they are not semantically equivalent."
+}

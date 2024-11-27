@@ -1,0 +1,7 @@
+{
+    "query": "When will BC leave Boston?",
+    "gold_answer": "August 25.",
+    "predict": "BC will likely leave Boston after ac ≤ k ≤ bc - 1 or bc ≤ n ≤ m. This is based on the notation provided in the content about models and system usage.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific date, 'August 25,' indicating when BC will leave Boston. Answer B, however, presents a complex mathematical expression that does not directly answer the question about the departure date. The two answers address different aspects: one gives a clear date while the other discusses conditions related to a model, making them semantically non-equivalent."
+}

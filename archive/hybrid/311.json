@@ -1,0 +1,7 @@
+{
+    "query": "What datasets do they evaluate on?",
+    "gold_answer": " Wall Street Journal (WSJ) portion of the Penn TreebankUnanswerable",
+    "predict": "The datasets evaluated for experiments are SimpleQuestions, WebQSP, SIGHAN Bakeoff 2005, PKU, MSR, AS, and CITYU. The other evaluations involve English all-words WSD datasets like Senseval-2 (SE2), SE3, SemEval-2007 (SE07), SEM13, and SE15 for WordNet use in the experiment.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies a single dataset, the Wall Street Journal portion of the Penn Treebank, while Answer B lists multiple datasets used for evaluation, including SimpleQuestions, WebQSP, and others. Since Answer A provides a specific dataset and Answer B provides a broader range of datasets, they do not convey the same information regarding the datasets evaluated. Therefore, the answers are not semantically equivalent."
+}

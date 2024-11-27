@@ -1,0 +1,7 @@
+{
+    "query": "What features are used?",
+    "gold_answer": "Unanswerable",
+    "predict": "The features used in this experiment are:\n- 3 observation based activity features\n- 29 automatic activity performance features\n- 7 EDA (Electroencephalography) features  \n- 8 HRV (Heart Rate Variability) features.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'Unanswerable,' indicating that the question cannot be answered, while Answer B provides a detailed list of specific features used in an experiment. Since Answer A suggests that there is no answer to the query, and Answer B provides a comprehensive answer, the two responses are not semantically equivalent."
+}

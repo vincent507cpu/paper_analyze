@@ -1,0 +1,7 @@
+{
+    "query": "What is the SI unit of power?",
+    "gold_answer": "Watt, one joule per second.",
+    "predict": "The SI unit of power is the watt.",
+    "consistency": "1",
+    "reasoning": "Answer A defines the watt as one joule per second, providing a specific explanation of what a watt represents in terms of energy and time. Answer B states that the SI unit of power is the watt, which is a straightforward identification of the unit without additional detail. Both answers convey the same fundamental information about the SI unit of power being the watt, making them semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Why does Craig want to find his own place?",
+    "gold_answer": "Because his roommate smokes.",
+    "predict": "Craig wants to find his own place because the current rent is unsatisfactory due to smoking habits of the landlord. He is willing to handle costs by finding accommodation on his own.",
+    "consistency": "0",
+    "reasoning": "Answer A states that Craig wants to find his own place because his roommate smokes, indicating a direct reason related to his living situation. Answer B, however, expands on this by mentioning dissatisfaction with the current rent and the landlord's smoking habits, suggesting a broader context for Craig's decision. While both answers relate to smoking as a factor, Answer B introduces additional details that change the focus from the roommate to the landlord and the financial aspect, making them not semantically equivalent."
+}

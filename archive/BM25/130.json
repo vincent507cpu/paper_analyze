@@ -1,0 +1,7 @@
+{
+    "query": "Which stock market sector achieved the best performance?",
+    "gold_answer": "Energy with accuracy of 0.538Energy",
+    "predict": "The content does not provide specific details about which stock market sector achieved the best performance. Therefore, the answer is: The content does not specify which sector performed best.",
+    "consistency": "0",
+    "reasoning": "Answer A identifies 'Energy' as the sector with the best performance, providing a specific sector. In contrast, Answer B states that the content does not specify which sector performed best, indicating a lack of information. Since Answer A provides a definitive answer while Answer B explicitly states that no answer is given, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What language model architectures are used?",
+    "gold_answer": "uni-directional model to augment the decoderbi-directional language model to augment the sequence to sequence encoder ,  uni-directional model to augment the decoder",
+    "predict": "The paper discusses the use of pre-trained language model representations in sequence to sequence architecture tasks. Specifically, it mentions that two types of architectures are considered: bi-directional and uni-directional models. The bi-directional model is used for augmented sequence-to-sequence encoders while the uni-directional model augments decoders using self-attention with transformer blocks and a word classifier.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a brief mention of uni-directional and bi-directional models in the context of augmenting decoders and encoders, but lacks detail. Answer B elaborates on the same concepts, specifying the use of pre-trained language model representations and the roles of both model types in sequence-to-sequence tasks. While both answers discuss the same architectures, Answer B provides a more comprehensive explanation, making it semantically richer. However, they both fundamentally address the same topic of language model architectures, indicating a level of semantic equivalence despite the difference in detail."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Is there any evidence of heaven and hell?",
+    "gold_answer": "Unknown.",
+    "predict": "There are theories that suggest heaven and hell exist as concepts based on faith. However, there is no concrete proof to substantiate these beliefs either way, resulting in a 50-50 chance of believing in them.",
+    "consistency": "1",
+    "reasoning": "Answer A states 'Unknown,' indicating a lack of definitive evidence regarding the existence of heaven and hell. Answer B elaborates on the idea that while there are theories and beliefs about heaven and hell, there is no concrete proof, suggesting uncertainty. However, Answer B provides additional context about faith and belief probabilities, which makes it more detailed but does not change the fundamental uncertainty expressed in Answer A. Despite the differences in detail, both answers convey a similar conclusion about the lack of evidence, making them semantically equivalent in the context of uncertainty regarding evidence for heaven and hell."
+}

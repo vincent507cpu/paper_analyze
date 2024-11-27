@@ -1,0 +1,7 @@
+{
+    "query": "What are the results from these proposed strategies?",
+    "gold_answer": "Reward of 11.8 for the A2C-chained model, 41.8 for the KG-A2C-chained model, 40 for A2C-Explore and 44 for KG-A2C-Explore.KG-A2C-chained and KG-A2C-Explore both pass the bottleneck of a score of 40",
+    "predict": "The results show that the proposed Ghost-VLAD pooling approach outperforms previous state-of-the-art methods by an absolute 1.88% F1-score. The experimental evaluation was conducted on fine-tuning strategies for Indian languages and pre-trained BERTbase model compared with official baselines, resulting in improved performance across precision, recall, and weighted-average F1-score metrics.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific numerical results for various models related to proposed strategies, focusing on their performance scores. In contrast, Answer B discusses a different approach (Ghost-VLAD pooling) and its performance improvements over state-of-the-art methods, including metrics like F1-score, precision, and recall. The two answers address different aspects of performance evaluation and do not refer to the same strategies or results, making them semantically non-equivalent."
+}

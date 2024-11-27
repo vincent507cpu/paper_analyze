@@ -1,0 +1,7 @@
+{
+    "query": "What is Professor Tulis's forthcoming book?",
+    "gold_answer": "Legacies of Losing in American Politics and an expanded edition of The Rhetorical Presidency in the Princeton Classics series.",
+    "predict": "Professor Tulis's forthcoming book is about Political Theory and American Politics.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific titles of Professor Tulis's forthcoming works, indicating the exact content and focus of the books. In contrast, Answer B offers a general description of the themes of the forthcoming book without specifying the titles. Since Answer A gives concrete information while Answer B is vague and does not mention the specific titles, the two answers are not semantically equivalent."
+}

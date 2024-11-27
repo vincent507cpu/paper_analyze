@@ -1,0 +1,7 @@
+{
+    "query": "Which hyperparameters were varied in the experiments on the four tasks?",
+    "gold_answer": "number of clusters, seed value in clustering, selection of word vectors, window size and dimension of embeddingdifferent number of clusters, different embeddings",
+    "predict": "The hyperparameters that were varied for the experiments on the four tasks are:\n\n- The number of coupling layers (4, 8, 16) for both tasks in the neural projector.",
+    "consistency": "0",
+    "reasoning": "Answer A lists hyperparameters related to clustering and word embeddings, such as the number of clusters and window size, which are relevant to the tasks mentioned. In contrast, Answer B introduces hyperparameters related to coupling layers in a neural projector, which are not mentioned in Answer A. Since the hyperparameters discussed in both answers pertain to different aspects of the experiments and do not overlap, they are not semantically equivalent."
+}

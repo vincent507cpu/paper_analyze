@@ -1,0 +1,7 @@
+{
+    "query": "How is the dataset of hashtags sourced?",
+    "gold_answer": "1,268 randomly selected tweets in the Stanford Sentiment Analysis Dataset BIBREF36, all 12,594 unique English hashtags and their associated tweets from the same Stanford datasetStanford Sentiment Analysis Dataset BIBREF36",
+    "predict": "The dataset of hashtags is sourced from two datasets: STAN INLINEFORM0 and STAN INLINEFORM1. STAN INLINEFORM0 contains 1,108 unique English hashtags derived from 1,268 randomly selected tweets in the Stanford Sentiment Analysis Dataset, with crowdsourced segmentations and additional corrections. STAN INLINEFORM1 includes all 12,594 unique English hashtags from the same dataset as STAN INLINEFORM0, plus their associated tweets.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a straightforward description of the dataset, mentioning 1,268 randomly selected tweets and 12,594 unique English hashtags from the Stanford Sentiment Analysis Dataset. Answer B elaborates on the sourcing, specifying two datasets (STAN INLINEFORM0 and STAN INLINEFORM1) and detailing the unique hashtags and their origins. While both answers reference the same source (the Stanford Sentiment Analysis Dataset) and the same number of unique hashtags, Answer B includes additional context about the datasets and corrections, which makes it more detailed but not fundamentally different in meaning. Therefore, both answers convey the same essential information about the sourcing of the dataset of hashtags."
+}

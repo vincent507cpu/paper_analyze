@@ -1,0 +1,7 @@
+{
+    "query": "How were the human judgements assembled?",
+    "gold_answer": "50 human annotators ranked a random sample of 100 translations by Adequacy, Fluency and overall ranking on a 5-point scale.adequacy, precision and ranking values",
+    "predict": "The human judgements were assembled through expert evaluation in word similarity tests and annotations on biomedical applications involving supramolecular hydrogels and controlled drug delivery.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a specific method of assembling human judgments through ranking translations based on Adequacy, Fluency, and overall ranking. In contrast, Answer B refers to expert evaluation in word similarity tests and annotations related to biomedical applications. The contexts and methods described in both answers are fundamentally different, focusing on distinct areas of evaluation and criteria. Therefore, the two answers are not semantically equivalent."
+}

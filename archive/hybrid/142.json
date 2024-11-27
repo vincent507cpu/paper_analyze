@@ -1,0 +1,7 @@
+{
+    "query": "what were the baselines?",
+    "gold_answer": "UnanswerableLF-MMI Attention\nSeq2Seq \nRNN-T \nChar E2E LF-MMI \nPhone E2E LF-MMI \nCTC + Gram-CTC",
+    "predict": "The baselines were compared for their performance improvements over simplified training data.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific models and techniques related to baselines in a technical context, while Answer B discusses the comparison of these baselines in terms of performance improvements. Answer A does not provide a direct answer to what the baselines were, but rather names them, whereas Answer B interprets the concept of baselines in a broader context of performance evaluation. Therefore, the two answers do not convey the same information and are not semantically equivalent."
+}

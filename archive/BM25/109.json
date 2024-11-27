@@ -1,0 +1,7 @@
+{
+    "query": "How does the specific-heat ratio affect the average motion of the bubble?",
+    "gold_answer": "The specific-heat ratio affects the average motion of the bubble. The bubbles with smaller specific-heat ratios have slower average motion.",
+    "predict": "The specific-heat ratio affects the average motion of the bubble by influencing its translational energy. A smaller specific-heat ratio requires more energy to compress, resulting in slower average motion compared to larger ratios which produce faster motion.",
+    "consistency": "1",
+    "reasoning": "Both answers discuss the effect of the specific-heat ratio on the average motion of the bubble. Answer A states that smaller specific-heat ratios lead to slower average motion, while Answer B elaborates on this by explaining that a smaller specific-heat ratio requires more energy to compress, which results in slower motion. Although Answer B provides more detail, both answers convey the same fundamental idea regarding the relationship between specific-heat ratio and average motion. Therefore, they are semantically equivalent."
+}

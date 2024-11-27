@@ -1,0 +1,7 @@
+{
+    "query": "What factors control the reliance of artificial organisms on plasticity?",
+    "gold_answer": "Environmental fluctuation and uncertainty control the reliance of artificial organisms on plasticity.",
+    "predict": "The factors controlling the reliance of artificial organisms on plasticity are environmental fluctuation and uncertainty. The form of the emerging plasticity rule is additionally determined by the details of the task that the artificial organisms aim to solve.",
+    "consistency": "0",
+    "reasoning": "Answer A identifies 'environmental fluctuation and uncertainty' as the factors controlling reliance on plasticity, which is a direct and concise statement. Answer B also mentions these factors but adds that the 'form of the emerging plasticity rule' is influenced by the specifics of the task. While both answers agree on the primary factors, Answer B introduces additional information that is not present in Answer A. Therefore, the two answers are not semantically equivalent due to the extra context provided in Answer B."
+}

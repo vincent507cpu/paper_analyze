@@ -1,0 +1,7 @@
+{
+    "query": "What labels do they create on their dataset?",
+    "gold_answer": "(1) the time the patient has been experiencing the symptom, (2) activities that trigger the symptom (to occur or worsen), (3) the extent of seriousness, (4) the frequency occurrence of the symptom, and (5) the location of symptom, No Answerthe time the patient has been experiencing the symptom, activities that trigger the symptom, the extent of seriousness, the frequency occurrence of the symptom, the location of symptom, 9 symptoms",
+    "predict": "They create sentiment of the overall tweet and words like hashtags present in the tweet.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific labels related to patient symptoms, including time, triggers, seriousness, frequency, and location. In contrast, Answer B discusses sentiment and hashtags related to tweets. The two answers address entirely different subjects: one focuses on medical symptom labeling, while the other pertains to social media analysis. Therefore, they are not semantically equivalent."
+}

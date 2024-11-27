@@ -1,0 +1,7 @@
+{
+    "query": "Do they evaluate only on English datasets?",
+    "gold_answer": "YesUnanswerable",
+    "predict": "Yes, they evaluate only on English datasets.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'YesUnanswerable,' which seems to be a typographical error or a miscommunication, as it combines 'Yes' with 'Unanswerable.' This does not clearly convey a complete thought. Answer B clearly states 'Yes, they evaluate only on English datasets,' providing a definitive answer to the query. Since Answer A does not provide a coherent response and lacks clarity compared to Answer B, the two answers are not semantically equivalent."
+}

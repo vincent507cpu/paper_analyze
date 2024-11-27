@@ -1,0 +1,7 @@
+{
+    "query": "When did Simon English become the leader of the National Party?",
+    "gold_answer": "October 2001.",
+    "predict": "Simon English became the leader of the National Party on 27 February.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a general timeframe of 'October 2001' for when Simon English became the leader of the National Party. Answer B specifies a more precise date, '27 February,' which contradicts the information in Answer A. Since the two answers refer to different months and days, they are not semantically equivalent."
+}

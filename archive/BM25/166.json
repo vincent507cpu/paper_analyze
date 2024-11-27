@@ -1,0 +1,7 @@
+{
+    "query": "Was PolyReponse evaluated against some baseline?",
+    "gold_answer": "NoNo",
+    "predict": "No, PolyReponse was not evaluated against some baseline.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'NoNo,' which is an informal and unclear way of saying 'no.' Answer B provides a clear and complete response, explicitly stating that PolyReponse was not evaluated against any baseline. The lack of clarity and completeness in Answer A compared to Answer B indicates that they are not semantically equivalent."
+}

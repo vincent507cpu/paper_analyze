@@ -1,0 +1,7 @@
+{
+    "query": "What happens to Ngotho after he attacks Jacobo at a workers' strike?",
+    "gold_answer": "After attacking Jacobo at a workers' strike, Ngotho loses his job and Njoroge's family is forced to move.",
+    "predict": "Ngotho is fired from Mr. Howlands' job and forced to move to another section of the country after attacking Jacobo at a workers' strike.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B describe the consequences Ngotho faces after attacking Jacobo at a workers' strike. Answer A states that Ngotho loses his job and that Njoroge's family is forced to move, while Answer B specifies that he is fired from Mr. Howland's job and forced to move to another section of the country. The core information in both answers is the same: Ngotho loses his job and has to move as a result of his actions. The specific details about the job and location do not change the overall meaning, making the answers semantically equivalent."
+}

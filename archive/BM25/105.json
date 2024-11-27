@@ -1,0 +1,7 @@
+{
+    "query": "What is the main topic of the text?",
+    "gold_answer": "The main topic of the text is Iraq's politics and current situation.",
+    "predict": "The main topic of the text is \"Topic Modeling for Medical Question-Answer Pairs.\"",
+    "consistency": "0",
+    "reasoning": "Answer A focuses on Iraq's politics and current situation, while Answer B discusses 'Topic Modeling for Medical Question-Answer Pairs.' These topics are entirely different, with Answer A pertaining to a specific geographical and political context and Answer B relating to a methodological approach in a different field. Since the subjects addressed in both answers do not overlap or relate to each other, they are not semantically equivalent."
+}

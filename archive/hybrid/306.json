@@ -1,0 +1,7 @@
+{
+    "query": "How many sentences does the dataset contain?",
+    "gold_answer": "36066946",
+    "predict": "The dataset contains 262,755 ironic sentences and 102,330 non-ironic sentences.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a specific numerical count of the total number of sentences in the dataset, while Answer B breaks down the dataset into two categories: ironic and non-ironic sentences, providing their respective counts. Since Answer B does not provide the total number of sentences directly and instead offers a breakdown that does not sum to the total mentioned in Answer A, the two answers are not semantically equivalent."
+}

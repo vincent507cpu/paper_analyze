@@ -1,0 +1,7 @@
+{
+    "query": "How larger are the training sets of these versions of ELMo compared to the previous ones?",
+    "gold_answer": "By 14 times.up to 1.95 times larger",
+    "predict": "The training sets for these ELMo versions are larger than those of previous ones. Specifically, there is 5.25% of words unseen in the training corpus that can only be recovered by backing off to a larger corpus.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a quantitative comparison, stating that the training sets are 'by 14 times' and 'up to 1.95 times larger,' which gives specific numerical values for the increase in size. Answer B, however, does not provide a direct comparison in terms of size but instead discusses the presence of unseen words in the training corpus and the need for a larger corpus. The two answers address different aspects of the training sets and do not convey the same information regarding their size, making them not semantically equivalent."
+}

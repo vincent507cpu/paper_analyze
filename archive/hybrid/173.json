@@ -1,0 +1,7 @@
+{
+    "query": "Were any of the pipeline components based on deep learning models?",
+    "gold_answer": "NoNo",
+    "predict": "Yes, some pipeline components were based on deep learning models, including:  \n1. A language identification model  \n2. Language-specific models for each language  \n3. Text classification models (CNN BIBREF3 and RCNN BIBREF0) with hyperparameters tuned from their work  \n4. SVM models integrated with deep learning models  \n5. Pure-text CNN model without user information  \n6. Pipeline-based method heavily dependent on dependency parsing",
+    "consistency": "0",
+    "reasoning": "Answer A states 'NoNo,' indicating that none of the pipeline components were based on deep learning models. In contrast, Answer B provides a detailed list of various pipeline components that are explicitly based on deep learning models. The two answers present completely opposite information regarding the involvement of deep learning models in the pipeline components. Therefore, they are not semantically equivalent."
+}

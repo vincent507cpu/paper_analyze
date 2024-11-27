@@ -1,0 +1,7 @@
+{
+    "query": "What was their highest MRR score?",
+    "gold_answer": "0.51150.6103",
+    "predict": "Their highest MRR score was achieved in the third test batch set for the Factoid Question Answering task.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a numerical value (0.51150.6103) as the highest MRR score, while Answer B describes a context in which the highest MRR score was achieved, specifically mentioning the third test batch set for the Factoid Question Answering task. The two answers do not convey the same information; Answer A gives a specific score, whereas Answer B provides contextual information without stating the actual score. Therefore, they are not semantically equivalent."
+}

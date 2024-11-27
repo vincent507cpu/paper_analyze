@@ -1,0 +1,7 @@
+{
+    "query": "What are the sources of the datasets?",
+    "gold_answer": "Friends TV sitcom, Facebook messenger chats",
+    "predict": "Sources of datasets:\n\n1. WordNet (BIBREF35)\n2. GNU Collaborative International",
+    "consistency": "0",
+    "reasoning": "Answer A lists 'Friends TV sitcom' and 'Facebook messenger chats' as sources of datasets, which are specific examples of informal and social communication data. In contrast, Answer B provides a list of sources that include 'WordNet' and 'GNU Collaborative International,' which are formal and structured datasets. The two answers refer to entirely different types of sources, indicating that they are not semantically equivalent."
+}

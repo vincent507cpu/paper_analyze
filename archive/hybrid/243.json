@@ -1,0 +1,7 @@
+{
+    "query": "What are the baseline models?",
+    "gold_answer": "name-based Nearest-Neighbor model (NN), Encoder-Decoder baseline with ingredient attention (Enc-Dec)",
+    "predict": "The baseline models are those that were used as references for comparison in experiments.",
+    "consistency": "0",
+    "reasoning": "Answer A provides specific examples of baseline models, namely the name-based Nearest-Neighbor model and the Encoder-Decoder baseline with ingredient attention. In contrast, Answer B offers a general definition of baseline models as references for comparison in experiments without specifying any particular models. Since Answer A lists specific models while Answer B describes the concept of baseline models in a broader sense, they are not semantically equivalent."
+}

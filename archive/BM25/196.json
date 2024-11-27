@@ -1,0 +1,7 @@
+{
+    "query": "How do they obtain the new context represetation?",
+    "gold_answer": "They use two independent convolutional and max-pooling layers on (1) a combination of the left context, the left entity and the middle context; and (2) a combination of the middle context, the right entity and the right context. They concatenated the two results after pooling to get the new context representation.",
+    "predict": "To obtain the new context representation, we first use the columns in `INLINEFORM7` with indexes given by `INLINEFORM8`. Then, we construct an `INLINEFORM10-attended summary` of `INLINEFORM11`, which results in a vector `INLINEFORM12` for up to 727M context-reply pairs. These context-reply pairs are then used for training the model.",
+    "consistency": "0",
+    "reasoning": "Answer A describes a specific method involving convolutional and max-pooling layers applied to context and entities to obtain a new context representation. In contrast, Answer B outlines a different approach that involves using specific columns and constructing an attended summary, which does not mention convolutional layers or pooling. The two answers describe fundamentally different processes for obtaining the new context representation, indicating that they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "what datasets did they use?",
+    "gold_answer": "the Carnegie Mellon Pronouncing Dictionary BIBREF12, the multilingual pronunciation corpus collected by deri2016grapheme , ranscriptions extracted from Wiktionarymultilingual pronunciation corpus collected by deri2016grapheme",
+    "predict": "The datasets used in the experiments were NER datasets and emotion datasets. Specifically, the English datasets included CoNLL2003 and OntoNotes5.0, while Chinese datasets improved F1 scores by +0.97 and +2.36 on MSRA and OntoNotes4.0 respectively. For Emotion datasets, the French and German datasets were used with specific preprocessing methods derived from Wikipedia articles.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific datasets related to pronunciation, such as the Carnegie Mellon Pronouncing Dictionary and a multilingual pronunciation corpus. In contrast, Answer B discusses NER and emotion datasets, including CoNLL2003 and OntoNotes5.0, which are unrelated to the datasets mentioned in Answer A. Since the two answers refer to entirely different types of datasets and contexts, they are not semantically equivalent."
+}

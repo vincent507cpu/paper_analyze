@@ -1,0 +1,7 @@
+{
+    "query": "What kind of ultracold neutral plasmas does this study focus on?",
+    "gold_answer": "A subset that form via kinetic rate processes from state-selected Rydberg gases.",
+    "predict": "Ultracold neutral plasmas focused on in this study form via kinetic rate processes from state-selected Rydberg gases.",
+    "consistency": "1",
+    "reasoning": "Both Answer A and Answer B describe the same type of ultracold neutral plasmas, specifically those that form through kinetic rate processes from state-selected Rydberg gases. The phrasing differs slightly, but the core information conveyed is identical, making them semantically equivalent in the context of the query."
+}

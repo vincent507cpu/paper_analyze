@@ -1,0 +1,7 @@
+{
+    "query": "Is SemCor3.0 reflective of English language data in general?",
+    "gold_answer": "YesUnanswerable",
+    "predict": "No, SemCor3.0 is not reflective of English language data in general. It contains specialized training and development/test sets that are realistic for real-world news data, distinguishing it from broader English usage.",
+    "consistency": "0",
+    "reasoning": "Answer A states 'YesUnanswerable,' which suggests that the question cannot be definitively answered with a 'yes' or 'no.' In contrast, Answer B provides a clear 'no' and elaborates on why SemCor3.0 is not reflective of English language data in general, explaining its specialized nature. Since Answer A implies uncertainty while Answer B provides a definitive stance, the two answers are not semantically equivalent."
+}

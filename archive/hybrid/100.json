@@ -1,0 +1,7 @@
+{
+    "query": "How are thalassemias classified?",
+    "gold_answer": "According to the globin that is affected (alpha or beta).",
+    "predict": "Thalassemias are classified based on the globin protein affected: alpha thalassemia for mutations affecting the alpha globin chain and beta thalassemia for mutations affecting the beta globin chain.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a general classification criterion for thalassemias, stating they are classified according to the affected globin (alpha or beta). Answer B elaborates on this by specifying that alpha thalassemia involves mutations affecting the alpha globin chain and beta thalassemia involves mutations affecting the beta globin chain. While Answer B provides more detail, both answers convey the same fundamental classification principle, making them semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What other sentence embeddings methods are evaluated?",
+    "gold_answer": "GloVe, BERT, Universal Sentence Encoder, TF-IDF, InferSentAvg. GloVe embeddings, Avg. fast-text embeddings, Avg. BERT embeddings, BERT CLS-vector, InferSent - GloVe and Universal Sentence Encoder.",
+    "predict": "Other sentence embeddings methods are evaluated using SentEval transfer tasks.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific sentence embedding methods such as GloVe, BERT, Universal Sentence Encoder, and others, directly addressing the query about which methods are evaluated. In contrast, Answer B discusses the evaluation process using SentEval transfer tasks but does not provide any specific methods. Since Answer B does not answer the question about which methods are evaluated, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What is the purpose of an ICD?",
+    "gold_answer": "Implantable Cardioverter Defibrillator (ICD) is a surgically implanted electronic device to treat life-threatening heartbeat irregularities.",
+    "predict": "The ICD stands for Information Communication Device.",
+    "consistency": "0",
+    "reasoning": "Answer A defines ICD as an Implantable Cardioverter Defibrillator, which is a medical device used to treat serious heart rhythm problems. Answer B, however, states that ICD stands for Information Communication Device, which refers to a completely different type of device unrelated to medical applications. Since the two answers describe entirely different concepts and purposes, they are not semantically equivalent."
+}

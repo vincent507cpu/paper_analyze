@@ -1,0 +1,7 @@
+{
+    "query": "Which models/frameworks do they compare to?",
+    "gold_answer": "MLPEusboost, MWMOTE",
+    "predict": "TensorFlow, PyTorch, Keras, SINDy, and others.",
+    "consistency": "0",
+    "reasoning": "Answer A lists 'MLPEusboost' and 'MWMOTE' as specific models or frameworks, while Answer B provides a broader range of models and frameworks including 'TensorFlow,' 'PyTorch,' 'Keras,' and 'SINDy.' The two answers refer to different sets of models/frameworks and do not overlap in content. Therefore, they are not semantically equivalent as they do not convey the same information regarding the comparison of models/frameworks."
+}

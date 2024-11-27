@@ -1,0 +1,7 @@
+{
+    "query": "What models were used for dialect identification?",
+    "gold_answer": "BERT, RoBERTa, ELECTRA, GPT-2, and XLM-RoBERTa.",
+    "predict": "The models used for dialect identification included XLM-RoBERTa, BERT, ELECTRA, RoBERTa, and GPT-2.",
+    "consistency": "1",
+    "reasoning": "Answer A lists the models used for dialect identification in a specific order, while Answer B presents the same models but in a different order. However, the semantic content of both answers is identical as they refer to the same set of models. The order of listing does not affect the meaning, making the two answers semantically equivalent."
+}

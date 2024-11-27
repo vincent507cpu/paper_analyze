@@ -1,0 +1,7 @@
+{
+    "query": "What is the combination of rewards for reinforcement learning?",
+    "gold_answer": "irony accuracy, sentiment preservation irony accuracy and sentiment preservation",
+    "predict": "The combination of rewards for reinforcement learning in this paper includes two types designed specifically to measure the accuracy of irony and preserve sentiment: one for irony accuracy and another for preserving sentiment.",
+    "consistency": "1",
+    "reasoning": "Answer A lists 'irony accuracy' and 'sentiment preservation' as the combination of rewards, but it does so in a somewhat fragmented manner. Answer B provides a more detailed explanation, specifying that there are two distinct types of rewards: one for measuring irony accuracy and another for preserving sentiment. While both answers refer to the same concepts, Answer B offers clarity and context that Answer A lacks. However, the core elements of the rewards are the same, making them semantically equivalent despite the difference in presentation."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "Which natural language(s) are studied in this paper?",
+    "gold_answer": "UnanswerableEnglish",
+    "predict": "English and Swedish (en-Sv)",
+    "consistency": "0",
+    "reasoning": "Answer A states 'UnanswerableEnglish,' which suggests that the question cannot be answered or that the language is not relevant. In contrast, Answer B specifies 'English and Swedish (en-Sv),' indicating that both languages are explicitly studied in the paper. Since Answer A implies a lack of relevant information while Answer B provides specific languages, the two answers are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What was the reason given by Governor Rick Scott for not implementing a prescription drug monitoring database in Florida?",
+    "gold_answer": "Privacy concerns and skepticism about its effectiveness.",
+    "predict": "The reason given by Governor Rick Scott for not implementing a prescription drug monitoring database in Florida was the absence of such a database.",
+    "consistency": "0",
+    "reasoning": "Answer A cites 'privacy concerns and skepticism about its effectiveness' as the reasons for not implementing the database, indicating specific objections to the idea. Answer B, however, states that the reason was the 'absence of such a database,' which does not address the concerns or skepticism mentioned in Answer A. Since the two answers provide fundamentally different reasons for the same action, they are not semantically equivalent."
+}

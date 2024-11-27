@@ -1,0 +1,7 @@
+{
+    "query": "When did the 2017 general election be held?",
+    "gold_answer": "23 September.",
+    "predict": "The 2017 general election was held on September 23, 2017.",
+    "consistency": "1",
+    "reasoning": "Answer A provides a date, '23 September,' which is a partial answer without the year. Answer B gives a complete statement, including the full date 'September 23, 2017.' While both answers refer to the same event, Answer A lacks the year, making it less informative. However, they both refer to the same date, so they can be considered semantically equivalent in the context of the query, which asks for the date of the election."
+}

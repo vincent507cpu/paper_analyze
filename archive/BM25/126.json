@@ -1,0 +1,7 @@
+{
+    "query": "What sentiment analysis dataset is used?",
+    "gold_answer": "IMDb dataset of movie reviewsIMDb",
+    "predict": "The dataset used in Sentiment Analysis is Semeval 2015 Task 11 BIBREF0.",
+    "consistency": "0",
+    "reasoning": "Answer A refers to the IMDb dataset, which is specifically a collection of movie reviews used for sentiment analysis. Answer B mentions the Semeval 2015 Task 11 dataset, which is another dataset used for sentiment analysis but is distinct from the IMDb dataset. Since the two answers refer to different datasets, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "What dataset did they use?",
+    "gold_answer": " high-quality datasets  from SemEval-2016 “Sentiment Analysis in Twitter” task SemEval-2016 “Sentiment Analysis in Twitter”",
+    "predict": "The ILPRL dataset.",
+    "consistency": "0",
+    "reasoning": "Answer A refers to 'high-quality datasets from SemEval-2016' which indicates a specific set of datasets used for sentiment analysis in Twitter. Answer B, however, specifies 'The ILPRL dataset,' which is a different dataset altogether. Since the two answers refer to different datasets, they are not semantically equivalent."
+}

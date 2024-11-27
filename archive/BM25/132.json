@@ -1,0 +1,7 @@
+{
+    "query": "What are the three regularization terms?",
+    "gold_answer": "a regularization term associated with neutral features, the maximum entropy of class distribution regularization term, the KL divergence between reference and predicted class distributiona regularization term associated with neutral features,  the maximum entropy of class distribution, KL divergence between reference and predicted class distribution",
+    "predict": "the three regularization terms are: LDA selects out the most predictive features as labeled features without considering the balance among classes. GE-FL does not exert any control on such an issue, so the performance is severely suffered. Our methods introduce auxiliary regularization terms to control such a bias problem and thus promote the model significantly.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific regularization terms related to features and class distributions, while Answer B discusses the implications of regularization methods and their effects on model performance without naming the specific terms. Since Answer A directly addresses the query about the three regularization terms, and Answer B does not provide any of those terms but rather explains a broader context, the two answers are not semantically equivalent."
+}

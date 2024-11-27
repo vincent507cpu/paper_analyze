@@ -1,0 +1,7 @@
+{
+    "query": "When did KSTP switch to a sports radio format?",
+    "gold_answer": "KSTP switched to a sports radio format on February 15, 2010.",
+    "predict": "KSTP switched to a sports radio format in 1970.",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the date 'February 15, 2010' as the time when KSTP switched to a sports radio format, while Answer B states '1970' as the year of the switch. Since these two dates are different and refer to distinct points in time, they cannot be considered semantically equivalent. The question asks for a specific time of the switch, and the answers provide conflicting information."
+}

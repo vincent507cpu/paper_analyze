@@ -1,0 +1,7 @@
+{
+    "query": "What happens to the high resolution of what we focus on at dawn or dusk?",
+    "gold_answer": "It becomes a bit less so that what's off to the left or right can be better noted.",
+    "predict": "At dawn or dusk, the brain reduces the resolution of focused objects due to low light conditions.",
+    "consistency": "0",
+    "reasoning": "Answer A suggests that the resolution of what we focus on becomes 'a bit less' to allow for better awareness of peripheral objects. Answer B states that the brain reduces the resolution of focused objects specifically due to low light conditions at dawn or dusk. While both answers imply a reduction in resolution, Answer A does not specify the reason for this reduction, whereas Answer B explicitly attributes it to low light. Therefore, while they are related, they are not semantically equivalent due to the difference in specificity regarding the cause of the resolution change."
+}

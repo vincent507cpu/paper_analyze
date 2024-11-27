@@ -1,0 +1,7 @@
+{
+    "query": "What are the baseline models?",
+    "gold_answer": "name-based Nearest-Neighbor model (NN), Encoder-Decoder baseline with ingredient attention (Enc-Dec)",
+    "predict": "Baseline models are those that use pre-trained sentiment, emotion, and personality models to extract contextual information instead of relying solely on neural network architectures like CNNs and RNNs. These baseline methods often achieve better performance than state-of-the-art approaches in certain generalizability test settings.",
+    "consistency": "0",
+    "reasoning": "Answer A lists specific types of baseline models, namely the name-based Nearest-Neighbor model and the Encoder-Decoder baseline with ingredient attention. In contrast, Answer B provides a broader definition of baseline models, focusing on their use of pre-trained models for contextual information extraction and their performance relative to other methods. The two answers address different aspects of baseline models: one is specific and the other is general. Therefore, they are not semantically equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "query": "In what language are the tweets?",
+    "gold_answer": "EnglishEnglish English",
+    "predict": "Python",
+    "consistency": "0",
+    "reasoning": "Answer A states 'EnglishEnglish English,' which indicates that the tweets are in the English language. Answer B states 'Python,' which refers to a programming language. Since English and Python are entirely different languages, the answers are not semantically equivalent."
+}

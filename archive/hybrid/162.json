@@ -1,0 +1,7 @@
+{
+    "query": "What were the baselines?",
+    "gold_answer": "varied from Maximum Entropy Classifiers (BIBREF4) to Support Vector Machines (BIBREF5,BIBREF6,BIBREF7,BIBREF8), Recursive Neural Networks (BIBREF9,BIBREF10), Convolutional Neural Networks (BIBREF11) and most recently transfer learning-based architectures like Bidirectional Encoder Representation from Transformers (BERT) (BIBREF12)",
+    "predict": "The baselines were compared across different datasets and evaluation metrics such as accuracy and F1 score.",
+    "consistency": "0",
+    "reasoning": "Answer A provides a list of specific models and techniques that were used as baselines, while Answer B discusses the comparison of these baselines across datasets and evaluation metrics. The two answers address different aspects of the concept of baselines: Answer A focuses on the types of models, whereas Answer B emphasizes the evaluation process. Since they do not convey the same information or perspective regarding the baselines, they are not semantically equivalent."
+}

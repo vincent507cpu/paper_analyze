@@ -1,0 +1,7 @@
+{
+    "query": "What dataset does this approach achieve state of the art results on?",
+    "gold_answer": "the English-German dataset",
+    "predict": "MSR and AS datasets",
+    "consistency": "0",
+    "reasoning": "Answer A specifies the 'English-German dataset' as the dataset on which the approach achieves state-of-the-art results. In contrast, Answer B mentions 'MSR and AS datasets,' which are different datasets altogether. Since the two answers refer to distinct datasets, they cannot be considered semantically equivalent in the context of the query."
+}
