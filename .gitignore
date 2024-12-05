@@ -2,6 +2,10 @@
 .env
 config.py
 
+archive
 store
-
-
+logs
+data
+notebooks
+output
+logs
