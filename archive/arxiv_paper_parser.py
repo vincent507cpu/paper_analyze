@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 from lxml import html
 
-from config import Config
+from utils.config import Config
 from utils.paper_retriever import PaperRetrievor
 
 parser = argparse.ArgumentParser()

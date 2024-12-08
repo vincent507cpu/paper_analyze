@@ -16,7 +16,10 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stopwords.tx
           encoding='utf-8') as f:
     for line in f.readlines():
         stopwords.add(line.strip())
-re_zh = re.compile('([\u4E00-\u9FA5]+)')
+        
+def has_chn(string):
+    re_zh = re.compile('([\u4E00-\u9FA5]+)')
+    return re_zh.search(string)
 
 def filter_stop(words):
     return [w for w in words if w not in stopwords]
@@ -35,3 +38,5 @@ def get_sentences(doc):
                 continue
             sentences.append(sent)
     return sentences
+
+# def logging()
