@@ -2,7 +2,9 @@ import re
 import math
 import os
 import requests
-from typing import List, Union
+import json
+from collections import defaultdict
+from typing import List, Union, Dict
 from uuid import uuid4
 from collections import Counter
 from pathlib import Path
@@ -10,17 +12,18 @@ from xml.etree import ElementTree as ET
 
 import jieba
 import ollama
+from tqdm import tqdm
 from langchain_core.documents import Document
 from magic_pdf.data.data_reader_writer import FileBasedDataWriter, FileBasedDataReader
 from magic_pdf.config.make_content_config import DropMode, MakeMode
 from magic_pdf.pipe.OCRPipe import OCRPipe
-from transformers import AutoTokenizer, AutoModel
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 # 加载用于计算句子相似度的模型
 model_name = 'BAAI/bge-small-en-v1.5' # 也可以替换为其他模型
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModel.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
 # 计算两个句子之间的余弦相似度
 def calculate_similarity(query: str, abstract: str) -> float:
@@ -62,7 +65,123 @@ def query_arxiv(search_term: str) -> List[Union[str, dict]]:
         return results
     else:
         return []  # 请求失败时返回空列表
+
+def query_arxiv_papers(keywords: List[str], n: int) -> List[Dict[str, str]]:
+    """
+    使用关键字查询arXiv，不使用第三方库。
+
+    参数:
+        keywords (list): 关键字字符串列表。
+        n (int): 最小所需查询结果数量。
+
+    返回:
+        list: 包含论文元数据的字典列表，包含'title'、'abstract'和'arXiv ID'。
+    """
+    base_url = "http://export.arxiv.org/api/query"
+
+    def fetch_results(query: str) -> List[Dict[str, str]]:
+        params = {
+            "search_query": query,
+            "start": 0,
+            "max_results": n,
+            "sortBy": "relevance",
+            "sortOrder": "descending",
+        }
+        response = requests.get(base_url, params=params)
+        if response.status_code != 200:
+            return []
+
+        # 解析XML响应
+        ns = {'atom': 'http://www.w3.org/2005/Atom'}
+        root = ET.fromstring(response.content)
+        entries = root.findall("atom:entry", ns)
+        results = []
+
+        for entry in tqdm(entries, desc="Fetching results"):
+            title = entry.find("atom:title", ns).text.strip()
+            abstract = entry.find("atom:summary", ns).text.strip()
+            arxiv_id = entry.find("atom:id", ns).text.strip().split("/")[-1]
+            results.append({"title": title, "abstract": abstract, "arxiv_id": arxiv_id})
+
+        return results
+
+    results = []
+
+    # 使用所有关键字查询
+    query = " AND ".join(keywords)
+    results = fetch_results(query)
+
     
+    keywords.pop()  # 移除最后一个关键字
+    query = " AND ".join(keywords)
+    results = fetch_results(query)
+    
+    # 如果结果仍然不足，使用第一个关键字查询
+    if len(results) < n and keywords:
+        query = keywords[0]
+        results = fetch_results(query)
+    print('相关论文信息提取完成')
+    return results
+
+
+def rank_by_aggregated_reverse_value(search_term: str, subsets: List[List[Dict[str, str]]], exclude: List = []) -> List[Dict[str, str]]:
+    """
+    根据文献在多个子集中的排名倒数值总和进行排序。
+
+    参数:
+    - search_term: 查询字符串
+    - subsets: 子集列表，每个子集是一个包含文献的列表，每篇文献包含 "arxiv_id"、"title" 和 "abstract"
+
+    返回:
+    - List[Dict[str, str]]: 按总分从高到低排序的文献列表
+    """
+    scores = defaultdict(float)  # 存储每篇文献的总分
+    papers_metadata = {}         # 存储文献的元数据，避免重复
+
+    # 遍历每个子集，计算倒数值并累加
+    for subset in subsets:
+        similarities = []
+        unique_ids = set()
+        
+        for paper in subset:
+            if paper["arxiv_id"] in unique_ids or paper['arxiv_id'] in exclude:
+                continue
+            unique_ids.add(paper["arxiv_id"])
+            
+            # 使用 Reranker 模型计算相似度
+            inputs = tokenizer.encode_plus(
+                search_term, paper["abstract"], return_tensors="pt", truncation=True, max_length=512
+            )
+            with torch.no_grad():
+                similarity_score = model(**inputs).logits.squeeze().item()
+
+            similarities.append((paper["arxiv_id"], paper["title"], paper["abstract"], similarity_score))
+
+        # 按相似度排序，并为每篇文献分配排名倒数值
+        similarities = sorted(similarities, key=lambda x: x[3], reverse=True)
+        for rank, (arxiv_id, title, abstract, _) in enumerate(similarities):
+            reverse_rank = 1 / (rank + 1)  # 倒数值
+            scores[arxiv_id] += reverse_rank  # 累加到总分
+            if arxiv_id not in papers_metadata:
+                papers_metadata[arxiv_id] = {"title": title, "abstract": abstract}
+
+    # 按总分排序
+    ranked_papers = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+
+    # 构建输出数据
+    result = []
+    for arxiv_id, _ in ranked_papers:
+        abstract = papers_metadata[arxiv_id]["abstract"]
+        title = papers_metadata[arxiv_id]["title"]
+        abstract = [s.strip().replace('\n', ' ') for s in re.split('\n\s+?', abstract)]
+        result.append({
+            "arxiv_id": arxiv_id,
+            "title": title,
+            "abstract": '\n'.join(abstract),
+        })
+
+    return result
+
 def download_arxiv_pdf(arxiv_id: str):
     """
     下载指定 arXiv ID 的 PDF 文件到指定目录。
@@ -308,17 +427,21 @@ class DocumentParser:
         )
         return response['message']['content']
     
-def text_loader():
-    pass
-    
-def table_loader():
-    pass
-
-def image_loader():
-    pass
-
 def structural_semantic_chunking():
     pass
+
+class StructuralSemanticChunker:
+    def __init__(self, model='BAAI/bge-small-en-v1.5') -> None:
+        pass
+    
+    def construct_chunks(self, docs):
+        pass
+    
+    def calculate_cosine_distances(self, sentences):
+        pass
+    
+    def aggregate_chunks(self, chunks):
+        pass
 
 def filter_by_ppl():
     pass

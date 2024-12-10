@@ -2,16 +2,7 @@ import os
 import re
 import codecs
 
-
-
-
-# stopwords_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-#                          'stopwords.txt')
 stopwords = set()
-# fr = codecs.open(stopwords_path, 'r', 'utf-8')
-# for word in fr:
-#     stopwords.add(word.strip())
-# fr.close()
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stopwords.txt'),
           encoding='utf-8') as f:
     for line in f.readlines():
@@ -38,5 +29,3 @@ def get_sentences(doc):
                 continue
             sentences.append(sent)
     return sentences
-
-# def logging()

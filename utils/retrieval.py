@@ -151,6 +151,7 @@ class VectorStore:
         self.embed = HuggingFaceEmbeddings(model_name=embed_model)
 
         if os.path.exists(self.vector_store_path):
+            print(f"载入已有数据库 {self.vector_store_name}")
             self.vector_store = self._load()
         else:
             # 如果存储文件不存在，初始化为空
@@ -184,7 +185,7 @@ class VectorStore:
             return []
         
         retriever = self.vector_store.as_retriever(search_kwargs={'k': k})
-        print(f"为 {query} 检索 {k} 个最相关的文档")
+        # print(f"为 {query} 检索 {k} 个最相关的文档")
         return retriever.invoke(query)
 
     def add_documents(self, documents):
