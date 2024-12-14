@@ -35,32 +35,6 @@ keyword_extraction_instruction = (
     "Perturb-and-Revise;3D editing;geometry\n\n"
 )
 
-conversation_summarization_instruction = (
-    'You are an intelligent assistant tasked with summarizing a pair of question and answer. Your goal is to provide a concise and clear summary that captures the essence of both the question and the answer.\n\n'
-    'Input:\n'
-    '- Question: {{the given question}}\n'
-    '- Answer: {{the given answer}}\n\n'
-    'Output:\n'
-    'A brief summary that encapsulates the main points of the question and the answer.\n'
-    'Example:\n\n'
-    'Input:\n'
-    '- Question: What are the benefits of regular exercise?\n'
-    '- Answer: Regular exercise has numerous benefits, including improved cardiovascular health, increased muscle strength, better mental health, and enhanced overall well-being. It can also help in weight management and reduce the risk of chronic diseases like diabetes and heart disease.\n'
-    'Output:\n'
-    'Regular exercise improves cardiovascular health, muscle strength, mental health, and overall well-being. It aids in weight management and reduces the risk of chronic diseases like diabetes and heart disease.\n\n'
-    'Instructions:\n'
-    '1. Read the question and answer carefully.\n'
-    '2. Identify the key points and main ideas in both the question and the answer.\n'
-    '3. Combine these key points into a concise summary that clearly conveys the essential information.\n'
-    '4. Ensure the summary is coherent and easy to understand.\n'
-    'Example Usage:\n\n'
-    'Input:\n'
-    '- Question: How does photosynthesis work in plants?\n'
-    '- Answer: Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water. The process occurs in the chloroplasts of plant cells and involves two main stages: the light-dependent reactions and the Calvin cycle. During the light-dependent reactions, light energy is converted into chemical energy in the form of ATP and NADPH. These energy carriers are then used in the Calvin cycle to fix carbon dioxide into organic compounds like glucose.\n'
-    'Output:\n'
-    'Photosynthesis in plants converts sunlight into chemical energy, using carbon dioxide and water to produce nutrients. It involves light-dependent reactions that create ATP and NADPH, which are used in the Calvin cycle to fix carbon dioxide into organic compounds like glucose.\n\n'
- )
-
 text_isRel_instruction = '''
 You are an expert in reading comprehension and logical reasoning. Your task is to give a clear, logical, and step-by-step explanation for the following conclusion about whether a given content is related to a specific question. Please think carefully and provide a concise but logical explanation.
 

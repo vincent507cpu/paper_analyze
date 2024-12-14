@@ -12,18 +12,18 @@ from utils.prompts import (keyword_extraction_instruction,
                            query_generation_instruction,
                            text_isRel_instruction)
 
-# class IsRelOutput(BaseModel):
-#     """Output schema for the relavency of the query and the content."""
+class IsRelOutput(BaseModel):
+    """Output schema for the relavency of the query and the content."""
 
-#     Response: bool = Field(
-#         description="Whether the query is related to the paper or not."
-#     )
-#     Reasoning: str = Field(
-#         description="Reasoning behind the output."
-#     )
-# llm = ChatOllama(model="qwen2.5:1.5b", temperature=0)
-# original_parser = PydanticOutputParser(pydantic_object=IsRelOutput)
-# parser = OutputFixingParser.from_llm(parser=original_parser, llm=llm)
+    Response: bool = Field(
+        description="Whether the query is related to the paper or not."
+    )
+    Reasoning: str = Field(
+        description="Reasoning behind the output."
+    )
+llm = ChatOllama(model="qwen2.5:1.5b", temperature=0)
+original_parser = PydanticOutputParser(pydantic_object=IsRelOutput)
+parser = OutputFixingParser.from_llm(parser=original_parser, llm=llm)
 
 def translation_chn2eng(query: str, llm) -> str:
     eng_query = '\n\n'
@@ -43,13 +43,12 @@ def translation_eng2chn(string: str, llm) -> str:
     Translate: """
     return llm.invoke(prompt_eng_chn.format(string)).content
 
-def query_rewritten(eng_query: str, llm) -> str:
-    prompt = query_clearification_instruction + f"Please rewrite the query: ```{eng_query}```\n\nOUTPUT:\n"
+def query_rewritten(query_eng: str, llm) -> str:
+    prompt = query_clearification_instruction + f"Please rewrite the query: ```{query_eng}```\n\nOUTPUT:\n"
     
     return llm.invoke(prompt).content
 
-def multiple_query_generation(eng_query: str, llm):
-    
+def multiple_querie_generation(eng_query: str, llm):
     prompt = query_generation_instruction + f"Please generate five diverse questions based on the text: ```{eng_query}```\n\nOUTPUT:\n"
     
     return llm.invoke(prompt).content.split('\n')
@@ -62,13 +61,8 @@ def keywords_extraction(query_eng: str, llm) -> List[str]:
 def is_relavent_check(query_eng: str, context: str, llm):
     template = f'\n1. content: {context}\n2. question: {query_eng}\n\nOUTPUT:\n'
     full_prompt = text_isRel_instruction + template
-    response = llm.invoke(full_prompt).content
-    # return parser.parse(llm.invoke(full_prompt).content).Response
     
-    if 'True' in response:
-        return True
-    else:
-        return False
+    return parser.parse(llm.invoke(full_prompt).content).Response
 
 if __name__ == "__main__":
     # chn_query = "自注意力机制"
@@ -81,7 +75,7 @@ if __name__ == "__main__":
     rewritten_query = query_rewritten(eng_query)
     # print(rewritten_query)
     # print()
-    multiple_queries = multiple_query_generation(rewritten_query)
+    multiple_queries = multiple_querie_generation(rewritten_query)
     # print(multiple_queries)
     
     queried_papers = []

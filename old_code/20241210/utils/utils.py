@@ -29,20 +29,3 @@ def get_sentences(doc):
                 continue
             sentences.append(sent)
     return sentences
-
-def flatten_list(nested_list):
-    """
-    递归展平嵌套列表。
-    
-    :param nested_list: 嵌套列表
-    :return: 展平后的列表
-    """
-    flat_list = []
-    for item in nested_list:
-        if isinstance(item, list):
-            # 如果元素是列表，则递归展平
-            flat_list.extend(flatten_list(item))
-        else:
-            # 如果元素不是列表，直接添加到结果中
-            flat_list.append(item)
-    return flat_list
