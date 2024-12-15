@@ -115,3 +115,33 @@ Output:
 
 '''
 
+get_contextualized_question_instruction = '''
+History:
+[]
+Current question: How are you?
+Is coreference resolution needed: No => Reasoning: The output question is the same as the current question. => Output question: How are you?
+-------------------
+History:
+[Q: Is Milvus a vector database?
+A: Yes, Milvus is a vector database.]
+Current question: How do I use it?
+Is coreference resolution needed: Yes => Reasoning: I need to replace "it" in the current question with "Milvus." => Output question: How do I use Milvus?
+-------------------
+History:
+[]
+Current question: Self-attention mechanism
+Is coreference resolution needed: Yes => Reasoning: The current question is too short and vague. I need to expand the question to make it clear and complete. => Output question: What is the self-attention mechanism?
+-------------------
+History:
+[Q: How to cook lobster?
+A: First, clean the lobster thoroughly, then steam or stir-fry it, and add seasoning based on personal preference.]
+Current question: How does it taste?
+Is coreference resolution needed: Yes => Reasoning: "It" in the current question refers to "lobster." I need to expand the question to make it clear and complete. => Output question: How does lobster taste?
+-------------------
+History:
+[Q: What is the difference between deep learning and traditional machine learning?
+A: Deep learning relies on neural networks to process large-scale data, while traditional machine learning often requires manual feature extraction and is suitable for smaller datasets.]
+Current question: Which is better?
+Is coreference resolution needed: Yes => Reasoning: "Which" in the current question refers to "deep learning and traditional machine learning." I need to expand the question to make it clear and complete. => Output question: Which is better, deep learning or traditional machine learning?
+------------
+'''

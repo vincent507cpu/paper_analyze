@@ -26,7 +26,7 @@ from .prompts import conversation_summarization_instruction
 
 class MultiRoundDialogueManager:
     def __init__(self, corpus=None,
-                 llm="qwen2.5:1.5b", 
+                 llm="qwen2.5:3b", 
                  embedding='BAAI/bge-small-en-v1.5', 
                  vector_store='paper_vector_store', 
                  bm25_store='bm25_store.pkl', 
@@ -48,6 +48,9 @@ class MultiRoundDialogueManager:
             self._bm25_retriever = BM25(corpus=corpus, bm25_store_name=bm25_store, k1=k1, b=b)
         self._vector_store = VectorStore(vector_store_name=vector_store, embed_model=embedding)
         self.rerank_model_name = rerank_model_name
+        
+        # 初始化重排序器
+        self.reranker = Reranker(model_name=rerank_model_name)
         
         if verbose:
             print('初始化（载入 BM25 数据库、向量数据库完成）')

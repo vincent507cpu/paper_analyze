@@ -1,6 +1,7 @@
 import os
 import re
-import codecs
+import sys
+import io
 
 stopwords = set()
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stopwords.txt'),
@@ -46,3 +47,13 @@ def flatten_list(nested_list):
             # 如果元素不是列表，直接添加到结果中
             flat_list.append(item)
     return flat_list
+
+# 捕获打印输出
+def capture_print_output(func, *args, **kwargs):
+    output_buffer = io.StringIO()
+    sys.stdout = output_buffer  # 重定向标准输出到 StringIO
+    try:
+        result = func(*args, **kwargs)  # 执行原始函数
+    finally:
+        sys.stdout = sys.__stdout__  # 恢复标准输出
+    return result, output_buffer.getvalue()
