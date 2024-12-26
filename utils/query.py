@@ -1,70 +1,53 @@
 import re
-import xml.etree.ElementTree as ET
 from typing import Dict, List, Union
 
-from langchain.output_parsers import OutputFixingParser, PydanticOutputParser
-from langchain_ollama.chat_models import ChatOllama
 from langchain.prompts import MessagesPlaceholder
 from langchain.prompts.chat import ChatPromptTemplate
-from pydantic import BaseModel, Field
+from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
+from langchain_huggingface import ChatHuggingFace
 
 from utils.data import query_arxiv_papers, rank_by_aggregated_reverse_value
-from utils.prompts import (keyword_extraction_instruction,
-                           query_clearification_instruction,
+from utils.instructions import (keyword_extraction_instruction,
+                           query_clarification_instruction,
                            query_generation_instruction,
-                           text_isRel_instruction,
+                           text_relevant_instruction,
                            get_contextualized_question_instruction)
 
-# class IsRelOutput(BaseModel):
-#     """Output schema for the relavency of the query and the content."""
-
-#     Response: bool = Field(
-#         description="Whether the query is related to the paper or not."
-#     )
-#     Reasoning: str = Field(
-#         description="Reasoning behind the output."
-#     )
-# llm = ChatOllama(model="qwen2.5:1.5b", temperature=0)
-# original_parser = PydanticOutputParser(pydantic_object=IsRelOutput)
-# parser = OutputFixingParser.from_llm(parser=original_parser, llm=llm)
-
-def translation_chn2eng(query: str, llm) -> str:
-    eng_query = '\n\n'
-    
+def translation_chn2eng(query: str, llm: Union[ChatOpenAI, ChatOllama, ChatHuggingFace]) -> str:
     prompt_chn_eng = """这是一个中文的查询，请将其尽可能准确地翻译成英文，不要解释、添加与翻译的原文无关的内容： {}
     
     翻译："""
     
-    while '\n' in  eng_query:
-        eng_query = llm.invoke(prompt_chn_eng.format(query)).content
+    eng_query = llm.invoke(prompt_chn_eng.format(query)).content
                 
     return eng_query
 
-def translation_eng2chn(string: str, llm) -> str:
+def translation_eng2chn(string: str, llm: Union[ChatOpenAI, ChatOllama, ChatHuggingFace]) -> str:
     prompt_eng_chn = """There is an English text, please translate it as accurately as possible into Chinese, do not add irrelevant content: {}
     
     Translate: """
     return llm.invoke(prompt_eng_chn.format(string)).content
 
-def query_rewritten(eng_query: str, llm) -> str:
-    prompt = query_clearification_instruction + f"Please rewrite the query: ```{eng_query}```\n\nOUTPUT:\n"
+def query_rewritten(eng_query: str, llm: Union[ChatOpenAI, ChatOllama, ChatHuggingFace]) -> str:
+    prompt = query_clarification_instruction + f"Please rewrite the given content to make it a query in standard format only if necessary, otherwise keep it as is. Do not add irrelevant content: ```{eng_query}```\n\nOUTPUT:\n"
     
     return llm.invoke(prompt).content
 
-def multiple_query_generation(eng_query: str, llm):
+def multiple_query_generation(eng_query: str, llm: Union[ChatOpenAI, ChatOllama, ChatHuggingFace]):
     
-    prompt = query_generation_instruction + f"Please generate five diverse questions based on the text: ```{eng_query}```\n\nOUTPUT:\n"
+    prompt = query_generation_instruction + f"Please generate five diverse questions based on the given question: ```{eng_query}```\n\nOUTPUT:\n"
     
     return llm.invoke(prompt).content.split('\n')
 
-def keywords_extraction(query_eng: str, llm) -> List[str]:
+def keywords_extraction(query_eng: str, llm: Union[ChatOpenAI, ChatOllama, ChatHuggingFace]) -> List[str]:
     prompt = keyword_extraction_instruction + f"Please extract 3 most important keywords based on the text: ```{query_eng}```\n\nOUTPUT:\n"
     print('关键词提取完成')
     return llm.invoke(prompt).content.split(';')
 
-def is_relevant_check(query_eng: str, context: str, llm):
+def is_relevant_check(query_eng: str, context: str, llm: Union[ChatOpenAI, ChatOllama, ChatHuggingFace]):
     template = f'\n1. content: {context}\n2. question: {query_eng}\n\nOUTPUT:\n'
-    full_prompt = text_isRel_instruction + template
+    full_prompt = text_relevant_instruction + template
     response = llm.invoke(full_prompt).content
     # return parser.parse(llm.invoke(full_prompt).content).Response
     
@@ -88,7 +71,7 @@ def get_contextualized_question_prompt(instruction=get_contextualized_question_i
 
     return contextualize_question_prompt
 
-def intention_detection(query: str, llm) -> bool:
+def intention_detection(query: str, llm: Union[ChatOpenAI, ChatOllama, ChatHuggingFace]) -> bool:
     prompt = (
         "Determine if the following text is a causual chat or an academic inquiry. Only response 'True' or 'False'.\n"
         "EXAMPLE:\n-----"
@@ -114,7 +97,7 @@ def intention_detection(query: str, llm) -> bool:
     response = llm.invoke(prompt.format(query))
     return eval(response.content)
 
-def chn_chat(query: str, llm):
+def chn_chat(query: str, llm: Union[ChatOpenAI, ChatOllama, ChatHuggingFace]):
     response = llm.invoke(f'请回答如下问题：{query}\n回答：')
     return response.content
 

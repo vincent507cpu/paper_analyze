@@ -13,7 +13,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.docstore.in_memory import InMemoryDocstore
 
-from .utils import filter_stop
+from utils import filter_stop
 
 class BM25:
     def __init__(self, documents: List[str]=None, 
@@ -45,16 +45,6 @@ class BM25:
         if documents is not None:
             # self._initialize_new_model()
             self.bm25_add_documents(documents)
-
-    # def _initialize_new_model(self):
-    #     """初始化一个空的 BM25 模型。"""
-        # self._avg_doc_length = 0
-        # self._doc_count = 0
-        # self._doc_lengths = []
-        # self._doc_term_freqs = []
-        # self._inverted_index = {}
-        # self._original_corpus = []
-        # self._metadata = []
 
     def _get_store_path(self):
         """获取存档文件路径。"""
@@ -158,7 +148,7 @@ class BM25:
             pickle.dump(self, f)
 
     @classmethod
-    def _bm25_load(cls, file_path: Path):
+    def bm25_load(cls, file_path: Path):
         """
         从文件加载 BM25 模型。
         """
